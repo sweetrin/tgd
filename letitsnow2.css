@@ -90,6 +90,11 @@ header #header-bar>.row {
     padding: 1em 1em 0.7em;
     margin: 0;
     background-color: #fff;
+    background: linear-gradient(-45deg, #f4e2fd, #fbd6e3, #c4d0ff, #e1fff2);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
 }
 
 #board-info #board-info-profile-img {
@@ -116,6 +121,7 @@ header #header-bar>.row {
 
 #board-info #viewers-area {
     vertical-align: top;
+    font-size: 13px;
 }
 
 #main #main-content>div.frame {
