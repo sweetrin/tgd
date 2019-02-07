@@ -29,6 +29,23 @@ body {
 	animation: snow 20s linear infinite;	
 }
 
+#board-info {
+    height:auto;
+    overflow: hidden;
+    line-height: 1;
+    padding: 1em 1em 0.5em;
+}
+
+
+#board-info #board-info-profile-img {
+    width: 4.5em;
+    height: auto;
+}
+
+#board-info .img-rounded {
+    border-radius: 100%;
+}
+
 #board-info>h1>a {
 	visibility:hidden;letter-spacing:-1em;}#board-info>h1>a:before {visibility:visible;letter-spacing:0em;content:"달콤린";color:#8027aa;
 }
