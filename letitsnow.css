@@ -22,7 +22,7 @@
 
 
 body {
-	background-color: #a6c6e6; 
+	background-color: #cabce4; 
 	background-image: url('snow.png'), url('snow3.png'), url('snow2.png');
 	
 	-webkit-animation: snow 20s linear infinite;
