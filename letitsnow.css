@@ -30,5 +30,9 @@ body {
 	-ms-animation: snow 20s linear infinite;
 	animation: snow 20s linear infinite;
 	
+	
+}
+
+div {
 	background: #ffffffd9;
 }
