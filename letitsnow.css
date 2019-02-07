@@ -28,11 +28,5 @@ body {
 	-webkit-animation: snow 20s linear infinite;
 	-moz-animation: snow 20s linear infinite;
 	-ms-animation: snow 20s linear infinite;
-	animation: snow 20s linear infinite;
-	
-	
-}
-
-div {
-	background: #ffffffd9;
+	animation: snow 20s linear infinite;	
 }
