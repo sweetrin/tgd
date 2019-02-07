@@ -76,14 +76,8 @@ header #header-bar>.row {
     vertical-align: top;
 }
 
-
 #main #main-content>div.frame {
     background-color: transparent;
-}
-
-#board-info {
-    margin: 0 0 0.0em;
-    background-color: #fff;
 }
 
 #article-info {
