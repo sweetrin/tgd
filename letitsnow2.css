@@ -73,6 +73,10 @@ header #header-bar>.row {
     padding-bottom: 7px;
 }
 
+.badge {
+    background-color: #dd6ba3;
+}
+
 #board-info #viewers-area {
     vertical-align: top;
     font-size: 13px;
