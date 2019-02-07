@@ -50,10 +50,10 @@ header #header-bar>.row {
 }
 
 #board-info {
-    background-color: #fff;
     height: auto;
-    padding: 1em 1em 0em;
-    margin: 0 0 0.7em;
+    padding: 1em 1em 0.7em;
+    margin: 0;
+    background-color: #fff;
 }
 
 #board-info #board-info-profile-img {
