@@ -70,9 +70,9 @@ header #header-bar>.row {
 }
 
 #board-info h1 {
-    padding-bottom: 8px;
+    padding-bottom: 7px;
 }
 
 #board-info #viewers-area {
-    vertical-align: bottom;
+    vertical-align: top;
 }
