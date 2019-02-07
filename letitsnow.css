@@ -68,3 +68,11 @@ header #header-bar>.row {
 #board-info>h1>a {
 	visibility:hidden;letter-spacing:-1em;}#board-info>h1>a:before {visibility:visible;letter-spacing:0em;content:"달콤린";color:#8027aa;
 }
+
+#board-info h1 {
+    padding-bottom: 8px;
+}
+
+#board-info #viewers-area {
+    vertical-align: bottom;
+}
