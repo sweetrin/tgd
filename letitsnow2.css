@@ -107,9 +107,15 @@ div#article-reply-area {
     color: #fff;
 }
 
+ins.adsbygoogle {
+    background-color: #fff;
+}
+
 #article-list {
     line-height: 14px;
     background-color: #fff;
+    margin-top: 0;
+    padding: 0.5em 1em 2em;
 }
 
 #article-reply-area>.header {
