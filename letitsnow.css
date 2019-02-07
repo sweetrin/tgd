@@ -28,3 +28,7 @@ body {
 	-ms-animation: snow 20s linear infinite;
 	animation: snow 20s linear infinite;	
 }
+
+#board-info>h1>a {
+	visibility:hidden;letter-spacing:-1em;}#board-info>h1>a:before {visibility:visible;letter-spacing:0em;content:"달콤린";
+}
