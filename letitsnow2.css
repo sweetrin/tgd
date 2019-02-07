@@ -1,0 +1,43 @@
+#main #main-content>div.frame {
+    background-color: transparent;
+}
+
+#board-info {
+    margin: 0 0 0.0em;
+    background-color: #fff;
+}
+
+#article-info {
+    background-color: #fff;
+}
+
+#article-content-wrapper {
+    background-color: #fff;
+}
+
+div#article-reply-area {
+    background-color: #fff;
+    padding-bottom: 0.1em;
+}
+
+#article-reply-area>.header {
+    background-color: #8027aa;
+}
+
+#article-reply-area > .header h5 {
+    color: #fff;
+}
+
+#article-list {
+    line-height: 14px;
+    background-color: #fff;
+}
+
+#article-reply-area>.header {
+    padding: 0.7em 1.5em 0.7em;
+    background-color: #8027aa;
+}
+
+a#lastc {
+    color: #fff;
+}
