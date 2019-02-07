@@ -30,7 +30,7 @@ body {
 }
 
 #board-info {
-    height:auto;
+    height: auto;
     overflow: hidden;
     line-height: 1;
     padding: 1em 1em 0.5em;
