@@ -72,6 +72,7 @@ header #header-bar>.row {
 #board-info h1 {
     padding-bottom: 7px;
     background: linear-gradient(-45deg,#d695ed,#f0a7c3,#9ea3e3,#93efd9);
+    background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
 }
 
