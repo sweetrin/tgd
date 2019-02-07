@@ -30,5 +30,5 @@ body {
 }
 
 #board-info>h1>a {
-	visibility:hidden;letter-spacing:-1em;}#board-info>h1>a:before {visibility:visible;letter-spacing:0em;content:"달콤린";
+	visibility:hidden;letter-spacing:-1em;}#board-info>h1>a:before {visibility:visible;letter-spacing:0em;content:"달콤린";color:#8027aa;
 }
