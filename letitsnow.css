@@ -29,10 +29,20 @@ body {
 	animation: snow 20s linear infinite;	
 }
 
+header #header-bar>.row {
+    border-right: 0;
+}
+
+#main .menu-wrapper {
+    border-right: 0;
+}
+
+#main #main-content>div.frame {
+    border-right: 0;
+}
+
 #board-info {
     height: auto;
-    overflow: hidden;
-    line-height: 1;
     padding: 1em 1em 0em;
     margin: 0 0 0.7em;
 }
