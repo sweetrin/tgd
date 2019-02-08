@@ -99,6 +99,10 @@ div#article-reply-area {
     padding-bottom: 0.1em;	
 }
 
+#article-reply-area #reply-real-area, #article-reply-area #reply-best-area {
+    width: 100%;
+}
+
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     background: #e1c2f9;
     border-bottom: 1px solid #efefef;
