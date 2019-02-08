@@ -123,6 +123,10 @@ div#article-reply-area {
     padding-bottom: 0.1em;	
 }
 
+#article-reply-area #reply-real-area, #article-reply-area #reply-best-area {
+    padding: 0;
+}
+
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     background: #e1c2f9;
     border-bottom: 1px solid #efefef;
@@ -131,6 +135,12 @@ div#article-reply-area {
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
     margin-bottom: 1.2em;
+    border: 0;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
+    padding: 0.7em;
+    background-color: #fff;
 }
 
 ins.adsbygoogle {
