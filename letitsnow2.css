@@ -100,9 +100,6 @@ div#article-reply-area {
     padding-bottom: 0.1em;	
 }
 
-#article-reply-area>.header {
-    background-color: #8027aa;
-}
 
 #article-reply-area > .header h5 {
     color: #fff;
