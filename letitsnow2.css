@@ -111,6 +111,12 @@ div#article-reply-area {
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
     margin-bottom: 1.2em;
+    border: 0;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
+    padding: 0.7em;
+    background-color: #fff;
 }
 
 ins.adsbygoogle {
