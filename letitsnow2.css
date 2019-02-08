@@ -95,14 +95,18 @@ header #header-bar>.row {
 }
 
 div#article-reply-area {
-    margin-top: 1.4em;
-    background-color: #fff;
+    margin-top: 0.5em;
     padding-bottom: 0.1em;	
 }
 
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    background: #e1c2f9;
+    border-bottom: 1px solid #efefef;
+    padding: 0.4em 0.5em;
+}
 
-#article-reply-area > .header h5 {
-    color: #fff;
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    margin-bottom: 1.2em;
 }
 
 ins.adsbygoogle {
@@ -114,11 +118,6 @@ ins.adsbygoogle {
     background-color: #fff;
     margin-top: 0;
     padding: 0.5em 1em 2em;
-}
-
-#article-reply-area>.header {
-    padding: 0.7em 1.5em 0.7em;
-    background-color: #8027aa;
 }
 
 a#lastc {
