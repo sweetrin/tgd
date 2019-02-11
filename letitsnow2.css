@@ -104,7 +104,7 @@ div#article-reply-area {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    background: #efcbe5;
+    background: #ffe5f6;
     border-bottom: 1px solid #efefef;
     padding: 0.4em 0.5em;
 }
