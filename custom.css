@@ -34,26 +34,25 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
 }
 
-/* 자캐 이미지 */
+/* 자캐 이미지와 게시판 메인 부분 */
 #board-info {
     height: 77px;
-}
-
-#board-info > img {
-    float: left !important;
-    margin-right: 10px;
-    border: 1px solid #e896a0;
-    border-radius: 100px;
+    display: flex;
+    overflow: inherit;
 }
 
 #board-info #board-info-profile-img {
     width: 4.5em;
     height: 4.5em;
     border-radius: 100px;
+    float: left !important;
+    border: 1px solid #e896a0;
+    margin-right: 10px;
 }
 
 #board-info h1 {
     padding-top: 2px;
+    border: 0;
 }
 
 /* 스트리머 닉넴 */
