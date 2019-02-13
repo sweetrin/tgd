@@ -48,7 +48,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #board-info-profile-img {
     width: 4.5em;
-    height: auto;
+    height: 4.5em;
+    border-radius: 100px;
 }
 
 #board-info h1 {
