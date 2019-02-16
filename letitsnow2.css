@@ -46,7 +46,7 @@ header #header-bar>.row {
 }
 
 #main #main-content>div.frame {
-    border: 0;
+    border-right: 0;
 }
 
 #board-info {
