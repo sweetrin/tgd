@@ -1,16 +1,3 @@
-/* 폰트 */
-@font-face {
-    font-family: 'HCRDotum';
-    src: local('HCR Dotum'), url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff') format('woff');
-    font-weight: normal; 
-    font-style: normal;
-}
-        
-body, html {
-    height: auto !important;
-    font-family: 'HCRDotum',sans-serif;
-}
-
 /*Keyframes*/
 @keyframes snow {
 	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
