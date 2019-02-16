@@ -8,6 +8,8 @@
 @font-face {
     font-family: 'HCRDotum';
     src: local('HCR Dotum'), url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal;
 }
         
 body, html {
