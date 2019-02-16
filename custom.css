@@ -53,7 +53,7 @@ header #header-bar>.row {
 
 #board-info {
     height: auto;
-    padding: 1em 1em 0;
+    padding: 1em 1em 0.5em;
     margin: 0;
     background-color: #fff;
 }
