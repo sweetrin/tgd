@@ -14,7 +14,7 @@
         
 body, html {
     height: auto !important;
-    font-family: 'HCRDotum',sans-serif;
+    font-family: 'HCRDotum', "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
 /* 왼쪽 메뉴 헤더 */
