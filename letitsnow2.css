@@ -133,3 +133,7 @@ ins.adsbygoogle {
 a#lastc {
     color: #fff;
 }
+
+a.custom-badge-link {
+	background: #fff;
+}
