@@ -53,7 +53,7 @@ header #header-bar>.row {
 
 #board-info {
     height: auto;
-    padding: 1em 1em 0.7em;
+    padding: 1em 1em 0;
     margin: 0;
     background-color: #fff;
 }
@@ -129,7 +129,7 @@ ins.adsbygoogle {
     line-height: 14px;
     background-color: #fff;
     margin-top: 0;
-    padding: 0.5em 1em 2em;
+    padding: 1em 1em 2em;
 }
 
 a#lastc {
