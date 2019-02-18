@@ -153,7 +153,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* 생존자 애기 트수 */
 #board-info #viewers-area .fa-user:before {
-    content: url('https://raw.githubusercontent.com/SRSRsweet/kgd/master/human2.png');
+    /*content: url('https://raw.githubusercontent.com/SRSRsweet/kgd/master/human2.png');*/
+    content: url('candy_18x18.png');
 }
 
 
