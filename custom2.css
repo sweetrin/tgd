@@ -1,4 +1,4 @@
-/*** 컬러 ***/
+﻿/*** 컬러 ***/
 :root {
     --main-color: #a85ccc;
     --2nd-color: #fff;
@@ -333,6 +333,7 @@ header #right-search-form > #right-search-btn {
 /* 버튼 */
 .btn-primary {
     background-color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -347,6 +348,9 @@ header #right-search-form > #right-search-btn {
 /* 글 제목 */
 #article-info>h2 {
     font-weight: bold;
+    color: #fff;
+    font-size: 19px;
+    padding: 0 0 0.2em;
 }
 
 /* 헤더 */
@@ -362,4 +366,89 @@ header #right-search-form > #right-search-btn {
 /* 댓글 도구 상자 */
 .fr-toolbar {
     border-top:5px solid var(--main-color);
+}
+
+#article-info {
+    background: var(--main-color);
+    border-radius: 7px 7px 0 0;
+    padding: 0.9em 0.9em 0.3em;
+}
+
+#article-content-wrapper #article-content {
+    background: #fff;
+}
+
+#article-content-wrapper>.vote-area {
+    background: #fff;
+}
+
+.btn-outline-success {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+#article-content-wrapper>.footer {
+    border-radius: 0 0 7px 7px;
+}
+
+#article-reply-area>.header {
+    background: var(--main-color);
+    border-radius: 7px 7px 0 0;
+    padding: 1em 1em 0.8em;
+}
+
+#article-reply-area > .header h5, #lastc {
+    color: #fff;
+}
+
+#article-reply-area {
+    background: #fff;
+    border-radius: 7px;
+    padding: 0 0 0.1em;
+}
+
+
+#article-reply-area #reply-real-area, #article-reply-area #reply-best-area {
+    padding: 0;
+}
+
+#article-content-wrapper {
+    padding: 0 0 1.5em;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    border-bottom: 0;
+}
+
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    border: 0;
+}
+
+#article-info #article-info-writer {
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+#article-info>h2>span.category {
+    color: #fff !important;
 }
