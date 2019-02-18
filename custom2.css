@@ -133,7 +133,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     content: "달콤린";
     color: var(--text-color);
     font-size: 22px;
-    /*font-weight: bold;*/
+    font-weight: bold;
 }
 
 /* 생존자라니.. */
