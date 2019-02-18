@@ -1,7 +1,10 @@
-/*** 컬러 ***/
+﻿/*** 컬러 ***/
 :root {
-    --main-color: #6b3684;
-    --light-purple: #fdf8ff;
+    --main-color: #a85ccc;
+    --2nd-color: #fff;
+    --3rd-color: #fff;
+    --4th-color: #fff;
+    --5th-color: #fff;
 }
 
 /* 폰트 */
@@ -11,15 +14,18 @@
     font-weight: normal; 
     font-style: normal;
 }
-        
+
 body, html {
     height: auto !important;
     font-family: 'HCRDotum', "Helvetica Neue", Helvetica,Arial, sans-serif;
+    background: linear-gradient(180deg,#efe8f3 0,#805caf 80%,#004e92 100%);
+    /* background: #efe8f3; */
 }
 
 /* 왼쪽 메뉴 헤더 */
 #main .menu-wrapper > .header {
     background: var(--main-color);
+    border-radius: 7px 7px 0 0;
 }
 
 /* 왼쪽 메뉴 이니셜 */
@@ -29,7 +35,9 @@ body, html {
 
 /* 위쪽 전광판 */
 header #header-bar>.row {
-    border-top: 5px solid var(--main-color);
+    border-top-color: var(--main-color);
+    border-radius: 7px;
+    border-right: 0;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -38,9 +46,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* 자캐 이미지와 게시판 메인 부분 */
 #board-info {
-    height: 77px;
+    height: 45px;
     display: flex;
+    background: #fff;
+    border-radius: 7px;
     overflow: inherit;
+    padding: 0.6em 0.7em;
+    margin-bottom: 2.5em;
 }
 
 #board-info #board-info-profile-img {
@@ -48,24 +60,26 @@ header #header-bar #header-top-notice strong.notice-badge {
     height: 4.5em;
     border-radius: 100px;
     float: left !important;
-    border: 1px solid #e896a0;
+    border: 3px solid #dfb9f1;
     margin-right: 10px;
+    box-shadow: 1px 1px 3px 1px #9a9a9a;
 }
 
 #board-info h1 {
-    padding-top: 2px;
-    border: 0;
+    border-bottom: 0;
 }
 
 /* 스트리머 닉넴 */
 #board-info h1 > a {
-    /*font-weight: 700;*/
+    /* font-weight: 700; */
+    /* color: #fff; */
 }
 
 /* 생존자라니.. */
 #board-info #viewers-area {
     color: var(--main-color);
-    font-size: 12px;
+    font-size: 13px;
+    vertical-align: bottom;
 }
 
 #board-info #viewers-area #viewers:before {
@@ -87,13 +101,131 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* 게시판 카테고리 윗줄 */
 #article-list #article-list-category {
-    border-top: 2px solid var(--main-color);
+    border-top: 0;
+    border-radius: 7px 7px 0 0;
+    padding: 0.2em 0.5em;
+    background: #d2a2e8;
 }
 
 /* 게시판 카테고리 */
 #article-list #article-list-category > a {
-    border-right: 1px dashed;
-    /* background:#f9f3fd; */
+    margin: 10px 7px;
+    padding: 6px 15px;
+    /* border: 1px solid; */
+    border-radius: 100px;
+    color: #fff !important;
+}
+
+#article-list #article-list-category > a:nth-child(1) {
+    background: var(--main-color);
+    border-color: var(--main-color);
+}
+
+#article-list #article-list-category > a:nth-child(2) {
+    background: #ff0000;
+    border-color: #ff0000;
+}
+
+#article-list #article-list-category > a:nth-child(3) {
+    background: #000000;
+    border-color: #000000;
+}
+
+#article-list #article-list-category > a:nth-child(4) {
+    background: #00b050;
+    border-color: #00b050;
+}
+
+#article-list #article-list-category > a:nth-child(5) {
+    background: #6a49a9;
+    border-color: #6a49a9;
+}
+
+#article-list #article-list-category > a:nth-child(6) {
+    background: #ec71b5;
+    border-color: #ec71b5;
+}
+
+#article-list #article-list-category > a:nth-child(7) {
+    background: #00b0f0;
+    border-color: #00b0f0;
+}
+
+#article-list #article-list-category > a:nth-child(8) {
+    background: #ffc000;
+    border-color: #ffc000;
+}
+
+#article-list #article-list-category > a:nth-child(1):hover {
+    background: #fff;
+    color: var(--main-color) !important;
+}
+
+#article-list #article-list-category > a:nth-child(2):hover {
+    background: #fff;
+    color: #ff0000 !important;
+}
+
+#article-list #article-list-category > a:nth-child(3):hover {
+    background: #fff;
+    color: #000000 !important;
+}
+
+#article-list #article-list-category > a:nth-child(4):hover {
+    background: #fff;
+    color: #00b050 !important;
+}
+
+#article-list #article-list-category > a:nth-child(5):hover {
+    background: #fff;
+    color: #6a49a9 !important;
+}
+
+#article-list #article-list-category > a:nth-child(6):hover {
+    background: #fff;
+    color: #db92f7 !important;
+}
+
+#article-list #article-list-category > a:nth-child(7):hover {
+    background: #fff;
+    color: #00b0f0 !important;
+}
+
+#article-list #article-list-category > a:nth-child(8):hover {
+    background: #fff;
+    color: #ffc000 !important;
+}
+
+#main #main-content>div.frame {
+    background: transparent;
+    border: 0;
+}
+
+div#board-info-bottom {
+    flex: auto;
+    text-align: right;
+}
+
+#article-list {
+    padding: 0;
+    background: #fff;
+    border-radius: 7px;
+}
+
+#board-info #board-info-bottom a {
+    border-right: 0;
+}
+
+.badge {
+    background-color: #dd6ba3;
+}
+
+#article-list #article-list-menu>.btn.best {
+    margin-left: 1em;
+}
+
+#article-list #article-list-menu>.btn.write {
+    margin-right: 1em;
 }
 
 /* 추천 수 */
@@ -140,13 +272,9 @@ header #right-search-form > #right-search-btn {
 #article-content-wrapper>.header {
     border-top: 2px solid var(--main-color);
 }
-        
+       
 /* '댓글' 문자 */
 #article-reply-area > .header h5, #lastc {
-    color: var(--main-color);
-}
-
-a, a:focus, a:hover {
     color: var(--main-color);
 }
 
