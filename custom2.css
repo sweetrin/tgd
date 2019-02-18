@@ -133,7 +133,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     content: "달콤린";
     color: var(--text-color);
     font-size: 22px;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 /* 생존자라니.. */
@@ -394,6 +394,14 @@ header #right-search-form > #right-search-btn {
 /* 댓글 도구 상자 */
 .fr-toolbar {
     border-top:5px solid var(--main-color);
+}
+
+#article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
+    padding: 1em;
+}
+
+#comment-write-form-area {
+    padding: 0;
 }
 
 #article-info {
