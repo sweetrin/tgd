@@ -254,6 +254,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main #main-content>div.frame {
     background: transparent;
     border: 0;
+    padding: 0;
 }
 
 div#board-info-bottom {
@@ -451,4 +452,36 @@ header #right-search-form > #right-search-btn {
 
 #article-info>h2>span.category {
     color: #fff !important;
+}
+
+
+/*** 글쓰기 ***/
+
+
+form#articleWriteForm {
+    background: #fff;
+    border-radius: 0 0 7px 7px;
+}
+
+.frame > h3 {
+    background: #fff;
+    padding: 0.6em 0.6em 0;
+    border-radius: 7px 7px 0 0;
+}
+
+.row.mt-2 {
+    margin-top: 0;
+    padding: 0.5em 1em 0;
+}
+
+.mt-2 {
+    padding: 0 1em;
+}
+
+.mt-2.clearfix {
+    padding: 0 1em 1em;
+}
+
+header #header-bar #header-menu-right #userDropdown #notification-badge {
+    background: #f92f2f;
 }
