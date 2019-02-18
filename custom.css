@@ -317,8 +317,8 @@ div#board-info-bottom {
     border-left: 0;
 }
 
-#article-list>.article-list-row>.item>.list-header {
-    border-left: 0;
+#article-list>.article-list-row {
+    border-right: 0;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
