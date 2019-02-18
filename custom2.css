@@ -144,7 +144,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "생존자 ";
+    content: "단게 필요한 ";
 }
 
 #board-info #viewers-area #viewers:after {
@@ -309,6 +309,22 @@ div#board-info-bottom {
 
 #article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
     border-bottom: 0;
+}
+
+#article-list>.article-list-row>.item>.list-header {
+    border-left: 0;
+}
+
+#article-list>.article-list-row>.item>.list-header {
+    border-left: 0;
+}
+
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #a5a5a5a5 !important;
+}
+
+#article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
+    background-color: #f8f0ff;
 }
 
 /* 추천 수 */
