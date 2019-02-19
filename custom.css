@@ -304,6 +304,7 @@ div#board-info-bottom {
 
 #article-list #article-list-menu>.btn.write {
     margin-right: 1em;
+    border-radius: 4px;
 }
 
 #main .menu-wrapper {
@@ -395,6 +396,7 @@ header #right-search-form > #right-search-btn {
 #article-list #article-list-menu>.btn.best {
     color: var(--main-color);
     border-color: var(--main-color);
+    border-radius: 4px;
 }
 
 
