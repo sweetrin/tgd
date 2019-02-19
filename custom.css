@@ -62,6 +62,10 @@
     100%{transform:scale(1)}
 }
 
+@keyframes RotateStar {
+    100%{transform:rotate(3000deg);}
+}
+
 
 /* 폰트 */
 @font-face {
