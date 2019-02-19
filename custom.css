@@ -435,8 +435,8 @@ header #right-search-form > #right-search-btn {
     border-radius: 4px;
 }
 
-/* 하뜨 */
-i.fa.fa-heart {
+/* 달콤 하또 */
+#article-list i.fa.fa-heart {
     -webkit-animation: StarSS 2s infinite;
     -moz-animation: StarSS 2s infinite;
     animation: RinsHeart 3.5s infinite;
