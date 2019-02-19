@@ -35,30 +35,30 @@
 100%{background-position:0 50%}
 }
 
-@-webkit-keyframes StarSS{
-    0%{transform:scale(.75)}
-    20%{transform:scale(1)}
-    40%{transform:scale(.75)}
-    60%{transform:scale(1)}
-    80%{transform:scale(.75)}
-    100%{transform:scale(.75)}
-}
-
-@-moz-keyframes StarSS{
-    0%{transform:scale(.75)}
-    20%{transform:scale(1)}
-    40%{transform:scale(.75)}
-    60%{transform:scale(1)}
-    80%{transform:scale(.75)}
-    100%{transform:scale(.75)}
-}
-
-@keyframes StarSS{
+@-webkit-keyframes RinsHeart{
     0%{transform:scale(1)}
-    20%{transform:scale(1.2)}
+    10%{transform:scale(1.3)}
+    20%{transform:scale(1)}
+    30%{transform:scale(1.3)}
     40%{transform:scale(1)}
-    60%{transform:scale(1.2)}
-    80%{transform:scale(1)}
+    100%{transform:scale(1)}
+}
+
+@-moz-keyframes RinsHeart{
+    0%{transform:scale(1)}
+    10%{transform:scale(1.3)}
+    20%{transform:scale(1)}
+    30%{transform:scale(1.3)}
+    40%{transform:scale(1)}
+    100%{transform:scale(1)}
+}
+
+@keyframes RinsHeart{
+    0%{transform:scale(1)}
+    10%{transform:scale(1.3)}
+    20%{transform:scale(1)}
+    30%{transform:scale(1.3)}
+    40%{transform:scale(1)}
     100%{transform:scale(1)}
 }
 
@@ -439,7 +439,7 @@ header #right-search-form > #right-search-btn {
 i.fa.fa-heart {
     -webkit-animation: StarSS 2s infinite;
     -moz-animation: StarSS 2s infinite;
-    animation: StarSS 2s infinite;
+    animation: RinsHeart 3.5s infinite;
 }
 
 
