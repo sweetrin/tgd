@@ -2,19 +2,20 @@
 :root {
     --main-color: #a85ccc;
     --rins-color:#8027aa;
-    --light-color: #d2a5e6;
-    --2nd-color: #fb2b2b;
-    --3rd-color: #292929;
-    --4th-color: #00b050;
-    --5th-color: #6a49a9;
-    --6th-color: #f157ab;
-    --7th-color: #00b0f0;
-    --8th-color: #ffc000;
+    --category-bg-color: #d2a5e6;
+    --category-2nd-color: #fb2b2b;
+    --category-3rd-color: #292929;
+    --category-4th-color: #00b050;
+    --category-5th-color: #6a49a9;
+    --category-6th-color: #f157ab;
+    --category-7th-color: #00b0f0;
+    --category-8th-color: #ffc000;
     --text-color: #444444;
     --visited-color: #b7b7b7;
-    --badge-color: #718bec;
-    --rcmd-color: #ec71b5;
-    --hover-color: #9753b7;
+    --rank-badge-color: #718bec;
+    --recommand-count-color: #ec71b5;
+    --button-hover-color: #9753b7;
+    --cursor-highlight-color:#f8f0ff
 }
 
 @-webkit-keyframes Gradient{
@@ -382,7 +383,7 @@ div#board-info-bottom {
 }
 
 #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
-    background-color: #f8f0ff;
+    background-color: var(--cursor-highlight-color);
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
@@ -391,6 +392,10 @@ div#board-info-bottom {
 
 #article-list>.article-list-row>.item>.list-title {
     padding: 8px 0;
+}
+
+#article-list>.article-list-row:hover .item>.list-header.v0>span, #article-list>.article-list-row>.item>.list-header.v0>span:hover {
+    background: var(--cursor-highlight-color);
 }
 
 /* 핫! (인기 글) */
