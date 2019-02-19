@@ -397,6 +397,10 @@ header #right-search-form > #right-search-btn {
     padding: 0 0 0.2em;
 }
 
+#article-info .article-profile-img {
+    top: 0.7em;
+}
+
 /* 헤더 */
 #article-content-wrapper>.header {
     border-top: 2px solid var(--main-color);
