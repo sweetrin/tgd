@@ -563,8 +563,8 @@ i.fa.fa-heart {
 }
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
-    background-color: var(--main-color) !important;
-    border-color: var(--main-color) !important;
+    background-color: var(--hover-color) !important;
+    border-color: var(--hover-color) !important;
 }
 
 #article-info>h2>span.category {
