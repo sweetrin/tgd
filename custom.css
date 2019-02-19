@@ -2,12 +2,18 @@
 :root {
     --main-color: #a85ccc;
     --rins-color:#8027aa;
-    --2nd-color: #fff;
-    --3rd-color: #fff;
-    --4th-color: #fff;
-    --5th-color: #fff;
+    --light-color: #d2a5e6;
+    --2nd-color: #fb2b2b;
+    --3rd-color: #292929;
+    --4th-color: #00b050;
+    --5th-color: #6a49a9;
+    --6th-color: #f157ab;
+    --7th-color: #00b0f0;
+    --8th-color: #ffc000;
     --text-color: #444444;
     --visited-color: #b7b7b7;
+    --badge-color: #718bec;
+    --rcmd-color: #ec71b5;
 }
 
 @-webkit-keyframes Gradient{
