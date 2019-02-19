@@ -35,6 +35,34 @@
 100%{background-position:0 50%}
 }
 
+@-webkit-keyframes StarSS{
+    0%{transform:scale(.75)}
+    20%{transform:scale(1)}
+    40%{transform:scale(.75)}
+    60%{transform:scale(1)}
+    80%{transform:scale(.75)}
+    100%{transform:scale(.75)}
+}
+
+@-moz-keyframes StarSS{
+    0%{transform:scale(.75)}
+    20%{transform:scale(1)}
+    40%{transform:scale(.75)}
+    60%{transform:scale(1)}
+    80%{transform:scale(.75)}
+    100%{transform:scale(.75)}
+}
+
+@keyframes StarSS{
+    0%{transform:scale(1)}
+    20%{transform:scale(1.2)}
+    40%{transform:scale(1)}
+    60%{transform:scale(1.2)}
+    80%{transform:scale(1)}
+    100%{transform:scale(1)}
+}
+
+
 /* 폰트 */
 @font-face {
     font-family: 'HCRDotum';
