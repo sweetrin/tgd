@@ -1,5 +1,5 @@
+/*** 컬러 ***/
 :root {
-    /*** 컬러 ***/
     --main-color: #a85ccc;
     --rins-color:#8027aa;
     --light-color: #d2a5e6;
@@ -16,9 +16,6 @@
     --recommand-count-color: #ec71b5;
     --button-hover-color: #9753b7;
     --cursor-highlight-color:#f8f0ff
-    /*** 이미지 주소 ***/
-    --kgd-logo-url:a;
-    --viewer-img-url:a;
 }
 
 @-webkit-keyframes Gradient{
@@ -334,7 +331,7 @@ div#board-info-bottom {
 }
 
 #article-list {
-    padding: 0 0 1.7em 0;
+    padding: 0 0 1.5em 0;
     background: #fff;
     border-radius: 7px;
 }
@@ -348,11 +345,11 @@ div#board-info-bottom {
 }
 
 #article-list #article-list-menu>.btn.best {
-    margin-left: 1em;
+    margin-left: 1.4em;
 }
 
 #article-list #article-list-menu>.btn.write {
-    margin-right: 1em;
+    margin-right: 1.4em;
     border-radius: 4px;
     border-color: var(--main-color);
 }
