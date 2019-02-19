@@ -1,5 +1,5 @@
-/*** 컬러 ***/
 :root {
+    /*** 컬러 ***/
     --main-color: #a85ccc;
     --rins-color:#8027aa;
     --light-color: #d2a5e6;
@@ -16,6 +16,9 @@
     --recommand-count-color: #ec71b5;
     --button-hover-color: #9753b7;
     --cursor-highlight-color:#f8f0ff
+    /*** 이미지 주소 ***/
+    --kgd-logo-url:a;
+    --viewer-img-url:a;
 }
 
 @-webkit-keyframes Gradient{
