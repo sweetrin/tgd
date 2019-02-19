@@ -435,6 +435,13 @@ header #right-search-form > #right-search-btn {
     border-radius: 4px;
 }
 
+/* 하뜨 */
+i.fa.fa-heart {
+    -webkit-animation: StarSS 2s infinite;
+    -moz-animation: StarSS 2s infinite;
+    animation: StarSS 2s infinite;
+}
+
 
 /*** 글 내용 출력 부분 **/
 
