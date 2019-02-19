@@ -81,6 +81,7 @@ body, html {
 
 body{
     background-image: url(stars.png);
+    color:var(--text-color);
 }
 
 header .row > div:nth-child(1) > a {
