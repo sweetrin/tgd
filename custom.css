@@ -1,11 +1,13 @@
 /*** 컬러 ***/
 :root {
     --main-color: #a85ccc;
+    --rins-color:#8027aa;
     --2nd-color: #fff;
     --3rd-color: #fff;
     --4th-color: #fff;
     --5th-color: #fff;
     --text-color: #444444;
+    --visited-color: #b7b7b7;
 }
 
 @-webkit-keyframes Gradient{
@@ -319,7 +321,7 @@ div#board-info-bottom {
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #a5a5a5a5 !important;
+    color: var(--visited-color) !important;
 }
 
 #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
