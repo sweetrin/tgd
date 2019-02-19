@@ -460,7 +460,7 @@ header #right-search-form > #right-search-btn {
     background: #fff;
 }
 
-.btn-outline-success {
+.btn-outline-success, .btn-outline-success:focus {
     color: var(--main-color);
     border-color: var(--main-color);
 }
