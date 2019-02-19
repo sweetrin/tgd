@@ -566,3 +566,7 @@ form#articleWriteForm {
 header #header-bar #header-menu-right #userDropdown #notification-badge {
     background: #f92f2f;
 }
+
+a.custom-badge-link.active {
+    border-color: var(--light-color);
+}
