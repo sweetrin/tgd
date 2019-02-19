@@ -474,7 +474,7 @@ i.fa.fa-heart {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
-    padding: 0.5em 1.5em 1.2em;
+    padding: 0.5em 1.5em 1.4em;
 }
 
 #comment-write-form-area {
@@ -545,6 +545,7 @@ i.fa.fa-heart {
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
     border: 0;
+    margin-bottom: 0;
 }
 
 #article-info #article-info-writer {
@@ -569,6 +570,11 @@ i.fa.fa-heart {
 
 #article-info>h2>span.category {
     color: #fff !important;
+}
+
+/* 베스트 댓글 배경색 */
+#article-reply-area #reply-best-area div.reply-content {
+    background: #f8edfd;
 }
 
 
