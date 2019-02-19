@@ -478,7 +478,7 @@ header #right-search-form > #right-search-btn {
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     border-bottom: 0;
-    padding: 0.4em 1em 0.4em 0.8em;
+    padding: 0.4em 1em 0.4em 1em;
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
@@ -531,7 +531,7 @@ form#articleWriteForm {
 }
 
 .mt-2 {
-    padding: 0 1em;
+    padding: 0 1.2em;
 }
 
 .mt-2.clearfix {
