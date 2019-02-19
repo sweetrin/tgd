@@ -396,6 +396,7 @@ div#board-info-bottom {
 
 #article-list>.article-list-row:hover .item>.list-header.v0>span, #article-list>.article-list-row>.item>.list-header.v0>span:hover {
     background: var(--cursor-highlight-color);
+    color: var(--cursor-highlight-color);
 }
 
 /* 핫! (인기 글) */
