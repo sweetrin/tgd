@@ -541,7 +541,7 @@ header #right-search-form > #right-search-btn {
 
 #article-reply-area {
     background: #fff;
-    border-radius: 7px;
+    border-radius: 8px 8px 7px 7px;
     padding: 0 0 0.1em;
 }
 
