@@ -417,7 +417,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
-    padding: 0.4em 1.6em 1em;
+    padding: 0.7em 1.3em 1em;
 }
 
 #comment-write-form-area {
@@ -433,6 +433,7 @@ header #right-search-form > #right-search-btn {
 
 #article-content-wrapper #article-content {
     background: #fff;
+    padding: 1em 1.2em;
 }
 
 #article-content-wrapper>.vote-area {
@@ -452,7 +453,7 @@ header #right-search-form > #right-search-btn {
 
 #article-content-wrapper>.footer {
     border-radius: 0 0 7px 7px;
-    padding: 0.8em;
+    padding: 1em;
 }
 
 #article-reply-area>.header {
