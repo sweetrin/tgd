@@ -2,7 +2,7 @@
 :root {
     --main-color: #a85ccc;
     --rins-color:#8027aa;
-    --category-bg-color: #d2a5e6;
+    --light-color: #d2a5e6;
     --category-2nd-color: #fb2b2b;
     --category-3rd-color: #292929;
     --category-4th-color: #00b050;
@@ -227,7 +227,7 @@ table.table.table-bordered {
     border-top: 0;
     border-radius: 7px 7px 0 0;
     padding: 0.2em 0.5em;
-    background: #d2a5e6;
+    background: var(--light-color);
 }
 
 /* 게시판 카테고리 */
@@ -570,8 +570,8 @@ header #right-search-form > #right-search-btn {
 }
 
 .btn-primary:hover {
-    background-color: var(--hover-color);
-    border-color: var(--hover-color);
+    background-color: var(--button-hover-color);
+    border-color: var(--button-hover-color);
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -580,8 +580,8 @@ header #right-search-form > #right-search-btn {
 }
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
-    background-color: var(--hover-color) !important;
-    border-color: var(--hover-color) !important;
+    background-color: var(--button-hover-color) !important;
+    border-color: var(--button-hover-color) !important;
 }
 
 #article-info>h2>span.category {
