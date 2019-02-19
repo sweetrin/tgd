@@ -428,7 +428,7 @@ header #right-search-form > #right-search-btn {
     background: var(--main-color);
     border-radius: 7px 7px 0 0;
     padding: 0.8em 0.9em 0;
-    height: 58px;
+    height: 59px;
 }
 
 #article-content-wrapper #article-content {
@@ -491,7 +491,7 @@ header #right-search-form > #right-search-btn {
 
 #article-info #article-info-writer {
     color: #fff;
-    padding-top: 1px;
+    padding-top: 2px;
 }
 
 .btn-primary:hover {
