@@ -606,6 +606,7 @@ header #right-search-form > #right-search-btn {
 form#articleWriteForm {
     background: #fff;
     border-radius: 0 0 7px 7px;
+    padding: 0.5em 0 1em;
 }
 
 .row.mt-2 {
@@ -617,14 +618,20 @@ form#articleWriteForm {
     padding: 0 1.2em;
 }
 
-.mt-2.clearfix {
-    padding: 0 1em 1em;
-}
-
 header #header-bar #header-menu-right #userDropdown #notification-badge {
     background: #f92f2f;
 }
 
 a.custom-badge-link.active {
     border-color: var(--light-color);
+}
+
+#main-content > .frame > h3 {
+    background: #fff;
+    padding: 0.5em 0.6em 0.1em;
+    border-radius: 7px 7px 0 0;
+}
+
+#main-content > .frame > #articleWriteForm > .mt-2 {
+    padding: 0 1em;
 }
