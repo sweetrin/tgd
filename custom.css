@@ -612,6 +612,9 @@ header #right-search-form > #right-search-btn {
     background: #f8edfd;
 }
 
+#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
+    background-color: #fff0f9;
+}
 
 /*** 글쓰기 ***/
 
