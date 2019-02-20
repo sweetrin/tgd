@@ -555,7 +555,7 @@ header #right-search-form > #right-search-btn {
 #article-reply-area>.header {
     background: var(--main-color);
     border-radius: 7px 7px 0 0;
-    padding: 1em 1em 0.8em;
+    padding: 0.9em 1em 0.8em;
 }
 
 #article-reply-area > .header h5, #lastc {
