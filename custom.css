@@ -1,4 +1,4 @@
-/*** 컬러 ***/
+﻿/*** 컬러 ***/
 :root {
     --main-color: #a85ccc;
     --rins-color:#8027aa;
@@ -650,4 +650,14 @@ a.custom-badge-link.active {
 
 #main-content > .frame > #articleWriteForm > .mt-2 {
     padding: 0 1em;
+}
+
+
+/*** 기타 ***/
+
+
+/* Header Bar 하단 알림 박스 */
+.alert-success {
+    background-color: #d8f0de;
+    border-color: #d8f0de;
 }
