@@ -613,7 +613,7 @@ form#articleWriteForm {
     padding: 0.5em 1em 0;
 }
 
-.mt-2 {
+#comment-write-form-area > #comment-write-form.mt-2 {
     padding: 0 1.2em;
 }
 
