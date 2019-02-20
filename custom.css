@@ -513,6 +513,7 @@ header #right-search-form > #right-search-btn {
     border-radius: 7px 7px 0 0;
     padding: 0.7em 0.9em 0;
     height: 59px;
+    margin-top: 0.5em;
 }
 
 #article-content-wrapper #article-content {
