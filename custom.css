@@ -464,6 +464,11 @@ header #right-search-form > #right-search-btn {
     animation: RinsHeart 3.5s infinite;
 }
 
+/* 글 목록 맨 아래 줄 */
+#article-list>div:nth-last-child(3) {
+    /* border-bottom: 1px solid #e2e2e2 */
+}
+
 
 /*** 글 내용 출력 부분 **/
 
