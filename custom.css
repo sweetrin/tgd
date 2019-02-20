@@ -154,6 +154,12 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
 }
 
+/* 콤콤코인 내역 */
+#main-content > .frame > .frame {
+    background: #ffffff26;
+    border-radius: 7px;
+}
+
 /* 자캐 이미지와 게시판 메인 부분 */
 #board-info {
     height: 45px;
@@ -216,16 +222,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info #viewers-area .fa-user:before {
     /*content: url('https://raw.githubusercontent.com/SRSRsweet/kgd/master/human2.png');*/
     content: url('candy_18x18.png');
-}
-
-table.table.table-bordered {
-    background: #fff;
-    border: 0;
-}
-
-.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
-    border: 0;
-    border-bottom: 1px solid #ddd;
 }
 
 
@@ -610,13 +606,6 @@ header #right-search-form > #right-search-btn {
 form#articleWriteForm {
     background: #fff;
     border-radius: 0 0 7px 7px;
-}
-
-.frame > h3 {
-    background: #fff;
-    padding: 0.6em 0.6em 0;
-    border-radius: 7px 7px 0 0;
-    color: var(--text-color);
 }
 
 .row.mt-2 {
