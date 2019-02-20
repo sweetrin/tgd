@@ -82,6 +82,12 @@ span.a-badge i.fa.fa-star {
     animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
 }
 
+/* 텍스트 선택 색상 */
+::selection {
+   background: var(--main-color);
+   color: #fff;
+}
+
 
 /* 폰트 */
 @font-face {
