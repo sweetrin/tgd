@@ -1,4 +1,4 @@
-﻿/*** 컬러 ***/
+/*** 컬러 ***/
 :root {
     --main-color: #a85ccc;
     --rins-color:#8027aa;
@@ -612,9 +612,16 @@ header #right-search-form > #right-search-btn {
     background: #f8edfd;
 }
 
+/* 새로운 댓글 배경색 */
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
     background-color: #fff0f9;
 }
+
+/* 마지막 댓글과 '새 댓글' 버튼 간격 */
+div#reply-real-area {
+    margin-bottom: 0.5em;
+}
+
 
 /*** 글쓰기 ***/
 
