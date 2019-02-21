@@ -494,12 +494,6 @@ header #right-search-form > #right-search-btn {
 #article-info .article-profile-img {
     top: 0.7em;
     right: 0.9em;
-    transition: 0.2s;
-}
-
-/* 프사 확대 */
-#article-info .article-profile-img:hover,#article-info .article-profile-img:focus {
-    transform:scale(1.7);
 }
 
 /* 헤더 */
