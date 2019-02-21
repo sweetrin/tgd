@@ -64,11 +64,11 @@
 }
 
 /* 별장난 */
-@-webkit-keyframes {
+@-webkit-keyframes RotateStar {
     100%{transform:rotate(3000deg);}
 }
 
-@-moz-keyframes {
+@-moz-keyframes RotateStar {
     100%{transform:rotate(3000deg);}
 }
 
