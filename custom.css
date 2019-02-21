@@ -499,7 +499,7 @@ header #right-search-form > #right-search-btn {
 
 /* 프사 확대 */
 #article-info .article-profile-img:hover,#article-info .article-profile-img:focus {
-    transform:scale(2);
+    transform:scale(1.7);
 }
 
 /* 헤더 */
