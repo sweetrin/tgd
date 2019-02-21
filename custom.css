@@ -512,7 +512,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
-    padding: 0.8em 1.6em;
+    padding: 0.8em 1em;
 }
 
 #comment-write-form-area {
@@ -628,7 +628,7 @@ div#reply-real-area {
 
 /* 대댓글 들여쓰기 */
 #article-reply-area #reply-real-area .reply.d-1, #article-reply-area #reply-best-area .reply.d-1 {
-    /*margin-left: 2.5em;*/
+    margin-left: 2.6em;
 }
 
 #article-reply-area #reply-real-area .reply.d-2, #article-reply-area #reply-best-area .reply.d-2 {
