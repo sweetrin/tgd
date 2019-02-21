@@ -469,8 +469,8 @@ header #right-search-form > #right-search-btn {
 
 /* 달콤 하또 */
 #article-list i.fa.fa-heart {
-    -webkit-animation: StarSS 2s infinite;
-    -moz-animation: StarSS 2s infinite;
+    -webkit-animation: RinsHeart 3.5s infinite;
+    -moz-animation: RinsHeart 3.5s infinite;
     animation: RinsHeart 3.5s infinite;
 }
 
