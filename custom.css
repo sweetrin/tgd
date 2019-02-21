@@ -88,7 +88,6 @@ span.a-badge i.fa.fa-star {
    color: #fff;
 }
 
-
 /* 폰트 */
 @font-face {
     font-family: 'HCRDotum';
@@ -96,13 +95,6 @@ span.a-badge i.fa.fa-star {
     font-weight: normal; 
     font-style: normal;
     unicode-range:U+0-7D,U+7F-10FFFF;
-}
-@-moz-document url-prefix() {
-    @font-face { 
-        font-family: 'HCRDotum';
-        src: url('https://sweetrin.github.io/tgd/HCRDotumB.woff2') format('woff2');
-        font-weight: bold;
-    }
 }
 
 body, html {
