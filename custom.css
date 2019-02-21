@@ -84,7 +84,7 @@ span.a-badge i.fa.fa-star {
 
 /* 텍스트 선택 색상 */
 ::selection {
-   background: var(--main-color);
+   background: var(--category-6th-color);
    color: #fff;
 }
 
