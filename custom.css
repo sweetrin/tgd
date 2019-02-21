@@ -392,6 +392,7 @@ div#board-info-bottom {
 
 #article-list>.article-list-row {
     border-right: 0;
+    padding: 0 0.4em 0 0.4em;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
