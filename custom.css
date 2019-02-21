@@ -474,11 +474,6 @@ header #right-search-form > #right-search-btn {
     animation: RinsHeart 3.5s infinite;
 }
 
-/* 빨간 공지 볼드체 */
-#article-list > .article-list-row span[style='color:#ff0000'] {
-    font-weight: bold;
-}
-
 /* 글 목록 맨 아래 줄 */
 #article-list>div:nth-last-child(3) {
     /* border-bottom: 1px solid #e2e2e2 */
