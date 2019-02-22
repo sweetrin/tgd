@@ -112,6 +112,7 @@ body{
     color:var(--text-color);
 }
 
+/* 트게더 로고 교체 */
 header .row > div:nth-child(1) > a {
     display: block;
     width: 150px;
@@ -686,7 +687,7 @@ a.custom-badge-link.active {
 /*** 기타 ***/
 
 
-/* 상단 알림 박스 */
+/* 상단 '성공' 알림 박스 */
 .alert-success {
     background-color: #d8f0de;
     border-color: #d8f0de;
