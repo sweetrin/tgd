@@ -161,7 +161,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* 콤콤코인 내역 */
 #main-content > .frame > .frame {
-    background: #ffffff3d;
+    background: #fff;
     border-radius: 7px;
 }
 
