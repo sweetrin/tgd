@@ -108,7 +108,7 @@ body, html {
 }
 
 body{
-    background-image: url(stars.png);
+    background-image: url('https://sweetrin.github.io/tgd/stars.png');
     color:var(--text-color);
 }
 
@@ -117,7 +117,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 150px;
     height: 50px;
-    background: url(https://sweetrin.github.io/tgd/kgd_logo.png) no-repeat;
+    background: url('https://sweetrin.github.io/tgd/kgd_logo.png') no-repeat;
 }
 
 header .row > div:nth-child(1) > a img{
@@ -234,7 +234,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* 생존자 애기 트수 이미지 */
 #board-info #viewers-area .fa-user:before {
     /*content: url('https://raw.githubusercontent.com/SRSRsweet/kgd/master/human2.png');*/
-    content: url('candy_18x18.png');
+    content: url('https://sweetrin.github.io/tgd/candy_18x18.png');
 }
 
 
