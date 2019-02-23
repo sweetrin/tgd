@@ -81,10 +81,10 @@
 }
 
 span.a-badge i.fa.fa-star {
-	color: #ffd63e;
-    -webkit-animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
-    -moz-animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
-    animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+	color: #ffc900;
+	-webkit-animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+	-moz-animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+	animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
 }
 
 @-webkit-keyframes HlTxtColor{
@@ -137,9 +137,9 @@ span.a-badge i.fa.fa-star {
 
 /* 인기 글 */
 #article-list>.article-list-row.hot {
-    -webkit-animation: HlBgColor 4s infinite;
+    /* -webkit-animation: HlBgColor 4s infinite; */
     -moz-animation: HlBgColor 4s infinite;
-    animation: HlBgColor 4s infinite;
+    /* animation: HlBgColor 4s infinite; */
 }
 
 #article-list>.article-list-row.hot>.item>.list-header>b,
