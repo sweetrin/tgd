@@ -168,7 +168,7 @@ span.a-badge i.fa.fa-star {
 body, html {
     height: auto !important;
     font-family: 'HCRDotum', "Helvetica Neue", Helvetica,Arial, sans-serif;
-    background: linear-gradient(180deg,#efe6f5 0,#805caf 82%,#004e92 100%);
+    background: linear-gradient(180deg, #efe8f3 0,#805caf 82%, #004e92 100%);
     /* background: #efe8f3; */
 }
 
@@ -189,11 +189,7 @@ header .row > div:nth-child(1) > a img{
     opacity: 0;
 }
 
-header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
-    color: var(--text-color);
-}
-
-#main .menu-wrapper>a {
+header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #main .menu-wrapper>a {
     color: var(--text-color);
 }
 
@@ -261,7 +257,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding: 0 0.4em;
 }
 
-/* 스트리머 닉넴 (SweetRin > 달콤린)*/
+/* 스트리머 닉넴 (SweetRin > 달콤린) */
 #board-info > h1 > a {
 	visibility: hidden;
 	letter-spacing: -1em;
@@ -502,8 +498,8 @@ div#board-info-bottom {
 }
 
 /* 글쓴이 */
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color:#8027aa;
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: var(--rins-color);
 }
 
 /* 오른쪽 상단 검색 부분 */
@@ -729,13 +725,13 @@ a.custom-badge-link.active {
     border-color: var(--light-color);
 }
 
-#main-content > .frame > h3 {
+#main-content>.frame>h3 {
     background: #fff;
     padding: 0.5em 0.6em 0.1em;
     border-radius: 7px 7px 0 0;
 }
 
-#main-content > .frame > #articleWriteForm > .mt-2 {
+#main-content>.frame>#articleWriteForm>.mt-2 {
     padding: 0 1em;
 }
 
