@@ -140,7 +140,7 @@ span.a-badge i.fa.fa-star {
 #article-list>.article-list-row.hot>.item>.list-time {
     -webkit-animation: ColorA 5s infinite;
     -moz-animation:ColorA 5s infinite;
-    animation:ColorA 2s infinite;
+    animation: ColorA 3s infinite;
 }
 
 /* 텍스트 선택 색상 */
@@ -481,7 +481,7 @@ div#board-info-bottom {
 #article-list>.article-list-row.hot {
     -webkit-animation: ColorB 5s infinite;
     -moz-animation: ColorB 5s infinite;
-    animation: ColorB 2s infinite;
+    animation: ColorB 3s infinite;
     /* border-top: 1px solid; */
     /* border-bottom: 1px solid; */
 }
