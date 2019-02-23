@@ -81,6 +81,7 @@
 }
 
 span.a-badge i.fa.fa-star {
+	color: #ffd63e;
     -webkit-animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     -moz-animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
