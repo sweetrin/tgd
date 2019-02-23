@@ -111,27 +111,27 @@ span.a-badge i.fa.fa-star {
 }
 
 @-webkit-keyframes HlBgColor{
-	0%{background-color:#f5e9f2}
+	0%{background-color:#f5ecf2}
 	20%{background-color:#efeaf7}
 	40%{background-color:#eef1ee}
 	60%{background-color:#eaecf7}
-	100%{background-color:#f5e9f2}
+	100%{background-color:#f5ecf2}
 }
 
 @-moz-keyframes HlBgColor{
-	0%{background-color:#f5e9f2}
+	0%{background-color:#f5ecf2}
 	20%{background-color:#efeaf7}
 	40%{background-color:#eef1ee}
 	60%{background-color:#eaecf7}
-	100%{background-color:#f5e9f2}
+	100%{background-color:#f5ecf2}
 }
 
 @keyframes HlBgColor{
-	0%{background-color:#f5e9f2}
+	0%{background-color:#f5ecf2}
 	20%{background-color:#efeaf7}
 	40%{background-color:#eef1ee}
 	60%{background-color:#eaecf7}
-	100%{background-color:#f5e9f2}
+	100%{background-color:#f5ecf2}
 }
 
 /* 인기 글 */
