@@ -168,7 +168,7 @@ span.a-badge i.fa.fa-star {
 body, html {
     height: auto !important;
     font-family: 'HCRDotum', "Helvetica Neue", Helvetica,Arial, sans-serif;
-    background: linear-gradient(180deg,#efe8f3 0,#805caf 82%,#004e92 100%);
+    background: linear-gradient(180deg,#efe6f5 0,#805caf 82%,#004e92 100%);
     /* background: #efe8f3; */
 }
 
