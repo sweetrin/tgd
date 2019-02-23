@@ -85,52 +85,52 @@ span.a-badge i.fa.fa-star {
     animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
 }
 
-@-webkit-keyframes  HlTxtColor{
-	0%{color: #f170ac;}
+@-webkit-keyframes HlTxtColor{
+	0%{color: #f17ad5;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
 	60%{color:#7c91e4;}
-	100%{color: #f170ac;}
+	100%{color: #f17ad5;}
 }
 
-@-moz-keyframes  HlTxtColor{
-	0%{color: #f170ac;}
+@-moz-keyframes HlTxtColor{
+	0%{color: #f17ad5;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
 	60%{color:#7c91e4;}
-	100%{color: #f170ac;}
+	100%{color: #f17ad5;}
 }
 
 @keyframes HlTxtColor{
-	0%{color: #f170ac;}
+	0%{color: #f17ad5;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
 	60%{color:#7c91e4;}
-	100%{color: #f170ac;}
+	100%{color: #f17ad5;}
 }
 
 @-webkit-keyframes HlBgColor{
-	0%{background-color:#f7ebf0}
+	0%{background-color:#f5e9f2}
 	20%{background-color:#efeaf7}
 	40%{background-color:#e5efe6}
 	60%{background-color:#eaecf7}
-	100%{background-color:#f7ebf0}
+	100%{background-color:#f5e9f2}
 }
 
 @-moz-keyframes HlBgColor{
-	0%{background-color:#f7ebf0}
+	0%{background-color:#f5e9f2}
 	20%{background-color:#efeaf7}
 	40%{background-color:#e5efe6}
 	60%{background-color:#eaecf7}
-	100%{background-color:#f7ebf0}
+	100%{background-color:#f5e9f2}
 }
 
 @keyframes HlBgColor{
-	0%{background-color:#f7ebf0}
+	0%{background-color:#f5e9f2}
 	20%{background-color:#efeaf7}
 	40%{background-color:#e5efe6}
 	60%{background-color:#eaecf7}
-	100%{background-color:#f7ebf0}
+	100%{background-color:#f5e9f2}
 }
 
 /* 인기 글 */
