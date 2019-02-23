@@ -102,19 +102,19 @@ span.a-badge i.fa.fa-star {
 }
 
 @keyframes ColorA{
-	0%{color: #67a6ff;}
-	20%{color:#ef6ee5;}
-	40%{color:#ff897a;}
-	60%{color:#97c566;}
-	100%{color:#67a6ff;}
+	0%{color: #ff67ae;}
+	20%{color:#b080f5;}
+	40%{color:#58bb66;}
+	60%{color:#7c91e4;}
+	100%{color: #ff67ae;}
 }
 
 @-webkit-keyframes ColorB{
-	0%{border-color:#67a6ff;background-color:#e4efff}
-	20%{border-color:#ef6ee5;background-color:#ffecfe}
-	40%{border-color:#ff897a;background-color:#ffefed}
-	60%{border-color:#97c566;background-color:#f1ffe2}
-	100%{border-color:#67a6ff;background-color:#e7f1ff}
+	0%{border-color:#ff67ae;background-color:#e4efff}
+	20%{border-color:#b080f5;background-color:#ffecfe}
+	40%{border-color:#58b4bb;background-color:#ffefed}
+	60%{border-color:#7fc566;background-color:#f1ffe2}
+	100%{border-color:#ff9267;background-color:#e7f1ff}
 }
 
 @-moz-keyframes ColorB{
@@ -126,41 +126,21 @@ span.a-badge i.fa.fa-star {
 }
 
 @keyframes ColorB{
-	0%{border-color:#67a6ff;background-color:#e4efff}
-	20%{border-color:#ef6ee5;background-color:#ffecfe}
-	40%{border-color:#ff897a;background-color:#ffefed}
-	60%{border-color:#97c566;background-color:#f1ffe2}
-	100%{border-color:#67a6ff;background-color:#e7f1ff}
+	0%{background-color:#f7e6ed}
+	20%{background-color:#f0e9f9}
+	40%{background-color:#e1f3e3}
+	60%{background-color:#eceef7}
+	100%{background-color:#f7e6ed}
 }
 
-#article-list>.article-list-row.hot>.item>.list-header>b {
-    -webkit-animation: ColorA 5s infinite;
-    -moz-animation:ColorA 5s infinite;
-    animation:ColorA 5s infinite;
-}
-
-#article-list>.article-list-row.hot>.item>.list-title>.list-category>span {
-    -webkit-animation: ColorA 5s infinite;
-    -moz-animation:ColorA 5s infinite;
-    animation:ColorA 5s infinite;
-}
-
-#article-list>.article-list-row.hot>.item>.list-title>a {
-    -webkit-animation: ColorA 5s infinite;
-    -moz-animation:ColorA 5s infinite;
-    animation:ColorA 5s infinite;
-}
-
-#article-list > .article-list-row.hot > .item > .list-title > .list-writer.logged > span {
-    -webkit-animation: ColorA 5s infinite;
-    -moz-animation:ColorA 5s infinite;
-    animation:ColorA 5s infinite;
-}
-
+#article-list>.article-list-row.hot>.item>.list-header>b,
+#article-list>.article-list-row.hot>.item>.list-title>.list-category>span,
+#article-list>.article-list-row.hot>.item>.list-title>a,
+#article-list > .article-list-row.hot > .item > .list-title > .list-writer.logged > span,
 #article-list>.article-list-row.hot>.item>.list-time {
     -webkit-animation: ColorA 5s infinite;
     -moz-animation:ColorA 5s infinite;
-    animation:ColorA 5s infinite;
+    animation:ColorA 2s infinite;
 }
 
 /* 텍스트 선택 색상 */
@@ -501,7 +481,9 @@ div#board-info-bottom {
 #article-list>.article-list-row.hot {
     -webkit-animation: ColorB 5s infinite;
     -moz-animation: ColorB 5s infinite;
-    animation: ColorB 5s infinite;
+    animation: ColorB 2s infinite;
+    /* border-top: 1px solid; */
+    /* border-bottom: 1px solid; */
 }
 
 /* 추천 수 */
