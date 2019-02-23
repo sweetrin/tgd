@@ -133,7 +133,7 @@ span.a-badge i.fa.fa-star {
 	100%{background-color:#f7ebf0}
 }
 
-/* 핫! (인기 글) */
+/* 인기 글 */
 #article-list>.article-list-row.hot {
     -webkit-animation: HlBgColor 4s infinite;
     -moz-animation: HlBgColor 4s infinite;
