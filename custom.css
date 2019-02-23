@@ -133,6 +133,36 @@ span.a-badge i.fa.fa-star {
 	100%{border-color:#67a6ff;background-color:#e7f1ff}
 }
 
+#article-list>.article-list-row.hot>.item>.list-header>b {
+    -webkit-animation: ColorA 5s infinite;
+    -moz-animation:ColorA 5s infinite;
+    animation:ColorA 5s infinite;
+}
+
+#article-list>.article-list-row.hot>.item>.list-title>.list-category>span {
+    -webkit-animation: ColorA 5s infinite;
+    -moz-animation:ColorA 5s infinite;
+    animation:ColorA 5s infinite;
+}
+
+#article-list>.article-list-row.hot>.item>.list-title>a {
+    -webkit-animation: ColorA 5s infinite;
+    -moz-animation:ColorA 5s infinite;
+    animation:ColorA 5s infinite;
+}
+
+#article-list > .article-list-row.hot > .item > .list-title > .list-writer.logged > span {
+    -webkit-animation: ColorA 5s infinite;
+    -moz-animation:ColorA 5s infinite;
+    animation:ColorA 5s infinite;
+}
+
+#article-list>.article-list-row.hot>.item>.list-time {
+    -webkit-animation: ColorA 5s infinite;
+    -moz-animation:ColorA 5s infinite;
+    animation:ColorA 5s infinite;
+}
+
 /* 텍스트 선택 색상 */
 ::selection {
    background: var(--category-6th-color);
