@@ -137,9 +137,9 @@ span.a-badge i.fa.fa-star {
 
 /* 인기 글 */
 #article-list>.article-list-row.hot {
-    /* -webkit-animation: HlBgColor 4s infinite; */
+    -webkit-animation: HlBgColor 4s infinite;
     -moz-animation: HlBgColor 4s infinite;
-    /* animation: HlBgColor 4s infinite; */
+    animation: HlBgColor 4s infinite;
 }
 
 #article-list>.article-list-row.hot>.item>.list-header>b,
@@ -251,7 +251,6 @@ header #header-bar #header-top-notice strong.notice-badge {
     border: 3px solid #e886e1;
     margin-right: 0.9em;
     box-shadow: 1px 1px 3px 1px #9a9a9a;
-    content: url('https://sweetrin.github.io/tgd/oh.png');
 }
 
 #board-info h1 {
