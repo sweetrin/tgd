@@ -113,7 +113,7 @@ span.a-badge i.fa.fa-star {
 @-webkit-keyframes HlBgColor{
 	0%{background-color:#f5e9f2}
 	20%{background-color:#efeaf7}
-	40%{background-color:#e5efe6}
+	40%{background-color:#eef1ee}
 	60%{background-color:#eaecf7}
 	100%{background-color:#f5e9f2}
 }
@@ -121,7 +121,7 @@ span.a-badge i.fa.fa-star {
 @-moz-keyframes HlBgColor{
 	0%{background-color:#f5e9f2}
 	20%{background-color:#efeaf7}
-	40%{background-color:#e5efe6}
+	40%{background-color:#eef1ee}
 	60%{background-color:#eaecf7}
 	100%{background-color:#f5e9f2}
 }
@@ -129,7 +129,7 @@ span.a-badge i.fa.fa-star {
 @keyframes HlBgColor{
 	0%{background-color:#f5e9f2}
 	20%{background-color:#efeaf7}
-	40%{background-color:#e5efe6}
+	40%{background-color:#eef1ee}
 	60%{background-color:#eaecf7}
 	100%{background-color:#f5e9f2}
 }
