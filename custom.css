@@ -85,59 +85,59 @@ span.a-badge i.fa.fa-star {
     animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
 }
 
-@-webkit-keyframes HlTxtColor{
-	0%{color: #ff67ae;}
+@-webkit-keyframes  HlTxtColor{
+	0%{color: #f170ac;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
 	60%{color:#7c91e4;}
-	100%{color: #ff67ae;}
+	100%{color: #f170ac;}
 }
 
-@-moz-keyframes HlTxtColor{
-	0%{color: #ff67ae;}
+@-moz-keyframes  HlTxtColor{
+	0%{color: #f170ac;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
 	60%{color:#7c91e4;}
-	100%{color: #ff67ae;}
+	100%{color: #f170ac;}
 }
 
 @keyframes HlTxtColor{
-	0%{color: #ff67ae;}
+	0%{color: #f170ac;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
 	60%{color:#7c91e4;}
-	100%{color: #ff67ae;}
+	100%{color: #f170ac;}
 }
 
 @-webkit-keyframes HlBgColor{
-	0%{background-color:#f7e6ed}
-	20%{background-color:#f0e9f9}
-	40%{background-color:#e4f1e6}
-	60%{background-color:#eceef7}
-	100%{background-color:#f7e6ed}
+	0%{background-color:#f7ebf0}
+	20%{background-color:#efeaf7}
+	40%{background-color:#e5efe6}
+	60%{background-color:#eaecf7}
+	100%{background-color:#f7ebf0}
 }
 
 @-moz-keyframes HlBgColor{
-	0%{background-color:#f7e6ed}
-	20%{background-color:#f0e9f9}
-	40%{background-color:#e4f1e6}
-	60%{background-color:#eceef7}
-	100%{background-color:#f7e6ed}
+	0%{background-color:#f7ebf0}
+	20%{background-color:#efeaf7}
+	40%{background-color:#e5efe6}
+	60%{background-color:#eaecf7}
+	100%{background-color:#f7ebf0}
 }
 
 @keyframes HlBgColor{
-	0%{background-color:#f7e6ed}
-	20%{background-color:#f0e9f9}
-	40%{background-color:#e4f1e6}
-	60%{background-color:#eceef7}
-	100%{background-color:#f7e6ed}
+	0%{background-color:#f7ebf0}
+	20%{background-color:#efeaf7}
+	40%{background-color:#e5efe6}
+	60%{background-color:#eaecf7}
+	100%{background-color:#f7ebf0}
 }
 
 /* 핫! (인기 글) */
 #article-list>.article-list-row.hot {
-    -webkit-animation: ColorB 4s infinite;
-    -moz-animation: ColorB 4s infinite;
-    animation: ColorB 4s infinite;
+    -webkit-animation: HlBgColor 4s infinite;
+    -moz-animation: HlBgColor 4s infinite;
+    animation: HlBgColor 4s infinite;
 }
 
 #article-list>.article-list-row.hot>.item>.list-header>b,
