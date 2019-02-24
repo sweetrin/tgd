@@ -203,6 +203,10 @@ footer {
     color: #fff;
 }
 
+footer a {
+    color: #529fe0;
+}
+
 /* 왼쪽 메뉴 헤더 */
 #main .menu-wrapper > .header {
     background: var(--main-color);
