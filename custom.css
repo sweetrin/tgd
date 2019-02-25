@@ -544,6 +544,10 @@ div#board-info-bottom {
     border-color: var(--main-color);
 }
 
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    background-color: var(--cursor-highlight-color);
+}
+
 .pagination > li > a, .pagination > li > span {
     color: var(--main-color);
 }
