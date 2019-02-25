@@ -10,6 +10,12 @@
     --recommend-count-color: #ec71b5;
     --button-hover-color: #9753b7;
     --cursor-highlight-color:#f8f0ff;
+	--bg-color-stop1:#eee5f3;
+	--bg-color-stop2:#673e9c;
+	--bg-color-stop3:#003c86;
+	/*--bg-color-stop1:#efe8f3;*/
+	/*--bg-color-stop2:#805caf;*/
+	/*--bg-color-stop3:#0d4a94;*/
 
     /* 카테고리 */
     --category-2nd-color: #fb2b2b;
@@ -170,8 +176,7 @@ span.a-badge i.fa.fa-star {
 body, html {
     height: auto !important;
     font-family: 'HCRDotum', "Helvetica Neue", Helvetica,Arial, sans-serif;
-    background: linear-gradient(180deg, #eee5f3 0,#673e9c 82%, #003c86 100%);
-    /*background: linear-gradient(180deg, #efe8f3 0,#805caf 82%, #0d4a94 100%);*/
+    background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%);
     /* background: #efe8f3; */
 }
 
