@@ -230,6 +230,20 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
 }
 
+/* 메뉴 트랜지션 */
+.dropdown .dropdown-menu {
+    transform: scale(0);
+    transition: 0.2s;
+    transform-origin: top left;
+    /* opacity: 0; */
+    display: block;
+}
+
+.dropdown.open .dropdown-menu {
+    transform: scale(1);
+    /* opacity: 1; */
+}
+
 /* 콤콤코인 내역 */
 #main-content > .frame > .frame {
     background: #fff;
