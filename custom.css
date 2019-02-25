@@ -133,6 +133,16 @@ span.a-badge i.fa.fa-star {
 	100%{background-color:#f5ecf2}
 }
 
+
+@keyframes HlBgColor{
+	0%{background-color:#fdf3fa}
+	20%{background-color:#f5f0fd}
+	40%{background-color:#f0f5f0}
+	60%{background-color:#f0f2fd}
+	100%{background-color:#fdf3fa}
+}
+
+/*
 @keyframes HlBgColor{
 	0%{background-color:#f5ecf2}
 	20%{background-color:#efeaf7}
@@ -140,6 +150,7 @@ span.a-badge i.fa.fa-star {
 	60%{background-color:#eaecf7}
 	100%{background-color:#f5ecf2}
 }
+*/
 
 /* 인기 글 */
 #article-list>.article-list-row.hot {
