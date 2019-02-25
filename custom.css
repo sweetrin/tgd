@@ -494,6 +494,12 @@ div#board-info-bottom {
     color: var(--visited-color) !important;
 }
 
+#article-list>.article-list-row.active {
+    /* background-color: #f0f6ff; */
+    /* background-color: #f1fbe7; */
+    background-color: #eaf9f6;
+}
+
 #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
     background-color: var(--cursor-highlight-color);
 }
