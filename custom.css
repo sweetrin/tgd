@@ -550,8 +550,8 @@ header #right-search-form > #right-search-btn {
 
 #article-list #article-list-menu>.btn.best {
     color: var(--main-color);
-    border-color: var(--main-color) !important;
-    border-radius: 4px !important;
+    border-color: var(--main-color);
+    border-radius: 4px;
 }
 
 /* 달콤 하또 */
