@@ -498,8 +498,8 @@ div#board-info-bottom {
 
 #article-list>.article-list-row.active {
     /* background-color: #f0f6ff; */
-    /* background-color: #f1fbe7; */
-    background-color: #f6e6fd;
+    background-color: #ebf9f5;
+    /* background-color: #f6e6fd; */
     /* background-color: var(--cursor-highlight-color); */
 }
 
