@@ -1,13 +1,21 @@
+/*** 컬러 ***/
 :root {
-    /*** 컬러 ***/
+	/*--main-color: #a652ce;*/
     --main-color: #a85ccc;
-    /* --main-color: #a652ce; */
     --rins-color:#8027aa;
     --light-color: #d2a5e6;
     --text-color: #444444;
     --visited-color: #b7b7b7;
     --rank-badge-color: #718bec;
     --recommend-count-color: #ec71b5;
+    --button-hover-color: #9753b7;
+    --cursor-highlight-color:#f8f0ff;
+	--bg-color-stop1:#eee5f3;
+	--bg-color-stop2:#6d4c98;
+	--bg-color-stop3:#0e3b71;
+	/*--bg-color-stop1:#efe8f3;*/
+	/*--bg-color-stop2:#805caf;*/
+	/*--bg-color-stop3:#0d4a94;*/
 
     /* 카테고리 */
     --category-2nd-color: #fb2b2b;
@@ -17,11 +25,6 @@
     --category-6th-color: #f157ab;
     --category-7th-color: #00b0f0;
     --category-8th-color: #ffc000;
-
-    --background-img-url: url('https://sweetrin.github.io/tgd/stars_bg.png');
-    --kgd-logo-url: url('https://sweetrin.github.io/tgd/kgd_logo.png');
-    --viewer-img-url: url('https://sweetrin.github.io/tgd/candy_18x18.png');
-    /* --viewer-img-url: url('https://raw.githubusercontent.com/SRSRsweet/kgd/master/human2.png') */
 }
 
 @-webkit-keyframes Gradient{
@@ -90,7 +93,7 @@ span.a-badge i.fa.fa-star {
 	animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
 }
 
-@-webkit-keyframes HlTxtColor {
+@-webkit-keyframes HlTxtColor{
 	0%{color: #f17ad5;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
@@ -98,7 +101,7 @@ span.a-badge i.fa.fa-star {
 	100%{color: #f17ad5;}
 }
 
-@-moz-keyframes HlTxtColor {
+@-moz-keyframes HlTxtColor{
 	0%{color: #f17ad5;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
@@ -106,7 +109,7 @@ span.a-badge i.fa.fa-star {
 	100%{color: #f17ad5;}
 }
 
-@keyframes HlTxtColor {
+@keyframes HlTxtColor{
 	0%{color: #f17ad5;}
 	20%{color:#b080f5;}
 	40%{color:#58bb6a;}
@@ -114,7 +117,7 @@ span.a-badge i.fa.fa-star {
 	100%{color: #f17ad5;}
 }
 
-@-webkit-keyframes HlBgColor {
+@-webkit-keyframes HlBgColor{
 	0%{background-color: #fff3fb;}
 	20%{background-color: #f4edff;}
 	40%{background-color: #f2f9f2;}
@@ -122,7 +125,7 @@ span.a-badge i.fa.fa-star {
 	100%{background-color: #fff3fb;}
 }
 
-@-moz-keyframes HlBgColor {
+@-moz-keyframes HlBgColor{
 	0%{background-color: #fff3fb;}
 	20%{background-color: #f4edff;}
 	40%{background-color: #f2f9f2;}
@@ -131,13 +134,23 @@ span.a-badge i.fa.fa-star {
 }
 
 
-@keyframes HlBgColor {
+@keyframes HlBgColor{
 	0%{background-color: #fff3fb;}
 	20%{background-color: #f4edff;}
 	40%{background-color: #f2f9f2;}
 	60%{background-color: #edf0ff;}
 	100%{background-color: #fff3fb;}
 }
+
+/*
+@keyframes HlBgColor{
+	0%{background-color:#f5ecf2}
+	20%{background-color:#efeaf7}
+	40%{background-color:#eef1ee}
+	60%{background-color:#eaecf7}
+	100%{background-color:#f5ecf2}
+}
+*/
 
 /* 인기 글 */
 #article-list>.article-list-row.hot {
@@ -175,11 +188,12 @@ body, html {
     height: auto !important;
     font-family: 'HCRDotum', "Helvetica Neue", Helvetica,Arial, sans-serif;
     background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%);
+    /* background: #efe8f3; */
 }
 
 body {
     background-image: url('https://sweetrin.github.io/tgd/stars_bg.png');
-    color: var(--text-color);
+    color:var(--text-color);
 }
 
 /* 트게더 로고 교체 */
@@ -187,17 +201,11 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 150px;
     height: 50px;
-    background: var(--kgd-logo-url) no-repeat;
+    background: url('https://sweetrin.github.io/tgd/kgd_logo.png') no-repeat;
 }
 
-header .row > div:nth-child(1) > a img {
+header .row > div:nth-child(1) > a img{
     opacity: 0;
-}
-
-/* OR */
-
-.col-xs-4 img {
-    /* content: var(--kgd-logo-url); */
 }
 
 header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #main .menu-wrapper>a {
@@ -328,7 +336,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* 생존자 애기 트수 이미지 */
 #board-info #viewers-area .fa-user:before {
-    content: var(--viewer-img-url);
+    /*content: url('https://raw.githubusercontent.com/SRSRsweet/kgd/master/human2.png');*/
+    content: url('https://sweetrin.github.io/tgd/candy_18x18.png');
 }
 
 
