@@ -244,6 +244,10 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* opacity: 1; */
 }
 
+#header-bar .dropdown .dropdown-menu-right {
+	transform-origin: top right;
+}
+
 /* 콤콤코인 내역 */
 #main-content > .frame > .frame {
     background: #fff;
