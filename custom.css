@@ -498,6 +498,7 @@ div#board-info-bottom {
     /* background-color: #f0f6ff; */
     /* background-color: #f1fbe7; */
     background-color: #f3e0fb;
+    background-color: var(--cursor-highlight-color);
 }
 
 #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
