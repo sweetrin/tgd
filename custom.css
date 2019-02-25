@@ -279,8 +279,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info h1 {
     border-bottom: 0;
-    border-left: 4px solid #efeaf7;
-    border-right: 4px solid #efeaf7;
+    border-left: 4px solid #d2a5e6;
+    /* border-right: 4px solid #efeaf7; */
     padding: 0 0.4em;
     width: 445px;
 }
@@ -779,9 +779,9 @@ a.custom-badge-link.active {
 }
 
 header #header-bar #header-menu-right {
-    border-left: 0;
+    /* border-left: 0; */
 }
 
 header #header-bar #header-menu-left {
-    border-right: 0;
+    /* border-right: 0; */
 }
