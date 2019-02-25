@@ -465,7 +465,7 @@ div#board-info-bottom {
 }
 
 .badge {
-    background-color: #718bec;
+    background-color: var(--main-color);
 }
 
 #article-list #article-list-menu>.btn.best {
