@@ -688,6 +688,11 @@ header #right-search-form > #right-search-btn {
     border-color: var(--button-hover-color) !important;
 }
 
+.btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
+	background-color:var(--main-color);
+	border-color:var(--main-color);
+}
+
 #article-info>h2>span.category {
     color: #fff !important;
 }
