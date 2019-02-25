@@ -279,8 +279,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info h1 {
     border-bottom: 0;
-    border-left: 1px dashed #adadad;
+    border-left: 4px solid #efeaf7;
+    border-right: 4px solid #efeaf7;
     padding: 0 0.4em;
+    width: 445px;
 }
 
 /* 스트리머 닉넴 (SweetRin > 달콤린) */
@@ -774,4 +776,12 @@ a.custom-badge-link.active {
 .alert-success {
     background-color: #d8f0de;
     border-color: #d8f0de;
+}
+
+header #header-bar #header-menu-right {
+    border-left: 0;
+}
+
+header #header-bar #header-menu-left {
+    border-right: 0;
 }
