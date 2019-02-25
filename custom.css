@@ -462,6 +462,7 @@ div#board-info-bottom {
 
 #board-info #board-info-bottom a {
     border-right: 0;
+    color: var(--main-color);
 }
 
 .badge {
