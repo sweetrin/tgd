@@ -277,6 +277,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     overflow: inherit;
     padding: 0.6em 0.7em;
     margin-bottom: 2.5em;
+    box-shadow: 3px 3px 5px #2a005826;
 }
 
 #board-info #board-info-profile-img {
