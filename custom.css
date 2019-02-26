@@ -205,12 +205,6 @@ header .row > div:nth-child(1) > a img{
     opacity: 0;
 }
 
-/* OR */
-
-/* .col-xs-4 img {
-    content: url('https://sweetrin.github.io/tgd/kgd_logo.png');
-} */
-
 header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #main .menu-wrapper>a {
     color: var(--text-color);
 }
