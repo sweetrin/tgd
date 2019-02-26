@@ -548,6 +548,7 @@ div#board-info-bottom {
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
     background-color: var(--cursor-highlight-color);
+    color: var(--rins-color);
 }
 
 /* 글쓴이 */
