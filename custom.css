@@ -817,5 +817,5 @@ a.custom-badge-link.active {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
-    color: var(--main-color);
+    color: var(--button-hover-color);
 }
