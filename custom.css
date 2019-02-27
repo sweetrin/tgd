@@ -330,7 +330,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	content: "\f004";
 	/*content:"바붕";*/
 	visibility: visible;
-	position:fixed;
+	position:absolute;
 	font-size:22px;
 }
 
