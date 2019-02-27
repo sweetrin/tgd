@@ -609,8 +609,9 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-info .article-profile-img {
-    top: 0.7em;
-    right: 0.9em;
+    top: 0.6em;
+    right: 0.8em;
+    width: 2.9em;
 }
 
 /* 헤더 */
@@ -639,8 +640,8 @@ header #right-search-form > #right-search-btn {
 #article-info {
     background: var(--main-color);
     border-radius: 7px 7px 0 0;
-    padding: 0.8em 0.9em 0;
-    height: 59px;
+    padding: 0.7em 0.9em 0;
+    height: 56px;
     margin-top: 0.5em;
 }
 
@@ -705,7 +706,7 @@ header #right-search-form > #right-search-btn {
 
 #article-info #article-info-writer {
     color: #fff;
-    padding-top: 3px;
+    padding-top: 2px;
 }
 
 .btn-primary:hover {
