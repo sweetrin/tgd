@@ -6,7 +6,7 @@
     --light-color: #d2a5e6;
     --text-color: #444444;
     --visited-color: #b7b7b7;
-    --rank-badge-color: #718bec;
+    --rank-badge-color: #6782e4;
     --recommend-count-color: #ec71b5;
     --button-hover-color: #9753b7;
     --cursor-highlight-color:#f8f0ff;
@@ -817,7 +817,7 @@ a.custom-badge-link.active {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
-    color: var(--rank-badge-color);
+    color: #6782e4;
 }
 
 i.fa.fa-share {
