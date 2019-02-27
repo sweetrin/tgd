@@ -815,3 +815,7 @@ a.custom-badge-link.active {
 #board-info #board-info-profile-img:hover {
     transform: scale(1.5);
 }
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
+    color: var(--main-color);
+}
