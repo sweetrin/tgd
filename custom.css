@@ -815,3 +815,7 @@ a.custom-badge-link.active {
 #board-info #board-info-profile-img:hover {
     transform: scale(1.5);
 }
+
+#article-reply-area .fa.fa-share {
+    color: var(--main-color);
+}
