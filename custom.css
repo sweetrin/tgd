@@ -184,8 +184,8 @@ span.a-badge i.fa.fa-star {
 body, html {
     height: auto !important;
     font-family: 'HCRDotum', "Helvetica Neue", Helvetica,Arial, sans-serif;
-    background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%);
-    /* background: #d9cde4; */
+    /*background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%);*/
+    background: #d8c6ea;
 }
 
 body {
@@ -323,7 +323,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info>h1>a:hover:before {
-	animation:HlTxtColor 2s infinite;
+	animation:HlTxtColor 3s infinite;
 }
 
 /*
