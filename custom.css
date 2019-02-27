@@ -334,18 +334,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 	font-size:22px;
 }
 
-#board-info>h1>a:active:after {
-	font-family: FontAwesome;
-	color:var(--recommend-count-color);
-	letter-spacing:0em;
-	margin-top:3px;
-	content: "\f004";
-	/*content:"바붕";*/
-	visibility: visible;
-	position:fixed;
-	font-size:22px;
-}
-
 /* 생존자라니.. */
 #board-info #viewers-area {
     color: var(--main-color);
