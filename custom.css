@@ -290,6 +290,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-right: 0.9em;
     box-shadow: 1px 1px 3px 1px #9a9a9a;
     content: url('https://sweetrin.github.io/tgd/catrin.png');
+    transition: 0.1s;
+    /* z-index: 99; */
 }
 
 #board-info h1 {
