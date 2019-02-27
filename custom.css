@@ -823,3 +823,12 @@ a.custom-badge-link.active {
 i.fa.fa-share {
     color: var(--rank-badge-color);
 }
+
+.fr-placeholder {
+    visibility: hidden;
+}
+
+.fr-placeholder:before {
+    content: "댓글 좀 달아주세요";
+    visibility: visible;
+}
