@@ -824,11 +824,11 @@ i.fa.fa-share {
     color: var(--rank-badge-color);
 }
 
-.fr-placeholder {
+#comment-write-form-area .fr-placeholder {
     visibility: hidden;
 }
 
-.fr-placeholder:before {
+#comment-write-form-area .fr-placeholder:before {
     content: "댓글 고맙다냥!";
     visibility: visible;
 }
