@@ -810,3 +810,7 @@ a.custom-badge-link.active {
     background-color: #d8f0de;
     border-color: #d8f0de;
 }
+
+#board-info #board-info-profile-img:hover {
+    transform: scale(1.5);
+}
