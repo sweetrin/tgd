@@ -281,9 +281,9 @@ header #header-bar #header-top-notice strong.notice-badge {
     box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
 }
 
-#board-info #board-info-profile-img {
-    width: 4.5em;
-    height: 4.5em;
+#board-info .pull-right.img-rounded {
+    width: 4.5em !important;
+    height: 4.5em !important;
     border-radius: 100px;
     float: left !important;
     border: 3px solid #e886e1;
@@ -294,9 +294,9 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* z-index: 99; */
 }
 
-#board-info #board-info-profile-img:after {
-    width: 4.5em;
-    height: 4.5em;
+#board-info .pull-right.img-rounded:after {
+    width: 4.5em !important;
+    height: 4.5em !important;
     border-radius: 100px;
     float: left !important;
     border: 3px solid #e886e1;
