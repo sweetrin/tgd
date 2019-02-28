@@ -275,7 +275,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: #fff;
     border-radius: 7px;
     overflow: inherit;
-    padding: 0.6em 0.7em;
+    padding: 0.5em 0.7em;
     margin-bottom: 2.5em;
     /* box-shadow: 3px 3px 5px #2a005826; */
     box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
@@ -509,7 +509,7 @@ div#board-info-bottom {
 }
 
 #board-info #board-info-bottom {
-    padding-top: 5px;
+    padding-top: 6px;
 }
 
 #main .menu-wrapper>a:nth-last-child(1) {
