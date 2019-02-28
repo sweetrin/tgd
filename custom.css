@@ -797,7 +797,7 @@ div#reply-real-area {
 form#articleWriteForm {
     background: #fff;
     border-radius: 0 0 7px 7px;
-    padding: 0.5em 0 1em;
+    padding: 0.6em 0 1em;
 }
 
 .row.mt-2 {
@@ -818,9 +818,18 @@ a.custom-badge-link.active {
 }
 
 #main-content>.frame>h3 {
+	color:transparent;
     background: #fff;
     padding: 0.5em 0.6em 0.1em;
     border-radius: 7px 7px 0 0;
+}
+
+#main-content>.frame>h3:before {
+	color:var(--text-color);
+	content: '냥냥하게 글써달라냥!';
+	/*background: #fff;*/
+	/*padding: 0.5em 0.6em 0.1em;*/
+	/*border-radius: 7px 7px 0 0;*/
 }
 
 #main-content>.frame>#articleWriteForm>.mt-2 {
