@@ -797,7 +797,7 @@ div#reply-real-area {
 form#articleWriteForm {
     background: #fff;
     border-radius: 0 0 7px 7px;
-    padding: 0.6em 0 1em;
+    padding: 0.5em 0 1em;
 }
 
 .row.mt-2 {
@@ -820,9 +820,9 @@ a.custom-badge-link.active {
 #main-content>.frame>h3 {
 	color:transparent;
 	background: #fff;
-	padding: 0.5em 0.6em 0.1em;
+	padding: 0.5em 0.5em 0.1em;
 	border-radius: 7px 7px 0 0;
-	border: 0;
+	border: 1px solid #fff;
 }
 
 #main-content>.frame>h3:before {
