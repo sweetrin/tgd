@@ -294,19 +294,6 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* z-index: 99; */
 }
 
-#board-info .pull-right.img-rounded:after {
-    width: 4.5em !important;
-    height: 4.5em !important;
-    border-radius: 100px;
-    float: left !important;
-    border: 3px solid #e886e1;
-    margin-right: 0.9em;
-    box-shadow: 1px 1px 3px 1px #9a9a9a;
-    content: url('https://sweetrin.github.io/tgd/catrin.png');
-    transition: 0.1s;
-    /* z-index: 99; */
-}
-
 #board-info h1 {
     border-bottom: 0;
     border-left: 1px dashed #adadad;
