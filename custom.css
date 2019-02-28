@@ -582,7 +582,7 @@ div#board-info-bottom {
 
 /* 글쓴이 */
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #b057da;
+    color: #a24acc;
 }
 
 /* 오른쪽 상단 검색 부분 */
