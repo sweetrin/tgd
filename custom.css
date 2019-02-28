@@ -636,6 +636,7 @@ header #right-search-form > #right-search-btn {
     top: 0.6em;
     right: 0.8em;
     width: 2.9em;
+    image-rendering: auto;
 }
 
 /* 헤더 */
@@ -715,7 +716,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-content-wrapper {
-    padding: 0 0 1.5em;
+    padding: 0 0 1.2em;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
