@@ -581,7 +581,7 @@ div#board-info-bottom {
 
 /* 글쓴이 */
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: var(--rins-color);
+    color: var(--button-hover-color);
 }
 
 /* 오른쪽 상단 검색 부분 */
@@ -866,4 +866,8 @@ i.fa.fa-share {
 #comment-write-form-area .fr-placeholder:before {
     content: "댓글 고맙다냥!";
     visibility: visible;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: var(--rank-badge-color);
 }
