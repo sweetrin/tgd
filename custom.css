@@ -877,3 +877,12 @@ i.fa.fa-share {
     border-radius: 7px;
     background: #fff;
 }
+
+.fr-wrapper.show-placeholder .fr-placeholder:before {
+    content: "글을 쓰기 시작하면 사라집니다. 그냥 장난입니다 ㅋㅋ"url('https://sweetrin.github.io/tgd/cat-typing-furiously.gif');
+    visibility: visible;
+}
+
+.fr-wrapper.show-placeholder .fr-placeholder {
+    visibility: hidden;
+}
