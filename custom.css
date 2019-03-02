@@ -872,3 +872,8 @@ i.fa.fa-share {
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
     color: var(--rank-badge-color);
 }
+
+#article-neighbor-list {
+    border-radius: 7px;
+    background: #fff;
+}
