@@ -880,12 +880,12 @@ i.fa.fa-share {
 }
 
 .fr-wrapper.show-placeholder .fr-placeholder:before {
-    content: "글을 쓰기 시작하면 사라집니다. 그냥 장난입니다 ㅋㅋ"url('https://sweetrin.github.io/tgd/cat-typing-furiously.gif');
-    visibility: visible;
+    /*content: "";*/
+    /*visibility: visible;*/
 }
 
 .fr-wrapper.show-placeholder .fr-placeholder {
-    visibility: hidden;
+    /*visibility: hidden;*/
 }
 
 input#right-search-input:focus {
