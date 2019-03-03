@@ -513,7 +513,7 @@ div#board-info-bottom {
     padding-top: 6px;
 }
 
-#main .menu-wrapper>a:nth-last-child(1) {
+#main .menu-wrapper>a:last-child {
     border-radius: 0 0 7px 7px;
 }
 
