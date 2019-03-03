@@ -887,3 +887,7 @@ i.fa.fa-share {
 .fr-wrapper.show-placeholder .fr-placeholder {
     visibility: hidden;
 }
+
+input#right-search-input:focus {
+    outline: none;
+}
