@@ -687,7 +687,7 @@ header #right-search-form > #right-search-btn {
     padding: 0.7em 0.9em 0;
     height: 56px;
     margin-top: 0.5em;
-    animation: Popping 0.5s;
+    /* animation: Popping 0.5s; */
 }
 
 #article-content-wrapper #article-content {
@@ -738,7 +738,7 @@ header #right-search-form > #right-search-btn {
 
 #article-content-wrapper {
     padding: 0 0 1.2em;
-    animation: Popping 0.5s;
+    /* animation: Popping 0.5s; */
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
