@@ -25,11 +25,6 @@
     --category-8th-color: #ffc000;
 }
 
-@keyframes Trembling {
-	0%{transform:rotate(6deg);}
-	100%{transform:rotate(-6deg);}
-}
-
 @keyframes Popping {
 	0%{transform:scale(0.6)}
 	40%{transform:scale(1.01)}
@@ -338,8 +333,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info>h1>a:hover:before {
-	/*animation:HlTxtColor 3s infinite;*/
-	animation: Trembling 0.11s infinite;
+	animation:HlTxtColor 3s infinite;
 }
 
 /*
