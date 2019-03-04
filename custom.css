@@ -28,7 +28,7 @@
 @keyframes Popping {
 	0%{transform:scale(0.6)}
 	30%{transform:scale(1.05)}
-	55%{transform:scale(0.95)}
+	60%{transform:scale(0.95)}
 	100%{transform:scale(1)}
 }
 
@@ -492,7 +492,7 @@ div#board-info-bottom {
     padding: 0 0 1.6em 0;
     background: #fff;
     border-radius: 7px;
-    animation: Popping 0.8s;
+    animation: Popping 0.7s;
 }
 
 #board-info #board-info-bottom a {
