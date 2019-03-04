@@ -25,6 +25,12 @@
     --category-8th-color: #ffc000;
 }
 
+@keyframes Pop {
+	0%{transform:scale(0)}
+	80%{transform:scale(1.2)}
+	100%{transform:scale(1)}
+}
+
 @-webkit-keyframes Gradient{
 	0%{background-position:0 50%}
 	50%{background-position:100% 50%}
@@ -280,6 +286,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-bottom: 2.5em;
     /* box-shadow: 3px 3px 5px #2a005826; */
     box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
+    animation: Pop 3s;
 }
 
 #board-info .pull-right.img-rounded {
