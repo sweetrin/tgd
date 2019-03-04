@@ -538,6 +538,7 @@ div#board-info-bottom {
 #article-list>.article-list-row {
     border-right: 0;
     padding: 0 0.4em 0 0.4em;
+    transition: 0.1s;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
@@ -900,4 +901,9 @@ i.fa.fa-share {
 
 input#right-search-input:focus {
     outline: none;
+}
+
+#article-list>.article-list-row:hover {
+    transform: scale(1.05);
+    border-radius: 7px;
 }
