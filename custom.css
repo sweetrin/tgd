@@ -779,6 +779,7 @@ header #right-search-form > #right-search-btn {
 /* 새로운 댓글 배경색 */
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
     background-color: #fff0f9;
+    animation: Popping 0.7s;
 }
 
 /* 마지막 댓글과 '새 댓글' 버튼 간격 */
