@@ -560,7 +560,7 @@ div#board-info-bottom {
 }
 
 #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
-    background-color: #f8f0ffb8;
+    background-color: var(--cursor-highlight-color);
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
