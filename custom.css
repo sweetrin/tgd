@@ -905,6 +905,6 @@ input#right-search-input:focus {
 }
 
 #article-list>.article-list-row:hover {
-    transform: scale(1.03);
-    border-radius: 7px;
+    /* transform: scale(1.03); */
+    /* border-radius: 7px; */
 }
