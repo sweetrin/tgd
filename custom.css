@@ -301,6 +301,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-bottom: 2.5em;
     /* box-shadow: 3px 3px 5px #2a005826; */
     box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
+    -webkit-animation: Popping 0.5s;
+    -moz-animation: Popping 0.5s;
     animation: Popping 0.5s;
 }
 
@@ -347,7 +349,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info>h1>a:hover:before {
-	animation:HlTxtColor 3s infinite;
+	-webkit-animation: HlTxtColor 3s infinite;
+	-moz-animation: HlTxtColor 3s infinite;
+	animation: HlTxtColor 3s infinite;
 }
 
 /*
@@ -507,6 +511,8 @@ div#board-info-bottom {
     padding: 0 0 1.6em 0;
     background: #fff;
     border-radius: 7px;
+    -webkit-animation: Popping 0.5s;
+    -moz-animation: Popping 0.5s;
     animation: Popping 0.5s;
 }
 
@@ -531,6 +537,8 @@ div#board-info-bottom {
 
 #main .menu-wrapper {
     border: 0;
+    -webkit-animation: Popping 0.5s;
+    -moz-animation: Popping 0.5s;
     animation: Popping 0.5s;
 }
 
@@ -695,7 +703,6 @@ header #right-search-form > #right-search-btn {
     padding: 0.7em 0.9em 0;
     height: 56px;
     margin-top: 0.5em;
-    /* animation: Popping 0.5s; */
 }
 
 #article-content-wrapper #article-content {
@@ -746,7 +753,6 @@ header #right-search-form > #right-search-btn {
 
 #article-content-wrapper {
     padding: 0 0 1.2em;
-    /* animation: Popping 0.5s; */
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -796,7 +802,9 @@ header #right-search-form > #right-search-btn {
 /* 새로운 댓글 배경색 */
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
     background-color: #fff0f9;
-    animation: Popping 0.7s;
+    -webkit-animation: Popping 0.5s;
+    -moz-animation: Popping 0.5s;
+    animation: Popping 0.5s;
 }
 
 /* 마지막 댓글과 '새 댓글' 버튼 간격 */
