@@ -192,8 +192,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* 메뉴 트랜지션 */
 .dropdown .dropdown-menu {
     transform: scale(0);
-    transition: 0.2s;
-    transform-origin: top left;
+    transition: 0.15s;
+    /* transform-origin: top; */
     /* opacity: 0; */
     display: block;
 }
@@ -204,7 +204,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #header-bar .dropdown .dropdown-menu-right {
-	transform-origin: top right;
+	/* transform-origin: top right; */
 }
 
 /* 콤콤코인 내역 */
