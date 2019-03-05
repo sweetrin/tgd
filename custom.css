@@ -26,6 +26,7 @@
 }
 
 @keyframes Trembling {
+	/* 단순무식하게~~ */
 	0%{transform:rotate(0deg);}
 	10%{transform:rotate(-10deg);}
 	20%{transform:rotate(10deg);}
