@@ -9,3 +9,10 @@
 #board-info>h1 {
     padding: 0.5em 0.3em;
 }
+
+#board-info>h1>#board-info-profile-img {
+    content: url("https://sweetrin.github.io/tgd/catrin.png");
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+}
