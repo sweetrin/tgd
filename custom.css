@@ -830,3 +830,12 @@ input#right-search-input:focus {
     transform: scale(1.04);
     border-radius: 7px;
 }
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    border-radius: 7px;
+}
+
+#article-list #article-option-area {
+    right: 7px;
+    top: 7px;
+}
