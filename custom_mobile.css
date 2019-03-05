@@ -1,0 +1,11 @@
+#board-info {
+    letter-spacing: -0.5px;
+}
+
+#board-info>a.board-right-menu {
+    padding: 12px 9px;
+}
+
+#board-info>h1 {
+    padding: 0.5em 0.3em;
+}
