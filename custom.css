@@ -568,7 +568,7 @@ header #right-search-form > #right-search-btn {
 
 #article-info .article-profile-img {
     top: 0.6em;
-    right: 0.8em;
+    right: 0.7em;
     width: 2.9em;
     image-rendering: auto;
 }
@@ -829,13 +829,4 @@ input#right-search-input:focus {
 #article-list>.article-list-row:hover {
     transform: scale(1.04);
     border-radius: 7px;
-}
-
-#article-list #article-option-area>#article-option-area-toggle-btn {
-    border-radius: 7px;
-}
-
-#article-list #article-option-area {
-    right: 7px;
-    top: 7px;
 }
