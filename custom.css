@@ -25,6 +25,20 @@
     --category-8th-color: #ffc000;
 }
 
+@keyframes Trembling {
+	0%{transform:rotate(0deg);}
+	10%{transform:rotate(-10deg);}
+	20%{transform:rotate(10deg);}
+	30%{transform:rotate(-7deg);}
+	40%{transform:rotate(7deg);}
+	50%{transform:rotate(-5deg);}
+	60%{transform:rotate(5deg);}
+	70%{transform:rotate(-3deg);}
+	80%{transform:rotate(3deg);}
+	90%{transform:rotate(-1deg);}
+	100%{transform:rotate(1deg);}
+}
+
 @keyframes Popping {
 	0%{transform:scale(0.6)}
 	40%{transform:scale(1.01)}
@@ -701,7 +715,8 @@ header #right-search-form > #right-search-btn {
 /* 새로운 댓글 배경색 */
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
     background-color: #fff0f9;
-    animation: Popping 0.5s;
+    /* animation: Popping 0.5s; */
+    animation: Trembling 0.6s;
 }
 
 /* 마지막 댓글과 '새 댓글' 버튼 간격 */
