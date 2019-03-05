@@ -4,6 +4,7 @@
 
 #board-info>a.board-right-menu {
     padding: 12px 10px;
+    border-left: 0;
 }
 
 #board-info>h1 {
