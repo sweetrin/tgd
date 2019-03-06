@@ -318,7 +318,7 @@ footer {
 }
 
 #article-info {
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--light-color);
     background: #fff;
     /* padding: 0.5em 0.5em 0em; */
     /* border-top: 2px solid var(--main-color); */
@@ -391,3 +391,10 @@ nav#nav {
 }
 
 .pagination>li>a, .pagination>li>span {border: 1px solid var(--separation-line-color);}
+
+.footer>a:nth-child(1) {
+    border-color: var(--category-3rd-color);
+    color: var(--category-3rd-color);
+}
+
+.footer>a:nth-child(2) {border-color: var(--category-4th-color);color: var(--category-4th-color);}
