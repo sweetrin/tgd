@@ -9,7 +9,7 @@
     --button-hover-color: #9753b7;
     --text-color: #444444;
     --visited-color: #b7b7b7;
-    --article-header-color: #f8f0fd;
+    --article-header-color: #f8f2fd;
 
     --category-2nd-color: #f95b5b;
     --category-3rd-color: #5c92ec;
@@ -64,7 +64,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 #board-info {
     letter-spacing: -0.5px;
     border-top: 2px solid var(--main-color);
-    border-bottom: 2px solid var(--main-color);
+    /* border-bottom: 2px solid var(--main-color); */
 }
 
 #board-info>a.board-right-menu {
