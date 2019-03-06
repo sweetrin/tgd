@@ -67,13 +67,13 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* border-bottom: 2px solid var(--main-color); */
     border-top: 0;
     border-bottom: 0;
+    background-color: var(--main-color);
 }
 
 #board-info>a.board-right-menu {
     padding: 12px 8.3px;
     border-left: 0;
-    color: var(--main-color);
-    /* color: var(--text-color); */
+    color: #fff;
 }
 
 #board-info>h1 {
@@ -94,6 +94,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     color: var(--text-color);
     /* animation: HlTxtColor 3s infinite; */
     vertical-align: middle;
+    color: #fff;
 }
 
 #board-info>h1>a {visibility: hidden;letter-spacing: -1em;}
@@ -180,7 +181,8 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 .badge {
-    background-color: var(--main-color);
+    background-color: #fff;
+    color: var(--main-color);
 }
 
 footer {
