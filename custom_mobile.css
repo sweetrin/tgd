@@ -64,7 +64,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info {
     letter-spacing: -0.5px;
-    border-top: 3px solid var(--main-color);
+    border-top: 3px solid #e886e1;
     /* border-bottom: 1px solid var(--main-color); */
     /* border-top: 0; */
     border-bottom: 0;
@@ -95,7 +95,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* padding-left: 44px; */
     /* background-size: 54px 54px; */
     /* background-position: center; */
-    border: 3px solid var(--main-color);
+    border: 3px solid #e886e1;
     border-radius: 100px;
     margin-top: -21px;
 }
