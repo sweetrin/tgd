@@ -69,8 +69,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 #board-info>a.board-right-menu {
     padding: 12px 9.5px;
     border-left: 0;
-    /* color: var(--main-color); */
-    color: var(--text-color);
+    color: var(--main-color);
+    /* color: var(--text-color); */
 }
 
 #board-info>h1 {
