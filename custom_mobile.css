@@ -403,3 +403,7 @@ nav#nav {
 	border-color: var(--category-4th-color);
 	color: var(--category-4th-color);
 }
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: var(--button-hover-color);
+}
