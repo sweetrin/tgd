@@ -324,3 +324,7 @@ span.a-badge i.fa.fa-star {
 nav#nav {
     background: #fff;
 }
+
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    border-bottom: 0;
+}
