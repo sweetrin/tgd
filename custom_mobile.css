@@ -390,14 +390,16 @@ nav#nav {
     color: var(--main-color);
 }
 
-.pagination>li>a, .pagination>li>span {border: 1px solid var(--separation-line-color);}
+.pagination>li>a, .pagination>li>span {
+	border: 1px solid var(--separation-line-color);
+}
 
-.footer>a:nth-child(1) {
+.footer>a:first-child {
     border-color: var(--category-3rd-color);
     color: var(--category-3rd-color);
 }
 
-.footer>a:nth-child(2) {
+.footer>a:last-child {
 	border-color: var(--category-4th-color);
 	color: var(--category-4th-color);
 }
