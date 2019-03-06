@@ -68,17 +68,18 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 #board-info>a.board-right-menu {
     padding: 12px 9.5px;
     border-left: 0;
-    color: var(--main-color);
+    /* color: var(--main-color); */
+    color: var(--text-color);
 }
 
 #board-info>h1 {
-    padding: 0.5em 0.5em;
+    padding: 0.2em 0.2em;
 }
 
 #board-info>h1>#board-info-profile-img {
     content: url("https://sweetrin.github.io/tgd/catrin.png");
-    width: 23px;
-    height: 23px;
+    width: 34px;
+    height: 34px;
     display: inline-block;
 }
 
@@ -323,8 +324,4 @@ span.a-badge i.fa.fa-star {
 
 nav#nav {
     background: #fff;
-}
-
-#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    border-bottom: 0;
 }
