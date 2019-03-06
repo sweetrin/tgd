@@ -65,6 +65,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     letter-spacing: -0.5px;
     border-top: 2px solid var(--main-color);
     /* border-bottom: 2px solid var(--main-color); */
+    border-bottom: 0;
 }
 
 #board-info>a.board-right-menu {
@@ -163,7 +164,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 #article-content-wrapper>.header {
-    /* background: var(--cursor-highlight-color); */
+    background: var(--article-header-color);
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -297,6 +298,7 @@ footer {
 #article-info {
     border-bottom: 0;
     background: var(--article-header-color);
+    padding: 0.5em 0.5em 0em;
 }
 
 #header-top-notice a {
