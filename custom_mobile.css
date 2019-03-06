@@ -63,10 +63,10 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info {
     letter-spacing: -0.5px;
-    border-top: 1px solid var(--main-color);
-    border-bottom: 1px solid var(--main-color);
+    border-top: 3px solid var(--main-color);
+    /* border-bottom: 1px solid var(--main-color); */
     /* border-top: 0; */
-    /* border-bottom: 0; */
+    border-bottom: 0;
     /* background-color: var(--cursor-highlight-color); */
 }
 
@@ -110,10 +110,10 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 header {
-    /* border-bottom: 4px solid var(--main-color); */
+    border-bottom: 4px solid var(--article-header-color);
     background: var(--main-color);
-    border-bottom: 0;
-    padding: 8px 0;
+    /* border-bottom: 0; */
+    /* padding: 8px 0; */
 }
 
 header>#header-area>a>h1 {
