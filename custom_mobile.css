@@ -4,7 +4,7 @@
     --bg-color-stop1:#eee5f3;
     --recommend-count-color: #ec71b5;
     /*--cursor-highlight-color:#f8f0ff;*/
-    --cursor-highlight-color:#f4eef9;
+    --cursor-highlight-color:#fbf7ff;
     --rank-badge-color: #6782e4;
     --button-hover-color: #9753b7;
     --text-color: #444444;
@@ -215,8 +215,8 @@ footer {
 }
 
 #article-list #article-list-category>a:nth-child(1) {
-    color: #fff;
-    background: var(--recommend-count-color);
+    color: var(--main-color);
+    background: var(--light-color);
 }
 
 .btn-primary {
@@ -315,4 +315,8 @@ span.a-badge i.fa.fa-star {
 
 #article-list>.article-list-row.notice {
     background-color: var(--cursor-highlight-color);
+}
+
+nav#nav {
+    background: #fff;
 }
