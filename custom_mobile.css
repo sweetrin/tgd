@@ -339,3 +339,7 @@ nav#nav {
 #article-list>.article-list-row:hover {
     background-color: var(--cursor-highlight-color);
 }
+
+.btn {
+    border-radius: 100px;
+}
