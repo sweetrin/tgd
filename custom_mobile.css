@@ -77,13 +77,13 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>h1 {
-    padding: 0.2em 0.2em;
+    padding: 0.3em 0.3em;
 }
 
 #board-info>h1>#board-info-profile-img {
     content: url("https://sweetrin.github.io/tgd/catrin.png");
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
 }
 
