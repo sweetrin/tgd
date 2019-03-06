@@ -215,7 +215,7 @@ footer {
 }
 
 #article-list #article-list-category>a:nth-child(1) {
-    color: var(--main-color);
+    color: #fff;
     background: var(--light-color);
 }
 
