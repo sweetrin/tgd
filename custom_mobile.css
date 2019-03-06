@@ -62,7 +62,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info {
     letter-spacing: -0.5px;
-    /* border-top: 1px solid var(--main-color); */
+    border-top: 3px solid var(--main-color);
+    border-bottom: 0;
 }
 
 #board-info>a.board-right-menu {
@@ -89,6 +90,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     letter-spacing: 0em;
     color: var(--text-color);
     /* animation: HlTxtColor 3s infinite; */
+    font-size: 17px;
+    vertical-align: middle;
 }
 
 #board-info>h1>a {visibility: hidden;letter-spacing: -1em;}
@@ -108,6 +111,7 @@ header {
     /* border-bottom: 4px solid var(--main-color); */
     background: var(--main-color);
     border-bottom: 0;
+    padding: 8px 0;
 }
 
 header>#header-area>a>h1 {
