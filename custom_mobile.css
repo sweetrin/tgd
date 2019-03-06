@@ -237,14 +237,14 @@ footer {
 }
 
 #article-list #article-list-menu>.btn.write {
-    border-radius: 4px;
+    border-radius: 100px;
     border-color: var(--main-color);
 }
 
 #article-list #article-list-menu>.btn.best {
     color: var(--main-color);
     border-color: var(--main-color);
-    border-radius: 4px;
+    border-radius: 100px;
 }
 
 .btn-primary:hover {
