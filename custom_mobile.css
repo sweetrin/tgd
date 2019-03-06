@@ -67,6 +67,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* border-bottom: 2px solid var(--main-color); */
     border-top: 0;
     border-bottom: 0;
+    background-color: var(--cursor-highlight-color);
 }
 
 #board-info>a.board-right-menu {
@@ -164,7 +165,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 #article-content-wrapper>.header {
-    background: var(--article-header-color);
+    /* background: var(--article-header-color); */
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -299,7 +300,8 @@ footer {
     border-bottom: 2px solid var(--main-color);
     background: #fff;
     /* padding: 0.5em 0.5em 0em; */
-    border-top: 2px solid var(--main-color);
+    /* border-top: 2px solid var(--main-color); */
+    border-bottom: 0;
 }
 
 #header-top-notice a {
