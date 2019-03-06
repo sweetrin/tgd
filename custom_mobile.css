@@ -172,7 +172,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
     background: var(--article-header-color);
     border-bottom: 0;
     border-radius: 100px;
-    padding: 0.4em 0.6em;
+    padding: 0 0.6em 0 0;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
@@ -351,4 +351,8 @@ nav#nav {
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
 	border-bottom: 1px solid #eaeaea;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {
+	border: 3px solid var(--main-color);
 }
