@@ -166,6 +166,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     background: var(--cursor-highlight-color);
+    border-bottom: 0;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
