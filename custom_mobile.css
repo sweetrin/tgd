@@ -101,17 +101,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info>h1>#board-info-profile-img {
     content: url("https://sweetrin.github.io/tgd/catrin.png");
-    /*width: 30px;*/
-    /*height: 30px;*/
-    /*display: inline-block;*/
-    /* float: left; */
-    /* position: absolute; */
     width: 50px;
     height: 50px;
-    /* background: url("https://sweetrin.github.io/tgd/catrin.png") no-repeat; */
-    /* padding-left: 44px; */
-    /* background-size: 54px 54px; */
-    /* background-position: center; */
     border: 2px solid #e886e1;
     border-radius: 100px;
     margin-top: -21px;
@@ -140,10 +131,10 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 header {
-    border-bottom: 4px solid var(--article-header-color);
+    /* border-bottom: 4px solid var(--article-header-color); */
     background: var(--main-color);
-    /* border-bottom: 0; */
-    /* padding: 8px 0; */
+    border-bottom: 0;
+    height: 46px;
 }
 
 header>#header-area>a>h1 {
