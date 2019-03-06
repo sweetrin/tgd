@@ -9,6 +9,7 @@
     --button-hover-color: #9753b7;
     --text-color: #444444;
     --visited-color: #b7b7b7;
+    --article-header-color: #f7edfd;
 
     --category-2nd-color: #f95b5b;
     --category-3rd-color: #5c92ec;
@@ -166,7 +167,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    background: var(--bg-color-stop1);
+    background: var(--article-header-color);
     border-bottom: 0;
     border-radius: 100px;
     padding: 0.4em 0.6em;
@@ -295,7 +296,7 @@ footer {
 
 #article-info {
     border-bottom: 0;
-    background: var(--bg-color-stop1);
+    background: var(--article-header-color);
 }
 
 #header-top-notice a {
