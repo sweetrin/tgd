@@ -160,7 +160,7 @@ header>#header-area>#header-bar-link {
 }
 
 #article-reply-area > .header h5 {
-    color: var(--main-color);
+    color: var(--rank-badge-color);
 }
 
 #article-list #article-list-category>a {
@@ -395,8 +395,8 @@ nav#nav {
 }
 
 .footer>a:nth-child(1) {
-    border-color: var(--category-3rd-color);
-    color: var(--category-3rd-color);
+    border-color: var(--category-6th-color);
+    color: var(--category-6th-color);
 }
 
 .footer>a:nth-child(2) {
