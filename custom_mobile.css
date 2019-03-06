@@ -371,7 +371,8 @@ nav#nav {
 }
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
-	border-bottom: 1px solid var(--separation-line-color);
+	/* border-bottom: 1px solid var(--separation-line-color); */
+	border-bottom: 0;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {
