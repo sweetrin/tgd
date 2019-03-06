@@ -90,7 +90,6 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     letter-spacing: 0em;
     color: var(--text-color);
     /* animation: HlTxtColor 3s infinite; */
-    font-size: 17px;
     vertical-align: middle;
 }
 
