@@ -105,12 +105,13 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 header {
-    border-bottom: 4px solid var(--main-color);
-    background: var(--cursor-highlight-color);
+    /* border-bottom: 4px solid var(--main-color); */
+    background: var(--main-color);
+    border-bottom: 0;
 }
 
 header>#header-area>a>h1 {
-    background: url("https://sweetrin.github.io/tgd/kgd_logo.png") no-repeat;
+    background: url("https://sweetrin.github.io/tgd/kgd_logo_white.png") no-repeat;
     background-size: contain;
 }
 
@@ -124,11 +125,11 @@ header>#header-area>a>h1 {
 }
 
 header>#header-area>#header-search-link {
-    color: var(--main-color);
+    color: #fff;
 }
 
 header>#header-area>#header-bar-link {
-    color: var(--main-color);
+    color: #fff;
 }
 
 #article-reply-area > .header h5 {
@@ -319,9 +320,13 @@ span.a-badge i.fa.fa-star {
 }
 
 #article-list>.article-list-row.notice {
-    background-color: var(--cursor-highlight-color);
+    background-color: #fafafa;
 }
 
 nav#nav {
     background: #fff;
+}
+
+#article-list>.article-list-row:hover {
+    background-color: var(--cursor-highlight-color);
 }
