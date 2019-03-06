@@ -63,13 +63,14 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info {
     letter-spacing: -0.5px;
-    border-top: 2px solid var(--main-color);
+    /* border-top: 2px solid var(--main-color); */
     /* border-bottom: 2px solid var(--main-color); */
+    border-top: 0;
     border-bottom: 0;
 }
 
 #board-info>a.board-right-menu {
-    padding: 12px 9.5px;
+    padding: 12px 8.3px;
     border-left: 0;
     color: var(--main-color);
     /* color: var(--text-color); */
