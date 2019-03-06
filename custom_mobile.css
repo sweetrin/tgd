@@ -4,7 +4,7 @@
     --bg-color-stop1:#eee5f3;
     --recommend-count-color: #ec71b5;
     /*--cursor-highlight-color:#f8f0ff;*/
-    --cursor-highlight-color:#f1e9f9;
+    --cursor-highlight-color:#f4eef9;
     --rank-badge-color: #6782e4;
     --button-hover-color: #9753b7;
     --text-color: #444444;
@@ -309,4 +309,8 @@ span.a-badge i.fa.fa-star {
 
 #article-list-menu>.btn.best.enable {
 	
+}
+
+#article-list>.article-list-row.notice {
+    background-color: var(--cursor-highlight-color);
 }
