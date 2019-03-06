@@ -397,4 +397,7 @@ nav#nav {
     color: var(--category-3rd-color);
 }
 
-.footer>a:nth-child(2) {border-color: var(--category-4th-color);color: var(--category-4th-color);}
+.footer>a:nth-child(2) {
+	border-color: var(--category-4th-color);
+	color: var(--category-4th-color);
+}
