@@ -10,7 +10,7 @@
     --text-color: #444444;
     --visited-color: #b7b7b7;
 
-    --category-2nd-color: #ff4a4a;
+    --category-2nd-color: #ff5454;
     --category-3rd-color: #5384d6;
     --category-4th-color: #36af6d;
     --category-5th-color: #8061bd;
@@ -86,7 +86,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     content: "달콤린";
     letter-spacing: 0em;
     color: var(--text-color);
-    /* animation: HlTxtColor 3s infinite; */
+    animation: HlTxtColor 3s infinite;
 }
 
 #board-info>h1>a {visibility: hidden;letter-spacing: -1em;}
