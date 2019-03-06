@@ -297,8 +297,8 @@ footer {
 
 #article-info {
     border-bottom: 0;
-    background: var(--article-header-color);
-    padding: 0.5em 0.5em 0em;
+    background: #fff;
+    /* padding: 0.5em 0.5em 0em; */
 }
 
 #header-top-notice a {
