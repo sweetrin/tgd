@@ -348,3 +348,7 @@ nav#nav {
 .btn {
     border-radius: 100px;
 }
+
+#article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+	border-bottom: 1px solid #eaeaea;
+}
