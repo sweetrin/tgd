@@ -62,6 +62,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info {
     letter-spacing: -0.5px;
+    /* border-top: 1px solid var(--main-color); */
 }
 
 #board-info>a.board-right-menu {
@@ -215,7 +216,7 @@ footer {
 
 #article-list #article-list-category>a:nth-child(1) {
     color: #fff;
-    background: var(--main-color);
+    background: var(--recommend-count-color);
 }
 
 .btn-primary {
