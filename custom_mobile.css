@@ -65,7 +65,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     letter-spacing: -0.5px;
     border-top: 2px solid var(--main-color);
     /* border-bottom: 2px solid var(--main-color); */
-    /* border-top: 0; */
+    border-top: 0;
     border-bottom: 0;
 }
 
@@ -296,9 +296,10 @@ footer {
 }
 
 #article-info {
-    border-bottom: 0;
+    border-bottom: 2px solid var(--main-color);
     background: #fff;
     /* padding: 0.5em 0.5em 0em; */
+    border-top: 2px solid var(--main-color);
 }
 
 #header-top-notice a {
