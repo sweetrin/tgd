@@ -320,7 +320,7 @@ footer {
 
 #article-info {
     /* border-top: 2px solid #e886e1; */
-    border-bottom: 2px solid var(--light-color);
+    border-bottom: 1px solid var(--light-color);
     background: #fff;
     /* padding: 0.5em 0.5em 0em; */
     /* border-top: 2px solid var(--main-color); */
