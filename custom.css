@@ -27,9 +27,11 @@
 
 @keyframes LittleRin {
 	0%{transform:translateX(0px);}
-	85%{transform:translateX(0px);}
-	89%{transform:translateX(-10px);}
-	99.9%{transform:translateX(-10px);}
+	63%{transform:translateX(0px);}
+	83{transform:translateX(-4px);}
+	84%{transform:translateX(-4px);}
+	89%{transform:translateX(-12px);}
+	99.9%{transform:translateX(-12px);}
 	100%{transform:translateX(0px);}
 }
 
@@ -882,7 +884,7 @@ header #right-search-form:before {
     background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
-    left: 458px;
+    left: 460px;
     top: 11px;
     height: 28px;
     width: 15px;
