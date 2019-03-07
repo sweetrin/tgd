@@ -1,4 +1,4 @@
-@important url("https://sweetrin.github.io/tgd/emoticons.css");
+@import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 :root {
     --main-color: #a85ccc;
