@@ -120,7 +120,6 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 #board-info>h1>a {visibility: hidden;letter-spacing: -1em;}
 
 .fa-user:before {
-    /* content: url("https://sweetrin.github.io/tgd/candy_15x15.png"); */
     background-image: url("https://sweetrin.github.io/tgd/candy_30x30.png");
     background-repeat: no-repeat;
     background-size: contain;
