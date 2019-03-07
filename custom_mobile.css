@@ -412,3 +412,21 @@ nav#nav {
 #article-list>.article-list-row {
     /*border-bottom: 0 !important;*/
 }
+
+.fr-command.fr-emoticon[data-param1=JKanStyle] > img {
+     /*width: 20px !important;*/
+     height: 20px !important;
+     padding-left: 30px;
+     background-image: url("https://sweetrin.github.io/tgd/nyah-test.gif");
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+
+.fr-emoticon.fr-deletable>img[alt=JKanStyle] { 
+     width: 50px !important;
+     height: 50px !important; 
+     padding-left: 50px;
+     background-image: url("https://sweetrin.github.io/tgd/nyah-test.gif");
+     background-repeat: no-repeat;
+     background-size: contain;
+}
