@@ -25,6 +25,14 @@
     --category-8th-color: #ffc000;
 }
 
+@keyframes LittleRin {
+	0%{transform:translateX(0px);}
+	85%{transform:translateX(0px);}
+	89%{transform:translateX(-10px);}
+	99.9%{transform:translateX(-10px);}
+	100%{transform:translateX(0px);}
+}
+
 @keyframes Trembling {
 	/* 단순무식하게~~ */
 	0%{transform:rotate(0deg);}
@@ -867,4 +875,18 @@ input#right-search-input:focus {
 #article-list #article-option-area {
     right: 7px;
     top: 7px;
+}
+
+#right-search-form:before {
+    background-image: url("https://sweetrin.github.io/tgd/littlerin-left.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 458px;
+    top: 11px;
+    height: 28px;
+    width: 15px;
+    /* display: block; */
+    content: '';
+    animation: LittleRin 20s linear infinite;
 }
