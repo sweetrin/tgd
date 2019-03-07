@@ -188,7 +188,6 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 #article-content-wrapper>.header {
     background: var(--article-header-color);
-    border-radius: 100px;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -321,11 +320,11 @@ footer {
 
 #article-info {
     /* border-top: 2px solid #e886e1; */
-    border-bottom: 0px solid var(--light-color);
+    border-bottom: 2px solid var(--light-color);
     background: #fff;
     /* padding: 0.5em 0.5em 0em; */
     /* border-top: 2px solid var(--main-color); */
-    /* border-bottom: 0; */
+    border-bottom: 0;
 }
 
 #header-top-notice a {
@@ -417,6 +416,6 @@ nav#nav {
 }
 
 #article-content-wrapper>.footer {
-    /* background: var(--article-header-color); */
-    /* border-bottom: 1px solid var(--light-color); */
+    background: var(--article-header-color);
+    /* border-bottom: 2px solid var(--light-color); */
 }
