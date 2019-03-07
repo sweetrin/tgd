@@ -26,13 +26,11 @@
 }
 
 @keyframes LittleRin {
-	0%{transform:translateX(0px);}
-	63%{transform:translateX(0px);}
-	83{transform:translateX(-4px);}
-	84%{transform:translateX(-4px);}
+	0%{transform:translateX(0);}
+	83%{transform:translateX(0);}
 	89%{transform:translateX(-12px);}
 	99.9%{transform:translateX(-12px);}
-	100%{transform:translateX(0px);}
+	100%{transform:translateX(0);}
 }
 
 @keyframes Trembling {
@@ -884,11 +882,11 @@ header #right-search-form:before {
     background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
-    left: 460px;
+    margin-left: 0;
     top: 11px;
     height: 28px;
     width: 15px;
-    /* display: block; */
     content: '';
     animation: LittleRin 20s infinite;
+    /* z-index: 99; */
 }
