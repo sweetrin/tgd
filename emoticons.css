@@ -1,35 +1,33 @@
-.fr-command.fr-emoticon[data-param1=JKanStyle] > img {
-     width: 20px;
-     /*height: 20px;*/
-     padding-left: 20px;
-     background-image: url("https://sweetrin.github.io/tgd/nyah-test.gif");
-     background-repeat: no-repeat;
-     background-size: contain;
+span[data-param1="JKanStyle"] img {
+    background-image: url("https://sweetrin.github.io/tgd/nyah-test.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    padding-left: 20px;
 }
 
-.fr-emoticon.fr-deletable>img[alt=JKanStyle] { 
-     width: 50px;
-     height: 50px !important; 
-     padding-left: 50px;
-     background-image: url("https://sweetrin.github.io/tgd/nyah-test.gif");
-     background-repeat: no-repeat;
-     background-size: contain;
+img[alt="JKanStyle"], #article-content-wrapper #article-content img[alt="JKanStyle"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="JKanStyle"] {
+    background-image: url("https://sweetrin.github.io/tgd/nyah-test.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;    
 }
 
-.fr-command.fr-emoticon[data-param1=OptimizePrime] > img {
-     width: 20px;
-     /*height: 20px;*/
-     padding-left: 20px;
-     background-image: url("https://sweetrin.github.io/tgd/rinsfeet-test.gif");
-     background-repeat: no-repeat;
-     background-size: contain;
+span[data-param1="OptimizePrime"] img {
+    background-image: url("https://sweetrin.github.io/tgd/rinsfeet-test.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    padding-left: 20px;
 }
 
-.fr-emoticon.fr-deletable>img[alt=OptimizePrime] { 
-     width: 50px;
-     height: 50px !important; 
-     padding-left: 50px;
-     background-image: url("https://sweetrin.github.io/tgd/rinsfeet-test.gif");
-     background-repeat: no-repeat;
-     background-size: contain;
+img[alt="OptimizePrime"], #article-content-wrapper #article-content img[alt="OptimizePrime"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="OptimizePrime"] {
+    background-image: url("https://sweetrin.github.io/tgd/rinsfeet-test.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
 }
