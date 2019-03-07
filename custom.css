@@ -888,5 +888,5 @@ input#right-search-input:focus {
     width: 15px;
     /* display: block; */
     content: '';
-    animation: LittleRin 20s linear infinite;
+    animation: LittleRin 20s infinite;
 }
