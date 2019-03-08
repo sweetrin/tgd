@@ -162,7 +162,7 @@ header>#header-area>a>h1 {
 
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: var(--recommend-count-color);
-    padding: 2px 5px;
+    padding: 2px 6px;
 }
 
 header>#header-area>#header-search-link {
