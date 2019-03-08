@@ -304,12 +304,13 @@ footer {
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    background-color: var(--cursor-highlight-color);
+    background-color: var(--article-header-color);
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     background: var(--main-color);
     border-color: var(--main-color);
+    border-radius: 100px;
 }
 
 .fr-toolbar {
@@ -409,6 +410,9 @@ nav#nav {
 
 .pagination>li>a, .pagination>li>span {
 	border: 1px solid var(--separation-line-color);
+	border: 0;
+	margin-left: 2px;
+	border-radius: 100px;
 }
 
 .footer>a:nth-child(1) {
