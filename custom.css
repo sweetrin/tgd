@@ -51,7 +51,7 @@
 }
 
 @keyframes Popping {
-	0%{transform:scale(0.8)}
+	0%{transform:scale(0.85)}
 	40%{transform:scale(1.01)}
 	70%{transform:scale(0.99)}
 	100%{transform:scale(1)}
@@ -246,7 +246,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-bottom: 2.5em;
     /* box-shadow: 3px 3px 5px #2a005826; */
     box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
-    animation: Popping 0.4s;
+    animation: Popping 0.35s;
 }
 
 #board-info .pull-right.img-rounded {
@@ -467,7 +467,7 @@ div#board-info-bottom {
     padding: 0 0 1.6em 0;
     background: #fff;
     border-radius: 7px;
-    animation: Popping 0.4s;
+    animation: Popping 0.35s;
 }
 
 #board-info #board-info-bottom a {
@@ -491,7 +491,7 @@ div#board-info-bottom {
 
 #main .menu-wrapper {
     border: 0;
-    animation: Popping 0.4s;
+    animation: Popping 0.35s;
 }
 
 #board-info #board-info-bottom {
