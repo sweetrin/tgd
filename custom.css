@@ -909,6 +909,6 @@ header #right-search-form:before {
     /*z-index: 99;*/
 }
 
-#article-info strong:before {
+#article-info strong:first-child:before {
     /*content: url("https://sweetrin.github.io/tgd/candy_18x18.png");*/
 }
