@@ -104,7 +104,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>a.board-right-menu {
-    padding: 11px 8px;
+    padding: 11px 7.5px;
     border-left: 0;
     color: var(--main-color);
 }
