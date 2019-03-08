@@ -132,7 +132,8 @@ span.a-badge i.fa.fa-star {
 @font-face {
     font-family: 'HCRDotum';
     /*src: local('HCR Dotum'), url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff') format('woff');*/
-    src: url('https://cdn.jsdelivr.net/gh/sweetrin/fonts/HCRDotum.woff2') format('woff2');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff') format('woff');
+    /*src: url('https://cdn.jsdelivr.net/gh/sweetrin/fonts/HCRDotum.woff2') format('woff2');*/
     font-weight: normal; 
     font-style: normal;
     unicode-range:U+0-7D,U+7F-10FFFF;
