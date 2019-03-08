@@ -182,6 +182,11 @@ header>#header-area>#header-bar-link {
     /* background: var(--cursor-highlight-color); */
     /* border-left: 1px dashed #e2e2e2; */
     /* padding: 8px 12px; */
+    border-radius: 100px;
+    margin-right: 6px;
+    padding: 7px 11px;
+    /* width: 6em; */
+    /* text-align: center; */
 }
 
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
@@ -265,6 +270,8 @@ footer {
 #article-list #article-list-category>a:nth-child(1) {
     color: #fff;
     background: var(--main-color);
+    width: 3.5em;
+    text-align: center;
 }
 
 .btn-primary {
