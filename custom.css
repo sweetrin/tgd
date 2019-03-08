@@ -138,15 +138,15 @@ span.a-badge i.fa.fa-star {
 }
 
 @font-face {
-	font-family: 'BinggraeTaom';
-	src: url('https://sweetrin.github.io/tgd/BinggraeTaom.woff2') format('woff2');
+	font-family: 'Binggrae';
+	src: url('https://sweetrin.github.io/tgd/Binggrae.woff2') format('woff2');
 	font-weight: normal; 
     font-style: normal;
 }
 
 body, html {
     height: auto !important;
-    font-family: 'BinggraeTaom', "Helvetica Neue", Helvetica,Arial, sans-serif;
+    font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
     background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%);
     /*background: #d8c6ea;*/
 }
