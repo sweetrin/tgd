@@ -211,16 +211,17 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* 메뉴 트랜지션 */
 .dropdown .dropdown-menu {
-    transform: scale(0);
-    transition: 0.15s;
+    /* transform: scale(0); */
+    /* transition: 0.15s; */
     /* transform-origin: top; */
     /* opacity: 0; */
-    display: block;
+    /* display: block; */
 }
 
 .dropdown.open .dropdown-menu {
-    transform: scale(1);
+    /* transform: scale(1); */
     /* opacity: 1; */
+    animation: Popping 0.25s;
 }
 
 #header-bar .dropdown .dropdown-menu-right {
