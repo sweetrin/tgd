@@ -31,3 +31,20 @@ img[alt="OptimizePrime"], #article-content-wrapper #article-content img[alt="Opt
     height: 50px !important;    
     padding-left: 50px;
 }
+
+span[data-param1="StoneLightning"] img {
+    background-image: url("https://sweetrin.github.io/tgd/thumbup-test.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    padding-left: 20px;
+}
+
+img[alt="StoneLightning"], #article-content-wrapper #article-content img[alt="StoneLightning"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="StoneLightning"] {
+    background-image: url("https://sweetrin.github.io/tgd/thumbup-test.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
