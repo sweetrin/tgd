@@ -138,8 +138,8 @@ span.a-badge i.fa.fa-star {
 }
 
 @font-face {
-	font-family: 'BinggraeTaom'
-	src: url('https://sweetrin.github.io/tgd/BinggraeTaom.woff') format('woff');
+	font-family: 'BinggraeTaom';
+	src: url('https://sweetrin.github.io/tgd/BinggraeTaom.woff2') format('woff2');
 	font-weight: normal; 
     font-style: normal;
 }
