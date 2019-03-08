@@ -883,15 +883,15 @@ input#right-search-input:focus {
 }
 
 header #right-search-form:before {
-    background-image: url("https://sweetrin.github.io/tgd/littlerin-left.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: contain;
-    margin-left: 0;
-    top: 11px;
-    height: 28px;
-    width: 15px;
-    content: '';
-    animation: LittleRin 20s infinite;
+    /* background-image: url("https://sweetrin.github.io/tgd/littlerin-left.png"); */
+    /* background-repeat: no-repeat; */
+    /* position: absolute; */
+    /* background-size: contain; */
+    /* margin-left: 0; */
+    /* top: 11px; */
+    /* height: 28px; */
+    /* width: 15px; */
+    /* content: ''; */
+    /*animation: LittleRin 20s infinite;*/
     /* z-index: 99; */
 }
