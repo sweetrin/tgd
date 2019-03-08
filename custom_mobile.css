@@ -437,3 +437,7 @@ nav#nav {
 #article-list>.article-list-row>.item>a.list-title {
     font-size: 14px;
 }
+
+i.fa.fa-user {
+    vertical-align: top;
+}
