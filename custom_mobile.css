@@ -359,7 +359,7 @@ span.a-badge i.fa.fa-star {
 
 #article-list>.article-list-row.hot>.item>.list-header>b,
 #article-list>.article-list-row.hot>.item>.list-title>.list-category>span,
-#article-list>.article-list-row.hot>.item>.list-title>a,
+#article-list>.article-list-row.hot>.item>a.list-title>.title-value,
 #article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span,
 #article-list>.article-list-row.hot>.item>.list-time {
     animation: HlTxtColor 4s infinite;
