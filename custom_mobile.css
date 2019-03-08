@@ -445,3 +445,7 @@ nav#nav {
 i.fa.fa-user {
     vertical-align: top;
 }
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-radius: 100px;
+}
