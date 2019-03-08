@@ -148,7 +148,7 @@ header {
     background: var(--main-color);
     /* border-bottom: 0; */
     /* height: 46px; */
-    border-radius: 0 0 10px 10px;
+    /* border-radius: 0 0 10px 10px; */
 }
 
 header>#header-area>a>h1 {
@@ -303,7 +303,7 @@ footer {
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    background-color: var(--cursor-highlight-color);
+    background-color: var(--bg-color-stop1);
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
