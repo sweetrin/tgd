@@ -460,3 +460,7 @@ i.fa.fa-user {
 .pagination>li:first-child>a, .pagination>li:first-child>span {
     border-radius: 100px;
 }
+
+#article-list #article-list-category {
+    background: #fff4fe;
+}
