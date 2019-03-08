@@ -105,13 +105,13 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>a.board-right-menu {
-    padding: 11px 6.9px;
+    padding: 9px 6.9px;
     border-left: 0;
     color: var(--main-color);
 }
 
 #board-info>h1 {
-    padding: 0.3em 0 0.3em 0.3em;
+    padding: 0.1em 0 0 0.3em;
 }
 
 #board-info>h1>#board-info-profile-img {
@@ -120,7 +120,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     height: 50px;
     border: 3px solid #e886e1;
     border-radius: 100px;
-    margin-top: -21px;
+    margin-top: -17px;
 }
 
 #board-info>h1>a:before {
@@ -183,7 +183,7 @@ header>#header-area>#header-bar-link {
     /* border-left: 1px dashed #e2e2e2; */
     /* padding: 8px 12px; */
     border-radius: 100px;
-    margin-right: 6px;
+    margin: 0.5em 0.3em;
     padding: 7px 11px;
     /* width: 6em; */
     /* text-align: center; */
