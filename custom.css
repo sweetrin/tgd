@@ -908,3 +908,7 @@ header #right-search-form:before {
     animation: LittleRin 20s infinite;
     /*z-index: 99;*/
 }
+
+#article-info strong:before {
+    /*content: url("https://sweetrin.github.io/tgd/candy_18x18.png");*/
+}
