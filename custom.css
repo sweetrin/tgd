@@ -912,3 +912,11 @@ header #right-search-form:before {
 #article-info strong:first-child:before {
     /*content: url("https://sweetrin.github.io/tgd/candy_18x18.png");*/
 }
+
+.fr-popup .fr-emoticon {
+    width: 30px;
+}
+
+.fr-popup .fr-emoticon img {
+    height: 30px !important;
+}
