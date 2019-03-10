@@ -464,3 +464,7 @@ i.fa.fa-user {
 #article-list #article-list-category {
     background: #fff4fe;
 }
+
+.fr-popup .fr-emoticon img {
+    height: 20px !important;
+}
