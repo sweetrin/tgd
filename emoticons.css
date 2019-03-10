@@ -1,3 +1,11 @@
+.fr-popup .fr-emoticon {
+    width: 30px;
+}
+
+.fr-popup .fr-emoticon img {
+    height: 30px;
+}
+
 span[data-param1="JKanStyle"] img {
     background-image: url("https://sweetrin.github.io/tgd/emoticons/nyah.gif");
     background-repeat: no-repeat;
