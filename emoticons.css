@@ -134,7 +134,7 @@ img[alt="BCWarrior"], #article-content-wrapper #article-content img[alt="BCWarri
     padding-left: 50px;
 }
 
-span[data-param1="BCWarrior"] img {
+span[data-param1="FUNgineer"] img {
     background-image: url("https://sweetrin.github.io/tgd/emoticons/heart2.gif");
     background-repeat: no-repeat;
     background-size: contain;
@@ -142,7 +142,7 @@ span[data-param1="BCWarrior"] img {
     padding-left: 30px;
 }
 
-img[alt="BCWarrior"], #article-content-wrapper #article-content img[alt="BCWarrior"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="BCWarrior"] {
+img[alt="FUNgineer"], #article-content-wrapper #article-content img[alt="FUNgineer"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="FUNgineer"] {
     background-image: url("https://sweetrin.github.io/tgd/emoticons/heart2.gif");
     background-repeat: no-repeat;
     background-size: contain;
