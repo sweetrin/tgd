@@ -1,13 +1,13 @@
 span[data-param1="JKanStyle"] img {
-    background-image: url("https://sweetrin.github.io/tgd/nyah-test.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/nyah.gif");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 20px;
-    padding-left: 20px;
+    width: 30px;
+    padding-left: 30px;
 }
 
 img[alt="JKanStyle"], #article-content-wrapper #article-content img[alt="JKanStyle"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="JKanStyle"] {
-    background-image: url("https://sweetrin.github.io/tgd/nyah-test.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/nyah.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -16,15 +16,15 @@ img[alt="JKanStyle"], #article-content-wrapper #article-content img[alt="JKanSty
 }
 
 span[data-param1="OptimizePrime"] img {
-    background-image: url("https://sweetrin.github.io/tgd/rinsfeet-test.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/rinsfeet.gif");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 20px;
-    padding-left: 20px;
+    width: 30px;
+    padding-left: 30px;
 }
 
 img[alt="OptimizePrime"], #article-content-wrapper #article-content img[alt="OptimizePrime"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="OptimizePrime"] {
-    background-image: url("https://sweetrin.github.io/tgd/rinsfeet-test.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/rinsfeet.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -33,18 +33,426 @@ img[alt="OptimizePrime"], #article-content-wrapper #article-content img[alt="Opt
 }
 
 span[data-param1="StoneLightning"] img {
-    background-image: url("https://sweetrin.github.io/tgd/thumbup-test.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup.gif");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 20px;
-    padding-left: 20px;
+    width: 30px;
+    padding-left: 30px;
 }
 
 img[alt="StoneLightning"], #article-content-wrapper #article-content img[alt="StoneLightning"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="StoneLightning"] {
-    background-image: url("https://sweetrin.github.io/tgd/thumbup-test.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
     height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="TheRinger"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/actcute1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="TheRinger"], #article-content-wrapper #article-content img[alt="TheRinger"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="TheRinger"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/actcute1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="RedCoat"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/actcute2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="RedCoat"], #article-content-wrapper #article-content img[alt="RedCoat"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="RedCoat"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/actcute2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="Kappa"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/covering.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="Kappa"], #article-content-wrapper #article-content img[alt="Kappa"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="Kappa"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/covering.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="JonCarnage"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/greedy.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="JonCarnage"], #article-content-wrapper #article-content img[alt="JonCarnage"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="JonCarnage"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/greedy.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="BCWarrior"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/heart1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="BCWarrior"], #article-content-wrapper #article-content img[alt="BCWarrior"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="BCWarrior"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/heart1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="BCWarrior"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/heart2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="BCWarrior"], #article-content-wrapper #article-content img[alt="BCWarrior"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="BCWarrior"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/heart2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="GingerPower"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="GingerPower"], #article-content-wrapper #article-content img[alt="GingerPower"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="GingerPower"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="DansGame"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="DansGame"], #article-content-wrapper #article-content img[alt="DansGame"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="DansGame"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="SwiftRage"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch3.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="SwiftRage"], #article-content-wrapper #article-content img[alt="SwiftRage"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="SwiftRage"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch3.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="PJSalt"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="PJSalt"], #article-content-wrapper #article-content img[alt="PJSalt"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="PJSalt"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="KevinTurtle"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="KevinTurtle"], #article-content-wrapper #article-content img[alt="KevinTurtle"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="KevinTurtle"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="Kreygasm"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun3.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="Kreygasm"], #article-content-wrapper #article-content img[alt="Kreygasm"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="Kreygasm"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun3.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="SSSsss"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shrug.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="SSSsss"], #article-content-wrapper #article-content img[alt="SSSsss"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="SSSsss"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shrug.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="PunchTrees"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shy.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="PunchTrees"], #article-content-wrapper #article-content img[alt="PunchTrees"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="PunchTrees"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shy.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="ArsonNoSexy"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/surprise.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="ArsonNoSexy"], #article-content-wrapper #article-content img[alt="ArsonNoSexy"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="ArsonNoSexy"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/surprise.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="SMOrc"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/tbdance.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="SMOrc"], #article-content-wrapper #article-content img[alt="SMOrc"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="SMOrc"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/tbdance.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="FrankerZ"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="FrankerZ"], #article-content-wrapper #article-content img[alt="FrankerZ"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="FrankerZ"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="OneHand"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/twintails.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="OneHand"], #article-content-wrapper #article-content img[alt="OneHand"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="OneHand"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/twintails.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="HassanChop"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/wave.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="HassanChop"], #article-content-wrapper #article-content img[alt="HassanChop"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="HassanChop"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/wave.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="DBstyle"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/wola.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="DBstyle"], #article-content-wrapper #article-content img[alt="DBstyle"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="DBstyle"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/wola.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="AsianGlow"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/wola2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="AsianGlow"], #article-content-wrapper #article-content img[alt="AsianGlow"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="AsianGlow"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/wola2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="ShazBotstix"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/yessir1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="ShazBotstix"], #article-content-wrapper #article-content img[alt="ShazBotstix"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="ShazBotstix"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/yessir1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="PogChamp"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/yessir2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="PogChamp"], #article-content-wrapper #article-content img[alt="PogChamp"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="PogChamp"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/yessir2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+}
+
+span[data-param1="PMSTwin"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/zergling.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="PMSTwin"], #article-content-wrapper #article-content img[alt="PMSTwin"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="PMSTwin"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/zergling.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;
     padding-left: 50px;
 }
