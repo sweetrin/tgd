@@ -925,7 +925,7 @@ header #right-search-form:before {
 	transition: 0.05s;
 	}
 
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover, #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:focus, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:focus {
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover {
     transform: scale(1.25);
     display: inline-block;
 }
