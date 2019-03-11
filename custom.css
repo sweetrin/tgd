@@ -921,9 +921,11 @@ header #right-search-form:before {
     height: 30px !important;
 }
 
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn {transition: 0.05s;}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn {
+	transition: 0.05s;
+	}
 
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover {
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover, #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:focus, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:focus {
     transform: scale(1.25);
     display: inline-block;
 }
