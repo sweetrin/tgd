@@ -920,3 +920,10 @@ header #right-search-form:before {
 .fr-popup .fr-emoticon img {
     height: 30px !important;
 }
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn {transition: 0.1s;}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover {
+    transform: scale(1.25);
+    display: inline-block;
+}
