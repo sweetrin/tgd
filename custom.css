@@ -927,3 +927,7 @@ header #right-search-form:before {
     transform: scale(1.25);
     display: inline-block;
 }
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:active, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:active {
+    transform: scale(0.99);
+}
