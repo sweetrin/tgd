@@ -935,3 +935,7 @@ header #right-search-form:before {
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:active, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:active {
     transform: scale(0.99);
 }
+
+.menu-wrapper>.schedule-link {
+    letter-spacing: -0.01em;
+}
