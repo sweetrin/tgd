@@ -468,3 +468,7 @@ i.fa.fa-user {
 .fr-popup .fr-emoticon img {
     height: 20px !important;
 }
+
+button.btn.btn-outline-success.vote-btn:focus {
+    outline: none;
+}
