@@ -469,6 +469,6 @@ i.fa.fa-user {
     height: 20px !important;
 }
 
-button.btn.btn-outline-success.vote-btn:focus {
+.btn.btn-outline-success.vote-btn:focus {
     outline: none;
 }
