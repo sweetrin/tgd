@@ -940,3 +940,7 @@ header #right-search-form:before {
 .menu-wrapper>.schedule-link {
     letter-spacing: -0.01em;
 }
+
+#article-list>.article-list-row.notice {
+    background-color: var(--cursor-highlight-color);
+}
