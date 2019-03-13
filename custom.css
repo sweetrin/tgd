@@ -756,7 +756,7 @@ header #right-search-form > #right-search-btn {
 
 /* 새로운 댓글 배경색 */
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
-    background-color: #fff0f9;
+    background-color: #fdcde9;
     /* animation: Popping 0.5s; */
     animation: Trembling 0.6s;
 }
