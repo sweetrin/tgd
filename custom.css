@@ -980,5 +980,7 @@ header #right-search-form:before {
 
 .btn-outline-success:active {
     outline: none !important;
-    /* transform: scale(0.9); */
+    animation: none;
+    transform: scale(0.9);
+    /* box-shadow: 0 0 70px var(--main-color); */
 }
