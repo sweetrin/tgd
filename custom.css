@@ -960,3 +960,5 @@ header #right-search-form:before {
 .fr-popup.fr-desktop.fr-ltr.emoticons.fr-active {
     padding: 0.2em;
 }
+
+.fr-tooltip {/* margin-top: 0.3em; */}
