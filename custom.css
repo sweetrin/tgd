@@ -923,6 +923,8 @@ header #right-search-form:before {
 
 .fr-popup .fr-emoticon {
     width: 30px;
+    transition: 0.05s;
+    /* padding: 7px; */
 }
 
 .fr-popup .fr-emoticon img {
@@ -948,4 +950,13 @@ header #right-search-form:before {
 
 #article-list>.article-list-row.notice {
     background-color: var(--cursor-highlight-color);
+}
+
+.fr-popup .fr-emoticon:hover {
+    transform: scale(1.4);
+    background: transparent;
+}
+
+.fr-popup.fr-desktop.fr-ltr.emoticons.fr-active {
+    padding: 0.2em;
 }
