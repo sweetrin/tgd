@@ -204,6 +204,7 @@ header #header-bar>.row {
     border-radius: 7px;
     border-right: 0;
     border-bottom: 0;
+    box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -468,6 +469,7 @@ div#board-info-bottom {
     background: #fff;
     border-radius: 7px;
     animation: Popping 0.4s;
+    box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
 }
 
 #board-info #board-info-bottom a {
@@ -492,6 +494,8 @@ div#board-info-bottom {
 #main .menu-wrapper {
     border: 0;
     animation: Popping 0.4s;
+    box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
+    border-radius: 7px;
 }
 
 #board-info #board-info-bottom {
