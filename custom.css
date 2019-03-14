@@ -674,6 +674,7 @@ header #right-search-form > #right-search-btn {
 .btn-outline-success, .btn-outline-success:focus {
     color: var(--main-color);
     border-color: var(--main-color);
+    outline: none;
 }
 
 .btn-outline-success:hover {
@@ -963,3 +964,8 @@ header #right-search-form:before {
 }
 
 .fr-tooltip {/* margin-top: 0.3em; */}
+
+.btn-outline-success:active {
+    outline: none !important;
+    transform: scale(0.9);
+}
