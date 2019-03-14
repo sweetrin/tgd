@@ -867,6 +867,8 @@ a.custom-badge-link.active {
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
     color: #6782e4;
+    transition: 0.05s;
+    display: inline-block;
 }
 
 i.fa.fa-share {
@@ -948,16 +950,16 @@ header #right-search-form:before {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn {
-	transition: 0.05s;
+	/* transition: 0.05s; */
 	}
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:hover {
     /* transform: scale(1.25); */
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu .comment-vote-btn:active, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu .comment-vote-btn:active {
-    transform: scale(0.9);
+    /* transform: scale(0.9); */
 }
 
 .menu-wrapper>.schedule-link {
@@ -989,4 +991,10 @@ header #right-search-form:before {
 }
 
 #article-neighbor-list>div {
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a:hover, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a:hover {}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a:active, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a:active {
+    transform: scale(0.9);
 }
