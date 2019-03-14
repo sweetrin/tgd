@@ -687,14 +687,12 @@ header #right-search-form > #right-search-btn {
     color: var(--main-color);
     border-color: var(--main-color);
     outline: none;
-    border-radius: 7px;
 }
 
 .btn-outline-success:hover {
     color: #fff;
     background-color: var(--main-color);
     border-color: var(--main-color);
-    animation: Wriggle 2.5s;
 }
 
 #article-content-wrapper>.footer {
@@ -983,9 +981,7 @@ header #right-search-form:before {
 
 .btn-outline-success:active {
     outline: none !important;
-    animation: none;
     transform: scale(0.9);
-    /* box-shadow: 0 0 70px var(--main-color); */
 }
 
 #article-neighbor-list>div:hover {
