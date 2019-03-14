@@ -983,3 +983,7 @@ header #right-search-form:before {
     transform: scale(0.9);
     /* box-shadow: 0 0 70px var(--main-color); */
 }
+
+#article-neighbor-list>div:hover {
+    /*background: var(--cursor-highlight-color);*/
+}
