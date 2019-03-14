@@ -92,20 +92,20 @@ span.a-badge i.fa.fa-star {
 }
 
 @keyframes HlBgColor{
+	0%{background-color: #ffe8f7;}
+	20%{background-color: #efe3ff;}
+	40%{background-color: #e7efe7;}
+	60%{background-color: #e5e9ff;}
+	100%{background-color: #ffe8f7;}
+}
+
+/*
+@keyframes HlBgColor{
 	0%{background-color: #fff3fb;}
 	20%{background-color: #f4edff;}
 	40%{background-color: #f2f9f2;}
 	60%{background-color: #edf0ff;}
 	100%{background-color: #fff3fb;}
-}
-
-/*
-@keyframes HlBgColor{
-	0%{background-color:#f5ecf2}
-	20%{background-color:#efeaf7}
-	40%{background-color:#eef1ee}
-	60%{background-color:#eaecf7}
-	100%{background-color:#f5ecf2}
 }
 */
 
