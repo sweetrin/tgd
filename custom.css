@@ -94,8 +94,8 @@ span.a-badge i.fa.fa-star {
 @keyframes HlBgColor{
 	0%{background-color: #ffe8f7;}
 	20%{background-color: #efe3ff;}
-	40%{background-color: #e7efe7;}
-	60%{background-color: #e5e9ff;}
+	40%{background-color: #e9f3e9;}
+	60%{background-color: #e7ebff;}
 	100%{background-color: #ffe8f7;}
 }
 
