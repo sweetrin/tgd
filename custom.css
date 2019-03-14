@@ -713,10 +713,12 @@ header #right-search-form > #right-search-btn {
 
 #article-reply-area {
     background: #fff;
-    border-radius: 8px 8px 7px 7px;
+    border-radius: 8px 8px 0px 0px;
     padding: 0 0 0.1em;
-    margin-bottom: 1.4em;
+    /* margin-bottom: 1.4em; */
     font-size: 13.5px;
+    /* border-bottom: 2px solid var(--main-color); */
+    border-bottom: 1px solid #f1f1f1;
 }
 
 #article-reply-area #reply-real-area, #article-reply-area #reply-best-area {
@@ -886,8 +888,9 @@ i.fa.fa-share {
 }
 
 #article-neighbor-list {
-    border-radius: 7px;
+    border-radius: 0 0 7px 7px;
     background: #fff;
+    padding: 0.4em 1em;
 }
 
 .fr-wrapper.show-placeholder .fr-placeholder:before {
@@ -986,4 +989,7 @@ header #right-search-form:before {
 
 #article-neighbor-list>div:hover {
     /*background: var(--cursor-highlight-color);*/
+}
+
+#article-neighbor-list>div {
 }
