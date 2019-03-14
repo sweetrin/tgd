@@ -924,7 +924,7 @@ header #right-search-form:before {
 .fr-popup .fr-emoticon {
     width: 30px;
     transition: 0.05s;
-    /* padding: 7px; */
+    /*padding: 6px;*/
 }
 
 .fr-popup .fr-emoticon img {
@@ -953,7 +953,7 @@ header #right-search-form:before {
 }
 
 .fr-popup .fr-emoticon:hover {
-    transform: scale(1.4);
+    transform: scale(1.6);
     background: transparent;
 }
 
