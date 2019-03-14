@@ -694,7 +694,7 @@ header #right-search-form > #right-search-btn {
     color: #fff;
     background-color: var(--main-color);
     border-color: var(--main-color);
-    animation: Wriggle 2.5s infinite;
+    animation: Wriggle 2.5s;
 }
 
 #article-content-wrapper>.footer {
