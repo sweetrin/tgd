@@ -204,7 +204,6 @@ header #header-bar>.row {
     border-radius: 7px;
     border-right: 0;
     border-bottom: 0;
-    box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -469,7 +468,6 @@ div#board-info-bottom {
     background: #fff;
     border-radius: 7px;
     animation: Popping 0.4s;
-    box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
 }
 
 #board-info #board-info-bottom a {
@@ -494,7 +492,6 @@ div#board-info-bottom {
 #main .menu-wrapper {
     border: 0;
     animation: Popping 0.4s;
-    box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
     border-radius: 7px;
 }
 
@@ -632,7 +629,7 @@ header #right-search-form > #right-search-btn {
 
 /* 헤더 */
 #article-content-wrapper>.header {
-    border-top: 2px solid #b570d6;
+    border-top: 2px solid var(--main-color);
 }
        
 /* '댓글' 문자 */
@@ -660,7 +657,7 @@ header #right-search-form > #right-search-btn {
     padding: 0.7em 0.9em 0;
     height: 56px;
     margin-top: 0.5em;
-    box-shadow: 3px 3px 5px rgba(40, 0, 87, 0.23);
+    /* box-shadow: 3px 3px 5px rgba(40, 0, 87, 0.23); */
 }
 
 #article-content-wrapper #article-content {
@@ -705,7 +702,6 @@ header #right-search-form > #right-search-btn {
     padding: 0 0 0.1em;
     margin-bottom: 1.4em;
     font-size: 13.5px;
-    box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
 }
 
 #article-reply-area #reply-real-area, #article-reply-area #reply-best-area {
@@ -715,7 +711,6 @@ header #right-search-form > #right-search-btn {
 #article-content-wrapper {
     padding: 0;
     margin: 0 0 1.2em;
-    box-shadow: 3px 3px 5px rgba(40,0,87,0.15);
     border-radius: 7px;
 }
 
