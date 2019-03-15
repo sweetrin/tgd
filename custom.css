@@ -687,6 +687,7 @@ header #right-search-form > #right-search-btn {
     color: var(--main-color);
     border-color: var(--main-color);
     outline: none;
+    border-radius: 7px;
 }
 
 .btn-outline-success:hover {
