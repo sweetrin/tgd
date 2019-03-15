@@ -203,7 +203,7 @@ img[alt="PJSalt"], #article-content-wrapper #article-content img[alt="PJSalt"], 
 }
 
 span[data-param1="KevinTurtle"] img {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup1.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup2.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 30px;
@@ -211,7 +211,7 @@ span[data-param1="KevinTurtle"] img {
 }
 
 img[alt="KevinTurtle"], #article-content-wrapper #article-content img[alt="KevinTurtle"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="KevinTurtle"] {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup1.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup2.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
