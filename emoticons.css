@@ -134,25 +134,8 @@ img[alt="BCWarrior"], #article-content-wrapper #article-content img[alt="BCWarri
     padding-left: 50px;
 }
 
-span[data-param1="FUNgineer"] img {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch3.gif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 30px;
-    padding-left: 30px;
-}
-
-img[alt="FUNgineer"], #article-content-wrapper #article-content img[alt="FUNgineer"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="FUNgineer"] {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch3.gif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px !important;    
-    padding-left: 50px;
-}
-
 span[data-param1="GingerPower"] img {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun2.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch3.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 30px;
@@ -160,7 +143,7 @@ span[data-param1="GingerPower"] img {
 }
 
 img[alt="GingerPower"], #article-content-wrapper #article-content img[alt="GingerPower"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="GingerPower"] {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun2.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/punch3.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -169,7 +152,7 @@ img[alt="GingerPower"], #article-content-wrapper #article-content img[alt="Ginge
 }
 
 span[data-param1="DansGame"] img {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/shrug.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun2.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 30px;
@@ -177,7 +160,7 @@ span[data-param1="DansGame"] img {
 }
 
 img[alt="DansGame"], #article-content-wrapper #article-content img[alt="DansGame"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="DansGame"] {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/surprise.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shotgun2.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -186,7 +169,7 @@ img[alt="DansGame"], #article-content-wrapper #article-content img[alt="DansGame
 }
 
 span[data-param1="SwiftRage"] img {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/surprise.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shrug.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 30px;
@@ -194,7 +177,7 @@ span[data-param1="SwiftRage"] img {
 }
 
 img[alt="SwiftRage"], #article-content-wrapper #article-content img[alt="SwiftRage"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="SwiftRage"] {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup2.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/shrug.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -203,7 +186,7 @@ img[alt="SwiftRage"], #article-content-wrapper #article-content img[alt="SwiftRa
 }
 
 span[data-param1="PJSalt"] img {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/yessir1.gif");
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/surprise.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 30px;
@@ -211,6 +194,41 @@ span[data-param1="PJSalt"] img {
 }
 
 img[alt="PJSalt"], #article-content-wrapper #article-content img[alt="PJSalt"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="PJSalt"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/surprise.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+span[data-param1="KevinTurtle"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbsup1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="KevinTurtle"], #article-content-wrapper #article-content img[alt="KevinTurtle"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="KevinTurtle"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/thumbup1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px !important;    
+    padding-left: 50px;
+}
+
+
+span[data-param1="Kreygasm"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/yessir1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+img[alt="Kreygasm"], #article-content-wrapper #article-content img[alt="Kreygasm"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="Kreygasm"] {
     background-image: url("https://sweetrin.github.io/tgd/emoticons/yessir1.gif");
     background-repeat: no-repeat;
     background-size: contain;
@@ -220,23 +238,6 @@ img[alt="PJSalt"], #article-content-wrapper #article-content img[alt="PJSalt"], 
 }
 
 /*
-span[data-param1="KevinTurtle"] img {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/dance1.gif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 30px;
-    padding-left: 30px;
-}
-
-img[alt="KevinTurtle"], #article-content-wrapper #article-content img[alt="KevinTurtle"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="KevinTurtle"] {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/dance1.gif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px !important;    
-    padding-left: 50px;
-}
-
 span[data-param1="Kreygasm"] img {
     background-image: url("https://sweetrin.github.io/tgd/emoticons/dance2.gif");
     background-repeat: no-repeat;
