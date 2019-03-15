@@ -998,3 +998,7 @@ header #right-search-form:before {
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a:active, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a:active {
     transform: scale(0.9);
 }
+
+#board-info #board-info-bottom a {
+    color: var(--rank-badge-color);
+}
