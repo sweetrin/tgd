@@ -330,7 +330,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info>h1>a:active:after {
 	animation:none;
-	transform:scale(0.9);
+	/*transform:scale(0.9);*/
 }
 
 /*
