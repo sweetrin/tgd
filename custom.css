@@ -323,9 +323,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 	animation: HlTxtColor 3s infinite;
 }
 
+/*
 #board-info>h1>a:active:after {
 	transform:scale(0.9);
 }
+*/
 
 /*
 #board-info>h1>a:hover:after {
