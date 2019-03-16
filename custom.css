@@ -320,14 +320,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info>h1>a:hover:after {
-	animation: HlTxtColor 3s infinite;
+	/*animation: HlTxtColor 3s infinite;*/
+	animation:Wriggle 2s;
 }
 
-/*
 #board-info>h1>a:active:after {
 	transform:scale(0.9);
 }
-*/
 
 /*
 #board-info>h1>a:hover:after {
