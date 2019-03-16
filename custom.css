@@ -320,17 +320,19 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info>h1>a:hover:after {
-	/*animation: HlTxtColor 3s infinite;*/
+	animation: HlTxtColor 3s infinite;
+	/*
 	animation:Wriggle 1.6s;
 	background: linear-gradient(to right, #f156aa, #408bff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow:0px 0px 3px #c343ff59;
+    */
 }
 
 #board-info>h1>a:active:after {
 	/*animation:none;*/
-	/*transform:scale(0.9);*/
+	transform:scale(0.9);
 }
 
 /*
