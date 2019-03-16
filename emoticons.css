@@ -237,17 +237,17 @@ img[alt="Kreygasm"], #article-content-wrapper #article-content img[alt="Kreygasm
     padding-left: 50px;
 }
 
-/*
-span[data-param1="Kreygasm"] img {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/dance2.gif");
+
+span[data-param1="SSSsss"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/spaceout.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 30px;
     padding-left: 30px;
 }
 
-img[alt="Kreygasm"], #article-content-wrapper #article-content img[alt="Kreygasm"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="Kreygasm"] {
-    background-image: url("https://sweetrin.github.io/tgd/emoticons/dance2.gif");
+img[alt="SSSsss"], #article-content-wrapper #article-content img[alt="SSSsss"], #article-reply-area #reply-real-area .reply>.reply-content img[alt="SSSsss"] {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/spaceout.gif");
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -255,6 +255,8 @@ img[alt="Kreygasm"], #article-content-wrapper #article-content img[alt="Kreygasm
     padding-left: 50px;
 }
 
+
+/*
 span[data-param1="SSSsss"] img {
     background-image: url("https://sweetrin.github.io/tgd/emoticons/dance3.gif");
     background-repeat: no-repeat;
