@@ -321,10 +321,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info>h1>a:hover:after {
 	/*animation: HlTxtColor 3s infinite;*/
-	animation:Wriggle 2s;
+	animation:Wriggle 1.6s;
 	background: linear-gradient(to right, #f156aa, #408bff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow:0px 0px 2px #c343ff85;
 }
 
 #board-info>h1>a:active:after {
