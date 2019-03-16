@@ -322,6 +322,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info>h1>a:hover:after {
 	/*animation: HlTxtColor 3s infinite;*/
 	animation:Wriggle 2s;
+	background: linear-gradient(to right, #f156aa, #408bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #board-info>h1>a:active:after {
