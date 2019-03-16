@@ -868,7 +868,7 @@ a.custom-badge-link.active {
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
     color: #6782e4;
-    transition: 0.05s;
+    /* transition: 0.05s; */
     display: inline-block;
 }
 
