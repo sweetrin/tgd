@@ -225,7 +225,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 footer {
-    background: var(--main-color);
+    background: var(--category-6th-color);
     color: #fff;
 }
 
@@ -477,5 +477,5 @@ i.fa.fa-user {
 }
 
 footer a {
-    color: var(--light-color);
+    color: #6099e6;
 }
