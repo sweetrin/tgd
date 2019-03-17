@@ -225,7 +225,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 footer {
-    background: #fff4fe;
+    background: var(--article-header-color);
     /* color: #fff; */
 }
 
