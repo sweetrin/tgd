@@ -446,6 +446,7 @@ nav#nav {
     /* border-bottom: 2px solid var(--light-color); */
     /* border-top: 1px solid #f1f1f1; */
     /* border-top: 1px solid var(--light-color); */
+    padding: 0.5em 1.3em;
 }
 
 #article-list>.article-list-row>.item>a.list-title {
