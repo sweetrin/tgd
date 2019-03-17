@@ -446,7 +446,7 @@ nav#nav {
     /* border-bottom: 2px solid var(--light-color); */
     /* border-top: 1px solid #f1f1f1; */
     /* border-top: 1px solid var(--light-color); */
-    padding: 0.5em 1.3em;
+    padding: 0.5em 1.1em;
 }
 
 #article-list>.article-list-row>.item>a.list-title {
@@ -482,5 +482,9 @@ footer a {
 }
 
 #article-content-wrapper {
-    margin-bottom: 0.6em;
+    margin-bottom: 0.5em;
+}
+
+#article-content-wrapper>.vote-area {
+    padding: 0 0.8em 0.5em;
 }
