@@ -488,3 +488,7 @@ footer a {
 #article-content-wrapper>.vote-area {
     padding: 0 0.8em 0.5em;
 }
+
+#article-reply-area>.header #lastc {
+    color: var(--rank-badge-color);
+}
