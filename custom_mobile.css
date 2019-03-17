@@ -472,3 +472,7 @@ i.fa.fa-user {
 .btn.btn-outline-success.vote-btn:focus {
     outline: none;
 }
+
+footer a {
+    color: var(--rank-badge-color);
+}
