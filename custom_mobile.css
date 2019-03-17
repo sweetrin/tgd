@@ -225,7 +225,8 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 footer {
-    background: var(--cursor-highlight-color);
+    background: var(--main-color);
+    color: #fff;
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
@@ -476,5 +477,5 @@ i.fa.fa-user {
 }
 
 footer a {
-    color: var(--rank-badge-color);
+    color: var(--light-color);
 }
