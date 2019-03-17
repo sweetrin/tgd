@@ -439,6 +439,7 @@ nav#nav {
 
 #article-list>.article-list-row {
     border-bottom: 0 !important;
+    padding: 0 !important;
 }
 
 #article-content-wrapper>.footer {
