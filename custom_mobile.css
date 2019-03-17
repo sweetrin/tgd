@@ -225,8 +225,8 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 footer {
-    background: var(--light-color);
-    color: #fff;
+    background: var(--article-header-color);
+    /* color: #fff; */
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
