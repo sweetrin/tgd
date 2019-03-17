@@ -202,7 +202,8 @@ footer a {
 
 /* 왼쪽 메뉴 헤더 */
 #main .menu-wrapper > .header {
-    background: var(--main-color);
+    /* background: var(--main-color); */
+    background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
     border-radius: 7px 7px 0 0;
 }
 
@@ -212,12 +213,7 @@ footer a {
 }
 
 /* 위쪽 전광판 */
-header #header-bar>.row {
-    border-top-color: var(--main-color);
-    border-radius: 7px;
-    border-right: 0;
-    border-bottom: 0;
-}
+header #header-bar>.row {position: relative;border-top: 5px solid transparent;border-right: 0;border-bottom: 0;border-radius: 6px;background-clip: padding-box;display: flex;}
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
@@ -300,6 +296,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     font-size: 22px;
     font-weight: bold;
     display:inline-block;
+    animation: HlTxtColor 3s infinite;
 }
 
 /*
@@ -320,7 +317,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info>h1>a:hover:after {
-	animation: HlTxtColor 3s infinite;
+	/*animation: HlTxtColor 3s infinite;*/
 	/*
 	animation:Wriggle 1.6s;
 	background: linear-gradient(to right, #f156aa, #408bff);
@@ -654,7 +651,8 @@ header #right-search-form > #right-search-btn {
 
 /* 헤더 */
 #article-content-wrapper>.header {
-    border-top: 2px solid var(--main-color);
+    /* border-top: 2px solid var(--main-color); */
+    border-top: 0;
 }
        
 /* '댓글' 문자 */
@@ -665,6 +663,8 @@ header #right-search-form > #right-search-btn {
 /* 댓글 도구 상자 */
 .fr-toolbar {
     border-top:5px solid var(--main-color);
+    border-image: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
+    border-image-slice: 1;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
@@ -677,7 +677,8 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-info {
-    background: var(--main-color);
+    /* background: var(--main-color); */
+    background: linear-gradient(135deg, #c17dff, #c17dff,#f174ed);
     border-radius: 7px 7px 0 0;
     padding: 0.7em 0.9em 0;
     height: 56px;
@@ -715,8 +716,10 @@ header #right-search-form > #right-search-btn {
 
 #article-reply-area>.header {
     background: var(--main-color);
+    background: linear-gradient(135deg, #c17dff, #c17dff,#f174ed);
     border-radius: 7px 7px 0 0;
     padding: 0.9em 1em 0.8em;
+    width: 100.1%;
 }
 
 #article-reply-area > .header h5, #lastc {
@@ -1016,6 +1019,15 @@ header #right-search-form:before {
     color: var(--rank-badge-color);
 }
 
-.pagination > li > a:active, .pagination > li > span:active {
-    transform: scale(0.9);
+header #header-bar>.row:after {
+    position: absolute;
+    top: -5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb,#f174ed);
+    content: '';
+    z-index: -1;
+    border-radius: 7px;
+    display: block;
 }
