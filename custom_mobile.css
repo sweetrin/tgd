@@ -323,6 +323,7 @@ footer {
 
 .fr-toolbar {
     border-top: 5px solid var(--main-color);
+    border-radius:7px 7px 0 0!important;
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area
@@ -492,10 +493,6 @@ footer a {
 
 #article-reply-area>.header #lastc {
     color: var(--rank-badge-color);
-}
-
-.fr-toolbar {
-	border-radius:7px 7px 0 0 !important;
 }
 
 .fr-wrapper.show-placeholder {
