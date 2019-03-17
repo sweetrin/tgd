@@ -1031,3 +1031,7 @@ header #header-bar>.row:after {
     border-radius: 7px;
     display: block;
 }
+
+.pagination > li > a:active, .pagination > li > span:active {
+    transform: scale(0.9);
+}
