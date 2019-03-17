@@ -493,3 +493,19 @@ footer a {
 #article-reply-area>.header #lastc {
     color: var(--rank-badge-color);
 }
+
+#comment-write-form {
+	border-radius:100px;
+}
+
+.fr-box.fr-ltr.fr-basic.fr-top {
+    border-radius: 100px;
+}
+
+.fr-toolbar.fr-ltr.fr-mobile.fr-top.fr-basic.fr-sticky-ios {
+	border-radius:7px 7px 0 0;
+}
+
+.fr-wrapper.show-placeholder {
+    border-radius:0 0 7px 7px !important;
+}
