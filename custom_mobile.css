@@ -443,7 +443,7 @@ nav#nav {
 
 #article-content-wrapper>.footer {
     background: var(--article-header-color);
-    border-bottom: 2px solid var(--light-color);
+    /* border-bottom: 2px solid var(--light-color); */
     /* border-top: 1px solid #f1f1f1; */
     /* border-top: 1px solid var(--light-color); */
 }
@@ -481,5 +481,5 @@ footer a {
 }
 
 #article-content-wrapper {
-    margin-bottom: 0.4em;
+    margin-bottom: 0.5em;
 }
