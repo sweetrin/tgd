@@ -377,7 +377,8 @@ span.a-badge i.fa.fa-star {
 }
 
 #article-list-menu>.btn.best.enable {
-	
+	color: #fff !important;
+	border-color: #efc839 !important;
 }
 
 #article-list>.article-list-row.notice {
