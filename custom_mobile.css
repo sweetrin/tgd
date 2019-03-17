@@ -225,7 +225,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 footer {
-    background: var(--article-header-color);
+    background: #fff4fe;
     /* color: #fff; */
 }
 
@@ -480,7 +480,7 @@ i.fa.fa-user {
 }
 
 footer a {
-    color: var(--rank-badge-color);
+    color: var(--main-color);
 }
 
 #article-content-wrapper {
