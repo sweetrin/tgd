@@ -122,6 +122,14 @@ span.a-badge i.fa.fa-star {
 }
 */
 
+@keyframes HlShadow{
+	0%{box-shadow: 3px 3px 5px rgba(241, 122, 213, 0.5);}
+	20%{box-shadow: 3px 3px 5px rgba(176, 128, 245, 0.5);}
+	40%{box-shadow: 3px 3px 5px rgba(88, 187, 106, 0.5);}
+	60%{box-shadow: 3px 3px 5px rgba(124, 145, 228, 0.5);}
+	100%{box-shadow: 3px 3px 5px rgba(241, 122, 213, 0.5);}
+}
+
 /* 인기 글 */
 #article-list>.article-list-row.hot {
     animation: HlBgColor 4s infinite;
@@ -213,7 +221,7 @@ footer a {
 }
 
 /* 위쪽 전광판 */
-header #header-bar>.row {position: relative;border-top: 5px solid transparent;border-right: 0;border-bottom: 0;border-radius: 6px;background-clip: padding-box;display: flex;}
+header #header-bar>.row {position: relative;border-top: 5px solid transparent;border-right: 0;border-bottom: 0;border-radius: 6px;background-clip: padding-box;display: flex;animation: HlShadow 3s infinite;}
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
