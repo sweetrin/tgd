@@ -281,14 +281,14 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 /* 스트리머 닉넴 (SweetRin > 달콤린) */
-#board-info>h1>a {
+#board-info>h1>a:first-child {
 	visibility: hidden;
 	letter-spacing: -1em;
 	margin-right: 0.1em;
 	transition:0.5s;
 }
 
-#board-info>h1>a:after {
+#board-info>h1>a:first-child:after {
     visibility: visible;
     letter-spacing: 0em;
     content: "달콤린";
@@ -327,7 +327,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     */
 }
 
-#board-info>h1>a:active:after {
+#board-info>h1>a:first-child:active:after {
 	/*animation:none;*/
 	transform:scale(0.9);
 }
