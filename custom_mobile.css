@@ -148,12 +148,12 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 header {
-    border-bottom: 4px solid #e886e1;
+    /* border-bottom: 4px solid #e886e1; */
     /* background: var(--main-color); */
     /* border-bottom: 0; */
     /* height: 46px; */
     /* border-radius: 0 0 10px 10px; */
-    background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
+    /* background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb); */
     /* padding: 7px 0; */
 }
 
