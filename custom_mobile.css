@@ -146,7 +146,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     letter-spacing: 0em;
     color: var(--text-color);
     vertical-align: middle;
-    animation: HlTxtColor 3s infinite;
+    animation: HlTxtColor 5s infinite;
 }
 
 .fa-user:before {
