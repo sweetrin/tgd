@@ -517,6 +517,7 @@ header > #header-search-bar #header-search-input {
     /* border: 2px solid var(--main-color) !important; */
     border: 0 !important;
     height: 34px;
+    width: 90%;
 }
 
 i.fa.fa-bars {
