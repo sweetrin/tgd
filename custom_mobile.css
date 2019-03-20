@@ -523,3 +523,11 @@ header > #header-search-bar #header-search-input {
 i.fa.fa-bars {
     color: #fff;
 }
+
+#nav i.fa.fa-bars {
+    color: var(--main-color);
+}
+
+nav#nav>#nav-upper {
+    padding: 7px 0;
+}
