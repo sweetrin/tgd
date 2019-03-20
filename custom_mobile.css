@@ -1,0 +1,37 @@
+@import url("https://sweetrin.github.io/tgd/emoticons.css");
+
+:root {
+    --main-color: #a85ccc;
+    --light-color: #d2a5e6;
+    --bg-color-stop1:#eee5f3;
+    --recommend-count-color: #ec71b5;
+    /*--cursor-highlight-color:#f8f0ff;*/
+    --cursor-highlight-color:#fbf7ff;
+    --rank-badge-color: #6782e4;
+    --button-hover-color: #9753b7;
+    --text-color: #444444;
+    --visited-color: #b7b7b7;
+    --article-header-color: #faf5ff;
+    --separation-line-color: #eaeaea;
+
+    --category-2nd-color: #f95b5b;
+    --category-3rd-color: #659fef;
+    --category-4th-color: #3cc37a;
+    --category-5th-color: #9471d8;
+    --category-6th-color: #ec61ad;
+    --category-7th-color: #3db6e2;
+    --category-8th-color: #ffd862;
+}
+
+@font-face {
+	font-family: 'Binggrae';
+	src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Binggrae.woff2') format('woff2');
+	font-weight: normal; 
+    font-style: normal;
+    unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;
+}
+
+body, html {
+    height: auto !important;
+    font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
+}
