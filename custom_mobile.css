@@ -123,16 +123,19 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     margin-top: -17px;
 }
 
-#board-info>h1>a:before {
+#board-info>h1>a:nth-child(2) {
+	visibility: hidden;
+	letter-spacing: -1em;
+}
+
+#board-info>h1>a:nth-child(2):after {
     visibility: visible;
     content: "달콤린";
     letter-spacing: 0em;
     color: var(--text-color);
-    /* animation: HlTxtColor 3s infinite; */
     vertical-align: middle;
+    animation: HlTxtColor 3s infinite;
 }
-
-#board-info>h1>a {visibility: hidden;letter-spacing: -1em;}
 
 .fa-user:before {
     background-image: url("https://sweetrin.github.io/tgd/candy_30x30.png");
