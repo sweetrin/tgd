@@ -36,6 +36,18 @@ body, html {
     font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
+@keyframes Gradient {
+	0% {
+		background-position: 0%;
+	}
+	50% {
+		background-position: 100%;
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+
 @keyframes RinsHeart{
     0%{transform:scale(1)}
     10%{transform:scale(1.3)}
@@ -154,7 +166,9 @@ header {
     /* height: 46px; */
     /* border-radius: 0 0 10px 10px; */
     background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
+    background-size: 110%;
     padding: 7px 0;
+    animation: Gradient 10s ease infinite;
 }
 
 header>#header-area>a>h1 {
