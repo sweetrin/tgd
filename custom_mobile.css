@@ -503,3 +503,15 @@ footer a {
 .fr-wrapper.show-placeholder {
     /*border-radius:0 0 7px 7px !important;*/
 }
+
+i.fa.fa-arrow-left {
+    color: #fff;
+}
+
+i.fa.fa-search {
+    color: #fff;
+}
+
+header > #header-search-bar #header-search-input {
+    border: 2px solid var(--main-color) !important;
+}
