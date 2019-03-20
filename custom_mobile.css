@@ -150,6 +150,7 @@ header {
     /* border-bottom: 0; */
     /* height: 46px; */
     /* border-radius: 0 0 10px 10px; */
+    background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
 }
 
 header>#header-area>a>h1 {
