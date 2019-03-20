@@ -158,8 +158,8 @@ header {
 }
 
 header>#header-area>a>h1 {
-    background: url("https://sweetrin.github.io/tgd/kgd_logo_white.png") no-repeat;
-    background-size: contain;
+    /* background: url("https://sweetrin.github.io/tgd/kgd_logo_white.png") no-repeat; */
+    /* background-size: contain; */
 }
 
 #header-top-notice strong.notice-badge {
@@ -172,11 +172,11 @@ header>#header-area>a>h1 {
 }
 
 header>#header-area>#header-search-link {
-    color: #fff;
+    /* color: #fff; */
 }
 
 header>#header-area>#header-bar-link {
-    color: #fff;
+    /* color: #fff; */
 }
 
 #article-reply-area > .header h5 {
@@ -510,7 +510,7 @@ i.fa.fa-arrow-left {
 }
 
 i.fa.fa-search {
-    color: #fff;
+    /* color: #fff; */
 }
 
 header > #header-search-bar #header-search-input {
