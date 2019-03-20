@@ -154,7 +154,7 @@ header {
     /* height: 46px; */
     /* border-radius: 0 0 10px 10px; */
     background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
-    /* padding: 7px 0; */
+    padding: 7px 0;
 }
 
 header>#header-area>a>h1 {
@@ -515,8 +515,9 @@ i.fa.fa-search {
 
 header > #header-search-bar #header-search-input {
     /* border: 2px solid var(--main-color) !important; */
-    /* border: 0 !important; */
-    /* height: 34px; */
+    border: 0 !important;
+    height: 34px;
+    width: 271px;
 }
 
 i.fa.fa-bars {
