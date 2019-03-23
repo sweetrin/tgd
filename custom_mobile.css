@@ -213,7 +213,8 @@ header>#header-area>#header-bar-link {
 }
 
 nav#nav>.nav-header {
-    background: var(--main-color);
+    /* background: var(--main-color); */
+    background: #c17dff;
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
@@ -539,7 +540,8 @@ i.fa.fa-bars {
 }
 
 #nav i.fa.fa-bars {
-    color: var(--main-color);
+    /* color: var(--main-color); */
+    color: #c17dff;
 }
 
 nav#nav>#nav-upper {
