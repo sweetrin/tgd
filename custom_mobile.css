@@ -228,7 +228,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 #article-content-wrapper>.header {
     background: var(--article-header-color);
     /* background: #c17dff; */
-    border-bottom: 2px solid #c17dff;
+    /* border-bottom: 2px solid #c17dff; */
     padding: 0.5em 0.5em 0.4em;
 }
 
