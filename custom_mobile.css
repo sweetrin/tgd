@@ -108,9 +108,9 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 #board-info {
     letter-spacing: -0.5px;
     border-top: 4px solid #e886e1;
-    /* border-bottom: 1px solid #e886e1; */
+    border-bottom: 2px solid #e886e1;
     /* border-top: 0; */
-    border-bottom: 0;
+    /* border-bottom: 0; */
     /* background-color: #ffeffe; */
     background-color: #fff4fe;
     margin-top: 0.7em;
@@ -227,6 +227,9 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 #article-content-wrapper>.header {
     background: var(--article-header-color);
+    /* background: #c17dff; */
+    border-bottom: 2px solid #c17dff;
+    padding: 0.5em 0.5em 0.4em;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -364,11 +367,11 @@ footer {
 
 #article-info {
     /* border-top: 2px solid #e886e1; */
-    border-bottom: 2px solid var(--light-color);
-    background: #fff;
-    /* padding: 0.5em 0.5em 0em; */
+    /* border-bottom: 2px solid var(--light-color); */
+    background: var(--article-header-color);
+    padding: 0.5em 0.5em 0em;
     /* border-top: 2px solid var(--main-color); */
-    /* border-bottom: 0; */
+    border-bottom: 0;
 }
 
 #header-top-notice a {
