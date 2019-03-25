@@ -1051,12 +1051,3 @@ header #header-bar>.row:after {
 #board-info h1>a.badge.badge-live {
     background: var(--category-6th-color);
 }
-
-.article-list-row.has-category.notice.hot#article-list-row-19995825 {
-	transform:scale(1.02);
-	border-radius:7px;
-}
-
-.article-list-row.has-category.notice.hot#article-list-row-19995825 b{
-
-}
