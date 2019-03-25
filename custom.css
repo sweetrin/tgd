@@ -197,7 +197,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #article-list>.article-list-row>.item>.list-title>a {
-    color: var(--text-color) !important;
+    color: var(--text-color);
 }
 
 footer {
