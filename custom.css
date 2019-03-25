@@ -1049,5 +1049,5 @@ header #header-bar>.row:after {
 }
 
 #board-info h1>a.badge.badge-live {
-    background: var(--category-2nd-color);
+    background: var(--category-6th-color);
 }
