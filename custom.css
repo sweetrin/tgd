@@ -1047,3 +1047,7 @@ header #header-bar>.row:after {
 .pagination > li > a:active, .pagination > li > span:active {
     transform: scale(0.9);
 }
+
+#board-info h1>a.badge.badge-live {
+    background: var(--category-2nd-color);
+}
