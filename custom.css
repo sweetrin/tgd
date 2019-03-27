@@ -1051,3 +1051,11 @@ header #header-bar>.row:after {
 #board-info h1>a.badge.badge-live {
     background: var(--category-6th-color);
 }
+
+#article-list>.article-list-row>.item>.list-title>a[href='/19995825']:visited {
+    color: #1700da !important;
+}
+
+#article-list-row-19995825 a {
+    font-size: 18px;
+}
