@@ -549,3 +549,7 @@ i.fa.fa-bars {
 nav#nav>#nav-upper {
     padding: 7px 0;
 }
+
+#article-list>.article-list-row>.item>a[href='/19995825']:visited {
+    color: #1700da !important;
+}
