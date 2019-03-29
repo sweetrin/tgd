@@ -631,14 +631,14 @@ div#board-info-bottom {
 
 /* 오른쪽 상단 검색 부분 */
 header #right-search-form>input[type=text] {
-    border: 3px solid var(--main-color);
+    border: 3px solid #c17dff;
     border-radius: 7px;
 }
 
 input#right-search-input {}
 
 header #right-search-form > #right-search-btn {
-    color: var(--main-color);
+    color: #c17dff;
 }
 
 /* 버튼 */
