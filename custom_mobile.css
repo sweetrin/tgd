@@ -36,6 +36,12 @@ body, html {
     font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
+@keyframes TxtShadow{
+	0%{text-shadow:none;}
+	50%{text-shadow: 0 0 7px #9081ff;}
+	100%{text-shadow:none;}
+}
+
 @keyframes Gradient {
 	0% {
 		background-position: 0%;
@@ -552,4 +558,8 @@ nav#nav>#nav-upper {
 
 #article-list>.article-list-row>.item>a[href='/19995825']:visited {
     color: #1700da !important;
+}
+
+#article-list>.article-list-row>.item>a[href='/19995825']>.title-value {
+    animation: TxtShadow 1s infinite;
 }
