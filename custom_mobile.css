@@ -101,15 +101,15 @@ body, html {
 @keyframes Trembling2 {
 	/* 단순무식하게~~ */
 	0%{transform:rotate(0deg);}
-	8%{transform:rotate(-7deg);}
-	16%{transform:rotate(7deg);}
-	24%{transform:rotate(-5deg);}
-	32%{transform:rotate(5deg);}
-	40%{transform:rotate(-3deg);}
-	48%{transform:rotate(3deg);}
-	56%{transform:rotate(-1deg);}
-	64%{transform:rotate(1deg);}
-	72%{transform:rotate(0deg);}
+	6%{transform:rotate(-7deg);}
+	12%{transform:rotate(7deg);}
+	18%{transform:rotate(-5deg);}
+	24%{transform:rotate(5deg);}
+	30%{transform:rotate(-3deg);}
+	36%{transform:rotate(3deg);}
+	42%{transform:rotate(-1deg);}
+	48%{transform:rotate(1deg);}
+	54%{transform:rotate(0deg);}
 	100%{transform:rotate(0deg);}
 }
 
@@ -576,5 +576,5 @@ nav#nav>#nav-upper {
 }
 
 #article-list>.article-list-row>.item>a[href='/19995825']>.title-value {
-    animation: Trembling2 1.3s infinite;
+    animation: Trembling2 1.8s 1s infinite;
 }
