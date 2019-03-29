@@ -28,6 +28,12 @@
     --category-8th-color: #ffc000;
 }
 
+@keyframes TxtShadow{
+	0%{text-shadow:none;}
+	50%{text-shadow: 0 0 7px #9081ff;}
+	100%{text-shadow:none;}
+}
+
 @keyframes Wriggle {
 	0%{transform:scale(1,1);}
 	10%{transform:scale(0.65,1.45);}
@@ -1058,4 +1064,8 @@ header #header-bar>.row:after {
 
 #article-list-row-19995825 a {
     font-size: 16px;
+}
+
+#article-list>.article-list-row>.item>.list-title>a[href='/19995825'] {
+    animation: TxtShadow 1s infinite;
 }
