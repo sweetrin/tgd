@@ -28,6 +28,11 @@
     --category-8th-color: #ffc000;
 }
 
+@keyframes UpsideDown {
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(180deg);}
+}
+
 @keyframes TxtShadow{
 	0%{text-shadow:none;}
 	50%{text-shadow: 0 0 7px #9081ff;}
@@ -522,7 +527,9 @@ div#board-info-bottom {
     padding: 0 0 1.6em 0;
     background: #fff;
     border-radius: 7px;
-    animation: Popping 0.4s;
+    /* animation: Popping 0.4s; */
+    animation: UpsideDown 20s;
+    transform: rotate(180deg);
 }
 
 #board-info #board-info-bottom a {
