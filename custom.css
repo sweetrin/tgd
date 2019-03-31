@@ -379,7 +379,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info #viewers-area {
     color: var(--main-color);
     font-size: 13px;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
 }
 
 #viewers-area > i.fa.fa-user {
