@@ -6,10 +6,8 @@
     /* --main-color: #a652ce; */
     --rins-color:#8027aa;
     --light-color: #d2a5e6;
-    /*--text-color: #444444;*/
-    --text-color:#000;
-    /*--visited-color: #b7b7b7;*/
-    --visited-color:#000;
+    --text-color: #444444;
+    --visited-color: #b7b7b7;
     --rank-badge-color: #6782e4;
     --recommend-count-color: #ec71b5;
     --button-hover-color: #9753b7;
@@ -28,11 +26,6 @@
     --category-6th-color: #f157ab;
     --category-7th-color: #00b0f0;
     --category-8th-color: #ffc000;
-}
-
-@keyframes UpsideDown {
-	0%{transform:rotate(0deg);}
-	100%{transform:rotate(180deg);}
 }
 
 @keyframes TxtShadow{
@@ -530,12 +523,6 @@ div#board-info-bottom {
     background: #fff;
     border-radius: 7px;
     animation: Popping 0.4s;
-    /* animation: UpsideDown 20s; */
-    /* transform: rotate(180deg); */
-    background-image: url("https://sweetrin.github.io/tgd/lavender-rin.png");
-    background-repeat: no-repeat;
-    background-size: 130%;
-    background-position: -222px 183px;
 }
 
 #board-info #board-info-bottom a {
