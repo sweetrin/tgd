@@ -37,3 +37,24 @@
     color: #bf53e0;
     content: "(가 있어!!)";
 }
+
+#board-info #board-info-profile-img {
+    width: 49px !important;
+    height: 49px !important;
+    /*transition: 0.1s;*/
+    background-image: url("https://cdn.jsdelivr.net/gh/sweetrin/tgd/catrin.png");
+    padding-left: 49px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform-origin: top right;
+    position: absolute;
+    left: 828px;
+}
+
+#board-info #board-info-profile-img:hover {
+    transform: scale(13);
+    z-index: 999;
+    border-radius: 0;
+    transition: 5s;
+    background-image:url("https://sweetrin.github.io/tgd/lavender-rin2.png");
+}
