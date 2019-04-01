@@ -1128,6 +1128,19 @@ header #right-search-form:active:before {
 }
 
 /* Sakura */
+#article-list #article-list-category:after {
+    content:'';
+	display: inline-block;
+	position:absolute;
+	width: 20px;
+	height: 10px;
+	top:100px;
+	left:470px;
+	background:url("leaf.png");
+	-webkit-animation: fallingLeaves 12s 2.5s infinite  linear;
+	opacity:0;
+}
+
 #article-list .article-list-row.has-category:nth-child(3):after {
 	content:'';
 	display: inline-block;
@@ -1149,7 +1162,7 @@ header #right-search-form:active:before {
 	left:550px;
 	background:url("leaf2.png");
 	z-index:999;
-	-webkit-animation: fallingLeaves 10s 7s infinite  linear;
+	-webkit-animation: fallingLeaves 11s 3s infinite  linear;
 	opacity:0;
 }
 
@@ -1162,7 +1175,7 @@ header #right-search-form:active:before {
 	left:650px;
 	background:url("leaf.png");
 	z-index:999;
-	-webkit-animation: fallingLeaves 10s 15s infinite  linear;
+	-webkit-animation: fallingLeaves 12s 7s infinite  linear;
 	opacity:0;
 }
 
@@ -1172,12 +1185,28 @@ header #right-search-form:active:before {
 	position:absolute;
 	width: 20px;
 	height: 10px;
+	top:100px;
 	left:550px;
 	background:url("leaf.png");
 	z-index:999;
-	-webkit-animation: fallingLeaves 10s 21s infinite  linear;
+	-webkit-animation: fallingLeaves 13s 10s infinite  linear;
 	opacity:0;
 }
+
+#article-list .article-list-row.has-category:nth-child(7):after {
+    content:'';
+	display: inline-block;
+	position:absolute;
+	width: 20px;
+	height: 10px;
+	top:70px;
+	left:680px;
+	background:url("leaf.png");
+	z-index:999;
+	-webkit-animation: fallingLeaves 10s 13s infinite  linear;
+	opacity:0;
+}
+
 /*
 #article-list .article-list-row.has-category:nth-child(7):after {
     content:'';
