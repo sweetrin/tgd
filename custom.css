@@ -1132,8 +1132,8 @@ header #right-search-form:active:before {
 	content:'';
 	display: inline-block;
 	position:absolute;
-	width: 30px;
-	height: 14px;
+	width: 25px;
+	height: 12px;
 	left:450px;
 	background:url("leaf.png");
 	-webkit-animation: fallingLeaves 10s infinite linear;
@@ -1143,8 +1143,8 @@ header #right-search-form:active:before {
 	content:'';
 	display: inline-block;
 	position:absolute;
-	width: 30px;
-	height: 14px;
+	width: 25px;
+	height: 12px;
 	left:550px;
 	background:url("leaf.png");
 	-webkit-animation: fallingLeaves 10s 7s infinite  linear;
@@ -1155,8 +1155,8 @@ header #right-search-form:active:before {
     content:'';
 	display: inline-block;
 	position:absolute;
-	width: 30px;
-	height: 20px;
+	width: 25px;
+	height: 17px;
 	left:650px;
 	background:url("leaf2.png");
 	-webkit-animation: fallingLeaves 10s 15s infinite  linear;
@@ -1167,8 +1167,8 @@ header #right-search-form:active:before {
     content:'';
 	display: inline-block;
 	position:absolute;
-	width: 30px;
-	height: 14px;
+	width: 25px;
+	height: 12px;
 	left:550px;
 	background:url("leaf.png");
 	-webkit-animation: fallingLeaves 10s 21s infinite  linear;
