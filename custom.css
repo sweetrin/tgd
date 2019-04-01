@@ -1123,5 +1123,6 @@ header #right-search-form:active:before {
     height:130px;
     width:57px;
     z-index:999;
+    left:360px;
     animation:none;
 }
