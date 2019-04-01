@@ -1,7 +1,7 @@
 @keyframes a {
     0%{left:0;}
-    50%{left:0;}
-    60%{left:100px;}
+    55%{left:0;}
+    65%{left:100px;}
     70%{left:100px;}
     100%{left:-1920px;}
 }
