@@ -1,23 +1,23 @@
 @keyframes a {
-    0%{left:0;}
-    55%{left:0;}
-    65%{left:100px;}
-    70%{left:100px;}
-    100%{left:-1920px;}
+    0%{left:-246px;}
+    30%{left:-246px;}
+    60%{left:-146px;}
+    63%{left:-146px;}
+    100%{left:-2166px;}
 }
 
-header .container:before {
+#article-list:before {
+    content:'';
     background-image: url('https://sweetrin.github.io/tgd/fake_screen.png');
     background-repeat: no-repeat;
-    background-position:center;
     position: absolute;
     width: 1920px;
     height: 1080px;
-    left:0;
-    top:0;
+    left: -246px;
+    top: -215px;
     z-index: 999;
-    animation: a 3s;
-    left: -1920px;
+    animation: a 2s;
+    left: -2166px;
 }
 
 .article-list-row.has-category .item .list-title a[title="4월 1일 방송 공지"]:after {
