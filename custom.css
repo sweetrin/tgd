@@ -1126,3 +1126,115 @@ header #right-search-form:active:before {
     left:360px;
     animation:none;
 }
+
+/* Sakura */
+#article-list .article-list-row.has-category:nth-child(3):after {
+	content:'';
+	display: inline-block;
+	position:absolute;
+	width: 30px;
+	height: 14px;
+	left:450px;
+	background:url("leaf.png");
+	-webkit-animation: fallingLeaves 10s infinite linear;
+}
+
+#article-list .article-list-row.has-category:nth-child(4):after {
+	content:'';
+	display: inline-block;
+	position:absolute;
+	width: 30px;
+	height: 14px;
+	left:550px;
+	background:url("leaf.png");
+	-webkit-animation: fallingLeaves 10s 7s infinite  linear;
+	opacity:0;
+}
+
+#article-list .article-list-row.has-category:nth-child(5):after {
+    content:'';
+	display: inline-block;
+	position:absolute;
+	width: 30px;
+	height: 20px;
+	left:650px;
+	background:url("leaf2.png");
+	-webkit-animation: fallingLeaves 10s 15s infinite  linear;
+	opacity:0;
+}
+
+#article-list .article-list-row.has-category:nth-child(6):after {
+    content:'';
+	display: inline-block;
+	position:absolute;
+	width: 30px;
+	height: 14px;
+	left:550px;
+	background:url("leaf.png");
+	-webkit-animation: fallingLeaves 10s 21s infinite  linear;
+	opacity:0;
+}
+/*
+#article-list .article-list-row.has-category:nth-child(7):after {
+    content:'';
+	display: inline-block;
+	position:absolute;
+	width: 30px;
+	height: 14px;
+	left:600px;
+	background:url("leaf.png");
+	-webkit-animation: fallingLeaves 10s 2.7s infinite  linear;
+	opacity:0;
+}
+
+#article-list .article-list-row.has-category:nth-child(8):after {
+    content:'';
+	display: inline-block;
+	position:absolute;
+	width: 30px;
+	height: 14px;
+	left:700px;
+	background:url("leaf.png");
+	-webkit-animation: fallingLeaves 10s 3.5s infinite  linear;
+	opacity:0;
+}
+
+#article-list .article-list-row.has-category:nth-child(9):after {
+    content:'';
+	display: inline-block;
+	position:absolute;
+	width: 30px;
+	height: 14px;
+	left:500px;
+	background:url("leaf.png");
+	-webkit-animation: fallingLeaves 10s 5.5s infinite  linear;
+	opacity:0;
+}
+
+#article-list .article-list-row.has-category:nth-child(10):after {
+    content:'';
+	display: inline-block;
+	position:absolute;
+	width: 30px;
+	height: 14px;
+	left:600px;
+	background:url("leaf.png");
+	-webkit-animation: fallingLeaves 10s 8s infinite  linear;
+	opacity:0;
+}
+*/
+
+@-webkit-keyframes fallingLeaves {
+  0% {
+    opacity: 1;
+	-webkit-transform: translate(0, 0px) rotateZ(0deg) rotateX(0deg);
+  }
+  75% {
+    opacity: 1;
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg) rotateX(1000deg);
+  }
+  100% {
+    opacity: 0;
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg) rotateX(1300deg);
+  }
+}
