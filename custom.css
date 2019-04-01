@@ -320,7 +320,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info>h1>a:first-child:after {
     visibility: visible;
     letter-spacing: 0em;
-    content: "달콤린";
+    content: "달콤린_";
     color: var(--text-color);
     font-size: 22px;
     font-weight: bold;
@@ -1090,4 +1090,24 @@ header #header-bar>.row:after {
     font-size: 12px;
     color:#c868f5;
     font-weight:bold;
+}
+
+.article-list-row.has-category .item .list-title a[title="4월 1일 방송 공지"]:after {
+    color: #bf53e0;
+    content: "(가 있어!!)";
+}
+
+.article-list-row.has-category .item .list-title a[title="4월1일 방송 공지"]:after {
+    color: #bf53e0;
+    content: "(가 있어!!)";
+}
+
+.article-list-row.has-category .item .list-title a[title="4월 1일 방송공지"]:after {
+    color: #bf53e0;
+    content: "(가 있어!!)";
+}
+
+.article-list-row.has-category .item .list-title a[title="4월1일 방송공지"]:after {
+    color: #bf53e0;
+    content: "(가 있어!!)";
 }
