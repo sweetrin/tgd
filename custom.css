@@ -1132,8 +1132,8 @@ header #right-search-form:active:before {
 	content:'';
 	display: inline-block;
 	position:absolute;
-	width: 25px;
-	height: 12px;
+	width: 20px;
+	height: 10px;
 	left:450px;
 	background:url("leaf.png");
 	z-index:999;
@@ -1144,8 +1144,8 @@ header #right-search-form:active:before {
 	content:'';
 	display: inline-block;
 	position:absolute;
-	width: 25px;
-	height: 17px;
+	width: 20px;
+	height: 14px;
 	left:550px;
 	background:url("leaf2.png");
 	z-index:999;
@@ -1157,8 +1157,8 @@ header #right-search-form:active:before {
     content:'';
 	display: inline-block;
 	position:absolute;
-	width: 25px;
-	height: 12px;
+	width: 20px;
+	height: 10px;
 	left:650px;
 	background:url("leaf.png");
 	z-index:999;
@@ -1170,8 +1170,8 @@ header #right-search-form:active:before {
     content:'';
 	display: inline-block;
 	position:absolute;
-	width: 25px;
-	height: 12px;
+	width: 20px;
+	height: 10px;
 	left:550px;
 	background:url("leaf.png");
 	z-index:999;
