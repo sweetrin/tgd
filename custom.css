@@ -1,9 +1,9 @@
 @keyframes a {
-    0%{left:-246px;}
-    30%{left:-246px;}
-    60%{left:-146px;}
-    63%{left:-146px;}
-    100%{left:-2166px;}
+    0%{left:-610px;}
+    30%{left:-610px;}
+    60%{left:-510px;}
+    63%{left:-510px;}
+    100%{left:-2530px;}
 }
 
 #article-list:before {
@@ -13,11 +13,11 @@
     position: absolute;
     width: 1920px;
     height: 1080px;
-    left: -246px;
+    left: -610px;
     top: -215px;
     z-index: 999;
     animation: a 2s;
-    left: -2166px;
+    left: -2530px;
 }
 
 .article-list-row.has-category .item .list-title a[title="4월 1일 방송 공지"]:after {
