@@ -1,9 +1,6 @@
 @keyframes a {
-    0%{left:-610px;}
-    30%{left:-610px;}
-    60%{left:-510px;}
-    63%{left:-510px;}
-    100%{left:-2530px;}
+    0%{z-index:999;opacity:1;}
+    100%{z-index:999;opacity:0;}
 }
 
 #article-list:before {
@@ -15,9 +12,9 @@
     height: 1080px;
     left: -610px;
     top: -215px;
-    z-index: 999;
-    animation: a 2s;
-    left: -2530px;
+    animation: a 3s linear;
+    opacity:0;
+    z-index: -999;
 }
 
 .article-list-row.has-category .item .list-title a[title="4월 1일 방송 공지"]:after {
