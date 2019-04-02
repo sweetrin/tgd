@@ -911,12 +911,7 @@ a.custom-badge-link.active {
 }
 
 #board-info #board-info-profile-img:hover {
-	transition:10s;
-	transform-origin:top left;
-    transform: scale(10);
-    background-image: url("https://sweetrin.github.io/tgd/lavender-rin2.png");
-    border-radius:0;
-    z-index:999;
+	transform: scale(1.5);
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
