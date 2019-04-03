@@ -1269,5 +1269,5 @@ header #right-search-form:active:before {
 }
 
 #article-list>.article-list-row>.item>.list-title>a[href='/20529153']:visited {
-    color: #24bb47;
+    color: #24bb47 !important;
 }
