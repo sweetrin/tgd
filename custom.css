@@ -1179,11 +1179,11 @@ header #right-search-form:active:before {
     content:'';
 	display: inline-block;
 	position:absolute;
-	width: 20px;
-	height: 10px;
+	width: 57px;
+	height: 95px;
 	top:100px;
 	left:550px;
-	background:url("leaf.png");
+	background:url("littlerin.png");
 	z-index:999;
 	-webkit-animation: fallingLeaves 13s 10s infinite  linear;
 	opacity:0;
