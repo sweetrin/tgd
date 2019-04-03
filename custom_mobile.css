@@ -611,3 +611,11 @@ nav#nav.hide {
 .dropdown.open .dropdown-menu {
     animation: Popping 0.25s;
 }
+
+button.btn.square.btn-default.dropdown-toggle {
+    border-radius: 100px 0px 0px 100px;
+}
+
+.input-group .input-group-btn:nth-child(4) .btn.square.btn-default {
+    border-radius: 0px 100px 100px 0px;
+}
