@@ -325,18 +325,18 @@ footer {
 }
 
 .btn-primary {
-    background-color: var(--main-color);
+    background-color: #c17dff;
     border-color: var(--main-color);
 }
 
 #article-list #article-list-menu>.btn.write {
     border-radius: 100px;
-    border-color: var(--main-color);
+    border-color: #c17dff;
 }
 
 #article-list #article-list-menu>.btn.best {
-    color: var(--main-color);
-    border-color: var(--main-color);
+    color: #c17dff;
+    border-color: #c17dff;
     border-radius: 100px;
 }
 
@@ -365,8 +365,8 @@ footer {
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background: var(--main-color);
-    border-color: var(--main-color);
+    background: #c17dff;
+    border-color: #c17dff;
     border-radius: 100px;
 }
 
@@ -475,6 +475,7 @@ nav#nav {
 	border: 0;
 	margin-left: 2px;
 	border-radius: 100px;
+	color: #c17dff;
 }
 
 .footer>a:nth-child(1) {
@@ -615,22 +616,22 @@ nav#nav.hide {
 button.btn.square.btn-default.dropdown-toggle {
     border-radius: 100px 0px 0px 100px;
     margin-right: -1px;
-    background-color: #c17dff;
+    background-color: #f174ed;
     z-index: 3;
-    border-color: #c17dff;
+    border-color: #f174ed;
     color: #fff;
 }
 
 .input-group .input-group-btn:nth-child(4) .btn.square.btn-default {
     border-radius: 0px 100px 100px 0px;
     z-index: 3;
-    background-color: #c17dff;
-    border-color: #c17dff;
+    background-color: #f174ed;
+    border-color: #f174ed;
     color: #fff;
 }
 
 #boardSearchForm .form-control {
-    border-color: #c17dff;
+    border-color: #f174ed;
     /* box-shadow: inset 1px 1px 1px rgba(0,0,0,.075); */
     box-shadow: inset 0px 0px;
 }
