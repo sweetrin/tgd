@@ -1078,11 +1078,11 @@ header #header-bar>.row:after {
 }
 
 #article-list-row-19995825 a {
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 #article-list>.article-list-row>.item>.list-title>a[href='/19995825'] {
-    animation: Trembling2 1.8s 1s infinite;
+    /* animation: Trembling2 1.8s 1s infinite; */
 }
 
 #board-info #board-info-bottom:before {
