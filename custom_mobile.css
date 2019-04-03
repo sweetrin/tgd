@@ -615,22 +615,22 @@ nav#nav.hide {
 button.btn.square.btn-default.dropdown-toggle {
     border-radius: 100px 0px 0px 100px;
     margin-right: -1px;
-    background-color: #fff4fe;
+    background-color: #f174ed;
     z-index: 3;
-    border-color: #fff4fe;
-    color: var(--main-color);
+    border-color: #f174ed;
+    color: #fff;
 }
 
 .input-group .input-group-btn:nth-child(4) .btn.square.btn-default {
     border-radius: 0px 100px 100px 0px;
     z-index: 3;
-    background-color: #fff4fe;
-    border-color: #fff4fe;
-    color: var(--main-color);
+    background-color: #f174ed;
+    border-color: #f174ed;
+    color: #fff;
 }
 
 #boardSearchForm .form-control {
-    border-color: #fff4fe;
+    border-color: #f174ed;
     /* box-shadow: inset 1px 1px 1px rgba(0,0,0,.075); */
     box-shadow: inset 0px 0px;
 }
