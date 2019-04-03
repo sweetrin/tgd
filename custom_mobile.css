@@ -147,7 +147,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 #board-info>a.board-right-menu {
     padding: 9px 4.9px;
     border-left: 0;
-    color: var(--main-color);
+    color: #c17dff;
 }
 
 #board-info>h1 {
@@ -270,7 +270,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 .badge {
-    background-color: var(--main-color);
+    background-color: #c17dff;
 }
 
 footer {
@@ -319,7 +319,7 @@ footer {
 
 #article-list #article-list-category>a:nth-child(1) {
     color: #fff;
-    background: var(--main-color);
+    background: #c17dff;
     width: 3.5em;
     text-align: center;
 }
