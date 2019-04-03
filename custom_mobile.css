@@ -556,7 +556,7 @@ i.fa.fa-arrow-left {
     color: #fff;
 }
 
-i.fa.fa-search {
+#header-search-link>i.fa.fa-search {
     color: #fff;
 }
 
