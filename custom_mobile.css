@@ -636,3 +636,7 @@ button.btn.square.btn-default.dropdown-toggle {
     /* box-shadow: inset 1px 1px 1px rgba(0,0,0,.075); */
     box-shadow: none;
 }
+
+header > #header-search-bar #header-search-btn {
+    color: #fff;
+}
