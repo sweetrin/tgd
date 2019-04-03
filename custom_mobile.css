@@ -207,6 +207,7 @@ header>#header-area>a>h1 {
 
 #header-top-notice strong.notice-badge {
     background: #c17dff;
+    border-radius: 10px;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
