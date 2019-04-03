@@ -618,6 +618,7 @@ button.btn.square.btn-default.dropdown-toggle {
     background-color: #fff4fe;
     z-index: 3;
     border-color: #fff4fe;
+    color: var(--main-color);
 }
 
 .input-group .input-group-btn:nth-child(4) .btn.square.btn-default {
@@ -625,6 +626,7 @@ button.btn.square.btn-default.dropdown-toggle {
     z-index: 3;
     background-color: #fff4fe;
     border-color: #fff4fe;
+    color: var(--main-color);
 }
 
 #boardSearchForm .form-control {
