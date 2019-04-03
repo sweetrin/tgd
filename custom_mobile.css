@@ -186,7 +186,7 @@ header {
     /* border-bottom: 0; */
     /* height: 46px; */
     /* border-radius: 0 0 10px 10px; */
-    background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
+    background: linear-gradient(to right, rgba(241,116,237,0.8), rgba(193,125,255,0.8),rgba(104,163,253,0.8));
     background-size: 130%;
     padding: 7px 0;
     animation: Gradient 6s ease infinite;
@@ -577,4 +577,12 @@ nav#nav>#nav-upper {
 
 #article-list>.article-list-row>.item>a[href='/19995825']>.title-value {
     animation: Trembling2 1.8s 1s infinite;
+}
+
+header>#header-area {
+    
+}
+
+header.nav-up {
+    top: 0px;
 }
