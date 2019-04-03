@@ -431,6 +431,7 @@ span.a-badge i.fa.fa-star {
 
 nav#nav {
     background: #fff;
+    transition: 0.3s;
 }
 
 #article-list>.article-list-row:hover {
@@ -583,4 +584,19 @@ nav#nav>#nav-upper {
 
 header.nav-up {
     top: 0px;
+}
+
+nav#nav.hide {
+    display: block !important;
+    width: 0 !important;
+}
+
+#nav-overlay.hide {
+    display: block !important;
+    width: 0;
+    opacity: 0;
+}
+
+#nav>* {
+    width: 300px;
 }
