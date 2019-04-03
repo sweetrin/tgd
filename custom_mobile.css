@@ -36,6 +36,13 @@ body, html {
     font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
+@keyframes Popping {
+	0%{transform:scale(0.8)}
+	40%{transform:scale(1.01)}
+	70%{transform:scale(0.99)}
+	100%{transform:scale(1)}
+}
+
 @keyframes TxtShadow{
 	0%{text-shadow:none;}
 	50%{text-shadow: 0 0 7px #9081ff;}
