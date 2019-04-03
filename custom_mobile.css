@@ -616,11 +616,12 @@ button.btn.square.btn-default.dropdown-toggle {
     border-radius: 100px 0px 0px 100px;
     margin-right: -1px;
     background-color: #e5e5e5;
+    z-index: 3;
 }
 
 .input-group .input-group-btn:nth-child(4) .btn.square.btn-default {
     border-radius: 0px 100px 100px 0px;
-    /* z-index: 0; */
+    z-index: 3;
     background-color: #e5e5e5;
 }
 
