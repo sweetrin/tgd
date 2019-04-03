@@ -567,6 +567,8 @@ header > #header-search-bar #header-search-input {
     border: 0 !important;
     height: 34px;
     width: 90%;
+    border-radius: 10px;
+    outline: none;
 }
 
 i.fa.fa-bars {
@@ -635,8 +637,4 @@ button.btn.square.btn-default.dropdown-toggle {
     border-color: #e5e5e5;
     /* box-shadow: inset 1px 1px 1px rgba(0,0,0,.075); */
     box-shadow: none;
-}
-
-header > #header-search-bar #header-search-btn {
-    color: #fff;
 }
