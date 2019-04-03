@@ -326,7 +326,7 @@ footer {
 
 .btn-primary {
     background-color: #c17dff;
-    border-color: var(--main-color);
+    border-color: #c17dff;
 }
 
 #article-list #article-list-menu>.btn.write {
