@@ -206,7 +206,7 @@ header>#header-area>a>h1 {
 }
 
 #header-top-notice strong.notice-badge {
-    background: var(--main-color);
+    background: #c17dff;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
