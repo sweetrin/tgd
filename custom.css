@@ -1267,3 +1267,7 @@ header #right-search-form:active:before {
 	-webkit-transform: translate(150px, 800px) rotateZ(360deg) rotateX(1300deg);
   }
 }
+
+#article-list>.article-list-row>.item>.list-title>a[href='/20529153']:visited {
+    color: #24bb47;
+}
