@@ -600,3 +600,7 @@ nav#nav.hide {
 #nav>* {
     width: 300px;
 }
+
+.dropdown.open .dropdown-menu {
+    animation: Popping 0.25s;
+}
