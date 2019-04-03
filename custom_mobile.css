@@ -319,7 +319,7 @@ footer {
 
 #article-list #article-list-category>a:nth-child(1) {
     color: #fff;
-    background: #c17dff;
+    background: var(--main-color);
     width: 3.5em;
     text-align: center;
 }
