@@ -358,7 +358,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info>h1>a:first-child:active:after {
 	/*animation:none;*/
-	transform:scale(0.9);
+	/*transform:scale(0.9);*/
 }
 
 /*
@@ -1031,8 +1031,7 @@ header #right-search-form:before {
 .fr-tooltip {/* margin-top: 0.3em; */}
 
 .btn-outline-success:active {
-    outline: none !important;
-    transform: scale(0.9);
+    /* transform: scale(0.9); */
 }
 
 #article-neighbor-list>div:hover {
@@ -1045,7 +1044,7 @@ header #right-search-form:before {
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a:hover, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a:hover {}
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a:active, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a:active {
-    transform: scale(0.9);
+    /* transform: scale(0.9); */
 }
 
 #board-info #board-info-bottom a {
