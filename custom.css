@@ -1032,6 +1032,7 @@ header #right-search-form:before {
 
 .btn-outline-success:active {
     /* transform: scale(0.9); */
+    outline: none !important;
 }
 
 #article-neighbor-list>div:hover {
