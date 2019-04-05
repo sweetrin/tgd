@@ -1184,7 +1184,7 @@ header #right-search-form:active:before {
 	top:100px;
 	left:550px;
 	background:url("littlerin.png");
-	z-index:999;
+	z-index:998;
 	-webkit-animation: fallingLeaves 13s 10s infinite  linear;
 	opacity:0;
 }
