@@ -1134,7 +1134,7 @@ header #right-search-form:active:before {
 	left:470px;
 	background:url("leaf.png");
 	z-index:999;
-	-webkit-animation: fallingLeaves 17s 5.5s infinite  linear;
+	-webkit-animation: fallingLeaves 17s 5s infinite  linear;
 	opacity:0;
 }
 
