@@ -1279,7 +1279,7 @@ header #right-search-form:active:before {
 }
 
 #article-list #boardSearchForm .form-control {
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 .btn {
