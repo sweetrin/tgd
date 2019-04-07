@@ -1272,3 +1272,11 @@ header #right-search-form:active:before {
 #article-list>.article-list-row>.item>.list-title>a[href='/20529153']:visited {
     color: #24bb47 !important;
 }
+
+.input-group-btn>.btn {
+    border-radius: 7px !important;
+}
+
+#article-list #boardSearchForm .form-control {
+    border-radius: 7px;
+}
