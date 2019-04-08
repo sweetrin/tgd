@@ -1037,7 +1037,7 @@ header #right-search-form:before {
 .btn-outline-success:active {
     /* transform: scale(0.9); */
     outline: none !important;
-    box-shadow: 0 0 7px 1px #c17dff;
+    box-shadow: 0 0 7px 1.2px #c17dff;
 }
 
 #article-neighbor-list>div:hover {
