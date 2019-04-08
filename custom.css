@@ -683,7 +683,8 @@ header #right-search-form > #right-search-btn {
     right: 0.7em;
     width: 2.9em;
     image-rendering: auto;
-    box-shadow: 3px 3px 3px 0px #de61dc;
+    /* box-shadow: 3px 3px 3px 0px #de61dc; */
+    box-shadow: 2px 2px 5px 0px #de61dc;
 }
 
 /* 헤더 */
