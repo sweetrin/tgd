@@ -294,7 +294,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     float: left !important;
     border: 3px solid #e886e1;
     margin-right: 0.9em;
-    box-shadow: 1px 1px 3px 1px #9a9a9a;
+    /* box-shadow: 1px 1px 3px 1px #9a9a9a; */
+    box-shadow: 1px 1px 3px 1px #b585b2;
     transition: 0.1s;
     /* z-index: 99; */
     background-image: url("https://cdn.jsdelivr.net/gh/sweetrin/tgd/catrin.png");
