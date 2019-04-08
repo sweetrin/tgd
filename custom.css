@@ -114,7 +114,8 @@
 
 span.a-badge i.fa.fa-star {
 	color: #ffd122;
-	animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+	/* animation: RotateStar 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; */
+	animation: RotateStar 20s linear infinite;
 }
 
 @keyframes HlTxtColor{
