@@ -1110,7 +1110,7 @@ header #header-bar>.row:after {
     content: "● 트로피코6 진행 중\00a0\00a0";
     font-size: 12px;
     color:#c868f5;
-    font-weight:bold;
+    /* font-weight:bold; */
 }
 
 .article-list-row.has-category .item .list-title a[title="4월 1일 방송 공지"]:after {
