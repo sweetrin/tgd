@@ -119,11 +119,11 @@ span.a-badge i.fa.fa-star {
 }
 
 @keyframes HlTxtColor{
-	0%{color: #f17ad5;}
-	20%{color:#b080f5;}
-	40%{color:#58bb6a;}
-	60%{color:#7c91e4;}
-	100%{color: #f17ad5;}
+	0%{color: #f17ad5;text-shadow: 0 0 3px rgba(241, 122, 213, 0.5);}
+	20%{color:#b080f5;text-shadow: 0 0 3px rgba(176, 128, 245, 0.5);}
+	40%{color:#58bb6a;text-shadow: 0 0 3px rgba(88, 187, 106, 0.5);}
+	60%{color:#7c91e4;text-shadow: 0 0 3px rgba(124, 145, 228, 0.5);}
+	100%{color: #f17ad5;text-shadow: 0 0 3px rgba(241, 122, 213, 0.5);}
 }
 
 @keyframes HlBgColor{
@@ -1306,5 +1306,5 @@ header #right-search-form:active:before {
 }
 
 #board-info h1>a:active {
-    text-shadow: 0 0 6px #e4e4e4;
+    /* text-shadow: 0 0 6px #efefef; */
 }
