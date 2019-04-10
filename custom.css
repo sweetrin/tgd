@@ -1292,3 +1292,7 @@ header #right-search-form:active:before {
 .btn {
     border-radius: 5px !important;
 }
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a:active, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu > a:active {
+    text-shadow: 0 0 6px #89a3ff;
+}
