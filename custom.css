@@ -119,6 +119,14 @@ span.a-badge i.fa.fa-star {
 }
 
 @keyframes HlTxtColor{
+	0%{color: #f17ad5;}
+	20%{color:#b080f5;}
+	40%{color:#58bb6a;}
+	60%{color:#7c91e4;}
+	100%{color: #f17ad5;}
+}
+
+@keyframes HlTxtColor2{
 	0%{color: #f17ad5;text-shadow: 0 0 2px rgba(241, 122, 213, 0.5);}
 	20%{color:#b080f5;text-shadow: 0 0 2px rgba(176, 128, 245, 0.5);}
 	40%{color:#58bb6a;text-shadow: 0 0 2px rgba(88, 187, 106, 0.5);}
@@ -1303,7 +1311,7 @@ header #right-search-form:active:before {
 
 #board-info h1>a {
 	font-size: 22px;
-	animation: HlTxtColor 3s infinite;
+	animation: HlTxtColor2 3s infinite;
 }
 
 #board-info h1>a:active {
