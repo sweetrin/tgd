@@ -650,6 +650,7 @@ div#board-info-bottom {
 header #right-search-form>input[type=text] {
     border: 3px solid #c17dff;
     border-radius: 7px;
+    width: 214.38px;
 }
 
 input#right-search-input {}
