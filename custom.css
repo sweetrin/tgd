@@ -688,7 +688,7 @@ header #right-search-form > #right-search-btn {
 
 /* 글 제목 */
 #article-info>h2 {
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #fff;
     font-size: 17px;
     padding: 0 0 0.2em;
@@ -838,6 +838,7 @@ header #right-search-form > #right-search-btn {
 
 #article-info>h2>span.category {
     color: #fff !important;
+    font-weight: bold;
 }
 
 /* 베스트 댓글 배경색 */
