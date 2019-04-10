@@ -315,13 +315,16 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 /* 스트리머 닉넴 (SweetRin > 달콤린) */
+/*
 #board-info>h1>a:first-child {
 	visibility: hidden;
 	letter-spacing: -1em;
 	margin-right: 0.1em;
 	transition:0.5s;
 }
+*/
 
+/*
 #board-info>h1>a:first-child:after {
     visibility: visible;
     letter-spacing: 0em;
@@ -332,6 +335,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     display:inline-block;
     animation: HlTxtColor 3s infinite;
 }
+*/
 
 /*
 #board-info>h1>a:before {
@@ -1295,4 +1299,12 @@ header #right-search-form:active:before {
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a:active, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu > a:active {
     text-shadow: 0 0 6px #89a3ff;
+}
+
+#board-info h1>a {
+    animation: HlTxtColor 3s infinite;
+}
+
+#board-info h1>a:active {
+    text-shadow: 0 0 6px #e4e4e4;
 }
