@@ -251,7 +251,7 @@ footer a {
 }
 
 /* 위쪽 전광판 */
-header #header-bar>.row {position: relative;border-top: 5px solid transparent;border-right: 0;border-bottom: 0;border-radius: 6px;background-clip: padding-box;display: flex;animation: HlShadow 3s infinite;}
+header #header-bar>.row {position: relative;border-top: 5px solid transparent;border-right: 0;border-bottom: 0;border-radius: 6px;background-clip: padding-box;display: flex;animation: HlShadow 3s infinite;/* height: 47.38px; *//* padding-top: 0.4em; */}
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
@@ -743,7 +743,7 @@ header #right-search-form > #right-search-btn {
 #article-content-wrapper #article-content {
     background: #fff;
     padding: 1em 1.2em;
-    font-size: 13.5px;
+    font-size: 13.4px;
 }
 
 #article-content-wrapper>.vote-area {
@@ -785,7 +785,7 @@ header #right-search-form > #right-search-btn {
     border-radius: 8px 8px 0px 0px;
     padding: 0 0 0.1em;
     /* margin-bottom: 1.4em; */
-    font-size: 13.5px;
+    font-size: 13.4px;
     /* border-bottom: 2px solid var(--main-color); */
     border-bottom: 1px solid #f1f1f1;
 }
@@ -896,6 +896,7 @@ form#articleWriteForm {
 
 header #header-bar #header-menu-right #userDropdown #notification-badge {
     background: #f92f2f;
+    /* font-size: 11px; */
 }
 
 a.custom-badge-link.active {
@@ -1318,4 +1319,10 @@ header #right-search-form:active:before {
 
 #board-info h1>a:active {
     /* text-shadow: 0 0 6px #efefef; */
+}
+
+#main .menu-wrapper>a {
+    font-size: 13px;
+    padding: 0.4em 1.4em 0.3em 0.7em;
+    height: 29.38px;
 }
