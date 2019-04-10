@@ -1311,7 +1311,7 @@ header #right-search-form:active:before {
 
 #board-info h1>a {
 	font-size: 22px;
-	animation: HlTxtColor2 3s infinite;
+	animation: HlTxtColor 3s infinite;
 }
 
 #board-info h1>a:active {
