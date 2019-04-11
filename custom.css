@@ -535,7 +535,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 div#board-info-bottom {
     flex: auto;
-    text-align: right;
+    text-align: left;
 }
 
 #article-list {
@@ -572,6 +572,7 @@ div#board-info-bottom {
 
 #board-info #board-info-bottom {
     padding-top: 7px;
+    padding-left: 4.2em;
 }
 
 #main .menu-wrapper>a:last-child {
@@ -1112,11 +1113,16 @@ header #header-bar>.row:after {
     /* animation: Trembling2 1.8s 1s infinite; */
 }
 
-#board-info #board-info-bottom:before {
-    content: "● 오늘: 오브라딘호의 귀환\00a0\00a0";
+#board-info #board-info-bottom:after {
+    content: "< 예정 >\00a0\00a0\00a0\00a0\A오브라딘호의 귀환";
     font-size: 12px;
     color:#c868f5;
     /* font-weight:bold; */
+    white-space: pre-wrap;
+    /* display: inline-block; */
+    position: absolute;
+    top: 11px;
+    margin-left: 0.5em;
 }
 
 .article-list-row.has-category .item .list-title a[title="4월 1일 방송 공지"]:after {
