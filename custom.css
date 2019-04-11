@@ -321,7 +321,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info h1 {
     border-bottom: 0;
     border-left: 1px dashed #adadad;
-    padding: 0 0.4em;
+    /* padding: 0 0.4em; */
+    padding: 0 0 0 0.4em;
 }
 
 /* 스트리머 닉넴 (SweetRin > 달콤린) */
@@ -1112,7 +1113,7 @@ header #header-bar>.row:after {
 }
 
 #board-info #board-info-bottom:before {
-    content: "● 트로피코6 진행 중\00a0\00a0";
+    content: "● 오늘: 오브라딘호의 귀환\00a0\00a0";
     font-size: 12px;
     color:#c868f5;
     /* font-weight:bold; */
