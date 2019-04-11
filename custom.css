@@ -1114,7 +1114,7 @@ header #header-bar>.row:after {
 }
 
 #board-info #board-info-bottom:after {
-    content: "< 예정 >\00a0\00a0\00a0\00a0\A오브라딘호의 귀환";
+    content: "< 예정 >\00a0\A오브라딘호의 귀환";
     font-size: 12px;
     color:#c868f5;
     /* font-weight:bold; */
