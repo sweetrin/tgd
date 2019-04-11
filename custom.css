@@ -1315,7 +1315,7 @@ header #right-search-form:active:before {
     text-shadow: 0 0 7px #9eb4ff;
 }
 
-#board-info h1>a {
+#board-info h1>a:first-child {
 	font-size: 22px;
 	animation: HlTxtColor 3s infinite;
 	/* font-weight: bold; */
