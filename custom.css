@@ -1326,7 +1326,7 @@ header #right-search-form:active:before {
 #board-info h1>a:first-child {
 	font-size: 22px;
 	animation: HlTxtColor 3s infinite;
-	/* font-weight: bold; */
+	font-weight: bold;
 }
 
 #board-info h1>a:active {
