@@ -1311,7 +1311,7 @@ header #right-search-form:active:before {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a:active, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu > a:active {
-    text-shadow: 0 0 6px #89a3ff;
+    text-shadow: 0 0 6px #92aaff;
 }
 
 #board-info h1>a {
