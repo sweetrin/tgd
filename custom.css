@@ -295,7 +295,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding: 0.6em 0.8em;
     margin-bottom: 2.5em;
     /* box-shadow: 3px 3px 5px #2a005826; */
-    /* box-shadow: 3px 3px 5px rgba(55, 0, 121, 0.15); */
+    box-shadow: 3px 3px 5px rgba(55, 0, 121, 0.15);
     animation: Popping 0.4s;
 }
 
@@ -309,7 +309,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-right: 0.8em;
     /* box-shadow: 1px 1px 3px 1px #9a9a9a; */
     /* box-shadow: 1px 1px 3px 1px #b585b2; */
-    /* box-shadow: 1px 1px 3px 1px #a7a7a7; */
+    box-shadow: 1px 1px 3px 1px #a7a7a7;
     transition: 0.1s;
     /* z-index: 99; */
     /* background-image: url("https://cdn.jsdelivr.net/gh/sweetrin/tgd/catrin.png"); */
@@ -399,7 +399,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* 생존자라니.. */
 #board-info #viewers-area {
     color: var(--main-color);
-    color: var(--text-color);
+    /* color: var(--text-color); */
     font-size: 13px;
     /* vertical-align: bottom; */
 }
@@ -1080,7 +1080,7 @@ header #right-search-form:before {
 
 #board-info #board-info-bottom a {
     color: var(--rank-badge-color);
-    color: var(--text-color);
+    /* color: var(--text-color); */
 }
 
 header #header-bar>.row:after {
@@ -1316,7 +1316,7 @@ header #right-search-form:active:before {
 	font-size: 22px;
 	/* animation: HlTxtColor 3s infinite; */
 	font-weight: bold;
-	color: var(--text-color);
+	/* color: var(--text-color); */
 	color: #b080f5;
 }
 
