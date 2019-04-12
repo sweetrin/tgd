@@ -1382,3 +1382,11 @@ header #header-bar #header-top-notice {
 .dropdown-menu>li>a {
     color: #fff;
 }
+
+.label-default {
+    background-color: #d084ff;
+}
+
+#favoriteDropdownMenu>li>a>span.delrow {
+	color: #c17dff;
+}
