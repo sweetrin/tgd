@@ -256,7 +256,7 @@ header #header-bar>.row {position: relative;border-top: 5px solid transparent;bo
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
-    background: #d179fb;
+    background: #cc77f5;
     border-radius:4px;
 }
 
@@ -562,7 +562,7 @@ div#board-info-bottom {
 }
 
 .badge {
-    background-color: #d179fb;
+    background-color: #cc77f5;
     /* background-color: #af72e6; */
 }
 
