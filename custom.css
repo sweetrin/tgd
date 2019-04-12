@@ -1364,5 +1364,5 @@ header #header-bar #header-top-notice {
 }
 
 #board-info h1>a:first-child:active {
-    text-shadow: 0 0 10px #e2ccff;
+    /* text-shadow: 0 0 10px #ead9ff; */
 }
