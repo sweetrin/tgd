@@ -998,6 +998,7 @@ input#right-search-input:focus {
     top: 7px;
 }
 
+/*
 header #right-search-form:before {
     background-image: url("https://sweetrin.github.io/tgd/littlerin-left.png");
     background-repeat: no-repeat;
@@ -1009,8 +1010,8 @@ header #right-search-form:before {
     width: 15px;
     content: '';
     animation: LittleRin 20s infinite;
-    /*z-index: 99;*/
 }
+*/
 
 #article-info strong:first-child:before {
     /*content: url("https://sweetrin.github.io/tgd/candy_18x18.png");*/
@@ -1136,6 +1137,7 @@ header #header-bar>.row:after {
     content: "(가 있어!!)";
 }
 
+/*
 header #right-search-form:active:before {
     background-image: url("https://sweetrin.github.io/tgd/littlerin-yah.png");
     background-size:contain;
@@ -1145,6 +1147,7 @@ header #right-search-form:active:before {
     left:360px;
     animation:none;
 }
+*/
 
 /* Sakura */
 /*
