@@ -1322,6 +1322,9 @@ header #right-search-form:active:before {
 	font-weight: bold;
 	/* color: var(--text-color); */
 	color: #b080f5;
+	background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #board-info h1>a:active {
