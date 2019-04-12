@@ -256,6 +256,8 @@ header #header-bar>.row {position: relative;border-top: 5px solid transparent;bo
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
+    background: #d179fb;
+    border-radius:4px;
 }
 
 /* 메뉴 트랜지션 */
@@ -405,6 +407,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info #viewers-area {
     color: var(--main-color);
     /* color: var(--text-color); */
+    color: #b26ef1;
     font-size: 13px;
     /* vertical-align: bottom; */
 }
@@ -559,7 +562,8 @@ div#board-info-bottom {
 }
 
 .badge {
-    background-color: var(--main-color);
+    background-color: #d179fb;
+    /* background-color: #af72e6; */
 }
 
 #article-list #article-list-menu>.btn.best {
