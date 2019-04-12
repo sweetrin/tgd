@@ -296,7 +296,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-bottom: 2.5em;
     /* box-shadow: 3px 3px 5px #2a005826; */
     box-shadow: 3px 3px 5px rgba(55, 0, 121, 0.15);
-    animation: Popping 0.4s;
+    /* animation: Popping 0.4s; */
 }
 
 #board-info .pull-right.img-rounded {
@@ -544,7 +544,7 @@ div#board-info-bottom {
     padding: 0 0 1.6em 0;
     background: #fff;
     border-radius: 7px;
-    animation: Popping 0.4s;
+    /* animation: Popping 0.4s; */
 }
 
 #board-info #board-info-bottom a {
@@ -568,7 +568,7 @@ div#board-info-bottom {
 
 #main .menu-wrapper {
     border: 0;
-    animation: Popping 0.4s;
+    /* animation: Popping 0.4s; */
     border-radius: 7px;
 }
 
