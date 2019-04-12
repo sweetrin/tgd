@@ -256,8 +256,8 @@ header #header-bar>.row {position: relative;border-top: 5px solid transparent;bo
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
-    background: #cc77f5;
-    border-radius:4px;
+    background: #c965f9;
+    border-radius:3px;
 }
 
 /* 메뉴 트랜지션 */
@@ -562,7 +562,7 @@ div#board-info-bottom {
 }
 
 .badge {
-    background-color: #cc77f5;
+    background-color: #c965f9;
     /* background-color: #af72e6; */
 }
 
@@ -1330,7 +1330,7 @@ header #right-search-form:active:before {
 	/* animation: HlTxtColor 3s infinite; */
 	font-weight: bold;
 	/* color: var(--text-color); */
-	color: #b080f5;
+	color: #b159ff;
 	/* color: #b683ff; */
 	/* background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb); */
 	/* -webkit-background-clip: text; */
