@@ -11,7 +11,8 @@
     --rank-badge-color: #6782e4;
     --recommend-count-color: #ec71b5;
     --button-hover-color: #9753b7;
-    --cursor-highlight-color:#f8f0ff;
+    --cursor-highlight-color:#faf3ff;
+    /*--cursor-highlight-color:#f8f0ff;*/
     /*--bg-color-stop1:#eee5f3;*/
     --bg-color-stop1:#ecdef5;
     --bg-color-stop2:#6d4c98;
@@ -1044,6 +1045,7 @@ header #right-search-form:before {
 
 #article-list>.article-list-row.notice {
     background-color: var(--cursor-highlight-color);
+    background-color: #f6ebff;
 }
 
 .fr-popup .fr-emoticon:hover {
