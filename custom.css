@@ -291,7 +291,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: #fff;
     border-radius: 7px;
     overflow: inherit;
-    padding: 0.6em 0.7em;
+    padding: 0.6em 0.8em;
     margin-bottom: 2.5em;
     /* box-shadow: 3px 3px 5px #2a005826; */
     box-shadow: 3px 3px 5px rgba(55, 0, 121, 0.15);
@@ -305,7 +305,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     float: left !important;
     border: 3px solid #e886e1;
     border: 3px solid #b986e8;
-    margin-right: 0.9em;
+    margin-right: 0.8em;
     /* box-shadow: 1px 1px 3px 1px #9a9a9a; */
     /* box-shadow: 1px 1px 3px 1px #b585b2; */
     box-shadow: 1px 1px 3px 1px #a7a7a7;
@@ -535,7 +535,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 div#board-info-bottom {
     flex: auto;
-    text-align: left;
+    text-align: right;
 }
 
 #article-list {
@@ -572,7 +572,6 @@ div#board-info-bottom {
 
 #board-info #board-info-bottom {
     padding-top: 7px;
-    padding-left: 4.1em;
 }
 
 #main .menu-wrapper>a:last-child {
@@ -1113,20 +1112,6 @@ header #header-bar>.row:after {
     /* animation: Trembling2 1.8s 1s infinite; */
 }
 
-#board-info #board-info-bottom:after {
-    content: "● 진행 중 \00a0\A오브라딘호의 귀환";
-    font-size: 12px;
-    color:#c868f5;
-    /* font-weight:bold; */
-    white-space: pre-wrap;
-    /* display: inline-block; */
-    position: absolute;
-    top: 9px;
-    margin-left: 0.7em;
-    line-height: 15px;
-    /* font-family: FontAwesome; */
-}
-
 .article-list-row.has-category .item .list-title a[title="4월 1일 방송 공지"]:after {
     color: #bf53e0;
     content: "(가 있어!!)";
@@ -1158,6 +1143,7 @@ header #right-search-form:active:before {
 }
 
 /* Sakura */
+/*
 #article-list #article-list-category:after {
     content:'';
 	display: inline-block;
@@ -1238,7 +1224,6 @@ header #right-search-form:active:before {
 	opacity:0;
 }
 
-/*
 #article-list .article-list-row.has-category:nth-child(7):after {
     content:'';
 	display: inline-block;
@@ -1341,4 +1326,17 @@ header #right-search-form:active:before {
 
 header #header-bar #header-top-notice {
     font-size: 12.6px;
+}
+
+.input-group-btn:nth-child(2)>.btn {
+    border-radius: 7px 0 0 7px !important;
+}
+
+.input-group-btn:last-child>.btn {
+    border-radius: 0 7px 7px 0 !important;
+}
+
+.input-group .form-control:not(:first-child):not(:last-child) {
+    border-radius: 0 !important;
+    /* margin-left: -0.5px; */
 }
