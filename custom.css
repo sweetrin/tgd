@@ -1346,5 +1346,9 @@ header #header-bar #header-top-notice {
 }
 
 #article-list>.article-list-row>.item>.list-title>a[style="font-weight:bold;color:#000000"] {
-    color: var(--text-color);
+    color: var(--text-color) !important;
+}
+
+#article-list>.article-list-row>.item>.list-title>a[style="font-weight:bold;color:#000000"]:visited {
+    color: var(--visited-color) !important;
 }
