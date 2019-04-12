@@ -273,6 +273,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     animation: Popping 0.25s;
     font-size: 13.5px;
     border-radius: 7px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 #header-bar .dropdown .dropdown-menu-right {
@@ -1368,4 +1369,8 @@ header #header-bar #header-top-notice {
 
 #board-info h1>a:first-child:active {
     /* text-shadow: 0 0 10px #ead9ff; */
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: rgba(245, 245, 245, 0.8);
 }
