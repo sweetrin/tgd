@@ -1362,3 +1362,7 @@ header #header-bar #header-top-notice {
 #article-list>.article-list-row>.item>.list-title>a[style="font-weight:bold;color:#000000"]:visited {
     color: var(--visited-color) !important;
 }
+
+#board-info h1>a:first-child:active {
+    text-shadow: 0 0 10px #e2ccff;
+}
