@@ -1391,6 +1391,6 @@ header #header-bar #header-top-notice {
     background-color: #d084ff;
 }
 
-#favoriteDropdownMenu>li>a>span.delrow {
-	color: #c17dff;
+.dropdown-menu>li>a>span.delrow {
+	color: #c17dff !important;
 }
