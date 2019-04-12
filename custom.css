@@ -642,7 +642,7 @@ div#board-info-bottom {
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    background-color: var(--cursor-highlight-color);
+    background-color: #f8f0ff;
     color: var(--rins-color);
 }
 
@@ -809,7 +809,7 @@ header #right-search-form > #right-search-btn {
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     border-bottom: 0;
     padding: 0.4em 1.2em;
-    background: var(--cursor-highlight-color);
+    background: #f8f0ff;
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
