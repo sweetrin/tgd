@@ -1340,3 +1340,11 @@ header #header-bar #header-top-notice {
     border-radius: 0 !important;
     /* margin-left: -0.5px; */
 }
+
+#article-list>.article-list-row>.item>.list-header>strong {
+    color: var(--text-color);
+}
+
+#article-list>.article-list-row>.item>.list-title>a[style="font-weight:bold;color:#000000"] {
+    color: var(--text-color);
+}
