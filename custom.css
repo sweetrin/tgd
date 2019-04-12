@@ -1330,7 +1330,8 @@ header #right-search-form:active:before {
 	/* animation: HlTxtColor 3s infinite; */
 	font-weight: bold;
 	/* color: var(--text-color); */
-	color: #b080f5;
+	/* color: #b080f5; */
+	color: #b683ff;
 	/* background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb); */
 	/* -webkit-background-clip: text; */
 	/* -webkit-text-fill-color: transparent; */
