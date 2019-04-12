@@ -406,6 +406,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #viewers-area > i.fa.fa-user {
     vertical-align: bottom;
+    height: 19px;
 }
 
 #board-info #viewers-area #viewers:before {
