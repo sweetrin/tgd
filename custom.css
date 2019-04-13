@@ -256,7 +256,7 @@ header #header-bar>.row {position: relative;border-top: 5px solid transparent;bo
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
-    background: #c96cf5;
+    background: #d375ff;
     border-radius:3px;
 }
 
@@ -565,7 +565,7 @@ div#board-info-bottom {
     background-color: #c965f9;
     background-color: #bd75ff;
     /* background-color: #c17dff; */
-    background-color: #c96cf5;
+    background-color: #d375ff;
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -1333,7 +1333,7 @@ header #right-search-form:active:before {
 	font-weight: bold;
 	/* color: var(--text-color); */
 	color: #b159ff;
-	color: #a464ff;
+	color: #ab70ff;
 	/* background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb); */
 	/* -webkit-background-clip: text; */
 	/* -webkit-text-fill-color: transparent; */
