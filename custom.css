@@ -256,7 +256,7 @@ header #header-bar>.row {position: relative;border-top: 5px solid transparent;bo
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
-    background: #d47aff;
+    background: #cf7bf7;
     border-radius:3px;
 }
 
@@ -565,7 +565,7 @@ div#board-info-bottom {
     background-color: #c965f9;
     background-color: #bd75ff;
     /* background-color: #c17dff; */
-    background-color: #d47aff;
+    background-color: #cf7bf7;
 }
 
 #article-list #article-list-menu>.btn.best {
