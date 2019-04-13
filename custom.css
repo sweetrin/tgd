@@ -1397,3 +1397,11 @@ header #header-bar #header-top-notice {
 .dropdown-menu>li>a>span.delrow {
 	color: #c17dff !important;
 }
+
+#article-list>.article-list-row>.item>.list-title>a[style="color:#000000"] {
+    color: var(--text-color) !important;
+}
+
+#article-list>.article-list-row>.item>.list-title>a[style="color:#000000"]:visited {
+    color: var(--visited-color) !important;
+}
