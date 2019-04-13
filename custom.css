@@ -1405,3 +1405,7 @@ header #header-bar #header-top-notice {
 #article-list>.article-list-row>.item>.list-title>a[style="color:#000000"]:visited {
     color: var(--visited-color) !important;
 }
+
+header #header-bar #header-menu-right #userDropdown img.profile-img {
+    border-radius: 3px;
+}
