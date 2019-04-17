@@ -334,4 +334,7 @@ header #right-search-form>#right-search-btn {
 
 .form-control {
     border-radius: 0;
+    box-shadow: none;
 }
+
+.fr-toolbar.fr-top {}
