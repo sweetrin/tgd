@@ -334,4 +334,7 @@ header #right-search-form>#right-search-btn {
     box-shadow: none;
 }
 
-.fr-toolbar.fr-top {}
+.btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
+	background-color:#000;
+	border-color:#000;
+}
