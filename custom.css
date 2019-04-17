@@ -331,3 +331,7 @@ header #right-search-form>#right-search-btn {
 .fr-popup.fr-desktop.fr-ltr.emoticons.fr-active {
     padding: 0.2em;
 }
+
+.form-control {
+    border-radius: 0;
+}
