@@ -345,9 +345,14 @@ header #right-search-form>#right-search-btn {
     content: "\f004";
 }
 
-.btn-outline-success- .fa.fa-thumbs-up {
-}
-
 .btn-outline-success .fa.fa-thumbs-up {
     vertical-align: text-bottom;
+}
+
+#article-list>.article-list-row>.item>.list-title>a[href='/20529153']:visited {
+    color: #24bb47 !important;
+}
+
+#article-list>.article-list-row.notice>.item>.list-title>a {
+    color: #000 !important;
 }
