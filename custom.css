@@ -137,6 +137,7 @@ header #header-bar #header-menu-right {
     display: block;
     height: auto;
     margin-bottom: 0.5em;
+    /* background-color: #fafafa; */
 }
 
 #article-list>.article-list-row.notice {
