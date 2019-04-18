@@ -1409,3 +1409,7 @@ header #header-bar #header-top-notice {
 header #header-bar #header-menu-right #userDropdown img.profile-img {
     border-radius: 4px;
 }
+
+.fa-thumbs-up:before {
+    content: "\f004";
+}
