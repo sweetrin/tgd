@@ -306,7 +306,7 @@ header #right-search-form>#right-search-btn {
     background-color: #000;
 }
 
-.fa-thumbs-up:before {
+.btn-outline-success .fa-thumbs-up:before {
     content: "\f004";
 }
 
@@ -337,4 +337,8 @@ header #right-search-form>#right-search-btn {
 .btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
 	background-color:#000;
 	border-color:#000;
+}
+
+.comment-vote-btn .like .fa-thumbs-up:before {
+    content: "\f004";
 }
