@@ -308,6 +308,7 @@ header #right-search-form>#right-search-btn {
 
 .btn-outline-success .fa-thumbs-up:before {
     content: "\f004";
+    font-size: 16px;
 }
 
 .fr-popup .fr-emoticon {
@@ -341,4 +342,11 @@ header #right-search-form>#right-search-btn {
 
 .comment-vote-btn .like .fa-thumbs-up:before {
     content: "\f004";
+}
+
+.btn-outline-success- .fa.fa-thumbs-up {
+}
+
+.btn-outline-success .fa.fa-thumbs-up {
+    vertical-align: text-bottom;
 }
