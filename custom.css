@@ -233,6 +233,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 footer {
     color: #fff;
+    font-size: 13.5px;
 }
 
 footer a {
