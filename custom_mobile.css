@@ -510,7 +510,7 @@ nav#nav {
     font-size: 14px;
 }
 
-i.fa.fa-user {
+#viewers-area .fa.fa-user {
     vertical-align: top;
 }
 
@@ -654,3 +654,5 @@ header > #header-search-bar #header-search-btn {
 .vote-area .fa.fa-thumbs-up {
     vertical-align: middle;
 }
+
+.dropdown-toggle .fa-user:before {color: #f174ed;vertical-align: middle;}
