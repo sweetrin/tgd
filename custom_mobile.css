@@ -650,3 +650,7 @@ header > #header-search-bar #header-search-btn {
 .fa-thumbs-up:before {
     content: "\f004";
 }
+
+.vote-area .fa.fa-thumbs-up {
+    vertical-align: middle;
+}
