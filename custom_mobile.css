@@ -177,7 +177,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     animation: HlTxtColor 5s infinite;
 }
 
-.fa-user:before {
+#viewers-area .fa-user:before {
     background-image: url("https://sweetrin.github.io/tgd/candy_30x30.png");
     background-repeat: no-repeat;
     background-size: contain;
