@@ -1413,3 +1413,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 .fa-thumbs-up:before {
     content: "\f004";
 }
+
+#article-list>.article-list-row.notice>.item>.list-title>a[style="font-weight:bold;color:#000000"]:visited {
+    color: var(--text-color) !important;
+}
