@@ -603,7 +603,7 @@ div#board-info-bottom {
 #article-list>.article-list-row {
     border-right: 0;
     padding: 0 0.4em 0 0.4em;
-    /* transition: 0.09s; */
+    transition: 0.09s;
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
@@ -997,8 +997,8 @@ input#right-search-input:focus {
 }
 
 #article-list>.article-list-row:hover {
-    /* transform: scale(1.04); */
-    /* border-radius: 7px; */
+    transform: scale(1.04);
+    border-radius: 7px;
 }
 
 #article-list #article-option-area>#article-option-area-toggle-btn {
