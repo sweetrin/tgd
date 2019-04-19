@@ -646,3 +646,7 @@ header > #header-search-bar #header-search-btn {
 #article-list-row-20529153 .title-value {
     color: #24bb47;
 }
+
+.fa-thumbs-up:before {
+    content: "\f004";
+}
