@@ -781,6 +781,7 @@ header #right-search-form > #right-search-btn {
     color: #fff;
     background-color: var(--main-color);
     border-color: var(--main-color);
+    animation: BoxLight 0.7s;
 }
 
 #article-content-wrapper>.footer {
@@ -1079,8 +1080,8 @@ header #right-search-form:before {
 .btn-outline-success:active {
     /* transform: scale(0.9); */
     outline: none !important;
-    /* box-shadow: 0 0 7px 1.2px #c17dff; */
-    animation: BoxLight 0.7s;
+    box-shadow: 0 0 10px 1.2px #c17dff;
+    /* animation: BoxLight 0.7s; */
 }
 
 #article-neighbor-list>div:hover {
