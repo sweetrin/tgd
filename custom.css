@@ -29,10 +29,9 @@
     --category-8th-color: #ffc000;
 }
 
-@keyframes TxtShadow{
-	0%{text-shadow:none;}
-	50%{text-shadow: 0 0 7px #9081ff;}
-	100%{text-shadow:none;}
+@keyframes BoxLight{
+	0%{box-shadow:0 0 0 0 rgba(168, 92, 204);}
+	100%{box-shadow: 0 0 6px 10px rgba(168, 92, 204,0);}
 }
 
 @keyframes Wriggle {
@@ -1080,7 +1079,8 @@ header #right-search-form:before {
 .btn-outline-success:active {
     /* transform: scale(0.9); */
     outline: none !important;
-    box-shadow: 0 0 7px 1.2px #c17dff;
+    /* box-shadow: 0 0 7px 1.2px #c17dff; */
+    animation: BoxLight 0.7s;
 }
 
 #article-neighbor-list>div:hover {
