@@ -202,8 +202,10 @@ span.a-badge i.fa.fa-star {
 body, html {
     height: auto !important;
     font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
-    background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%);
+    /*background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%);*/
     /* background: #d8c6ea; */
+    background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 130%);
+    background-attachment: fixed;
 }
 
 body {
@@ -237,7 +239,8 @@ footer {
 }
 
 footer a {
-    color: #529fe0;
+    /* color: #529fe0; */
+    color: #932fc3;
 }
 
 /* 왼쪽 메뉴 헤더 */
