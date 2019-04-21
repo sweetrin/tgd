@@ -1427,3 +1427,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 .vote-area .fa.fa-thumbs-up {
     vertical-align: middle;
 }
+
+.btn-outline-success:focus .fa.fa-thumbs-up {
+	animation: Wriggle 0.9s;
+}
