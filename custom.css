@@ -785,20 +785,24 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-content-wrapper>.footer {
-    border-radius: 0 0 7px 7px;
-    padding: 1em;
+    /* border-radius: 0 0 7px 7px; */
+    /* padding: 1em; */
 }
 
 #article-reply-area>.header {
-    background: var(--main-color);
-    background: linear-gradient(135deg, #c17dff, #c17dff,#f174ed);
-    border-radius: 7px 7px 0 0;
+    /* background: var(--main-color); */
+    /* background: linear-gradient(135deg, #c17dff, #c17dff,#f174ed); */
+    background: #fff;
+    /* border-radius: 7px 7px 0 0; */
     padding: 0.9em 1em 0.8em;
-    width: 100.1%;
+    /* width: 100.1%; */
 }
 
 #article-reply-area > .header h5, #lastc {
-    color: #fff;
+    /* color: #fff; */
+    /* color: var(--text-color); */
+    color: var(--category-5th-color);
+    font-size: 13.5px;
 }
 
 #article-reply-area {
@@ -817,7 +821,7 @@ header #right-search-form > #right-search-btn {
 
 #article-content-wrapper {
     padding: 0;
-    margin: 0 0 1.2em;
+    /* margin: 0 0 1.2em; */
     border-radius: 7px;
 }
 
