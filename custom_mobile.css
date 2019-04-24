@@ -1,7 +1,7 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 :root {
-    --main-color: #a85ccc;
+    --main-color: #bf66e8;
     --light-color: #d2a5e6;
     --bg-color-stop1:#eee5f3;
     --recommend-count-color: #ec71b5;
@@ -657,3 +657,20 @@ header > #header-search-bar #header-search-btn {
 }
 
 .dropdown-toggle .fa-user:before {color: #f174ed;vertical-align: middle;}
+
+
+#article-list #article-list-menu>.btn.write:after {
+    position: fixed;
+    display: block;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(191, 102, 232, 0.8);
+    content: "글쓰기";
+    margin: 1em;
+    padding: 1em;
+    border-radius:7px;
+}
+
+#movetotop {
+    display: none !important;
+}
