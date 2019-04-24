@@ -2,7 +2,7 @@
 
 /*** 컬러 ***/
 :root {
-    --main-color: #a85ccc;
+    --main-color: #b949ec; /*#a85ccc#/
     /* --main-color: #a652ce; */
     --rins-color:#8027aa;
     --light-color: #d2a5e6;
@@ -10,7 +10,7 @@
     --visited-color: #b7b7b7;
     --rank-badge-color: #6782e4;
     --recommend-count-color: #ec71b5;
-    --button-hover-color: #9753b7;
+    --button-hover-color: #b33dea; /*#9753b7*/
     --cursor-highlight-color:#faf3ff;
     /*--cursor-highlight-color:#f8f0ff;*/
     /*--bg-color-stop1:#eee5f3;*/
@@ -448,7 +448,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-radius: 7px 7px 0 0;
     padding: 0.2em 0.5em;
     background: #deacf5;
-    background: #d9a6f9;
+    background: #d89bff;
     /* background: linear-gradient(to right, #eaa5e9, #d69ef9,#acaef5,#eaa5e9); */
     /* background: linear-gradient(to right, #d69ef9, #eaa5e9,#acaef5,#eaa5e9); */
     width: 100.1%;
