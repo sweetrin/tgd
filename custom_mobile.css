@@ -674,6 +674,7 @@ header > #header-search-bar #header-search-btn {
     font-size: 15px;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+    z-index: 999;
 }
 
 #movetotop {
