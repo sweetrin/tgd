@@ -688,3 +688,7 @@ header > #header-search-bar #header-search-btn {
 .dropdown-toggle .fa-user {
     vertical-align: bottom;
 }
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    display: none;
+}
