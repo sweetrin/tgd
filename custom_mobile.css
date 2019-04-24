@@ -684,3 +684,7 @@ header > #header-search-bar #header-search-btn {
 #board-info>a.board-right-menu:nth-child(4) {
     display: none;
 }
+
+.dropdown-toggle .fa-user {
+    vertical-align: bottom;
+}
