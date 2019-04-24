@@ -667,7 +667,7 @@ header > #header-search-bar #header-search-btn {
     right: 0;
     background-color: rgba(191, 102, 232, 0.8);
     content: "\f040";
-    margin: 1em;
+    margin: 0.7em;
     padding: 0.7em;
     border-radius: 100%;
     display: inline-block;
