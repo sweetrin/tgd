@@ -27,6 +27,10 @@
     --category-6th-color: #f157ab;
     --category-7th-color: #00b0f0;
     --category-8th-color: #ffc000;
+
+    --bg1:#ff67fa; /*#f174ed*/
+    --bg2:#bb71ff; /*#c17dff*/
+    --bg3:#589bff; /*#68a3fb*/
 }
 
 @keyframes BoxLight{
@@ -245,7 +249,7 @@ footer a {
 /* 왼쪽 메뉴 헤더 */
 #main .menu-wrapper > .header {
     /* background: var(--main-color); */
-    background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
+    background: linear-gradient(to right, var(--bg1), var(--bg2),var(--bg3));
     border-radius: 7px 7px 0 0;
 }
 
@@ -752,7 +756,7 @@ header #right-search-form > #right-search-btn {
 
 #article-info {
     /* background: var(--main-color); */
-    background: linear-gradient(135deg, #c17dff, #c17dff,#f174ed);
+    background: linear-gradient(135deg, var(--bg2), var(--bg2),var(--bg1));
     border-radius: 7px 7px 0 0;
     padding: 0.7em 0.9em 0;
     height: 56px;
@@ -791,7 +795,7 @@ header #right-search-form > #right-search-btn {
 
 #article-reply-area>.header {
     background: var(--main-color);
-    background: linear-gradient(135deg, #c17dff, #c17dff,#f174ed);
+    background: linear-gradient(135deg, var(--bg2), var(--bg2),var(--bg1));
     border-radius: 7px 7px 0 0;
     padding: 0.9em 1em 0.8em;
     width: 100.1%;
@@ -1108,7 +1112,7 @@ header #header-bar>.row:after {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb,#f174ed);
+    background: linear-gradient(to right, var(--bg1), var(--bg2),var(--bg3),var(--bg1));
     content: '';
     z-index: -1;
     border-radius: 7px;
