@@ -693,7 +693,3 @@ header > #header-search-bar #header-search-btn {
 #article-list #article-option-area>#article-option-area-toggle-btn {
     display: none;
 }
-
-#comment-write-button-area>#writeCommentBtn {
-    float: left !important;
-}
