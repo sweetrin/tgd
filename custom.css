@@ -2,7 +2,7 @@
 
 /*** 컬러 ***/
 :root {
-    --main-color: #c356f5; /*#a85ccc#/
+    --main-color: #bf49f5; /*#a85ccc#/
     /* --main-color: #a652ce; */
     --rins-color:#8027aa;
     --light-color: #d2a5e6;
@@ -10,7 +10,7 @@
     --visited-color: #b7b7b7;
     --rank-badge-color: #6782e4;
     --recommend-count-color: #ec71b5;
-    --button-hover-color: #bf49f3; /*#9753b7*/
+    --button-hover-color: #b441e8; /*#9753b7*/
     --cursor-highlight-color:#faf3ff;
     /*--cursor-highlight-color:#f8f0ff;*/
     /*--bg-color-stop1:#eee5f3;*/
