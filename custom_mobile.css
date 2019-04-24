@@ -524,6 +524,7 @@ nav#nav {
 
 #article-list #article-list-category {
     background: #fff4fe;
+    -webkit-overflow-scrolling: touch;
 }
 
 .fr-popup .fr-emoticon img {
