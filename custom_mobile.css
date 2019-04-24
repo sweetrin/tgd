@@ -665,12 +665,17 @@ header > #header-search-bar #header-search-btn {
     bottom: 0;
     right: 0;
     background-color: rgba(191, 102, 232, 0.8);
-    content: "글쓰기";
+    content: "\f040";
     margin: 1em;
     padding: 1em;
-    border-radius:7px;
+    border-radius:100px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
 }
 
 #movetotop {
-    display: none !important;
+    display:none !important;
 }
