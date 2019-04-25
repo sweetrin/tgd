@@ -414,7 +414,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info #viewers-area {
     color: var(--main-color);
     /* color: var(--text-color); */
-    color: #b26ef1;
+    color: #a953f9;
     font-size: 13px;
     /* vertical-align: bottom; */
 }
@@ -1343,7 +1343,7 @@ header #right-search-form:active:before {
 	font-weight: bold;
 	/* color: var(--text-color); */
 	color: #b159ff;
-	color: #ab70ff;
+	color: #a262fd;
 	/* background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb); */
 	/* -webkit-background-clip: text; */
 	/* -webkit-text-fill-color: transparent; */
