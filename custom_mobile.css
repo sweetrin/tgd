@@ -36,6 +36,18 @@ body, html {
     font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
+@keyframes Wriggle {
+	0%{transform:scale(1,1);}
+	10%{transform:scale(0.65,1.45);}
+	20%{transform:scale(1.4,0.7);}
+	30%{transform:scale(0.65,1.45);}
+	44%{transform:scale(1.05,0.8);}
+	58%{transform:scale(0.8,1.2);}
+	72%{transform:scale(1.05,0.8);}
+	86%{transform:scale(0.95,1.05);}
+	100%{transform:scale(1,1);}
+}
+
 @keyframes Popping {
 	0%{transform:scale(0.8)}
 	40%{transform:scale(1.01)}
@@ -699,4 +711,8 @@ header > #header-search-bar #header-search-btn {
 
 #article-list #article-list-menu>.btn.write:active:after {
     background-color: rgba(180, 65, 232, 0.8);
+}
+
+.btn-outline-success:focus .fa.fa-thumbs-up {
+	animation: Wriggle 0.9s;
 }
