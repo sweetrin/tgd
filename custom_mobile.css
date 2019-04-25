@@ -678,7 +678,7 @@ header > #header-search-bar #header-search-btn {
     vertical-align: middle;
 }
 
-.dropdown-toggle .fa-user:before {color: #f174ed;vertical-align: middle;}
+.dropdown-toggle .fa-user:before {color: #f174ed;color: var(--main-color);vertical-align: middle;}
 
 
 #article-list #article-list-menu>.btn.write:after {
