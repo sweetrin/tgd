@@ -1,7 +1,7 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 :root {
-    --main-color: #bf66e8;
+    --main-color: #c66eef;
     --light-color: #d2a5e6;
     --bg-color-stop1:#eee5f3;
     --recommend-count-color: #ec71b5;
@@ -291,7 +291,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 .badge {
     background-color: var(--main-color);
-    background-color: #f174ed;
+    background-color: #ea71e7;
 }
 
 footer {
