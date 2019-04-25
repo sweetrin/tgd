@@ -718,10 +718,14 @@ header > #header-search-bar #header-search-btn {
     background-color: rgba(180, 65, 232, 0.8);
 }
 
-.btn-outline-success:focus .fa.fa-thumbs-up {
+.btn-outline-success:hover .fa.fa-thumbs-up {
 	animation: Wriggle 0.9s;
 }
 
 #board-info>h1>#board-info-profile-img:hover {
     transform: scale(1.5);
+}
+
+.reply-menu>a:last-child {
+    display: none;
 }
