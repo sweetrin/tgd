@@ -175,6 +175,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     border-radius: 100px;
     margin-top: -17px;
     transition: 0.1s;
+    display: inline-block;
 }
 
 #board-info>h1>a:nth-child(2) {
@@ -720,7 +721,7 @@ header > #header-search-bar #header-search-btn {
 	animation: Wriggle 0.9s;
 }
 
-#board-info>h1>#board-info-profile-img:focus {
+#board-info>h1>#board-info-profile-img:hover {
     transform: scale(1.5);
     transform-origin: left bottom;
 }
