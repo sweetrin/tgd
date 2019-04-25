@@ -176,6 +176,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     margin-top: -17px;
     transition: 0.1s;
     display: inline-block;
+    transform-origin: left bottom;
 }
 
 #board-info>h1>a:nth-child(2) {
@@ -722,5 +723,5 @@ header > #header-search-bar #header-search-btn {
 }
 
 #board-info>h1>#board-info-profile-img:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
