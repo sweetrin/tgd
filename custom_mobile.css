@@ -722,6 +722,5 @@ header > #header-search-bar #header-search-btn {
 }
 
 #board-info>h1>#board-info-profile-img:hover {
-    transform: scale(1.5);
-    transform-origin: left bottom;
+    transform: scale(1.2);
 }
