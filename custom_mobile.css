@@ -287,6 +287,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 .badge {
     background-color: var(--main-color);
+    background-color: #f174ed;
 }
 
 footer {
