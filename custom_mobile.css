@@ -15,9 +15,9 @@
     --separation-line-color: #eaeaea;
 
     --category-2nd-color: #f95b5b;
-    --category-3rd-color: #659fef;
+    --category-3rd-color: #68a3f5;
     --category-4th-color: #3cc37a;
-    --category-5th-color: #9471d8;
+    --category-5th-color: #a279f1;
     --category-6th-color: #ec61ad;
     --category-7th-color: #3db6e2;
     --category-8th-color: #ffd862;
@@ -226,6 +226,7 @@ header>#header-area>a>h1 {
 
 #header-top-notice strong.notice-badge {
     background: #c17dff;
+    background:var(--main-color);
     border-radius: 7px;
 }
 
