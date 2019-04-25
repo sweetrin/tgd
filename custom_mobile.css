@@ -15,9 +15,9 @@
     --separation-line-color: #eaeaea;
 
     --category-2nd-color: #f95b5b;
-    --category-3rd-color: #68a3f5;
+    --category-3rd-color: #6ba8fd;
     --category-4th-color: #3cc37a;
-    --category-5th-color: #a279f1;
+    --category-5th-color: #a678ff;
     --category-6th-color: #ec61ad;
     --category-7th-color: #3db6e2;
     --category-8th-color: #ffd862;
@@ -263,8 +263,8 @@ header>#header-area>#header-bar-link {
 }
 
 nav#nav>.nav-header {
-    /* background: var(--main-color); */
-    background: #c17dff;
+    background: var(--main-color);
+    /* background: #c17dff; */
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
@@ -599,8 +599,8 @@ i.fa.fa-bars {
 }
 
 #nav i.fa.fa-bars {
-    /* color: var(--main-color); */
-    color: #c17dff;
+    color: var(--main-color);
+    /* color: #c17dff; */
 }
 
 nav#nav>#nav-upper {
