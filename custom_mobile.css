@@ -8,7 +8,7 @@
     /*--cursor-highlight-color:#f8f0ff;*/
     --cursor-highlight-color:#fbf7ff;
     --rank-badge-color: #6782e4;
-    --button-hover-color: #9753b7;
+    --button-hover-color: #b441e8;
     --text-color: #444444;
     --visited-color: #b7b7b7;
     --article-header-color: #faf5ff;
@@ -134,7 +134,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info {
-    letter-spacing: -0.5px;
+    /* letter-spacing: -0.5px; */
     border-top: 4px solid #e886e1;
     /* border-bottom: 1px solid #e886e1; */
     /* border-top: 0; */
@@ -145,7 +145,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>a.board-right-menu {
-    padding: 9px 7px;
+    padding: 9px 5px;
     border-left: 0;
     color: var(--main-color);
 }
@@ -164,10 +164,12 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>h1>a:nth-child(2) {
-	visibility: hidden;
-	letter-spacing: -1em;
+	/* visibility: hidden; */
+	/* letter-spacing: -1em; */
+	color: #a262fd;
 }
 
+/*
 #board-info>h1>a:nth-child(2):after {
     visibility: visible;
     content: "달콤린";
@@ -176,6 +178,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     vertical-align: middle;
     animation: HlTxtColor 5s infinite;
 }
+*/
 
 #viewers-area .fa-user:before {
     background-image: url("https://sweetrin.github.io/tgd/candy_30x30.png");
@@ -692,4 +695,8 @@ header > #header-search-bar #header-search-btn {
 
 #article-list #article-option-area>#article-option-area-toggle-btn {
     display: none;
+}
+
+#article-list #article-list-menu>.btn.write:active:after {
+    background-color: rgba(180, 65, 232, 0.8);
 }
