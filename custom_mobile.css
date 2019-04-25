@@ -1,7 +1,7 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 :root {
-    --main-color: #c66eef;
+    --main-color: #c874ef;
     --light-color: #d2a5e6;
     --bg-color-stop1:#eee5f3;
     --recommend-count-color: #ec71b5;
@@ -696,6 +696,7 @@ header > #header-search-bar #header-search-btn {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     z-index: 999;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 #movetotop {
