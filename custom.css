@@ -179,7 +179,7 @@ span.a-badge i.fa.fa-star {
 
 /* 텍스트 선택 색상 */
 ::selection {
-   background: #f157ab;
+   background: #ff61b7;
    color: #fff;
 }
 
@@ -201,6 +201,16 @@ span.a-badge i.fa.fa-star {
     font-style: normal;
     unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;
 }
+
+@font-face {
+    font-family: 'Binggrae-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Binggrae-Bold.woff2') format('woff2');
+    font-weight: bold; 
+    font-style: normal;
+    unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;
+}
+
+
 
 body, html {
     height: auto !important;
