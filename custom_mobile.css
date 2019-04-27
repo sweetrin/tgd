@@ -218,7 +218,7 @@ header {
     /* border-radius: 0 0 10px 10px; */
     background: linear-gradient(to right, rgba(249, 112, 242, 0.8), rgba(166, 120, 255, 0.8),rgba(111, 161, 255, 0.8));
     /* background: linear-gradient(to right, rgba(241, 128, 235, 0.8), rgba(204, 103, 255, 0.8),rgba(120, 149, 255, 0.8)); */
-    background: linear-gradient(to right, rgba(241, 116, 237, 0.95), rgba(193, 125, 255, 0.95),rgba(104, 163, 251, 0.95));
+    background: linear-gradient(to right, rgba(253, 98, 247, 0.8), rgba(187, 114, 255, 0.8),rgba(100, 158, 245, 0.8));
     /* background: rgba(241, 123, 235, 0.8); */
     -webkit-backdrop-filter: saturate(180%) blur(5px);
     background-size: 130%;
