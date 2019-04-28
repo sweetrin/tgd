@@ -858,6 +858,7 @@ header #right-search-form > #right-search-btn {
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
     /* background-color: #fdcde9; */
     background-color: #ffdbf6;
+    background-color: #eedaff;
     animation: Trembling 0.6s;
 }
 
