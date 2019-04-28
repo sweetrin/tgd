@@ -681,8 +681,8 @@ header #right-search-form > #right-search-btn {
 #article-list i.fa.fa-heart {
     animation: RinsHeart 3.5s infinite;
     color: #ffa1f3;
-    font-size: 64%;
-    vertical-align: top;
+    /* font-size: 64%; */
+    /* vertical-align: top; */
 }
 
 /* 게시판 목록 맨 아래 줄 */
@@ -1424,5 +1424,5 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 
 #article-list>.article-list-row>.item>.list-title>small.favo {
-    font-size: 18px;
+    /* font-size: 18px; */
 }
