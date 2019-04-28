@@ -10,7 +10,7 @@
     --text-color: #444444;
     --visited-color: #b7b7b7;
     --rank-badge-color: #6782e4;
-    --recommend-count-color: #fb76bf; /* #ec71b5 */
+    --recommend-count-color: #ff73c0; /* #ec71b5 */
     --button-hover-color: #b441e8; /*#9753b7*/
     --cursor-highlight-color:#faf3ff;
     /*--cursor-highlight-color:#f8f0ff;*/
@@ -679,10 +679,8 @@ header #right-search-form > #right-search-btn {
 
 /* 달콤 하또 */
 #article-list i.fa.fa-heart {
-    animation: RinsHeart 3.5s infinite;
-    color: #ffa1f3;
-    /* font-size: 64%; */
-    /* vertical-align: top; */
+    /* animation: RinsHeart 3.5s infinite; */
+    color: #ff6beb;
 }
 
 /* 게시판 목록 맨 아래 줄 */
@@ -1424,7 +1422,6 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 
 #article-list>.article-list-row>.item>.list-title>small.favo {
-    /* font-size: 18px; */
 }
 
 .alertify .alert>*, .alertify .dialog>*:after {
