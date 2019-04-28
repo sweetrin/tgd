@@ -1,3 +1,4 @@
+@import url("https://sweetrin.github.io/tgd/fonts.css");
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 /*** 컬러 ***/
@@ -183,31 +184,10 @@ span.a-badge i.fa.fa-star {
    color: #fff;
 }
 
-/* 폰트 */
-/*
-@font-face {
-    font-family: 'HCRDotum';
-    src: local('HCR Dotum'), url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/HCRDotum.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff') format('woff');
-    font-weight: normal; 
-    font-style: normal;
-    unicode-range:U+0-7D,U+7F-10FFFF;
-}
-*/
-
-@font-face {
-    font-family: 'Binggrae';
-    src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Binggrae.woff2') format('woff2');
-    font-weight: normal; 
-    font-style: normal;
-    unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;
-}
-
 body, html {
-    height: auto !important;
-    font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
-    /* background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%); */
+	/* background: linear-gradient(180deg, var(--bg-color-stop1) 0,var(--bg-color-stop2) 82%, var(--bg-color-stop3) 100%); */
     /* background: #d8c6ea; */
-    background: linear-gradient(180deg, var(--bg-color-stop1) 0,#8059b3 180%);
+	background: linear-gradient(180deg, var(--bg-color-stop1) 0,#8059b3 180%);
     background-attachment: fixed;
 }
 
