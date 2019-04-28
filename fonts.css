@@ -8,6 +8,7 @@
 }
 */
 
+/*
 @font-face {
     font-family: 'Binggrae';
     src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Binggrae.woff2') format('woff2');
@@ -15,8 +16,14 @@
     font-style: normal;
     unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;
 }
+*/
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
 body, html {
+    font-family: 'Noto Sans KR', "Helvetica Neue", Helvetica,Arial, sans-serif;
     height: auto !important;
-    font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;    
 }
