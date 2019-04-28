@@ -1426,3 +1426,20 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 #article-list>.article-list-row>.item>.list-title>small.favo {
     /* font-size: 18px; */
 }
+
+.alertify .alert>*, .alertify .dialog>*:after {
+    
+}
+
+.alertify .alert, .alertify .dialog:before{
+	content: "";
+    background: url("https://static-cdn.jtvnw.net/jtv_user_pictures/172ec81a-e120-4a41-bd83-c5ef1f69553c-profile_image-300x300.jpg") no-repeat;
+    /* position: absolute; */
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    /* left: 440px; */
+    /* top: -300px; */
+    display:block;
+    margin:auto;
+}
