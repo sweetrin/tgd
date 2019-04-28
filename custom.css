@@ -681,6 +681,7 @@ header #right-search-form > #right-search-btn {
 #article-list i.fa.fa-heart {
     /* animation: RinsHeart 3.5s infinite; */
     color: #ff6beb;
+    /* color: rgb(255, 161, 243); */
 }
 
 /* 게시판 목록 맨 아래 줄 */
