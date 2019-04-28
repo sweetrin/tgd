@@ -1020,6 +1020,7 @@ input#right-search-input:focus {
     top: 7px;
 }
 
+/*
 header #right-search-form:before {
     background-image: url("https://sweetrin.github.io/tgd/littlerin-left.png");
     background-repeat: no-repeat;
@@ -1032,6 +1033,7 @@ header #right-search-form:before {
     content: '';
     animation: LittleRin 20s infinite;
 }
+*/
 
 #article-info strong:first-child:before {
     /*content: url("https://sweetrin.github.io/tgd/candy_18x18.png");*/
