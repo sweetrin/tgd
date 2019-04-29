@@ -1351,6 +1351,14 @@ header #right-search-form:active:before {
 	/* background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb); */
 	/* -webkit-background-clip: text; */
 	/* -webkit-text-fill-color: transparent; */
+	overflow: hidden;
+	width: 67px;
+	height: 29px;
+	display: inline-block;
+	/* border: 1px solid #000; */
+	vertical-align: middle;
+	transition: 0.2s;
+	padding-top: 2px;
 }
 
 #board-info h1>a:active {
@@ -1467,4 +1475,8 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     left: -1.2px;
     top: 1.5px;
     animation: HB 3.2s 3.2s infinite;
+}
+
+#board-info h1>a:first-child:hover {
+    width: 77.22px;
 }
