@@ -39,6 +39,20 @@
 	100%{box-shadow: 0 0 6px 8px rgba(168, 92, 204,0);}
 }
 
+@keyframes BoxLight2{
+	0%{box-shadow:0 0 0 0 rgb(255, 107, 235);}
+	8%{box-shadow:0 0 0 0 rgba(168, 92, 204);}
+	48%{box-shadow: 0 0 7px 9px rgba(168, 92, 204,0);}
+	100%{box-shadow: 0 0 7px 9px rgba(168, 92, 204,0);}
+}
+
+@keyframes HB{
+	0%{transform:scale(1);}
+	8%{transform:scale(0.8);}
+	16%{transform:scale(1);}
+	100%{transform:scale(1);}
+}
+
 @keyframes Wriggle {
 	0%{transform:scale(1,1);}
 	10%{transform:scale(0.65,1.45);}
@@ -682,6 +696,12 @@ header #right-search-form > #right-search-btn {
     /* animation: RinsHeart 3.5s infinite; */
     color: #ff6beb;
     /* color: rgb(255, 161, 243); */
+    animation: BoxLight2 3.2s infinite;
+    /* border: 1px solid #000; */
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-bottom: 1px;
 }
 
 /* 게시판 목록 맨 아래 줄 */
@@ -1423,8 +1443,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 }
 
 
-#article-list>.article-list-row>.item>.list-title>small.favo {
-}
+#article-list>.article-list-row>.item>.list-title>small.favo {}
 
 .alertify .alert>*, .alertify .dialog>*:after {
     
@@ -1441,4 +1460,11 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     /* top: -300px; */
     display:block;
     margin:auto;
+}
+
+.fa-heart:before {
+    position: absolute;
+    left: -1.2px;
+    top: 1.5px;
+    animation: HB 3.2s infinite;
 }
