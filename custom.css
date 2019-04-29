@@ -1462,7 +1462,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     margin:auto;
 }
 
-.fa-heart:before {
+.favo>.fa-heart:before {
     position: absolute;
     left: -1.2px;
     top: 1.5px;
