@@ -34,6 +34,22 @@
     --bg3:#68a3fb; /*#68a3fb*/
 }
 
+@keyframes Dalcom{
+	0%{content:"달콤린";}
+	30%{content:"달콤린";}
+	42%{content:"달콤린 ";}
+	44%{content:"달콤린 ㅇ";}
+	46%{content:"달콤린 으";}
+	48%{content:"달콤린 은";}
+	50%{content:"달콤린 읁";}
+	52%{content:"달콤린 은제";}
+	54%{content:"달콤린 은젱";}
+	56%{content:"달콤린 은제오";}
+	58%{content:"달콤린 은제옴";}
+	60%{content:"달콤린 은제옴?";}
+	100%{content:"달콤린 은제옴?";}
+}
+
 @keyframes Blink{
 	0%{color:#a262fd;}
 	50%{color:#a262fd;}
@@ -1502,4 +1518,9 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     content: "달콤린";
     visibility: visible;
     letter-spacing: 0;
+}
+
+#board-info h1>a:first-child:hover:before {
+    /* content: "달콤린"; */
+    animation:Dalcom 5s infinite;
 }
