@@ -696,7 +696,7 @@ header #right-search-form > #right-search-btn {
     /* animation: RinsHeart 3.5s infinite; */
     color: #ff6beb;
     /* color: rgb(255, 161, 243); */
-    animation: BoxLight2 3.2s infinite;
+    animation: BoxLight2 3.2s 1s infinite;
     /* border: 1px solid #000; */
     border-radius: 50%;
     width: 5px;
@@ -1466,5 +1466,5 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     position: absolute;
     left: -1.2px;
     top: 1.5px;
-    animation: HB 3.2s infinite;
+    animation: HB 3.2s 1s infinite;
 }
