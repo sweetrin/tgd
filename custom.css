@@ -41,7 +41,7 @@
 
 @keyframes BoxLight2{
 	0%{box-shadow:0 0 0 0 rgb(255, 107, 235);}
-	8%{box-shadow:0 0 0 0 rgba(168, 92, 204);}
+	8%{box-shadow:0 0 0 0 rgb(255, 107, 235);}
 	48%{box-shadow: 0 0 7px 9px rgba(168, 92, 204,0);}
 	100%{box-shadow: 0 0 7px 9px rgba(168, 92, 204,0);}
 }
