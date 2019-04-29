@@ -1522,5 +1522,5 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 #board-info h1>a:first-child:hover:before {
     /* content: "달콤린"; */
-    animation:Dalcom 5s infinite;
+    animation:Dalcom 5.5s infinite;
 }
