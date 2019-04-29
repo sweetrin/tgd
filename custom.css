@@ -34,6 +34,13 @@
     --bg3:#68a3fb; /*#68a3fb*/
 }
 
+@keyframes Blink{
+	0%{color:#a262fd;}
+	50%{color:#a262fd;}
+	50.01%{color:transparent;}
+	100%{color:transparent;}
+}
+
 @keyframes BoxLight{
 	0%{box-shadow:0 0 0 0 rgba(168, 92, 204);}
 	100%{box-shadow: 0 0 6px 8px rgba(168, 92, 204,0);}
@@ -1352,13 +1359,15 @@ header #right-search-form:active:before {
 	/* -webkit-background-clip: text; */
 	/* -webkit-text-fill-color: transparent; */
 	overflow: hidden;
-	width: 67px;
+	/* width: 67px; */
 	height: 29px;
 	display: inline-block;
 	/* border: 1px solid #000; */
 	vertical-align: middle;
 	transition: 0.2s;
 	padding-top: 2px;
+	visibility: hidden;
+	letter-spacing: -1em;
 }
 
 #board-info h1>a:active {
@@ -1478,5 +1487,19 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 }
 
 #board-info h1>a:first-child:hover {
-    width: 77.22px;
+    /* width: 77.22px; */
+}
+
+#board-info h1>a:first-child:after {
+    content: "_";
+    /* display: inline-block; */
+    visibility: visible;
+    letter-spacing: 0;
+    animation: Blink 1s infinite;
+}
+
+#board-info h1>a:first-child:before {
+    content: "달콤린";
+    visibility: visible;
+    letter-spacing: 0;
 }
