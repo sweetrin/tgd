@@ -1524,3 +1524,10 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     /* content: "달콤린"; */
     animation:Dalcom 5.5s infinite;
 }
+#article-list>.article-list-row a {
+	transition:0.09s;
+}
+
+#article-list>.article-list-row:hover a {
+	font-size:138%;
+}
