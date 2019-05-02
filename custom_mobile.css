@@ -292,7 +292,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
     border-bottom: 0;
     border-radius: 100px;
     padding: 0.3em 0.4em;
-    border: 1px solid var(--light-color);
+    /* border: 2px solid var(--light-color); */
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
