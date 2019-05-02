@@ -291,7 +291,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
     background: var(--article-header-color);
     border-bottom: 0;
     border-radius: 100px;
-    padding: 0.4em 0.6em;
+    padding: 0.3em 0.4em;
     border: 2px solid var(--light-color);
 }
 
@@ -487,8 +487,8 @@ nav#nav {
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {
 	/* border: 4px solid var(--main-color); */
-	/* width: 2.7em; */
-	/* height: 2.7em; */
+	width: 2em;
+	height: 2em;
 }
 
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
@@ -521,6 +521,7 @@ nav#nav {
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
     color: var(--button-hover-color);
+    padding-top: 4px;
 }
 
 #article-list>.article-list-row {
