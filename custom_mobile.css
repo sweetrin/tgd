@@ -235,7 +235,7 @@ header>#header-area>a>h1 {
 #header-top-notice strong.notice-badge {
     background: #c17dff;
     background:var(--main-color);
-    border-radius: 7px;
+    border-radius: 6px;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
