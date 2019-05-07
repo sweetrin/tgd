@@ -22,9 +22,9 @@
     --category-7th-color: #00b0f0;
     --category-8th-color: #ffc000;
 
-    --bg1:#f36dee; /*#f174ed*/
-    --bg2:#b666ff; /*#c17dff*/
-    --bg3:#5599ff; /*#68a3fb*/
+    --bg1:#ec5ae7; /*#f174ed*/
+    --bg2:#ae5ef7; /*#c17dff*/
+    --bg3:#3485ff; /*#68a3fb*/
 }
 
 @font-face {
@@ -213,7 +213,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 header {
-    border-bottom: 4px solid #e886e1;
+    border-bottom: 4px solid #f174ed;
     /* background: var(--main-color); */
     /* border-bottom: 0; */
     /* height: 46px; */
