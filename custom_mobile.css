@@ -22,9 +22,10 @@
     --category-7th-color: #00b0f0;
     --category-8th-color: #ffc000;
 
-    --bg1:#ec5ae7; /*#f174ed*/
-    --bg2:#ae5ef7; /*#c17dff*/
-    --bg3:#3485ff; /*#68a3fb*/
+    --bg1:#f36dee; /*#f174ed*/
+    --bg2:#b666ff; /*#c17dff*/
+    --bg3:#5599ff; /*#68a3fb*/
+
 }
 
 @font-face {
