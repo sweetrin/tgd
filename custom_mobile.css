@@ -442,6 +442,7 @@ footer {
 
 #article-list i.fa.fa-heart {
     animation: RinsHeart 3.5s infinite;
+    color:#ff6beb;
 }
 
 span.a-badge i.fa.fa-star {
