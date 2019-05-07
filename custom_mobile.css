@@ -1,10 +1,10 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 :root {
-    --main-color: #d27afb; /*#cf78f7*/
+    --main-color: #bc54ea; /*#cf78f7*/
     --light-color: #d2a5e6;
     --bg-color-stop1:#eee5f3;
-    --recommend-count-color: #ec71b5;
+    --recommend-count-color: #ff73c0;
     /*--cursor-highlight-color:#f8f0ff;*/
     --cursor-highlight-color:#fbf7ff;
     --rank-badge-color: #6782e4;
@@ -14,13 +14,13 @@
     --article-header-color: #faf5ff;
     --separation-line-color: #eaeaea;
 
-    --category-2nd-color: #ef5e5e;
-    --category-3rd-color: #6ba8fd;
-    --category-4th-color: #3cc37a;
-    --category-5th-color: #a678ff;
-    --category-6th-color: #ec61ad;
-    --category-7th-color: #3db6e2;
-    --category-8th-color: #ffd862;
+    --category-2nd-color: #fb2b2b;
+    --category-3rd-color: #579dff;
+    --category-4th-color: #00b050;
+    --category-5th-color: #8c53f9;
+    --category-6th-color: #f14ba5;
+    --category-7th-color: #00b0f0;
+    --category-8th-color: #ffc000;
 
     --bg1:#f174ed; /*#f174ed*/
     --bg2:#c17dff; /*#c17dff*/
@@ -176,7 +176,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     content: url("https://cdn.jsdelivr.net/gh/sweetrin/tgd/catrin.png");
     width: 50px;
     height: 50px;
-    border: 3px solid #e886e1;
+    border: 3px solid #f174ed;
     border-radius: 100px;
     margin-top: -17px;
     transition: 0.1s;
@@ -187,7 +187,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 #board-info>h1>a:nth-child(2) {
 	/* visibility: hidden; */
 	/* letter-spacing: -1em; */
-	color: #a668ff;
+	color: #a262fd;
 }
 
 /*
@@ -234,7 +234,7 @@ header>#header-area>a>h1 {
 }
 
 #header-top-notice strong.notice-badge {
-    background: #c17dff;
+    background: #cf7bf7;
     background:var(--main-color);
     border-radius: 5px;
 }
@@ -302,7 +302,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 .badge {
     background-color: var(--main-color);
-    background-color: #ea71e7;
+    background-color: #f174ed;
 }
 
 footer {
@@ -558,7 +558,7 @@ nav#nav {
     background: #fff4fe;
     -webkit-overflow-scrolling: touch;
     padding-left: 0.2em;
-    border-top: 2px solid #e886e1; */
+    border-top: 2px solid #f174ed; */
 }
 
 .fr-popup .fr-emoticon img {
