@@ -693,7 +693,7 @@ div#board-info-bottom {
 
 /* 오른쪽 상단 검색 부분 */
 header #right-search-form>input[type=text] {
-    border: 3px solid #c17dff;
+    border: 3px solid var(--bg2);
     border-radius: 10px;
     width: 214.38px;
 }
