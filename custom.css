@@ -878,6 +878,7 @@ header #right-search-form > #right-search-btn {
 .btn-primary:hover {
     background-color: var(--button-hover-color);
     border-color: var(--button-hover-color);
+    animation: BoxLight 0.7s;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -1366,10 +1367,6 @@ header #right-search-form:active:before {
 
 .btn {
     border-radius: 5px !important;
-}
-
-.btn:hover{
-	animation: BoxLight 0.7s;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a:active, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu > a:active {
