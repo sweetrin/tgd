@@ -283,7 +283,7 @@ header #header-bar>.row {position: relative;border-top: 5px solid transparent;bo
 
 header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
-    background: #cf7bf7;
+    background: #cf6aff;
     border-radius:3px;
 }
 
