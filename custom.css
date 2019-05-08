@@ -701,7 +701,7 @@ header #right-search-form>input[type=text] {
 input#right-search-input {}
 
 header #right-search-form > #right-search-btn {
-    color: #c17dff;
+    color: var(--bg2);
 }
 
 /* 버튼 */
