@@ -1368,6 +1368,10 @@ header #right-search-form:active:before {
     border-radius: 5px !important;
 }
 
+.btn:hover{
+	animation: BoxLight 0.7s;
+}
+
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a:active, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu > a:active {
     text-shadow: 0 0 7px #9eb4ff;
 }
