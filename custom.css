@@ -3,14 +3,14 @@
 
 /*** 컬러 ***/
 :root {
-    --main-color: #bc54ea; /*#a85ccc#/
+    --main-color: #bd45f3; /*#a85ccc#/
     /* --main-color: #a652ce; */
     --rins-color:#8027aa;
-    --light-color: #d2a5e6;
+    --light-color: #ce85ef;
     --text-color: #444444;
     --visited-color: #b7b7b7;
     --rank-badge-color: #6782e4;
-    --recommend-count-color: #ff73c0; /* #ec71b5 */
+    --recommend-count-color: #ff68bb; /* #ec71b5 */
     --button-hover-color: #b441e8; /*#9753b7*/
     --cursor-highlight-color:#faf3ff;
     /*--cursor-highlight-color:#f8f0ff;*/
@@ -21,17 +21,17 @@
     --new-light-color:#b057da;
 
     /* 카테고리 */
-    --category-2nd-color: #fb2b2b;
-    --category-3rd-color: #292929;
-    --category-4th-color: #00b050;
-    --category-5th-color: #8c53f9;
-    --category-6th-color: #f14ba5;
-    --category-7th-color: #00b0f0;
+    --category-2nd-color: #fb2525;
+    --category-3rd-color: #252525;
+    --category-4th-color: #00b150;
+    --category-5th-color: #884cfb;
+    --category-6th-color: #f547a5;
+    --category-7th-color: #00b3f5;
     --category-8th-color: #ffc000;
 
-    --bg1:#f174ed; /*#f174ed*/
-    --bg2:#c17dff; /*#c17dff*/
-    --bg3:#68a3fb; /*#68a3fb*/
+    --bg1:#f569f0; /*#f174ed*/
+    --bg2:#ba6eff; /*#c17dff*/
+    --bg3:#599cff; /*#68a3fb*/
 }
 
 @keyframes Dalcom{
@@ -469,7 +469,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-radius: 7px 7px 0 0;
     padding: 0.2em 0.5em;
     background: #deacf5;
-    background: #da9fff;
+    background: #d799ff;
     /* background: linear-gradient(to right, #eaa5e9, #d69ef9,#acaef5,#eaa5e9); */
     /* background: linear-gradient(to right, #d69ef9, #eaa5e9,#acaef5,#eaa5e9); */
     width: 100.1%;
