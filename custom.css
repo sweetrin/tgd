@@ -811,6 +811,7 @@ header #right-search-form > #right-search-btn {
     border-color: var(--main-color);
     outline: none;
     border-radius: 7px;
+    padding: 5px 11px;
 }
 
 .btn-outline-success:hover {
