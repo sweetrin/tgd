@@ -696,6 +696,9 @@ header #right-search-form>input[type=text] {
     border: 3px solid var(--bg2);
     border-radius: 10px;
     width: 214.38px;
+    font-size: 1em;
+    /* padding: 5.4px 0.5em; */
+    height: 36.22px;
 }
 
 input#right-search-input {}
@@ -1537,3 +1540,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 	font-size:138%;
 }
 */
+
+#right-search-btn>.fa.fa-search {
+    vertical-align: middle;
+}
