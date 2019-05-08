@@ -285,7 +285,6 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: var(--main-color);
     background: #cf6aff;
     border-radius:3px;
-    padding:3px 7px;
 }
 
 /* 메뉴 트랜지션 */
