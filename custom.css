@@ -34,32 +34,6 @@
     --bg3:#599cff; /*#68a3fb*/
 }
 
-@keyframes Dalcom{
-	0%{content:"달콤린";}
-	30%{content:"달콤린";}
-	42%{content:"달콤린 ";}
-	44%{content:"달콤린 ㅇ";}
-	46%{content:"달콤린 으";}
-	48%{content:"달콤린 응";}
-	50%{content:"달콤린 으아";}
-	52%{content:"달콤린 으앙";}
-	54%{content:"달콤린 으앙ㄸ";}
-	56%{content:"달콤린 으앙또";}
-	58%{content:"달콤린 으앙똥";}
-	60%{content:"달콤린 으앙또아";}
-	62%{content:"달콤린 으앙또앞";}
-	64%{content:"달콤린 으앙또아프";}
-	66%{content:"달콤린 으앙또아픔";}
-	100%{content:"달콤린 으앙또아픔";}
-}
-
-@keyframes Blink{
-	0%{color:#a262fd;}
-	50%{color:#a262fd;}
-	50.01%{color:transparent;}
-	100%{color:transparent;}
-}
-
 @keyframes BoxLight{
 	0%{box-shadow:0 0 0 0 rgba(168, 92, 204);}
 	100%{box-shadow: 0 0 6px 8px rgba(168, 92, 204,0);}
@@ -1375,24 +1349,10 @@ header #right-search-form:active:before {
 
 #board-info h1>a:first-child {
 	font-size: 22px;
-	/* animation: HlTxtColor 3s infinite; */
 	font-weight: bold;
-	/* color: var(--text-color); */
-	color: #b159ff;
 	color: #a262fd;
-	/* background: linear-gradient(to right, #f174ed, #c17dff,#68a3fb); */
-	/* -webkit-background-clip: text; */
-	/* -webkit-text-fill-color: transparent; */
-	overflow: hidden;
-	/* width: 67px; */
-	height: 29px;
-	display: inline-block;
-	/* border: 1px solid #000; */
 	vertical-align: middle;
-	transition: 0.2s;
 	padding-top: 2px;
-	visibility: hidden;
-	letter-spacing: -1em;
 }
 
 #board-info h1>a:active {
@@ -1484,13 +1444,6 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 	animation: Wriggle 0.9s;
 }
 
-
-#article-list>.article-list-row>.item>.list-title>small.favo {}
-
-.alertify .alert>*, .alertify .dialog>*:after {
-    
-}
-
 .alertify .alert, .alertify .dialog:before{
 	content: "";
     background: url("https://static-cdn.jtvnw.net/jtv_user_pictures/172ec81a-e120-4a41-bd83-c5ef1f69553c-profile_image-300x300.jpg") no-repeat;
@@ -1510,39 +1463,6 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     top: 1.5px;
     animation: HB 3.2s 3.2s infinite;
 }
-
-#board-info h1>a:first-child:hover {
-    /* width: 77.22px; */
-}
-
-#board-info h1>a:first-child:after {
-    content: "_";
-    /* display: inline-block; */
-    visibility: visible;
-    letter-spacing: 0;
-    animation: Blink 1s infinite;
-}
-
-#board-info h1>a:first-child:before {
-    content: "달콤린";
-    visibility: visible;
-    letter-spacing: 0;
-}
-
-#board-info h1>a:first-child:hover:before {
-    /* content: "달콤린"; */
-    animation:Dalcom 5.5s infinite;
-}
-
-/*
-#article-list>.article-list-row a {
-	transition:0.09s;
-}
-
-#article-list>.article-list-row:hover a {
-	font-size:138%;
-}
-*/
 
 #right-search-btn>.fa.fa-search {
     vertical-align: middle;
