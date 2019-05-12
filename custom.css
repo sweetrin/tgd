@@ -1395,3 +1395,5 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 #right-search-btn>.fa.fa-search {
     vertical-align: middle;
 }
+
+#board-info #board-info-bottom #addFavoriteBtn i {color: #ffd122;}
