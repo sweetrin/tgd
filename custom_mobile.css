@@ -431,7 +431,7 @@ footer {
     /* border-top: 2px solid #e886e1; */
     border-bottom: 2px solid var(--light-color);
     background: #fff;
-    /* padding: 0.5em 0.5em 0em; */
+    padding: 0.1em 0.5em 0.5em;
     /* border-top: 2px solid var(--main-color); */
     /* border-bottom: 0; */
 }
@@ -749,4 +749,12 @@ header > #header-search-bar #header-search-btn {
 
 .reply-menu>a:last-child {
     display: none;
+}
+
+#article-info>h2>#article-info-writer {
+    margin-top: 5px;
+}
+
+#article-info>.article-profile-img {
+    margin-right: 0;
 }
