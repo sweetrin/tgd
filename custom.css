@@ -1287,6 +1287,8 @@ header #right-search-form:active:before {
 	color: #a262fd;
 	vertical-align: middle;
 	padding-top: 2px;
+	transition: 0.3s;
+	display: inline-block;
 }
 
 #board-info h1>a:active {
@@ -1410,4 +1412,8 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 .btn-outline-success, .btn-outline-success:focus{
 	border-radius:7px !important;
+}
+
+#board-info h1>a:first-child:hover {
+    transform: rotate(360deg);
 }
