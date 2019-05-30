@@ -1413,7 +1413,3 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 .btn-outline-success, .btn-outline-success:focus{
 	border-radius:7px !important;
 }
-
-#board-info h1>a:first-child:hover {
-    transform: rotate(360deg);
-}
