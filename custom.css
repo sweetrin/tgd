@@ -34,6 +34,12 @@
     --bg3:#599cff; /*#68a3fb*/
 }
 
+@keyframes popmenu{
+	0%{transform:scale(1);}
+	50%{transform:scale(1.2);}
+	100%{transform:scale(1);}
+}
+
 @keyframes BoxLight{
 	0%{box-shadow:0 0 0 0 rgba(168, 92, 204);}
 	100%{box-shadow: 0 0 6px 8px rgba(168, 92, 204,0);}
@@ -1397,3 +1403,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 }
 
 #board-info #board-info-bottom #addFavoriteBtn i {color: #ffd122;}
+
+#article-list #article-list-category > a:hover {
+    animation: popmenu .3s;
+}
