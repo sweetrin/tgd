@@ -1405,5 +1405,5 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 #board-info #board-info-bottom #addFavoriteBtn i {color: #ffd122;}
 
 #article-list #article-list-category > a:hover {
-    animation: popmenu .3s;
+    animation: popmenu .2s;
 }
