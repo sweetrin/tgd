@@ -1407,3 +1407,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 #article-list #article-list-category > a:hover {
     animation: popmenu .22s;
 }
+
+.btn-outline-success, .btn-outline-success:focus{
+	border-radius:7px !important;
+}
