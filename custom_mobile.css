@@ -700,6 +700,7 @@ header > #header-search-bar #header-search-btn {
 .dropdown-toggle .fa-user:before {color: #f174ed;color: var(--main-color);vertical-align: middle;}
 
 
+/*
 #article-list #article-list-menu>.btn.write:after {
     position: fixed;
     display: block;
@@ -722,6 +723,7 @@ header > #header-search-bar #header-search-btn {
 #movetotop {
     display:none !important;
 }
+*/
 
 #board-info>a.board-right-menu:nth-child(4) {
     display: none;
