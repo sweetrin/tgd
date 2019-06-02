@@ -162,6 +162,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     margin-top: 0.9em;
     margin-bottom: 0.15em;
     overflow: inherit;
+    border-top-right-radius: 12px;
 }
 
 #board-info>a.board-right-menu {
@@ -310,6 +311,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 footer {
     background: var(--article-header-color);
     /* color: #fff; */
+    letter-spacing: -0.5px;
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
