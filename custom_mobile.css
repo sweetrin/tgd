@@ -505,6 +505,7 @@ nav#nav {
 
 #board-info #viewers-area {
     color: var(--main-color);
+    font-weight: bold;
 }
 
 .pagination>li>a, .pagination>li>span {
