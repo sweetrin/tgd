@@ -319,7 +319,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-radius: 100px;
     float: left !important;
     border: 3px solid #e886e1;
-    border: 3px solid #b986e8;
+    /* border: 3px solid #b986e8; */
     margin-right: 0.8em;
     /* box-shadow: 1px 1px 3px 1px #9a9a9a; */
     /* box-shadow: 1px 1px 3px 1px #b585b2; */
@@ -328,7 +328,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* z-index: 99; */
     background-image: url("https://cdn.jsdelivr.net/gh/sweetrin/tgd/catrin.png");
     /* background-image:url("https://sweetrin.github.io/tgd/ash_beige-rin.png"); */
-    background-image: url(https://sweetrin.github.io/tgd/komkom.png);
+    /* background-image: url(https://sweetrin.github.io/tgd/komkom.png); */
     padding-left: 57px;
     background-size: contain;
     background-repeat: no-repeat;
