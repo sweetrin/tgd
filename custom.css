@@ -234,7 +234,7 @@ header .row > div:nth-child(1) > a img{
 }
 
 #header-top-notice>a {
-	animation:tc 0.5s;
+	animation:tc 0.3s;
     display:inline-block;
 }
 
