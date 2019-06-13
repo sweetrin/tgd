@@ -228,6 +228,17 @@ header .row > div:nth-child(1) > a img{
     opacity: 0;
 }
 
+@keyframes tc{
+	0%{opacity:0;transform:scale(1.2);}
+	100%{opacity:1;transform:scale(1);}
+}
+
+#header-top-notice>a {
+	animation:tc 0.5s;
+    display:inline-block;
+}
+
+
 header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #main .menu-wrapper>a {
     color: var(--text-color);
 }
