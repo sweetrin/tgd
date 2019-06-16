@@ -720,7 +720,7 @@ header #right-search-form > #right-search-btn {
     /* background: var(--main-color); */
     background: linear-gradient(135deg, var(--bg2), var(--bg2),var(--bg1));
     border-radius: 7px 7px 0 0;
-    padding: 0.7em 0.9em 0;
+    padding: 0.6em 0.9em 0;
     height: 56px;
     margin-top: 0.5em;
     /* box-shadow: 3px 3px 5px rgba(40, 0, 87, 0.23); */
@@ -802,7 +802,8 @@ header #right-search-form > #right-search-btn {
 
 #article-info #article-info-writer {
     color: #fff;
-    padding-top: 1px;
+    padding-top: 0px;
+    margin-left: 1px;
 }
 
 .btn-primary:hover {
@@ -830,11 +831,12 @@ header #right-search-form > #right-search-btn {
     color: #fff !important;
     /* font-weight: bold; */
     background-color: #993bef;
-    border-radius: 10px;
-    padding: 2px 7px 1px;
+    border-radius: 12px;
+    padding: 3px 8px 3px;
     border: 1px solid #fff;
     box-shadow: 2px 2px 2px rgb(165, 95, 228);
     border: 0;
+    font-size: 16px;
 }
 
 /* 베스트 댓글 배경색 */
