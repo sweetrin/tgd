@@ -829,6 +829,12 @@ header #right-search-form > #right-search-btn {
 #article-info>h2>span.category {
     color: #fff !important;
     /* font-weight: bold; */
+    background-color: #993bef;
+    border-radius: 10px;
+    padding: 2px 7px 1px;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 2px rgb(165, 95, 228);
+    border: 0;
 }
 
 /* 베스트 댓글 배경색 */
