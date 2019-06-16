@@ -15,8 +15,8 @@
     --cursor-highlight-color:#faf3ff;
     /*--cursor-highlight-color:#f8f0ff;*/
     /*--bg-color-stop1:#eee5f3;*/
-    /*--bg-color-stop1:#efe1f9;*/ /* #eedff9 */
-    --bg-color-stop1:#ecdbf8;
+    --bg-color-stop1:#efe1f9; /* #eedff9 */
+    /* --bg-color-stop1:#ecdbf8; */
     --bg-color-stop2:#6d4c98;
     --bg-color-stop3:#0e3b71;
     --new-light-color:#b057da;
@@ -29,7 +29,6 @@
     --category-6th-color: #f547a5;
     --category-7th-color: #00b3f5;
     --category-8th-color: #ffc000;
-
     --bg1:#f569f0; /*#f174ed*/
     --bg2:#ba6eff; /*#c17dff*/
     --bg3:#599cff; /*#68a3fb*/
