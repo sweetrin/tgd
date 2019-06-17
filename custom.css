@@ -837,6 +837,7 @@ header #right-search-form > #right-search-btn {
     box-shadow: 2px 2px 2px rgb(165, 95, 228);
     border: 0;
     font-size: 16px;
+    vertical-align: middle;
 }
 
 /* 베스트 댓글 배경색 */
