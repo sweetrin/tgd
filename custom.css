@@ -1468,3 +1468,12 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 #article-list #article-list-menu>.btn.write:hover {
     box-shadow: none;
 }
+
+#article-list.hide-notice {
+    /* background-image: url("https://sweetrin.github.io/tgd/yellow_rin_5.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: right 48px; */
+    /* background-size: contain; */
+    /* background-color: #b18f69; */
+    /* background-position-y: 46px; */
+}
