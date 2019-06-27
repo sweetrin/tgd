@@ -309,9 +309,12 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main-content > .frame > .frame {
     background: #fff;
     border-radius: 7px;
+}
+
+#main-content > .frame > .frame>.row {
     background-image:url("https://sweetrin.github.io/tgd/kkcoin.png");
     background-repeat:no-repeat;
-    background-position:center;
+    background-position:top;
 }
 
 /* 자캐 이미지와 게시판 메인 부분 */
