@@ -301,6 +301,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
     border-radius: 100px;
     padding: 0.4em 0.5em;
     /* border: 2px solid var(--light-color); */
+    border-radius: 20px 20px 0 0;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
@@ -419,7 +420,9 @@ footer {
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area
 .reply {
-    border: 0;
+    /* border: 0; */
+    border: 1px solid var(--article-header-color);
+    border-radius: 20px;
 }
 
 .btn-outline-success, .btn-outline-success:focus {
