@@ -166,7 +166,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>a.board-right-menu {
-    padding: 9px 5px;
+    padding: 9px 7px;
     border-left: 0;
     color: var(--main-color);
 }
@@ -239,7 +239,11 @@ header>#header-area>a>h1 {
 #header-top-notice strong.notice-badge {
     background: #cf7bf7;
     background:var(--main-color);
+    background:#fff;
+    color:var(--main-color);
+    border:1px solid var(--main-color);
     border-radius: 5px;
+    padding:2px 6px;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
@@ -766,4 +770,8 @@ header > #header-search-bar #header-search-btn {
 
 #article-info>h2>#article-info-writer>img {
     vertical-align: middle;
+}
+
+#movetotop {
+    display: none !important;
 }
