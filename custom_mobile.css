@@ -421,9 +421,10 @@ footer {
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area
 .reply {
     /* border: 0; */
-    /* border: 1px solid var(--article-header-color); */
+    border: 1px solid var(--article-header-color);
+    /* border: 1px solid rgba(188, 84, 234, 0.1); */
     border-radius: 20px;
-    /* box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1); */
+    box-shadow: 1px 1px 2px 0px rgba(188, 84, 234, 0.4);
 }
 
 .btn-outline-success, .btn-outline-success:focus {
