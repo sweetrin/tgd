@@ -1483,3 +1483,8 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     /* background-color: #b18f69; */
     /* background-position-y: 46px; */
 }
+
+#board-info #score-area {
+    /* vertical-align: unset; */
+    margin-top: 0.3em;
+}
