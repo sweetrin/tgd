@@ -658,12 +658,6 @@ nav#nav>#nav-upper {
 
 header.nav-up {
     top: 0px;
-    animation:head_bg 0.3s;
-    opacity:0.8;
-}
-
-header.nav-down {
-    animation:head_bg2 0.3s;
 }
 
 nav#nav.hide {
