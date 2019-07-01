@@ -989,7 +989,7 @@ input#right-search-input:focus {
 
 #article-list>.article-list-row:hover {
     transform: scale(1.03);
-    border-radius: 7px;
+    border-radius: 20px;
 }
 
 #article-list #article-option-area>#article-option-area-toggle-btn {
