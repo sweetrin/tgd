@@ -293,7 +293,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 #article-content-wrapper>.header {
-    background: var(--article-header-color);
+    background: #fafafa;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -441,7 +441,7 @@ footer {
 
 #article-info {
     /* border-top: 2px solid #e886e1; */
-    border-top: 1px solid var(--separation-line-color);
+    /* border-top: 1px solid var(--separation-line-color); */
     background: #ffe6fe;
     padding: 0.5em 0.5em 0.5em;
     /* border-top: 2px solid var(--main-color); */
@@ -814,5 +814,5 @@ header > #header-search-bar #header-search-btn {
 
 #article-reply-area {
     /* border-top: 1px solid var(--separation-line-color); */
-    margin-top: 0.6em;
+    margin-top: 0.7em;
 }
