@@ -1489,3 +1489,16 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     /* vertical-align: unset; */
     margin-top: 0.3em;
 }
+
+footer::after {
+    content: "";
+    background-image: url("https://sweetrin.github.io/tgd/kom_n_com.png");
+    background-repeat:no-repeat;
+    width:600px;
+    height:385px;
+    background-size:contain;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    z-index:-1;
+}
