@@ -441,11 +441,11 @@ footer {
 
 #article-info {
     /* border-top: 2px solid #e886e1; */
-    border-bottom: 2px solid var(--light-color);
-    background: #fff;
-    padding: 0.1em 0.5em 0.5em;
+    border-top: 1px solid var(--separation-line-color);
+    background: #ffe6fe;
+    padding: 0.5em 0.5em 0.5em;
     /* border-top: 2px solid var(--main-color); */
-    /* border-bottom: 0; */
+    border-bottom: 0;
 }
 
 #header-top-notice a {
