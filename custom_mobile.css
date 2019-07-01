@@ -595,7 +595,7 @@ footer a {
 
 #article-content-wrapper {
     /* margin-bottom: 0.5em; */
-    border-bottom: 1px solid var(--separation-line-color);
+    /* border-bottom: 1px solid var(--separation-line-color); */
     padding-bottom: 0.6em;
 }
 
@@ -813,6 +813,6 @@ header > #header-search-bar #header-search-btn {
 }
 
 #article-reply-area {
-    border-top: 1px solid var(--separation-line-color);
+    /* border-top: 1px solid var(--separation-line-color); */
     margin-top: 0.6em;
 }
