@@ -820,3 +820,8 @@ header > #header-search-bar #header-search-btn {
 div#main-content {
     margin-top: 1.5em;
 }
+
+#article-list-menu {
+    margin: 0px 0.15em;
+    width: auto;
+}
