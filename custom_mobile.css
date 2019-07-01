@@ -293,7 +293,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 #article-content-wrapper>.header {
-    background: #fafafa;
+    background: var(--article-header-color);
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -814,5 +814,5 @@ header > #header-search-bar #header-search-btn {
 
 #article-reply-area {
     /* border-top: 1px solid var(--separation-line-color); */
-    margin-top: 0.7em;
+    margin-top: 0.8em;
 }
