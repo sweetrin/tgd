@@ -647,14 +647,23 @@ nav#nav>#nav-upper {
 }
 
 @keyframes head_bg{
-	0%{background: linear-gradient(to right, rgba(243, 109, 238, 1), rgba(182, 102, 255, 1),rgba(85, 153, 255, 1));}
-	100%{background: linear-gradient(to right, rgba(243, 109, 238, 0.8), rgba(182, 102, 255, 0.8),rgba(85, 153, 255, 0.8));}
+	0%{opacity:1;}
+	100%{opacity:0.8;}
+}
+
+@keyframes head_bg2{
+	0%{opacity:0.8;}
+	100%{opacity:1;}
 }
 
 header.nav-up {
     top: 0px;
     animation:head_bg 0.3s;
-    background: linear-gradient(to right, rgba(243, 109, 238, 0.8), rgba(182, 102, 255, 0.8),rgba(85, 153, 255, 0.8));
+    opacity:0.8;
+}
+
+header.nav-down {
+    animation:head_bg2 0.3s;
 }
 
 nav#nav.hide {
