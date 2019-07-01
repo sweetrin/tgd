@@ -159,7 +159,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* background-color: #ffeffe; */
     background-color: #fff4fe;
     background-color: #fff;
-    margin-top: 0.9em;
+    margin-top: 1.3em;
     margin-bottom: 0.35em;
     overflow: inherit;
     border-top-right-radius: 12px;
@@ -815,10 +815,6 @@ header > #header-search-bar #header-search-btn {
 #article-reply-area {
     /* border-top: 1px solid var(--separation-line-color); */
     margin-top: 0.8em;
-}
-
-div#main-content {
-    margin-top: 1.5em;
 }
 
 #article-list-menu {
