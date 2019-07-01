@@ -293,7 +293,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 #article-content-wrapper>.header {
-    background: var(--article-header-color);
+    background: #fafafa;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -444,7 +444,7 @@ footer {
     /* border-top: 1px solid var(--separation-line-color); */
     background: #ffe6fe;
     padding: 0.5em 0.5em 0.5em;
-    /* border-top: 2px solid var(--main-color); */
+    border-top: 2px solid #f174ed;
     border-bottom: 0;
 }
 
