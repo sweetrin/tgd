@@ -163,6 +163,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     margin-bottom: 0.15em;
     overflow: inherit;
     border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
 #board-info>a.board-right-menu {
