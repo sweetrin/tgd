@@ -1449,7 +1449,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     vertical-align: middle;
 }
 
-#board-info #board-info-bottom #addFavoriteBtn i {color: #ffd122;}
+#board-info #board-info-bottom #addFavoriteBtn i {color: #ffd122;transition: 1s;}
 
 #article-list #article-list-category > a:hover {
     animation: popmenu .22s;
@@ -1508,4 +1508,35 @@ footer::after {
     bottom:0px;
     left:0px;
     z-index:-1;
+}
+
+/*
+#board-info #board-info-bottom #addFavoriteBtn:hover i {
+    transform: rotate(180deg);
+}
+*/
+
+#board-info #board-info-bottom a i {
+	transition:1.3s;
+}
+
+#board-info #board-info-bottom a:hover i {
+    transform: rotate(360deg);
+}
+
+@keyframes uz{
+	0%{transform:scale(0); opacity:1;}
+	50%{transform:scale(4); opacity:0;}
+	51%{transform:scale(1); opacity:0;}
+	100%{transform:scale(1); opacity:1;}
+}
+
+/*
+#board-info #board-info-bottom #addFavoriteBtn:active i {
+    animation:uz 1s linear;
+}
+*/
+
+#board-info #board-info-bottom a:active i {
+    animation:uz 1s linear;
 }
