@@ -516,6 +516,12 @@ div#board-info-bottom {
     border-radius: 7px;
     animation: Popping 0.4s;
     margin-top: 0.8em;
+    /* background-image: url("https://sweetrin.github.io/tgd/kom_n_com.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: right; */
+    /* background-position-y: 92%; */
+    /* background-position-x: 97%; */
+    /* background-size: 50%; */
 }
 
 #board-info #board-info-bottom a {
@@ -582,6 +588,7 @@ div#board-info-bottom {
 
 #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
     background-color: var(--cursor-highlight-color);
+    /* background-color: rgba(250, 243, 255, 0.8); */
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
