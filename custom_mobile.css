@@ -295,7 +295,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 #article-content-wrapper>.header {
     background: #fafafa;
     background: #fff;
-    padding: 0.7em 1.1em;
+    padding: 1em 1.2em;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -821,4 +821,8 @@ header > #header-search-bar #header-search-btn {
 #article-list-menu {
     margin: 0px 0.15em;
     width: auto;
+}
+
+#article-content-wrapper #article-content {
+    padding-top: 0;
 }
