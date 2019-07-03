@@ -624,8 +624,8 @@ div#board-info-bottom {
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    background-color: #f8e8ff;
-    /* border-color: #f8e8ff; */
+    background-color: #f6ebff;
+    /* border-color: #f6ebff; */
     color: var(--main-color);
 }
 
