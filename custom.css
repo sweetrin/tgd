@@ -624,8 +624,9 @@ div#board-info-bottom {
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    background-color: #f8f0ff;
-    color: var(--rins-color);
+    background-color: #f8e8ff;
+    /* border-color: #f8e8ff; */
+    color: var(--main-color);
 }
 
 /* 글쓴이 */
