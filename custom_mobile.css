@@ -294,6 +294,8 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 #article-content-wrapper>.header {
     background: #fafafa;
+    background: #fff;
+    padding: 0.7em 1.1em;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
