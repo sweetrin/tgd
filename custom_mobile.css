@@ -833,3 +833,7 @@ header > #header-search-bar #header-search-btn {
     margin: 0px 0.15em;
     width: auto;
 }
+
+#header-top-notice {
+    margin-bottom: 0.2em;
+}
