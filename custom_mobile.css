@@ -162,21 +162,22 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* background-color: #ffeffe; */
     background-color: #fff4fe;
     background-color: #fff;
-    margin-top: 1.3em;
-    margin-bottom: 0.35em;
+    margin-top: 1.2em;
+    /* margin-bottom: 0.35em; */
     overflow: inherit;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
 }
 
 #board-info>a.board-right-menu {
-    padding: 9px 7px;
+    padding: 9px 9px;
     border-left: 0;
     color: var(--main-color);
 }
 
 #board-info>h1 {
-    padding: 0.25em 0 0 0.3em;
+    /* padding: 0.25em 0 0 0.3em; */
+    padding: 0.26em 0.5em;
 }
 
 #board-info>h1>#board-info-profile-img {
