@@ -484,6 +484,7 @@ span.a-badge i.fa.fa-star {
 
 #article-list>.article-list-row.notice {
     background-color: #fafafa;
+    background-color: var(--article-header-color);
 }
 
 nav#nav {
@@ -549,7 +550,7 @@ nav#nav {
 }
 
 #article-list>.article-list-row:not(.notice):nth-child(odd){
-	background-color: var(--article-header-color);
+	/* background-color: var(--article-header-color); */
 }
 
 #article-content-wrapper>.footer {
