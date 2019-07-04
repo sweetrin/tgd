@@ -297,6 +297,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 #article-content-wrapper>.header {
     background: #fafafa;
+    background: var(--article-header-color);
     padding: 0.6em 1.1em;
 }
 
