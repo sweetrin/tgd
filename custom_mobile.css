@@ -548,6 +548,10 @@ nav#nav {
     padding: 0 !important;
 }
 
+#article-list>.article-list-row:not(.notice):nth-child(odd){
+	background-color: var(--article-header-color);
+}
+
 #article-content-wrapper>.footer {
     /* background: var(--article-header-color); */
     /* border-bottom: 2px solid var(--light-color); */
