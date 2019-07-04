@@ -170,14 +170,14 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>a.board-right-menu {
-    padding: 9px 9px;
+    padding: 10px 9px;
     border-left: 0;
     color: var(--main-color);
 }
 
 #board-info>h1 {
     /* padding: 0.25em 0 0 0.3em; */
-    padding: 0.26em 0.5em;
+    padding: 0.27em 0.5em;
 }
 
 #board-info>h1>#board-info-profile-img {
