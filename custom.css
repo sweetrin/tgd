@@ -1511,3 +1511,13 @@ footer::after {
     left:0px;
     z-index:-1;
 }
+
+a.btn.square.btn-default.best:not(.enable):hover {
+    animation: BoxLight 0.7s;
+}
+
+#article-list #article-list-menu>.btn.best:hover {box-shadow: none;}
+
+#article-list #article-list-menu>.btn.best.enable {
+    box-shadow: none;
+}
