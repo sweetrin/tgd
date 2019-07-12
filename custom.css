@@ -327,7 +327,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     overflow: inherit;
     padding: 0.6em 0.8em;
     margin-bottom: 2.5em;
-    box-shadow: 3px 3px 5px rgba(55, 0, 121, 0.15);
+    /* box-shadow: 3px 3px 5px rgba(55, 0, 121, 0.15); */
+    box-shadow: 3px 3px 5px rgba(128, 54, 218, 0.15);
     animation: Popping 0.4s;
 }
 
@@ -341,7 +342,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-right: 0.8em;
     /* box-shadow: 1px 1px 3px 1px #9a9a9a; */
     /* box-shadow: 1px 1px 3px 1px #b585b2; */
-    box-shadow: 1px 1px 3px 1px #a7a7a7;
+    /* box-shadow: 1px 1px 3px 1px #a7a7a7; */
+    box-shadow: 1px 1px 3px 1px rgba(128, 54, 218, 0.3);
     transition: 0.1s;
     /* z-index: 99; */
     background-image: url("https://cdn.jsdelivr.net/gh/sweetrin/tgd/catrin.png");
