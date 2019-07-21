@@ -999,8 +999,8 @@ input#right-search-input:focus {
 }
 
 #article-list>.article-list-row:hover {
-    transform: scale(1.03);
-    border-radius: 7px;
+    /* transform: scale(1.03); */
+    /* border-radius: 7px; */
 }
 
 #article-list #article-option-area>#article-option-area-toggle-btn {
@@ -1522,4 +1522,12 @@ a.btn.square.btn-default.best:not(.enable):hover {
 
 #article-list #article-list-menu>.btn.best.enable {
     box-shadow: none;
+}
+
+div#taboola-below-article-text-links {background-color: #fff;border-radius: 7px 7px 0 0;padding-top: 0.5em !important;}
+
+div#taboola-below-article-text-links-b {
+    background-color: #fff;
+    border-radius: 0 0 7px 7px;
+    padding-bottom: 0.1em !important;
 }
