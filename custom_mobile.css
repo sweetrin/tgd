@@ -229,7 +229,7 @@ header {
     background: linear-gradient(to right, rgba(241, 128, 235, 0.8), rgba(204, 103, 255, 0.8),rgba(120, 149, 255, 0.8));
     background: linear-gradient(to right, rgba(234, 100, 228, 0.8), rgba(184, 117, 247, 0.8),rgba(99, 153, 234, 0.8));
     background: linear-gradient(to right, var(--bg1), var(--bg2),var(--bg3));
-    background: linear-gradient(to right, rgba(243, 109, 238, 0.9), rgba(178, 94, 255, 0.9),hsla(216, 100%, 58%, 0.9));
+    background: linear-gradient(to right, rgba(243, 109, 238, 0.95), rgba(178, 94, 255, 0.95),hsla(216, 100%, 58%, 0.95));
     /* background: rgba(241, 123, 235, 0.8); */
     -webkit-backdrop-filter: saturate(180%) blur(5px);
     background-size: 130%;
