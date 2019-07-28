@@ -672,7 +672,7 @@ nav#nav>#nav-upper {
 }
 
 header.nav-up {
-    /*top: 0px;*/
+    top: 0px;
 }
 
 nav#nav.hide {
