@@ -837,3 +837,13 @@ header > #header-search-bar #header-search-btn {
 #header-top-notice {
     margin-bottom: 0.1em;
 }
+
+nav#nav.hide>#nav-upper #userDropdown #notification-badge{
+	position: fixed;
+	top: 4px;
+	left: 3%;
+	right: auto !important;
+	margin-left: -5px;
+	padding-top: 5px;
+	background-color: #ea00e2;
+}
