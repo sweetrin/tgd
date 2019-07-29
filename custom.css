@@ -209,7 +209,7 @@ body, html {
 	/* background: #d8c6ea; */
 	background: linear-gradient(180deg, var(--bg-color-stop1) 0,#8059b3 180%);
 	background: linear-gradient(180deg, #e8d7f6 0,#bba0dd);
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 }
 
 body {
