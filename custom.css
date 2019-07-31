@@ -1537,13 +1537,44 @@ div#taboola-below-article-text-links-b {
     body{
     	background-color:rgb(50,54,57);
     }
+    header .row > div:nth-child(1) > a {
+    background: url('https://sweetrin.github.io/tgd/kgd_logo5-1.png') no-repeat;
+}
     header #header-bar>.row{
     	background-color:#000;
+    	border-top-color:var(--main-color);
     }
     header #header-bar a.dropdown-toggle{
     	color:#fff;
     }
     header #header-bar #header-top-notice a{
     	color:#fff;
+    }
+    #main .menu-wrapper > .header{
+    	background:var(--main-color);
+    }
+    #main .menu-wrapper>a{
+    	background:#000;
+    	color:#fff;
+    	border-bottom-color:#000;
+    }
+    #main .menu-wrapper .spacer{
+    	background:#000;
+    }
+    #board-info{
+    	background:#000;
+    }
+    #article-list{
+    	background:#000;
+    }
+    #article-list>.article-list-row.notice{
+    	background:#7B1FA2;
+    }
+    #article-list>.article-list-row.hot{
+    	animation:none;
+    	background:#8E24AA;
+    }
+    #article-list>.article-list-row.hot>.item>.list-header>b, #article-list>.article-list-row.hot>.item>.list-title>.list-category>span, #article-list>.article-list-row.hot>.item>.list-title>a, #article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span, #article-list>.article-list-row.hot>.item>.list-time{
+    	animation:none;
     }
 }
