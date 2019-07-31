@@ -1,8 +1,6 @@
 @import url("https://sweetrin.github.io/tgd/fonts.css");
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
-@media (prefers-color-scheme: light) {
-
 /*** 컬러 ***/
 :root {
     --main-color: #bd45f3; /*#a85ccc#/
@@ -1533,8 +1531,6 @@ div#taboola-below-article-text-links-b {
     background-color: #fff;
     border-radius: 0 0 7px 7px;
     padding-bottom: 0.1em !important;
-}
-
 }
 
 @media(prefers-color-scheme:dark){
