@@ -1534,12 +1534,15 @@ div#taboola-below-article-text-links-b {
 }
 
 @media(prefers-color-scheme:dark){
+	#board-info h1::after{
+		content:"[dark mode test]";
+	}
     body{
     	background-color:rgb(50,54,57);
     }
     header .row > div:nth-child(1) > a {
     background: url('https://sweetrin.github.io/tgd/kgd_logo5-1.png') no-repeat;
-}
+	}
     header #header-bar>.row{
     	background-color:#000;
     	border-top-color:var(--main-color);
@@ -1563,6 +1566,9 @@ div#taboola-below-article-text-links-b {
     }
     #board-info{
     	background:#000;
+    }
+    #board-info .pull-right.img-rounded{
+    	background-image:url("https://sweetrin.github.io/tgd/rinscat.png");
     }
     #article-list{
     	background:#000;
