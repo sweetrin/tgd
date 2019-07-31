@@ -1535,7 +1535,7 @@ div#taboola-below-article-text-links-b {
 
 @media(prefers-color-scheme:dark){
 	#board-info h1::after{
-		content:"[dark mode test]";
+		content: "[dark mode testing]";
 	}
     body{
     	background-color:rgb(50,54,57);
