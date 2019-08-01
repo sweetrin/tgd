@@ -1618,4 +1618,7 @@ div#taboola-below-article-text-links-b {
     #board-info #score-area{
     	color:#BDBDBD;
     }
+    #article-list>.article-list-row>.item>.list-title>.list-category>span[style="color:#000000"]{
+    	color:#E0E0E0 !important;
+    }
 }
