@@ -346,7 +346,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* box-shadow: 1px 1px 3px 1px rgba(128, 54, 218, 0.3); */
     transition: 0.1s;
     /* z-index: 99; */
-    /* background-image: url("https://cdn.jsdelivr.net/gh/sweetrin/tgd/catrin.png"); */
+    background-image: url("https://cdn.jsdelivr.net/gh/sweetrin/tgd/catrin.png");
     /* background-image:url("https://sweetrin.github.io/tgd/ash_beige-rin.png"); */
     /* background-image: url(https://sweetrin.github.io/tgd/komkom.png); */
     /* padding-left: 57px; */
@@ -1542,6 +1542,7 @@ div#taboola-below-article-text-links-b {
     }
     header .row > div:nth-child(1) > a {
     background: url('https://sweetrin.github.io/tgd/kgd_logo5-1.png') no-repeat;
+	
 	}
     header #header-bar>.row{
     	background-color:#000;
@@ -1569,6 +1570,7 @@ div#taboola-below-article-text-links-b {
     }
     #board-info .pull-right.img-rounded{
     	background-image:url("https://sweetrin.github.io/tgd/rinscat.png");
+    	padding-left:57px;
     }
     #article-list{
     	background:#000;
