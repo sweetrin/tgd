@@ -1583,4 +1583,14 @@ div#taboola-below-article-text-links-b {
     #article-list>.article-list-row.hot>.item>.list-header>b, #article-list>.article-list-row.hot>.item>.list-title>.list-category>span, #article-list>.article-list-row.hot>.item>.list-title>a, #article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span, #article-list>.article-list-row.hot>.item>.list-time{
     	animation:none;
     }
+    #article-content-wrapper #article-content,#article-content-wrapper>.vote-area{
+    	background:#000;
+    	color:#fff;
+    	border-left-color:#000;
+    	border-right-color:#000;
+    }
+    #article-content-wrapper>.header,#article-content-wrapper>.footer{
+    	background:#424242;
+    	color:#fff;
+    }
 }
