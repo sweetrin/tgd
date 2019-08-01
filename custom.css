@@ -1615,4 +1615,7 @@ div#taboola-below-article-text-links-b {
     #article-reply-area #reply-real-area .reply > .reply-content p, #article-reply-area #reply-best-area .reply > .reply-content p{
     	color:#fff;
     }
+    #board-info #score-area{
+    	color:#BDBDBD;
+    }
 }
