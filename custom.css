@@ -1626,4 +1626,17 @@ div#taboola-below-article-text-links-b {
     #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover{
     	background-color: var(--rins-color);
     }
+    .fr-box.fr-basic .fr-element{
+    	color:#fff;
+    }
+    #main-content>.frame>h3{
+    	background:#212121;
+    	border-color:#212121;
+    }
+    #main-content>.frame>h3::before{
+    	color:#fff;
+    }
+    form#articleWriteForm{
+    	background:#212121;
+    }
 }
