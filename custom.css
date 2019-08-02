@@ -306,6 +306,10 @@ header #header-bar #header-top-notice strong.notice-badge {
     content: url('https://sweetrin.github.io/tgd/candy_18x18.png');
 }
 
+#article-info{
+	/* padding-top: 0.7em; */
+}
+
 #article-list #article-list-category {
     padding: 0.2em 0.5em;
     background: #d497fa;
@@ -419,7 +423,6 @@ div#board-info-bottom {
     background: #fff;
     border-radius: 7px;
     animation: Popping 0.4s;
-    margin-top: 0.8em;
 }
 
 #board-info #board-info-bottom a {
