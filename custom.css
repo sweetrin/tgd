@@ -530,7 +530,6 @@ header #right-search-form > #right-search-btn {
     margin-right: 0.2em;
 }
 
-/* 달콤 하또 */
 #article-list i.fa.fa-heart {
     color: #ff6beb;
     animation: BoxLight2 3.2s 3.2s infinite;
@@ -540,11 +539,6 @@ header #right-search-form > #right-search-btn {
     margin-bottom: 1px;
 }
 
-
-/*** 글 내용 출력 부분 **/
-
-
-/* 글 제목 */
 #article-info>h2 {
     font-weight: bold;
     color: #fff;
@@ -560,26 +554,14 @@ header #right-search-form > #right-search-btn {
     box-shadow: 2px 2px 5px 0px #de61dc;
 }
 
-/* 헤더 */
 #article-content-wrapper>.header {
     border-top: 0;
 }
-       
-/* '댓글' 문자 */
-#article-reply-area > .header h5, #lastc {
-    color: var(--main-color);
-}
 
-/* 댓글 도구 상자 */
 .fr-toolbar {
     border-top:5px solid var(--main-color);
     border-image: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
     border-image-slice: 1;
-}
-
-#article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
-    padding: 0.7em 1.3em 0.9em;
-    line-height: 1.5;
 }
 
 #comment-write-form-area {
@@ -588,7 +570,6 @@ header #right-search-form > #right-search-btn {
 
 #article-info {
     background: linear-gradient(135deg, var(--bg2), var(--bg2),var(--bg1));
-    border-radius: 7px 7px 0 0;
     padding: 0.55em 0.9em 0;
     height: 56px;
     margin-top: 0.5em; */
@@ -626,15 +607,12 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-reply-area>.header {
-    background: var(--main-color);
-    background: linear-gradient(135deg, var(--bg2), var(--bg2),var(--bg1));
-    border-radius: 7px 7px 0 0;
-    padding: 0.9em 1em 0.8em;
-    width: 100.1%;
+    /* background: linear-gradient(135deg, var(--bg2), var(--bg2),var(--bg1)); */
+    /* padding: 0.9em 1em 0.8em; */
 }
 
 #article-reply-area > .header h5, #lastc {
-    color: #fff;
+    /* color: #fff; */
 }
 
 #article-reply-area {
@@ -646,25 +624,20 @@ header #right-search-form > #right-search-btn {
     margin-top: 1em;
 }
 
-#article-reply-area #reply-real-area, #article-reply-area #reply-best-area {
-    padding: 0;
-}
-
 #article-content-wrapper {
     padding: 0;
     margin: 0 0 1em;
     border-radius: 7px;
 }
 
-#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    border-bottom: 0;
-    padding: 0.4em 1.2em;
-    background: #f8f0ff;
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
+	border-radius: 20px;
 }
 
-#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
-    border: 0;
-    margin-bottom: 0;
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    border-bottom: 0;
+    background: #f8f0ff;
+    border-radius: 20px;
 }
 
 #article-info #article-info-writer {
