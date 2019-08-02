@@ -279,6 +279,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 	margin-left:3em;
 }
 
+#board-info h1{
+	border-bottom-color: #e9c9ff;
+}
+
 #board-info #viewers-area {
     color: var(--main-color);
     color: #a953f9;
