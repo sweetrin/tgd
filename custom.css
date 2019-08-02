@@ -434,6 +434,10 @@ div#board-info-bottom {
     border-radius: 7px;
 }
 
+#main .menu-wrapper .spacer{
+	display: none;
+}
+
 #main .menu-wrapper>a:last-child {
     border-radius: 0 0 7px 7px;
 }
