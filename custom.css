@@ -1071,20 +1071,6 @@ a.btn.square.btn-default.best:not(.enable):hover {
     animation: BoxLight 0.7s;
 }
 
-#article-list #article-list-menu>.btn.best:hover {box-shadow: none;}
-
-#article-list #article-list-menu>.btn.best.enable {
-    box-shadow: none;
-}
-
-div#taboola-below-article-text-links {background-color: #fff;border-radius: 7px 7px 0 0;padding-top: 0.5em !important;}
-
-div#taboola-below-article-text-links-b {
-    background-color: #fff;
-    border-radius: 0 0 7px 7px;
-    padding-bottom: 0.1em !important;
-}
-
 @media(prefers-color-scheme:dark){
 	#board-info h1::after{
 		content: "[dark mode testing]";
