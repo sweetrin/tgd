@@ -1049,8 +1049,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	:root{
 		--dark-bg1:rgb(50,54,57);
 		--dark-bg2:#212121;
-		--dark-text:#FAFAFA;
-		--text-color:#FAFAFA;
+		--dark-text:#E0E0E0;
+		--text-color:#E0E0E0;
 		--visited-color:#9E9E9E;
 		--main-color:#8b28b5;
 	}
