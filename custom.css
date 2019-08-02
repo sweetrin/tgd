@@ -1102,10 +1102,10 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	animation:none;
     }
     #article-content-wrapper #article-content,#article-content-wrapper>.vote-area{
-    	background:var(--dark-bg2);
-    	color:#fff;
-    	border-left-color:var(--dark-bg2);
-    	border-right-color:var(--dark-bg2);
+    	background:#2d2d2d;
+    	color:var(--dark-text);
+    	border-left-color:#2d2d2d;
+    	border-right-color:#2d2d2d;
     }
     #article-content-wrapper>.header,#article-content-wrapper>.footer{
     	background:#424242;
