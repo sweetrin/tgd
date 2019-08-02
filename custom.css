@@ -554,8 +554,8 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-info>h2 {
-    font-weight: bold;
-    font-size: 17px;
+    /* font-weight: bold; */
+    font-size: 18px;
     padding: 0 0 0.2em;
 }
 
