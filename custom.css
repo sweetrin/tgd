@@ -1055,9 +1055,6 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		--main-color:#6e3887;
 		--cursor-highlight-color:#5b2e6e;
 	}
-	#board-info h1::after{
-		content: "[dark mode testing]";
-	}
     body{
     	background-color:var(--dark-bg1);
     }
