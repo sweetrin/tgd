@@ -260,6 +260,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info{
 	animation: Popping 0.4s;
+	overflow: inherit;
 }
 
 #board-info #board-info-profile-img{
