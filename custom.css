@@ -893,7 +893,7 @@ header #header-bar>.row:after {
 }
 
 #main .menu-wrapper>a:hover{
-	border-radius:100px;
+	border-radius: 12px;
 }
 
 header #header-bar #header-top-notice {
