@@ -1251,4 +1251,12 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		background:#424242;
 		color:var(--dark-text);
 	}
+	.form-control{
+		background:#424242;
+		color:var(--dark-text);
+		border-color:#424242;
+	}
+	a.custom-badge-link{
+		border-color:var(--dark-bg2);
+	}
 }
