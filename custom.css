@@ -891,7 +891,8 @@ header #header-bar>.row:after {
 }
 
 #main .menu-wrapper>a:hover{
-	border-radius: 12px;
+	border-radius: 13px;
+	background: var(--cursor-highlight-color);
 }
 
 header #header-bar #header-top-notice {
@@ -924,7 +925,7 @@ header #header-bar #header-top-notice {
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     background-color: var(--cursor-highlight-color);
-    border-radius: 12px;
+    border-radius: 13px;
 }
 
 .dropdown-menu>li>a {
