@@ -926,7 +926,7 @@ header #header-bar #header-top-notice {
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     background-color: var(--cursor-highlight-color);
-    border-radius:100px;
+    border-radius: 12px;
 }
 
 .dropdown-menu>li>a {
@@ -1189,7 +1189,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	background:var(--text-color);
     }
     #main .menu-wrapper>a:hover{
-    	background:var(--text-color);
+    	background: #444444;
     }
     header #right-search-form>input[type=text]{
     	background:var(--dark-bg1);
@@ -1220,5 +1220,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		bottom:0px;
 		left:0px;
 		z-index:-1;
+	}
+	.dropdown.open .dropdown-menu{
+		background:#7B1FA2;
 	}
 }
