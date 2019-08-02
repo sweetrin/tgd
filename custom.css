@@ -1047,36 +1047,41 @@ a.btn.square.btn-default.best:not(.enable):hover {
 }
 
 @media(prefers-color-scheme:dark){
+	:root{
+		--dark-bg1:rgb(50,54,57);
+		--dark-bg2:#212121;
+		--dark-text:#FAFAFA;
+	}
 	#board-info h1::after{
 		content: "[dark mode testing]";
 	}
     body{
-    	background-color:rgb(50,54,57);
+    	background-color:var(--dark-bg1);
     }
     header .row > div:nth-child(1) > a {
     background: url('https://sweetrin.github.io/tgd/kgd_logo5-1.png') no-repeat;
 	
 	}
     header #header-bar>.row{
-    	background-color:#000;
+    	background-color:var(--dark-bg2);
     	border-top-color:var(--main-color);
     }
     header #header-bar a.dropdown-toggle{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     header #header-bar #header-top-notice a{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #main .menu-wrapper > .header{
     	background:var(--main-color);
     }
     #main .menu-wrapper>a{
-    	background:#000;
-    	color:#fff;
-    	border-bottom-color:#000;
+    	background:var(--dark-bg2);
+    	color:var(--dark-text);
+    	border-bottom-color:var(--dark-bg2);
     }
     #main .menu-wrapper .spacer{
-    	background:#000;
+    	background:var(--dark-bg2);
     }
     #board-info #board-info-profile-img{
     	background-image:url("https://sweetrin.github.io/tgd/rinscat.png");
@@ -1084,7 +1089,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	background-size:contain;
     }
     #article-list{
-    	background:#000;
+    	background:var(--dark-bg2);
     }
     #article-list>.article-list-row.notice{
     	background:#7B1FA2;
@@ -1097,39 +1102,39 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	animation:none;
     }
     #article-content-wrapper #article-content,#article-content-wrapper>.vote-area{
-    	background:#000;
+    	background:var(--dark-bg2);
     	color:#fff;
-    	border-left-color:#000;
-    	border-right-color:#000;
+    	border-left-color:var(--dark-bg2);
+    	border-right-color:var(--dark-bg2);
     }
     #article-content-wrapper>.header,#article-content-wrapper>.footer{
     	background:#424242;
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #article-reply-area{
-    	background:#000;
+    	background:var(--dark-bg2);
     	border-bottom:none;
     }
     .fr-toolbar.fr-top{
     	/* box-shadow: 0px 1px 0px 1px #fff; */
-    	background:rgb(50,54,57);
+    	background:var(--dark-bg1);
     }
     .fr-box.fr-basic.fr-top .fr-wrapper{
-    	background:#000;
+    	background:var(--dark-bg2);
     	/* box-shadow: 0px 0px 0px 1px #fff; */
-    	background: rgb(50,54,57);
+    	background: var(--dark-bg1);
     }
     #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header{
     	background:#424242;
     }
     #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
-		color:#fff;
+		color:var(--dark-text);
     }
     #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #article-reply-area #reply-real-area .reply > .reply-content p, #article-reply-area #reply-best-area .reply > .reply-content p{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #board-info #score-area{
     	color:#BDBDBD;
@@ -1141,42 +1146,42 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	background-color: var(--rins-color);
     }
     .fr-box.fr-basic .fr-element{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #main-content>.frame>h3::before{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #main #main-content>div.frame{
-    	background:#000;
+    	background:var(--dark-bg2);
     }
     #article-info>h2>span.category[style="color:#000000"]{
-    	color: #fff !important;
+    	color: var(--dark-text) !important;
     }
     #article-info>h2{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #article-info #article-info-writer{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #article-reply-area > .header h5{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #article-reply-area > .header h5>a{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
     	border-color: #424242;
     	border: none;
     }
     .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #article-neighbor-list{
-    	background:#000;
-    	color:#fff;
+    	background:var(--dark-bg2);
+    	color:var(--dark-text);
     }
     #article-neighbor-list>div>a{
-    	color:#fff;
+    	color:var(--dark-text);
     }
     #article-neighbor-list>div:hover{
     	background:var(--text-color);
@@ -1185,21 +1190,33 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	background:var(--text-color);
     }
     header #right-search-form>input[type=text]{
-    	background:rgb(50,54,57);
+    	background:var(--dark-bg1);
     	border-color:var(--main-color);
     }
     header #right-search-form > #right-search-btn{
     	color:var(--main-color);
     }
     #main .menu-wrapper{
-    	background:#000;
+    	background:var(--dark-bg2);
     }
     #article-list>.article-list-row>.item>.list-header.v0>span{
-    	background:#000;
-    	color:#000;
+    	background:var(--dark-bg2);
+    	color:var(--dark-bg2);
     }
     #article-list>.article-list-row:hover .item>.list-header.v0>span, #article-list>.article-list-row>.item>.list-header.v0>span:hover{
     	background-color: var(--rins-color);
     	color:var(--rins-color);
     }
+    footer::after {
+		content: "";
+		background-image: url("https://sweetrin.github.io/tgd/kom_n_com.png");
+		background-repeat:no-repeat;
+		width:600px;
+		height:385px;
+		background-size:contain;
+		position: fixed;
+		bottom:0px;
+		left:0px;
+		z-index:-1;
+	}
 }
