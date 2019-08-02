@@ -264,21 +264,19 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #board-info-profile-img{
-	/* float:left !important; */
+	float:left !important;
 	border-radius:100px;
-	margin-right:0.5em;
 	border: 3px solid #e886e1;
 	width: 4.5em;
 	height: 4.5em;
 	transition: 0.1s;
 	z-index: 999;
-	position: absolute;
-	top:0.6em;
-	left:1.8em;
+	margin-top: -0.3em;
+	margin-left: -0.1em;
 }
 
 #board-info h1{
-	margin-left:2.8em;
+	margin-left:3em;
 }
 
 #board-info #viewers-area {
