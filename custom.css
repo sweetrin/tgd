@@ -1221,7 +1221,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		z-index:-1;
 	}
 	.dropdown.open .dropdown-menu{
-		background:#7B1FA2;
+		background:#561672;
 	}
 	#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active{
 		background-color:#7B1FA2;
@@ -1259,5 +1259,9 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	}
 	a.custom-badge-link{
 		border-color:var(--dark-bg2);
+	}
+	.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+		background:#8b28b5;
+		color:var(--dark-text);
 	}
 }
