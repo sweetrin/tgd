@@ -1045,25 +1045,13 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     display: inline-block;
     vertical-align:middle;
     margin-left:0.5em
-    /*margin: auto;*/
-    /* border-radius: 10px; */
 }
 
 #article-list #article-list-menu>.btn.write:hover {
     box-shadow: none;
 }
 
-#article-list.hide-notice {
-    /* background-image: url("https://sweetrin.github.io/tgd/yellow_rin_5.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-position: right 48px; */
-    /* background-size: contain; */
-    /* background-color: #b18f69; */
-    /* background-position-y: 46px; */
-}
-
 #board-info #score-area {
-    /* vertical-align: unset; */
     margin-top: 0.3em;
 }
 
@@ -1114,9 +1102,6 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	border-bottom-color:#000;
     }
     #main .menu-wrapper .spacer{
-    	background:#000;
-    }
-    #board-info{
     	background:#000;
     }
     #board-info #board-info-profile-img{
@@ -1190,5 +1175,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
     }
     form#articleWriteForm{
     	background:#212121;
+    }
+    #main #main-content>div.frame{
+    	background:#000;
     }
 }
