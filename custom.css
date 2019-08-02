@@ -1224,4 +1224,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	.dropdown.open .dropdown-menu{
 		background:#7B1FA2;
 	}
+	#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active{
+		background-color:#7B1FA2;
+	}
 }
