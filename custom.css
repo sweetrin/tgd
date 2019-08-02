@@ -1099,7 +1099,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     }
     #article-list>.article-list-row.hot{
     	animation:none;
-    	background:#8E24AA;
+    	background: #4c2060;
     }
     #article-list>.article-list-row.hot>.item>.list-header>b, #article-list>.article-list-row.hot>.item>.list-title>.list-category>span, #article-list>.article-list-row.hot>.item>.list-title>a, #article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span, #article-list>.article-list-row.hot>.item>.list-time{
     	animation:none;
@@ -1265,5 +1265,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
 		background:var(--cursor-highlight-color);
 		color:var(--dark-text);
+	}
+	#article-list>.article-list-row>.item>.list-header>strong, #article-list>.article-list-row>.item>.list-header>b{
+		color:var(--text-color);
 	}
 }
