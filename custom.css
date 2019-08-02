@@ -1225,4 +1225,20 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active{
 		background-color:#7B1FA2;
 	}
+	.pagination > li > a, .pagination > li > span{
+		background:#424242;
+		color:var(--dark-text);
+	}
+	.input-group-btn:nth-child(2)>.btn,#article-list #boardSearchForm .form-control,.input-group-btn:last-child>.btn{
+		background:#424242;
+		color:var(--dark-text);
+	}
+	.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+		background:#424242;
+		color:var(--dark-text);
+	}
+	.dropdown-menu{
+		background:#424242;
+		color:var(--dark-text);
+	}
 }
