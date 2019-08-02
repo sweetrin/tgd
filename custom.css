@@ -420,10 +420,6 @@ div#board-info-bottom {
     animation: Popping 0.4s;
 }
 
-#board-info #board-info-bottom a {
-    border-right: 0;
-}
-
 .badge {
     background-color: #c965f9;
     background-color: #bd75ff;
