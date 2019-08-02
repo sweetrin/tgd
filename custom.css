@@ -435,7 +435,8 @@ div#board-info-bottom {
 }
 
 #main .menu-wrapper .spacer{
-	display: none;
+	
+display: none;
 }
 
 #main .menu-wrapper>a:last-child {
@@ -1112,9 +1113,10 @@ div#taboola-below-article-text-links-b {
     #board-info{
     	background:#000;
     }
-    #board-info .pull-right.img-rounded{
+    #board-info #board-info-profile-img{
     	background-image:url("https://sweetrin.github.io/tgd/rinscat.png");
-    	padding-left:57px;
+    	padding-left: 43px;
+    	background-size:contain;
     }
     #article-list{
     	background:#000;
