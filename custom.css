@@ -1226,7 +1226,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		background: var(--main-color);
 	}
 	#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active{
-		background-color:#7B1FA2;
+		background-color: var(--main-color);
 	}
 	.pagination > li > a, .pagination > li > span{
 		background:#424242;
