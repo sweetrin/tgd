@@ -1213,4 +1213,11 @@ a.btn.square.btn-default.best:not(.enable):hover {
     #main .menu-wrapper>a:hover{
     	background:var(--text-color);
     }
+    header #right-search-form>input[type=text]{
+    	background:rgb(50,54,57);
+    	border-color:var(--main-color);
+    }
+    header #right-search-form > #right-search-btn{
+    	color:var(--main-color);
+    }
 }
