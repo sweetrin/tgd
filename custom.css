@@ -617,6 +617,10 @@ header #right-search-form > #right-search-btn {
 	color:#735ba5;
 }
 
+#article-content-wrapper{
+	margin-bottom:1em;
+}
+
 #article-reply-area {
     background: #fff;
     border-radius: 8px 8px 0px 0px;
