@@ -1051,6 +1051,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		--dark-bg1:rgb(50,54,57);
 		--dark-bg2:#212121;
 		--dark-text:#FAFAFA;
+		--text-color:#FAFAFA;
+		--visited-color:#9E9E9E;
 	}
 	#board-info h1::after{
 		content: "[dark mode testing]";
@@ -1092,7 +1094,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	background:var(--dark-bg2);
     }
     #article-list>.article-list-row.notice{
-    	background:#7B1FA2;
+    	background: #60207f;
     }
     #article-list>.article-list-row.hot{
     	animation:none;
