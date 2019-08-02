@@ -1235,4 +1235,12 @@ a.btn.square.btn-default.best:not(.enable):hover {
     #main .menu-wrapper{
     	background:#000;
     }
+    #article-list>.article-list-row>.item>.list-header.v0>span{
+    	background:#000;
+    	color:#000;
+    }
+    #article-list>.article-list-row:hover .item>.list-header.v0>span, #article-list>.article-list-row>.item>.list-header.v0>span:hover{
+    	background-color: var(--rins-color);
+    	color:var(--rins-color);
+    }
 }
