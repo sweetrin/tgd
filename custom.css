@@ -600,6 +600,10 @@ header #right-search-form > #right-search-btn {
 
 #article-content-wrapper>.footer {border-bottom: 2px solid var(--main-color);background: #f8f0ff;}
 
+#article-reply-area > .header h5>a{
+	color:#735ba5;
+}
+
 #article-reply-area {
     background: #fff;
     border-radius: 8px 8px 0px 0px;
