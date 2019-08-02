@@ -1052,7 +1052,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		--dark-text:#E0E0E0;
 		--text-color:#E0E0E0;
 		--visited-color:#9E9E9E;
-		--main-color:#561672;
+		--main-color:#5f3074;
 	}
 	#board-info h1::after{
 		content: "[dark mode testing]";
