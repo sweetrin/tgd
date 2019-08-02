@@ -306,10 +306,6 @@ header #header-bar #header-top-notice strong.notice-badge {
     content: url('https://sweetrin.github.io/tgd/candy_18x18.png');
 }
 
-#article-info{
-	/* padding-top: 0.7em; */
-}
-
 #article-list #article-list-category {
     padding: 0.2em 0.5em;
     background: #d497fa;
@@ -326,7 +322,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-list #article-list-category > a:nth-child(1) {
     background: var(--main-color);
     border-color: var(--main-color);
-    /* transition: 0.2s; */
     box-shadow: 1px 1px 2px rgba(189, 69, 243, 0.7);
 }
 
