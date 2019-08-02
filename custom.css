@@ -541,21 +541,17 @@ header #right-search-form > #right-search-btn {
 
 #article-info>h2 {
     font-weight: bold;
-    color: #fff;
     font-size: 17px;
     padding: 0 0 0.2em;
 }
 
 #article-info .article-profile-img {
-    top: 0.6em;
-    right: 0.7em;
-    width: 2.9em;
-    image-rendering: auto;
-    box-shadow: 2px 2px 5px 0px #de61dc;
+	border-radius:100px;
 }
 
 #article-content-wrapper>.header {
-    border-top: 0;
+    border-top-color:var(--main-color);
+    background: #f8f0ff;
 }
 
 .fr-toolbar {
@@ -566,13 +562,6 @@ header #right-search-form > #right-search-btn {
 
 #comment-write-form-area {
     padding: 0;
-}
-
-#article-info {
-    background: linear-gradient(135deg, var(--bg2), var(--bg2),var(--bg1));
-    padding: 0.55em 0.9em 0;
-    height: 56px;
-    margin-top: 0.5em; */
 }
 
 #article-content-wrapper #article-content {
@@ -601,19 +590,7 @@ header #right-search-form > #right-search-btn {
     animation: BoxLight 0.7s;
 }
 
-#article-content-wrapper>.footer {
-    border-radius: 0 0 7px 7px;
-    padding: 1em;
-}
-
-#article-reply-area>.header {
-    /* background: linear-gradient(135deg, var(--bg2), var(--bg2),var(--bg1)); */
-    /* padding: 0.9em 1em 0.8em; */
-}
-
-#article-reply-area > .header h5, #lastc {
-    /* color: #fff; */
-}
+#article-content-wrapper>.footer {border-bottom: 2px solid var(--main-color);background: #f8f0ff;}
 
 #article-reply-area {
     background: #fff;
@@ -624,12 +601,6 @@ header #right-search-form > #right-search-btn {
     margin-top: 1em;
 }
 
-#article-content-wrapper {
-    padding: 0;
-    margin: 0 0 1em;
-    border-radius: 7px;
-}
-
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
 	border-radius: 20px;
 }
@@ -638,12 +609,6 @@ header #right-search-form > #right-search-btn {
     border-bottom: 0;
     background: #f8f0ff;
     border-radius: 20px;
-}
-
-#article-info #article-info-writer {
-    color: #fff;
-    padding-top: 0px;
-    margin-left: 1px;
 }
 
 .btn-primary:hover {
@@ -665,18 +630,6 @@ header #right-search-form > #right-search-btn {
 .btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
 	background-color:var(--main-color);
 	border-color:var(--main-color);
-}
-
-#article-info>h2>span.category {
-    color: #fff !important;
-    background-color: #9e47ef;
-    border-radius: 12px;
-    padding: 3px 8px 3px;
-    border: 1px solid #fff;
-    box-shadow: 2px 2px 2px rgb(165, 95, 228);
-    border: 0;
-    font-size: 16px;
-    vertical-align: middle;
 }
 
 /* 베스트 댓글 배경색 */
