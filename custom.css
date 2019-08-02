@@ -1052,7 +1052,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		--dark-text:#E0E0E0;
 		--text-color:#E0E0E0;
 		--visited-color:#9E9E9E;
-		--main-color:#8b28b5;
+		--main-color:#561672;
 	}
 	#board-info h1::after{
 		content: "[dark mode testing]";
@@ -1222,7 +1222,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		z-index:-1;
 	}
 	.dropdown.open .dropdown-menu{
-		background:#561672;
+		background: #561672;
 	}
 	#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active{
 		background-color:#7B1FA2;
