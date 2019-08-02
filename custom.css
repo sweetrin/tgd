@@ -633,7 +633,7 @@ header #right-search-form > #right-search-btn {
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     border-bottom: 0;
     background: #f8f0ff;
-    border-radius: 20px;
+    border-radius: 18px;
 }
 
 .btn-primary:hover {
@@ -1197,7 +1197,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	color:#fff;
     }
     #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
-    	border-color:var(--main-color);
+    	border-color: #424242;
+    	border: none;
     }
     .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn{
     	color:#fff;
