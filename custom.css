@@ -632,6 +632,7 @@ header #right-search-form > #right-search-btn {
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
 	border-radius: 20px;
+	margin-bottom: 0.8em;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
