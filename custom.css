@@ -1228,14 +1228,24 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	.pagination > li > a, .pagination > li > span{
 		background:#424242;
 		color:var(--dark-text);
+		border-color:#424242;
 	}
-	.input-group-btn:nth-child(2)>.btn,#article-list #boardSearchForm .form-control,.input-group-btn:last-child>.btn{
+	.input-group-btn:nth-child(2)>.btn{
 		background:#424242;
 		color:var(--dark-text);
+		border-color:#424242;
+		border-right-color:#fff;
 	}
-	.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+	#article-list #boardSearchForm .form-control{
 		background:#424242;
 		color:var(--dark-text);
+		border-color:#424242;
+	}
+	.input-group-btn:last-child>.btn{
+		background:#424242;
+		color:var(--dark-text);
+		border-color:#424242;
+		border-left-color:#fff;
 	}
 	.dropdown-menu{
 		background:#424242;
