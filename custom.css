@@ -828,11 +828,9 @@ input#right-search-input:focus {
     box-shadow: 0 0 10px 1.2px #c17dff;
 }
 
-#article-neighbor-list>div {
-}
-
 #board-info #board-info-bottom a {
     color: var(--rank-badge-color);
+    border-right:none;
 }
 
 header #header-bar>.row:after {
