@@ -1053,6 +1053,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		--text-color:#E0E0E0;
 		--visited-color:#9E9E9E;
 		--main-color:#6e3887;
+		--cursor-highlight-color:#5b2e6e;
 	}
 	#board-info h1::after{
 		content: "[dark mode testing]";
@@ -1094,7 +1095,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	background:var(--dark-bg2);
     }
     #article-list>.article-list-row.notice{
-    	background: #60207f;
+    	background:var(--main-color);
     }
     #article-list>.article-list-row.hot{
     	animation:none;
@@ -1145,7 +1146,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	color:#E0E0E0 !important;
     }
     #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover{
-    	background-color: var(--rins-color);
+    	background-color: var(--cursor-highlight-color);
     }
     .fr-box.fr-basic .fr-element{
     	color:var(--dark-text);
@@ -1262,7 +1263,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		border-color:var(--dark-bg2);
 	}
 	.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
-		background:#5b2e6e;
+		background:var(--cursor-highlight-color);
 		color:var(--dark-text);
 	}
 }
