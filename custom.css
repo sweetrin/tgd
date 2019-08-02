@@ -960,6 +960,7 @@ header #header-bar #header-top-notice {
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     background-color: var(--cursor-highlight-color);
+    border-radius:100px;
 }
 
 .dropdown-menu>li>a {
