@@ -491,14 +491,12 @@ display: none;
     color: var(--cursor-highlight-color);
 }
 
-/* 추천 수 */
 #article-list > .article-list-row > .item > .list-header > span {
     background-color: var(--recommend-count-color);
     padding: 1px 5px 1px 5px;
     font-weight: normal;
 }
 
-/* 아래 페이지 번호 */
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
     background-color: var(--main-color);
     border-color: var(--main-color);
@@ -506,6 +504,16 @@ display: none;
 
 .pagination > li > a, .pagination > li > span {
     color: var(--main-color);
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span{
+	border-top-right-radius:7px;
+	border-bottom-right-radius:7px;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
