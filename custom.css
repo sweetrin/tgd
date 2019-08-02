@@ -260,6 +260,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 	border:0;
 }
 
+#board-info{
+	animation:Popping 0.25s;
+}
+
 #board-info #board-info-profile-img{
 	float:left !important;
 	border-radius:100px;
