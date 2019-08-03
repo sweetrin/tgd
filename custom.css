@@ -1106,7 +1106,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     }
     #article-list{
     	background:var(--dark-bg2);
-    	animation: none;
+    	/* animation: none; */
     }
     #article-list>.article-list-row.notice{
     	background:var(--main-color);
@@ -1215,7 +1215,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     }
     #main .menu-wrapper{
     	background:var(--dark-bg2);
-    	animation: none;
+    	/* animation: none; */
     }
     #article-list>.article-list-row>.item>.list-header.v0>span{
     	background:var(--dark-bg2);
@@ -1285,8 +1285,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		color:var(--text-color);
 	}
 	#board-info{
-		animation:none;
-		background-image: url("https://sweetrin.github.io/tgd/purple_star_200.gif");
+		/* animation:none; */
+		/* background-image: url("https://sweetrin.github.io/tgd/purple_star_200.gif"); */
 		background-position-x: 10em;
 		background-position-y: 0em;
 	}
@@ -1306,6 +1306,6 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	}
 	header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 		box-shadow: 4px 4px 12px 0px #232323;
-		animation: darkboxlight1 9s 3s infinite;
+		/* animation: darkboxlight1 9s 3s infinite; */
 	}
 }
