@@ -1092,13 +1092,21 @@ a.btn.square.btn-default.best:not(.enable):hover {
     #main .menu-wrapper .spacer{
     	background:var(--dark-bg2);
     }
+	@keyframes profilelight{
+		0%{box-shadow: 0 0 0px 0px violet;}
+		50%{box-shadow: 0 0 0px 0px violet;}
+		100%{box-shadow: 0 0 14px 2px violet;}
+	}
     #board-info #board-info-profile-img{
     	background-image:url("https://sweetrin.github.io/tgd/rinscat.png");
     	padding-left: 57px;
     	background-size:contain;
+    	box-shadow: 0 0 14px 2px violet;
+    	animation: profilelight 6s;
     }
     #article-list{
     	background:var(--dark-bg2);
+    	animation: none;
     }
     #article-list>.article-list-row.notice{
     	background:var(--main-color);
@@ -1207,6 +1215,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     }
     #main .menu-wrapper{
     	background:var(--dark-bg2);
+    	animation: none;
     }
     #article-list>.article-list-row>.item>.list-header.v0>span{
     	background:var(--dark-bg2);
@@ -1274,5 +1283,26 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	}
 	#article-list>.article-list-row>.item>.list-header>strong, #article-list>.article-list-row>.item>.list-header>b{
 		color:var(--text-color);
+	}
+	#board-info{
+		animation:none;
+	}
+	@keyframes darkboxlight1{
+		0%{box-shadow: 4px 4px 12px 0px #232323;}
+		10%{box-shadow: 4px 4px 12px 0px #232323;}
+		50%{box-shadow: 4px 4px 12px 0px violet;}
+		60%{box-shadow: 4px 4px 12px 0px violet;}
+		100%{box-shadow: 4px 4px 12px 0px #232323;}
+	}
+	@keyframes darkboxlight2{
+		0%{box-shadow: 0px 0px 12px 2px #232323;}
+		10%{box-shadow: 0px 0px 12px 2px #232323;}
+		50%{box-shadow: 0px 0px 12px 2px violet;}
+		60%{box-shadow: 0px 0px 12px 2px violet;}
+		100%{box-shadow: 0px 0px 12px 2px #232323;}
+	}
+	header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
+		box-shadow: 4px 4px 12px 0px #232323;
+		animation: darkboxlight1 6.5s 2s infinite;
 	}
 }
