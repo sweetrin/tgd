@@ -1286,6 +1286,9 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	}
 	#board-info{
 		animation:none;
+		background-image: url("https://sweetrin.github.io/tgd/purple_star_200.gif");
+		background-position-x: 10em;
+		background-position-y: 0em;
 	}
 	@keyframes darkboxlight1{
 		0%{box-shadow: 4px 4px 12px 0px #232323;}
