@@ -281,11 +281,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info h1{
 	border-bottom-color: #e9c9ff;
+	border-bottom-color: #a262fd;
 }
 
 #board-info #viewers-area {
-    color: var(--main-color);
-    color: #a953f9;
+    /* color: var(--main-color); */
+    /* color: #a953f9; */
+    color: #a262fd;
     font-size: 13px;
 }
 
@@ -410,7 +412,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 div#board-info-bottom {
     flex: auto;
-    text-align: right;
+    text-align: left;
+    margin-left: 5.2em;
 }
 
 #article-list {
@@ -800,7 +803,7 @@ input#right-search-input:focus {
 
 #board-info #board-info-bottom a {
     color: var(--rank-badge-color);
-    border-right:none;
+    /* border-right:none; */
 }
 
 header #header-bar>.row:after {
