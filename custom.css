@@ -1094,7 +1094,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     }
 	@keyframes profilelight{
 		0%{box-shadow: 0 0 0px 0px violet;}
-		50%{box-shadow: 0 0 0px 0px violet;}
+		30%{box-shadow: 0 0 0px 0px violet;}
 		100%{box-shadow: 0 0 14px 2px violet;}
 	}
     #board-info #board-info-profile-img{
@@ -1102,7 +1102,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	padding-left: 57px;
     	background-size:contain;
     	box-shadow: 0 0 14px 2px violet;
-    	animation: profilelight 6s;
+    	animation: profilelight 5s;
     }
     #article-list{
     	background:var(--dark-bg2);
@@ -1289,9 +1289,9 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	}
 	@keyframes darkboxlight1{
 		0%{box-shadow: 4px 4px 12px 0px #232323;}
-		10%{box-shadow: 4px 4px 12px 0px #232323;}
-		50%{box-shadow: 4px 4px 12px 0px violet;}
-		60%{box-shadow: 4px 4px 12px 0px violet;}
+		15%{box-shadow: 4px 4px 12px 0px #232323;}
+		45%{box-shadow: 4px 4px 12px 0px violet;}
+		70%{box-shadow: 4px 4px 12px 0px violet;}
 		100%{box-shadow: 4px 4px 12px 0px #232323;}
 	}
 	@keyframes darkboxlight2{
@@ -1303,6 +1303,6 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	}
 	header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 		box-shadow: 4px 4px 12px 0px #232323;
-		animation: darkboxlight1 6.5s 2s infinite;
+		animation: darkboxlight1 9s 2s infinite;
 	}
 }
