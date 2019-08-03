@@ -1293,8 +1293,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	@keyframes darkboxlight1{
 		0%{box-shadow: 4px 4px 12px 0px #232323;}
 		15%{box-shadow: 4px 4px 12px 0px #232323;}
-		45%{box-shadow: 4px 4px 12px 0px violet;}
-		70%{box-shadow: 4px 4px 12px 0px violet;}
+		45%{box-shadow: 4px 4px 12px 0px #dc81ff;}
+		70%{box-shadow: 4px 4px 12px 0px #dc81ff;}
 		100%{box-shadow: 4px 4px 12px 0px #232323;}
 	}
 	@keyframes darkboxlight2{
