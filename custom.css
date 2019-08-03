@@ -280,8 +280,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info h1{
-	border-bottom-color: #e9c9ff;
-	border-bottom-color: #a262fd;
+	/* border-bottom-color: #e9c9ff; */
+	/* border-bottom-color: #a262fd; */
 }
 
 #board-info #viewers-area {
