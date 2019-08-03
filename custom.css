@@ -1303,6 +1303,6 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	}
 	header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 		box-shadow: 4px 4px 12px 0px #232323;
-		animation: darkboxlight1 9s 2s infinite;
+		animation: darkboxlight1 9s 3s infinite;
 	}
 }
