@@ -766,7 +766,6 @@ input#right-search-input:focus {
 
 #article-list #article-option-area>#article-option-area-toggle-btn {
     border-radius: 7px;
-    background: rgba(0, 0, 0, 0.2);
 }
 
 #article-list #article-option-area {
@@ -1319,5 +1318,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	#article-list #article-list-category{
 		background: #a15ccc;
 		background: #9653bf;
+	}
+	#article-list #article-option-area>#article-option-area-toggle-btn{
+		background: rgba(0, 0, 0, 0.2);
 	}
 }
