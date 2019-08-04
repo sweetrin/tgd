@@ -269,6 +269,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 	overflow: inherit;
 }
 
+#article-info{
+	padding-top:0.8em;
+}
+
 #board-info #board-info-profile-img{
 	float:left !important;
 	border-radius:100px;
