@@ -1328,4 +1328,7 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	.fr-desktop .fr-command:hover, .fr-desktop .fr-command:focus, .fr-desktop .fr-command.fr-btn-hover, .fr-desktop .fr-command.fr-expanded{
 		background:var(--dark-bg2);
 	}
+	.fr-toolbar .fr-command.fr-btn.fr-dropdown::after, .fr-popup .fr-command.fr-btn.fr-dropdown::after{
+		border-top-color:var(--dark-text) !important;
+	}
 }
