@@ -320,8 +320,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list #article-list-category {
     padding: 0.2em 0.5em;
-    background: #a15ccc;
-    background: #9653bf;
+    background: #d497fa;
     border-top:0;
 }
 
@@ -1316,5 +1315,9 @@ a.btn.square.btn-default.best:not(.enable):hover {
 	}
 	#article-list #article-list-category > a{
 		box-shadow:none !important;
+	}
+	#article-list #article-list-category{
+		background: #a15ccc;
+		background: #9653bf;
 	}
 }
