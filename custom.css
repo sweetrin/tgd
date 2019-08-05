@@ -1333,24 +1333,69 @@ a.btn.square.btn-default.best:not(.enable):hover {
 		border-top-color:var(--dark-text) !important;
 	}
 	#article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#ff0000"] {
-    	text-shadow: 0 0 4px #ff0000;
+    	/*text-shadow: 0 0 4px #ff0000;*/
+  	}
+  	#article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#ff0000"]::after {
+    	text-shadow: 0px 1px 7px #ff0000,0px -1px 7px #ff0000,1px 0px 7px #ff0000,-1px 0px 7px #ff0000;
+    	content:"공지";
+    	position:absolute;
+    	left:57.5px;
   	}
   	#article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#000000"] {
-    	text-shadow: 0 0 4px #ffffff;
+    	/*text-shadow: 0 0 4px #ffffff;*/
     }
+    #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#000000"]::after {
+    	text-shadow: 0px 1px 7px var(--dark-text),0px -1px 7px var(--dark-text),1px 0px 7px var(--dark-text),-1px 0px 7px var(--dark-text);
+    	content:"이야기";
+    	position:absolute;
+    	left:57.5px;
+  	}
 	#article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#00b050"] {
-    	text-shadow: 0 0 4px #00ff74;
+    	/*text-shadow: 0 0 4px #00ff74;*/
  	}
+ 	#article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#00b050"]::after {
+    	text-shadow: 0px 1px 7px #00b050,0px -1px 7px #00b050,1px 0px 7px #00b050,-1px 0px 7px #00b050;
+    	content:"게임추천";
+    	position:absolute;
+    	left:57.5px;
+  	}
     #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#6a49a9"] {
-    	text-shadow: 0 0 4px #5800ff;
+    	/*text-shadow: 0 0 4px #5800ff;*/
     }
+    #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#6a49a9"]::after {
+    	text-shadow: 0px 1px 7px #5800ff,0px -1px 7px #5800ff,1px 0px 7px #5800ff,-1px 0px 7px #5800ff;
+    	content:"짤N클립";
+    	position:absolute;
+    	left:57.5px;
+  	}
     #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#db92f7"] {
-    	text-shadow: 0 0 4px #b800ff;
+    	/*text-shadow: 0 0 4px #b800ff;*/
     }
+    #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#db92f7"]::after {
+    	text-shadow: 0px 1px 7px #b800ff,0px -1px 7px #b800ff,1px 0px 7px #b800ff,-1px 0px 7px #b800ff;
+    	content:"소감N후기";
+    	position:absolute;
+    	left:57.5px;
+  	}
     #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#00b0f0"] {
-    	text-shadow: 0 0 4px #00bbff;
+    	/*text-shadow: 0 0 4px #00bbff;*/
     }
+    #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#00b0f0"]::after {
+    	text-shadow: 0px 1px 7px #00bbff,0px -1px 7px #00bbff,1px 0px 7px #00bbff,-1px 0px 7px #00bbff;
+    	content:"유머N정보";
+    	position:absolute;
+    	left:57.5px;
+  	}
     #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#ffc000"] {
-    	text-shadow: 0 0 4px #ffc000;
+    	/*text-shadow: 0 0 4px #ffc000;*/
     }
+    #article-list>.article-list-row:hover>.item>.list-title>.list-category>.category[style="color:#ffc000"]::after {
+    	text-shadow: 0px 1px 7px #ffc000,0px -1px 7px #ffc000,1px 0px 7px #ffc000,-1px 0px 7px #ffc000;
+    	content:"팬아트";
+    	position:absolute;
+    	left:57.5px;
+  	}
+  	#article-list>.article-list-row>.item>.list-title>.list-category>.category::after{
+  		transition:1.15s cubic-bezier(0.4, 0, 1, 1);
+  	}
 }
