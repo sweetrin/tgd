@@ -1232,8 +1232,8 @@ a.btn.square.btn-default.best:not(.enable):hover {
     	color:var(--dark-bg2);
     }
     #article-list>.article-list-row:hover .item>.list-header.v0>span, #article-list>.article-list-row>.item>.list-header.v0>span:hover{
-    	background-color: var(--rins-color);
-    	color:var(--rins-color);
+    	background-color: var(--cursor-highlight-color);
+    	color: var(--cursor-highlight-color);
     }
     footer::after {
 		content: "";
