@@ -267,6 +267,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info{
 	animation: Popping 0.4s;
 	overflow: inherit;
+	z-index: 999;
 }
 
 #article-info{
@@ -274,7 +275,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #board-info-profile-img{
-	float:left !important;
+	/* float:left !important; */
 	border-radius:100px;
 	border: 3px solid #e886e1;
 	width: 4.5em;
@@ -283,6 +284,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	z-index: 999;
 	margin-top: -0.3em;
 	margin-left: -0.1em;
+	position: absolute;
 }
 
 #board-info h1{
@@ -322,6 +324,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding: 0.2em 0.5em;
     background: #d497fa;
     border-top:0;
+    display: block;
 }
 
 #article-list #article-list-category > a {
