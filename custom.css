@@ -267,6 +267,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info{
 	animation: Popping 0.4s;
 	overflow: inherit;
+	z-index: 999;
 }
 
 #article-info{
@@ -274,7 +275,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #board-info-profile-img{
-	/*float:left !important;*/
+	/* float:left !important; */
 	border-radius:100px;
 	border: 3px solid #e886e1;
 	width: 4.5em;
@@ -283,7 +284,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	z-index: 999;
 	margin-top: -0.3em;
 	margin-left: -0.1em;
-	position:absolute;
+	position: absolute;
 }
 
 #board-info h1{
@@ -323,6 +324,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding: 0.2em 0.5em;
     background: #d497fa;
     border-top:0;
+    display: block;
 }
 
 #article-list #article-list-category > a {
@@ -1062,259 +1064,4 @@ footer::after {
 
 a.btn.square.btn-default.best:not(.enable):hover {
     animation: BoxLight 0.7s;
-}
-
-@media(prefers-color-scheme: dark){
-	:root{
-		--dark-bg1:rgb(50,54,57);
-		--dark-bg2:#212121;
-		--dark-text:#E0E0E0;
-		--text-color:#E0E0E0;
-		--visited-color:#9E9E9E;
-		--main-color:#6e3887;
-		--cursor-highlight-color:#5b2e6e;
-		--cursor-highlight-color:#3a2343;
-	}
-    body{
-    	background-color:var(--dark-bg1);
-    }
-    header .row > div:nth-child(1) > a {
-    background: url('https://sweetrin.github.io/tgd/kgd_logo5-1.png') no-repeat;
-	
-	}
-    header #header-bar>.row{
-    	background-color:var(--dark-bg2);
-    	border-top-color:var(--main-color);
-    }
-    header #header-bar a.dropdown-toggle{
-    	color:var(--dark-text);
-    }
-    header #header-bar #header-top-notice a{
-    	color:var(--dark-text);
-    }
-    #main .menu-wrapper > .header{
-    	background: var(--main-color);
-    }
-    #main .menu-wrapper>a{
-    	background:var(--dark-bg2);
-    	color:var(--dark-text);
-    	border-bottom-color:var(--dark-bg2);
-    }
-    #main .menu-wrapper .spacer{
-    	background:var(--dark-bg2);
-    }
-	@keyframes profilelight{
-		0%{box-shadow: 0 0 0px 0px violet;}
-		40%{box-shadow: 0 0 0px 0px violet;}
-		100%{box-shadow: 0 0 14px 2px violet;}
-	}
-    #board-info #board-info-profile-img{
-    	background-image:url("https://sweetrin.github.io/tgd/rinscat.png");
-    	padding-left: 57px;
-    	background-size:contain;
-    	box-shadow: 0 0 14px 2px violet;
-    	animation: profilelight 4s;
-    }
-    #article-list{
-    	background:var(--dark-bg2);
-    	/* animation: none; */
-    }
-    #article-list>.article-list-row.notice{
-    	background:var(--main-color);
-    }
-    #article-list>.article-list-row.hot{
-    	animation:none;
-    	background: #4c2060;
-    }
-    #article-list>.article-list-row.hot>.item>.list-header>b, #article-list>.article-list-row.hot>.item>.list-title>.list-category>span, #article-list>.article-list-row.hot>.item>.list-title>a, #article-list>.article-list-row.hot>.item>.list-title>.list-writer.logged>span, #article-list>.article-list-row.hot>.item>.list-time{
-    	animation:none;
-    }
-    #article-content-wrapper #article-content,#article-content-wrapper>.vote-area{
-    	background:#2d2d2d;
-    	color:var(--dark-text);
-    	border-left-color:#2d2d2d;
-    	border-right-color:#2d2d2d;
-    }
-    #article-content-wrapper>.header,#article-content-wrapper>.footer{
-    	background:#424242;
-    	color:var(--dark-text);
-    }
-    #article-reply-area{
-    	background:var(--dark-bg2);
-    	border-bottom:none;
-    }
-    .fr-toolbar.fr-top{
-    	/* box-shadow: 0px 1px 0px 1px #fff; */
-    	background:var(--dark-bg1);
-    }
-    .fr-box.fr-basic.fr-top .fr-wrapper{
-    	background:var(--dark-bg2);
-    	/* box-shadow: 0px 0px 0px 1px #fff; */
-    	background: var(--dark-bg1);
-    }
-    #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header{
-    	background:#424242;
-    }
-    #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
-		color:var(--dark-text);
-    }
-    #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu{
-    	color:var(--dark-text);
-    }
-    #article-reply-area #reply-real-area .reply > .reply-content p, #article-reply-area #reply-best-area .reply > .reply-content p{
-    	color:var(--dark-text);
-    }
-    #board-info #score-area{
-    	color:#BDBDBD;
-    }
-    #article-list>.article-list-row>.item>.list-title>.list-category>span[style="color:#000000"]{
-    	color:#E0E0E0 !important;
-    }
-    #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover{
-    	background-color: var(--cursor-highlight-color);
-    }
-    .fr-box.fr-basic .fr-element{
-    	color:var(--dark-text);
-    }
-    #main-content>.frame>h3::before{
-    	color:var(--dark-text);
-    }
-    #main #main-content>div.frame{
-    	background:var(--dark-bg2);
-    }
-    #article-info>h2>span.category[style="color:#000000"]{
-    	color: var(--dark-text) !important;
-    }
-    #article-info>h2{
-    	color:var(--dark-text);
-    }
-    #article-info #article-info-writer{
-    	color:var(--dark-text);
-    }
-    #article-reply-area > .header h5{
-    	color:var(--dark-text);
-    }
-    #article-reply-area > .header h5>a{
-    	color:var(--dark-text);
-    }
-    #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
-    	border-color: #424242;
-    	border: none;
-    }
-    .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn{
-    	color:var(--dark-text);
-    }
-    #article-neighbor-list{
-    	background:var(--dark-bg2);
-    	color:var(--dark-text);
-    }
-    #article-neighbor-list>div>a{
-    	color:var(--dark-text);
-    }
-    #article-neighbor-list>div:hover{
-    	background:var(--text-color);
-    }
-    #main .menu-wrapper>a:hover{
-    	background: #444444;
-    }
-    header #right-search-form>input[type=text]{
-    	background: var(--dark-bg2);
-    	border-color:var(--main-color);
-    }
-    header #right-search-form > #right-search-btn{
-    	color:var(--main-color);
-    }
-    #main .menu-wrapper{
-    	background:var(--dark-bg2);
-    	/* animation: none; */
-    }
-    #article-list>.article-list-row>.item>.list-header.v0>span{
-    	background:var(--dark-bg2);
-    	color:var(--dark-bg2);
-    }
-    #article-list>.article-list-row:hover .item>.list-header.v0>span, #article-list>.article-list-row>.item>.list-header.v0>span:hover{
-    	background-color: var(--cursor-highlight-color);
-    	color: var(--cursor-highlight-color);
-    }
-    footer::after {
-		content: "";
-		background-image: url("https://sweetrin.github.io/tgd/kom_n_com.png");
-		background-repeat:no-repeat;
-		width:600px;
-		height:385px;
-		background-size:contain;
-		position: fixed;
-		bottom:0px;
-		left:0px;
-		z-index:-1;
-	}
-	.dropdown.open .dropdown-menu{
-		background: var(--main-color);
-	}
-	#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active{
-		background-color: var(--main-color);
-	}
-	.pagination > li > a, .pagination > li > span{
-		background:#424242;
-		color:var(--dark-text);
-		border-color:#424242;
-	}
-	.input-group-btn:nth-child(2)>.btn{
-		background:#424242;
-		color:var(--dark-text);
-		border-color:#424242;
-		border-right-color:#fff;
-	}
-	#article-list #boardSearchForm .form-control{
-		background:#424242;
-		color:var(--dark-text);
-		border-color:#424242;
-	}
-	.input-group-btn:last-child>.btn{
-		background:#424242;
-		color:var(--dark-text);
-		border-color:#424242;
-		border-left-color:#fff;
-	}
-	.dropdown-menu{
-		background:#424242;
-		color:var(--dark-text);
-	}
-	.form-control{
-		background:#424242;
-		color:var(--dark-text);
-		border-color:#424242;
-	}
-	a.custom-badge-link{
-		border-color:var(--dark-bg2);
-	}
-	.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
-		background:var(--cursor-highlight-color);
-		color:var(--dark-text);
-	}
-	#article-list>.article-list-row>.item>.list-header>strong, #article-list>.article-list-row>.item>.list-header>b{
-		color:var(--text-color);
-	}
-	header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
-		box-shadow: 4px 4px 12px 0px #232323;
-	}
-	#article-list #article-list-category > a{
-		box-shadow:none !important;
-	}
-	#article-list #article-list-category{
-		background: #a15ccc;
-		background: #9653bf;
-	}
-	#article-list #article-option-area>#article-option-area-toggle-btn{
-		background: rgba(0, 0, 0, 0.2);
-	}
-	.fr-popup.fr-desktop.fr-ltr.emoticons.fr-active{
-		background:var(--dark-bg2);
-	}
-	.fr-desktop .fr-command:hover:not(.fr-emoticon), .fr-desktop .fr-command:focus, .fr-desktop .fr-command.fr-btn-hover, .fr-desktop .fr-command.fr-expanded{
-		background:var(--dark-bg2);
-	}
-	.fr-toolbar .fr-command.fr-btn.fr-dropdown::after, .fr-popup .fr-command.fr-btn.fr-dropdown::after{
-		border-top-color:var(--dark-text) !important;
-	}
 }
