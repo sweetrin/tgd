@@ -847,26 +847,6 @@ header #header-bar>.row:after {
     color: #1700da !important;
 }
 
-.article-list-row.has-category .item .list-title a[title="4월 1일 방송 공지"]:after {
-    color: #bf53e0;
-    content: "(가 있어!!)";
-}
-
-.article-list-row.has-category .item .list-title a[title="4월1일 방송 공지"]:after {
-    color: #bf53e0;
-    content: "(가 있어!!)";
-}
-
-.article-list-row.has-category .item .list-title a[title="4월 1일 방송공지"]:after {
-    color: #bf53e0;
-    content: "(가 있어!!)";
-}
-
-.article-list-row.has-category .item .list-title a[title="4월1일 방송공지"]:after {
-    color: #bf53e0;
-    content: "(가 있어!!)";
-}
-
 @-webkit-keyframes fallingLeaves {
   0% {
     opacity: 1;
