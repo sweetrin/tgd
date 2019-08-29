@@ -975,7 +975,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 }
 
 #article-list>.article-list-row.notice>.item>.list-title>a[style="font-weight:bold;color:#000000"]:visited {
-    color: var(--text-color) !important;
+    /* color: var(--text-color) !important; */
 }
 
 .vote-area .fa.fa-thumbs-up {
