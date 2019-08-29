@@ -541,7 +541,7 @@ nav#nav {
     color: var(--category-6th-color);
 }
 
-.footer>a:nth-child(2) {
+.footer>a:last-child {
 	border-color: var(--category-4th-color);
 	color: var(--category-4th-color);
 }
