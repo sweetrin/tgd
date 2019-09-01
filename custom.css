@@ -325,7 +325,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--main-color);
     /* box-shadow: 1px 1px 2px rgba(189, 69, 243, 0.7); */
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 2px 3px 0px rgba(189, 69, 243, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(189, 69, 243, 0.3);
 }
 
 #article-list #article-list-category > a:nth-child(2) {
@@ -333,7 +333,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--category-2nd-color);
     box-shadow: 1px 1px 2px rgba(251, 37, 37, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 2px 3px 0px rgba(251, 37, 37, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(251, 37, 37, 0.3);
 }
 
 #article-list #article-list-category > a:nth-child(3) {
@@ -341,7 +341,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--category-3rd-color);
     box-shadow: 1px 1px 2px rgba(45, 45, 45, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 2px 3px 0px rgba(45, 45, 45, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(45, 45, 45, 0.3);
 }
 
 #article-list #article-list-category > a:nth-child(4) {
@@ -349,7 +349,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--category-4th-color);
     box-shadow: 1px 1px 2px rgba(0, 177, 80, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 2px 3px 0px rgba(0, 177, 79, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(0, 177, 79, 0.3);
 }
 
 #article-list #article-list-category > a:nth-child(5) {
@@ -357,7 +357,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--category-5th-color);
     box-shadow: 1px 1px 2px rgba(136, 76, 251, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 2px 3px 0px rgba(136, 76, 251, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(136, 76, 251, 0.3);
 }
 
 #article-list #article-list-category > a:nth-child(6) {
@@ -365,7 +365,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--category-6th-color);
     box-shadow: 1px 1px 2px rgba(245, 71, 165, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 2px 3px 0px rgba(245, 71, 165, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(245, 71, 165, 0.3);
 }
 
 #article-list #article-list-category > a:nth-child(7) {
@@ -373,14 +373,14 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--category-7th-color);
     box-shadow: 1px 1px 2px rgba(0, 179, 245, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 2px 3px 0px rgba(0, 179, 245, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(0, 179, 245, 0.3);
 }
 
 #article-list #article-list-category > a:nth-child(8) {
     background: var(--category-8th-color);
     border-color: var(--category-8th-color);
     /* box-shadow: 1px 1px 2px rgba(255, 192, 0, 0.7); */
-    box-shadow: 2px 2px 3px 0px rgba(255, 192, 30, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(255, 192, 30, 0.3);
 }
 
 #article-list #article-list-category > a:nth-child(1):hover {
@@ -514,25 +514,7 @@ display: none;
     background-color: var(--recommend-count-color);
     padding: 1px 5px 1px 5px;
     font-weight: normal;
-    border-radius:7px;
     color:#ffffff;
-}
-
-#article-list > .article-list-row > .item > .list-header.v5 > span {
-
-}
-
-#article-list > .article-list-row > .item > .list-header.v1 > span{
-	background: linear-gradient(#E0E0E0 80%,var(--recommend-count-color) 80% 100%);
-}
-#article-list > .article-list-row > .item > .list-header.v2 > span{
-	background: linear-gradient(#E0E0E0 60%,var(--recommend-count-color) 60% 100%);
-}
-#article-list > .article-list-row > .item > .list-header.v3 > span{
-	background: linear-gradient(#E0E0E0 40%,var(--recommend-count-color) 40% 100%);
-}
-#article-list > .article-list-row > .item > .list-header.v4 > span{
-	background: linear-gradient(#E0E0E0 20%,var(--recommend-count-color) 20% 100%);
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
