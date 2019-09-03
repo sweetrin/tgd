@@ -309,7 +309,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list #article-list-category {
     padding: 0.2em 0.5em;
-    background: #d497fa;
+    background: hsla(281, 88%, 78%, 1);
     border-top:0;
 }
 
