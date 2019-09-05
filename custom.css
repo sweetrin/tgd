@@ -3,6 +3,7 @@
 
 :root {
     --main-color: #bd45f3;
+    --main-color: hsla(281, 88%, 62%, 1);
     --rins-color:#8027aa;
     --light-color: #ce85ef;
     --text-color: #444444;
@@ -17,6 +18,7 @@
     --new-light-color:#b057da;
     /* 카테고리 */
     --category-2nd-color: #fb2525;
+    --category-2nd-color: #fb2828;
     --category-3rd-color: #2d2d2d;
     --category-4th-color: #00b150;
     --category-5th-color: #884cfb;
