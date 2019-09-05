@@ -453,9 +453,13 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-left: 1.4em;
 }
 
+.btn.square {
+    border-color: var(--button-color);
+}
+
 #article-list #article-list-menu>.btn.write {
     margin-right: 1.4em;
-    border-color: var(--main-color);
+    /* border-color: var(--button-color); */
 }
 
 #main .menu-wrapper {
@@ -535,7 +539,10 @@ display: none;
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
     background-color: #f6ebff;
+    background-color: var(--button-color);
     color: var(--main-color);
+    border-color: var(--button-color);
+    color: #fff;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
@@ -563,8 +570,8 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list #article-list-menu>.btn.best {
-    color: var(--main-color);
-    border-color: var(--main-color);
+    color: var(--button-color);
+    border-color: var(--button-color);
     margin-right: 0.2em;
 }
 
