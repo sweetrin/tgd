@@ -611,8 +611,8 @@ header #right-search-form > #right-search-btn {
 }
 
 .btn-outline-success, .btn-outline-success:focus {
-    color: var(--main-color);
-    border-color: var(--main-color);
+    color: hsla(281, 88%, 65%, 1);
+    border-color: hsla(281, 88%, 65%, 1);
     outline: none;
     border-radius: 7px;
     padding: 5.5px 11px;
@@ -621,8 +621,8 @@ header #right-search-form > #right-search-btn {
 
 .btn-outline-success:hover {
     color: #fff;
-    background-color: var(--main-color);
-    border-color: var(--main-color);
+    background-color: hsla(281, 88%, 65%, 1);
+    border-color: hsla(281, 88%, 65%, 1);
     animation: BoxLight 0.7s;
 }
 
