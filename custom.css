@@ -1088,15 +1088,6 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 	vertical-align: bottom;
 }
 
-#article-list i.fa.fa-heart::after {
-	
-}
-
 .btn.square.btn-primary {
     border-color: var(--main-color);
-}
-
-#article-list #article-list-menu>.btn.best:hover {
-    color: var(--button-hover-color);
-    border-color: var(--button-hover-color);
 }
