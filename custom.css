@@ -534,10 +534,8 @@ display: none;
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
     background-color: #f6ebff;
-    background-color: var(--button-color);
     color: var(--main-color);
-    border-color: var(--button-color);
-    color: #fff;
+    transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
