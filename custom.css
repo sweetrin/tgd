@@ -516,7 +516,7 @@ display: none;
 
 #article-list>.article-list-row>.item>.list-title {
     padding: 8px 0;
-    font-size: 12.5px;
+    font-size: 12px;
 }
 
 #article-list>.article-list-row:hover .item>.list-header.v0>span, #article-list>.article-list-row>.item>.list-header.v0>span:hover {
@@ -931,9 +931,10 @@ header #header-bar>.row:after {
 }
 
 #main .menu-wrapper>a {
-    font-size: 13px;
+    font-size: 12px;
     padding: 0.5em 1.4em 0.3em 0.7em;
     border-radius: 13px;
+    height: 30px;
 }
 
 #main .menu-wrapper>a:hover{
