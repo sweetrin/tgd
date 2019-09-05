@@ -699,19 +699,19 @@ div#reply-real-area {
 
 /* 대댓글 들여쓰기 */
 #article-reply-area #reply-real-area .reply.d-1, #article-reply-area #reply-best-area .reply.d-1 {
-    margin-left: 2.4em;
+    margin-left: 2.3em;
 }
 
 #article-reply-area #reply-real-area .reply.d-2, #article-reply-area #reply-best-area .reply.d-2 {
-    margin-left: 4.8em;
+    margin-left: 4.5em;
 }
 
 #article-reply-area #reply-real-area .reply.d-3, #article-reply-area #reply-best-area .reply.d-3 {
-    margin-left: 7.2em;
+    margin-left: 6.8em;
 }
 
 #article-reply-area #reply-real-area .reply.d-4, #article-reply-area #reply-best-area .reply.d-4 {
-    margin-left: 9.6em;
+    margin-left: 9em;
 }
 
 #comment-write-form-area > #comment-write-form.mt-2 {
