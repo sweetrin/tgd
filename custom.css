@@ -265,6 +265,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info{
 	animation: Popping 0.4s;
 	overflow: inherit;
+	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
+	background-size: 45%;
+	background-repeat: no-repeat;
+	background-position-x: 505px;
+	background-position-y: -72px;
+	padding-right: 25em;
+	/* opacity: 0.8; */
 }
 
 #article-info{
