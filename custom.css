@@ -285,6 +285,8 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info h1{
 	margin-left:3em;
+	margin-top: 1px;
+	padding-bottom: 0px;
 }
 
 #board-info #viewers-area {
@@ -425,10 +427,11 @@ header #header-bar #header-top-notice strong.notice-badge {
     color: var(--category-8th-color) !important;
 }
 
-div#board-info-bottom {
+#board-info #board-info-bottom {
     flex: auto;
     text-align: left;
     margin-left: 5.2em;
+    padding-top: 4px;
 }
 
 #article-list {
@@ -896,8 +899,8 @@ header #header-bar>.row:after {
 
 #board-info h1>a:first-child {
 	font-size: 22px;
-	font-size: 26px;
-	font-weight: bold;
+	font-size: 28px;
+	/* font-weight: bold; */
 	color: #a262fd;
 	font-family: "Cafe24 Dongdong";
 	/* font-family: "Cafe24 Ssukssuk"; */
