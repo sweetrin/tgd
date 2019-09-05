@@ -580,7 +580,7 @@ header #right-search-form > #right-search-btn {
 
 #article-info>h2 {
     /* font-weight: bold; */
-    font-size: 18px;
+    font-size: 17px;
     padding: 0 0 0.2em;
 }
 
@@ -606,7 +606,7 @@ header #right-search-form > #right-search-btn {
 #article-content-wrapper #article-content {
     background: #fff;
     padding: 1em 1.2em;
-    font-size: 13.5px;
+    font-size: 13px;
 }
 
 #article-content-wrapper>.vote-area {
@@ -619,7 +619,7 @@ header #right-search-form > #right-search-btn {
     outline: none;
     border-radius: 7px;
     padding: 6px 11px;
-    font-size: 13.5px;
+    font-size: 13px;
 }
 
 .btn-outline-success:hover {
@@ -643,7 +643,7 @@ header #right-search-form > #right-search-btn {
     background: #fff;
     border-radius: 8px 8px 0px 0px;
     padding: 0 0 0.1em;
-    font-size: 13.5px;
+    font-size: 13px;
     /* border-bottom: 1px solid #f1f1f1; */
     margin-top: 0.3em;
 }
