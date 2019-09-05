@@ -10,7 +10,6 @@
     --visited-color: #b7b7b7;
     --rank-badge-color: #6782e4;
     --recommend-count-color: #ff68bb;
-    --button-color:hsla(281, 88%, 64%, 1);
     --button-hover-color: #b441e8;
     --cursor-highlight-color:#faf3ff;
     --bg-color-stop1:#efe1f9;
@@ -615,8 +614,8 @@ header #right-search-form > #right-search-btn {
 }
 
 .btn-outline-success, .btn-outline-success:focus {
-    color: var(--button-color);
-    border-color: var(--button-color);
+    color: var(--main-color);
+    border-color: var(--main-color);
     outline: none;
     border-radius: 7px;
     padding: 6px 11px;
@@ -625,8 +624,8 @@ header #right-search-form > #right-search-btn {
 
 .btn-outline-success:hover {
     color: #fff;
-    background-color: var(--button-color);
-    border-color: var(--button-color);
+    background-color: var(--main-color);
+    border-color: var(--main-color);
     animation: BoxLight 0.7s;
 }
 
