@@ -270,7 +270,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background-repeat: no-repeat;
 	background-position-x: 370px;
 	background-position-y: -117px;
-	padding-right: 22em;
+	padding-right: 34em;
 	/* opacity: 0.8; */
 }
 
@@ -836,7 +836,7 @@ input#right-search-input:focus {
 
 #board-info #board-info-bottom a {
     color: var(--rank-badge-color);
-    /* border-right:none; */
+    border-right:none;
 }
 
 header #header-bar>.row:after {
