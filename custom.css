@@ -626,7 +626,7 @@ header #right-search-form > #right-search-btn {
     border-color: var(--button-color);
     outline: none;
     border-radius: 7px;
-    padding: 5.5px 11px;
+    padding: 6px 11px;
     font-size: 13.5px;
 }
 
