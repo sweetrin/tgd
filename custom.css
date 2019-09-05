@@ -1061,3 +1061,18 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     /* display: block; */
     /* border: 1px solid #000; */
 }
+
+#article-list>.article-list-row>.item>.list-title>small.favo::after {
+	content: "";
+	background-image: url(https://sweetrin.github.io/tgd/signrin.png);
+	background-size: contain;
+	width: 22px;
+	height: 15px;
+	display:inline-block;
+	margin-left: 1px;
+	vertical-align: bottom;
+}
+
+#article-list i.fa.fa-heart::after {
+	
+}
