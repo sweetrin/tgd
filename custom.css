@@ -266,11 +266,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 	animation: Popping 0.4s;
 	overflow: inherit;
 	background-image: url("https://sweetrin.github.io/tgd/screen3.png");
-	background-size: 25%;
+	background-size: 60%;
 	background-repeat: no-repeat;
-	background-position-x: 666px;
-	background-position-y: -16px;
-	padding-right: 15em;
+	background-position-x: 378px;
+	background-position-y: -117px;
+	padding-right: 22em;
 	/* opacity: 0.8; */
 }
 
