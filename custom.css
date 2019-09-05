@@ -562,8 +562,8 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list #article-list-menu>.btn.best {
-    color: var(--button-color);
-    border-color: var(--button-color);
+    color: var(--main-color);
+    border-color: var(--main-color);
     margin-right: 0.2em;
 }
 
@@ -1094,4 +1094,9 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 
 .btn.square.btn-primary {
     border-color: var(--main-color);
+}
+
+#article-list #article-list-menu>.btn.best:hover {
+    color: var(--button-hover-color);
+    border-color: var(--button-hover-color);
 }
