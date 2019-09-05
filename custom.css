@@ -631,7 +631,7 @@ header #right-search-form > #right-search-btn {
     color: #fff;
     background-color: var(--main-color);
     border-color: var(--main-color);
-    animation: BoxLight 0.7s;
+    /* animation: BoxLight 0.7s; */
 }
 
 #article-content-wrapper>.footer {border-bottom: 2px solid var(--main-color);background: #f8f0ff;}
@@ -822,6 +822,8 @@ input#right-search-input:focus {
 .btn-outline-success:active {
     outline: none !important;
     box-shadow: 0 0 10px 1.2px #c17dff;
+    transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
+    transition: none;
 }
 
 #board-info #board-info-bottom a {
@@ -1025,6 +1027,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 .btn-outline-success, .btn-outline-success:focus{
 	border-radius:7px !important;
+	transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
 }
 
 .alertify .alert .msg, .alertify .dialog .msg::before {content: "";background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/172ec81a-e120-4a41-bd83-c5ef1f69553c-profile_image-300x300.jpg) no-repeat;background: url(https://sweetrin.github.io/tgd/kom2.jpg);/* position: absolute; */width: 300px;height: 300px;background-size: contain;/* left: 440px; *//* top: -300px; */display: block;margin: auto;margin-bottom: 1em;margin-top: 0.8em;/* border-radius: 10px; */}
