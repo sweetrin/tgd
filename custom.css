@@ -12,7 +12,6 @@
     --recommend-count-color: #ff68bb;
     --button-color:hsla(281, 88%, 64%, 1);
     --button-hover-color: #b441e8;
-    --button-hover-color:#bd45f3;
     --cursor-highlight-color:#faf3ff;
     --bg-color-stop1:#efe1f9;
     --bg-color-stop2:#6d4c98;
@@ -453,10 +452,6 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-left: 1.4em;
 }
 
-.btn.square {
-    border-color: var(--button-color);
-}
-
 #article-list #article-list-menu>.btn.write {
     margin-right: 1.4em;
     /* border-color: var(--button-color); */
@@ -564,9 +559,9 @@ header #right-search-form > #right-search-btn {
 
 .btn-primary {
     background-color: var(--main-color);
-    background-color: var(--button-color);
+    /* background-color: var(--button-color); */
     border-color: var(--main-color);
-    border-color: var(--button-color);
+    /* border-color: var(--button-color); */
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -667,7 +662,7 @@ header #right-search-form > #right-search-btn {
     border-radius: 18px;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,.btn.square.btn-primary:hover {
     background-color: var(--button-hover-color);
     border-color: var(--button-hover-color);
     animation: BoxLight 0.7s;
@@ -1098,4 +1093,8 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 
 #article-list i.fa.fa-heart::after {
 	
+}
+
+.btn.square.btn-primary {
+    border-color: var(--main-color);
 }
