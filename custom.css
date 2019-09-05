@@ -569,6 +569,7 @@ header #right-search-form > #right-search-btn {
     /* width: 5px; */
     /* height: 5px; */
     /* margin-bottom: 1px; */
+    transform: rotate(-15deg);
 }
 
 #article-info>h2 {
