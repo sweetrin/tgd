@@ -902,13 +902,11 @@ header #header-bar>.row:after {
 
 #board-info h1>a:first-child {
 	font-size: 22px;
-	font-size: 26.5px;
+	font-size: 26px;
 	font-weight: bold;
 	color: #a262fd;
 	font-family: "Cafe24 Dongdong";
-	/* font-family: "Cafe24 Ssukssuk"; */
 	display: inline-block;
-	/* height: 27px; */
 	letter-spacing: -1px;
 }
 
