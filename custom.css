@@ -627,7 +627,7 @@ header #right-search-form > #right-search-btn {
     border-color: var(--main-color);
     border-radius: 7px;
     padding: 6px 11px;
-    font-size: 13px;
+    font-size: 13.5px;
 }
 
 .btn-outline-success:focus{
