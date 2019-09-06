@@ -635,6 +635,7 @@ header #right-search-form > #right-search-btn {
 	background-color:var(--main-color);
 	color:#fff;
 	outline: none;
+	box-shadow: 0 0 10px 1.2px #c17dff;
 }
 
 .btn-outline-success:hover {
@@ -830,10 +831,10 @@ input#right-search-input:focus {
 .fr-tooltip {/* margin-top: 0.3em; */}
 
 .btn-outline-success:active {
-    outline: none !important;
-    box-shadow: 0 0 10px 1.2px #c17dff;
-    transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
-    transition: none;
+    /* outline: none !important; */
+    /* box-shadow: 0 0 10px 1.2px #c17dff; */
+    /* transition: 0.15s cubic-bezier(0.4, 0, 1, 1); */
+    /* transition: none; */
 }
 
 #board-info #board-info-bottom a {
