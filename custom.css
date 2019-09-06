@@ -447,7 +447,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding: 0 0 1.6em 0;
     background: #fff;
     border-radius: 7px;
-    animation: Popping 0.4s;
+    /* animation: Popping 0.4s; */
 }
 
 .badge {
