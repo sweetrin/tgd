@@ -440,7 +440,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info #board-info-bottom {
     flex: auto;
     text-align: left;
-    margin-left: 5.2em;
+    margin-left: 5.1em;
     padding-top: 2px;
 }
 
@@ -928,7 +928,8 @@ header #header-bar>.row:after {
 	/* height: 27px; */
 	letter-spacing: -1.5px;
 	transform: scaleX(1.06);
-	transform-origin: left;
+	/* transform-origin: left; */
+	transition: 0.1s;
 }
 
 #main .menu-wrapper>a {
@@ -1111,4 +1112,9 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 
 .btn.square.btn-primary {
     border-color: var(--main-color);
+}
+
+#board-info h1>a:first-child:hover {
+    /*color: hsla(265, 97%, 75%, 1);*/
+    transform:scale(1.2);
 }
