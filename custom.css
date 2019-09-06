@@ -930,7 +930,7 @@ header #header-bar>.row:after {
 	letter-spacing: -1.5px;
 	transform: scaleX(1.06);
 	/* transform-origin: left; */
-	transition: 0.1s;
+	transition: 0.07s;
 }
 
 #main .menu-wrapper>a {
