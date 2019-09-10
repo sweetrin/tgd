@@ -827,7 +827,7 @@ header > #header-search-bar #header-search-btn {
 
 #article-reply-area {
     /* border-top: 1px solid var(--separation-line-color); */
-    margin-top: 0.8em;
+    margin-top: 0;
 }
 
 #article-list-menu {
