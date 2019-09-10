@@ -2,6 +2,7 @@
 
 :root {
     --main-color: #bc54ea; /*#cf78f7*/
+    /*--main-color:#bd45f3;*/
     --light-color: #d2a5e6;
     --bg-color-stop1:#eee5f3;
     --recommend-count-color: #ff73c0;
@@ -170,7 +171,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>a.board-right-menu {
-    padding: 10px 9px;
+    padding: 10px 8px;
     border-left: 0;
     color: var(--main-color);
 }
@@ -221,6 +222,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 header {
     border-bottom: 4px solid #f174ed;
+    /* border-bottom: 4px solid hsla(282, 78%, 74%, 1); */
     /* background: var(--main-color); */
     /* border-bottom: 0; */
     /* height: 46px; */
@@ -235,6 +237,7 @@ header {
     background-size: 130%;
     padding: 7px 0;
     /* animation: Gradient 6s ease infinite; */
+    background: var(--main-color);
 }
 
 header>#header-area>a>h1 {
