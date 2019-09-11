@@ -590,11 +590,11 @@ header #right-search-form > #right-search-btn {
     /* color: #ff6beb; */
     color: #ffa0d1;
     /* animation: BoxLight2 3.2s 3.2s infinite; */
-    animation: BoxLight2 4.7s 4.7s infinite;
-    border-radius: 50%;
-    width: 5px;
-    height: 5px;
-    margin-bottom: 1px;
+    /* animation: BoxLight2 4.7s 4.7s infinite; */
+    /* border-radius: 50%; */
+    /* width: 5px; */
+    /* height: 5px; */
+    /* margin-bottom: 1px; */
     /* transform: rotate(-15deg); */
     /* box-shadow: 0 0 8px 18px rgba(255, 160, 209, 1); */
 }
@@ -1029,13 +1029,13 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 .favo>.fa-heart:before {
     position: absolute;
     left: -1.1px;
-    top: 1.8px;
+    top: 1px;
     /* animation: HB 3.2s 3.2s infinite; */
     /* content: ""; */
     /* background-size: contain; */
     /* width: 36px; */
     /* height: 37px; */
-    /* display: block; */
+    display: block;
     /* border: 1px solid #000; */
 }
 
