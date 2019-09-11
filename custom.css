@@ -1109,3 +1109,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     /*color: hsla(265, 97%, 75%, 1);*/
     transform:scale(1.2);
 }
+
+#article-list>.article-list-row.notice:hover .fa-heart::before, #article-list>.article-list-row:hover .fa-heart::before{
+	animation:Wriggle 1s;
+}
