@@ -309,7 +309,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     background: var(--article-header-color);
     border-bottom: 0;
-    border-radius: 100px;
+    border-radius: 19px;
     padding: 0.4em 0.5em;
     /* border: 2px solid var(--light-color); */
     /* border-radius: 20px 20px 0 0; */
