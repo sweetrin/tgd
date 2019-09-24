@@ -1113,3 +1113,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 #article-list>.article-list-row.notice:hover .fa-heart::before, #article-list>.article-list-row:hover .fa-heart::before{
 	animation:Wriggle 0.9s;
 }
+
+#article-list>.article-list-row>.item>.list-title>a[href='/30845635']:visited{
+	color:#0010ff !important;
+}
