@@ -1117,3 +1117,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 #article-list>.article-list-row>.item>.list-title>a[href='/30845635']:visited{
 	color:#0010ff !important;
 }
+
+#article-list>.article-list-row>.item>.list-title>a[href='/31435323']:visited{
+	color:#00a9ff !important;
+}
