@@ -738,6 +738,10 @@ header > #header-search-bar #header-search-btn {
     color: #0010ff;
 }
 
+#article-list-row-31435323 .title-value {
+    color: #00a9ff;
+}
+
 .fa-thumbs-up:before {
     content: "\f004";
 }
