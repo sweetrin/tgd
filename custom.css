@@ -274,14 +274,19 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info{
 	/* animation: Popping 0.4s; */
-	overflow: inherit;
-	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
-	background-size: 40%;
-	background-repeat: no-repeat;
-	background-position-x: 535px;
-	background-position-y: -87px;
-	padding-right: 34em;
+	/* overflow: inherit; */
+	/* background-image: url("https://sweetrin.github.io/tgd/screen4.png"); */
+	/* background-size: 40%; */
+	/* background-repeat: no-repeat; */
+	/* background-position-x: 535px; */
+	/* background-position-y: -87px; */
+	/* padding-right: 34em; */
 	/* opacity: 0.8; */
+	background-image: url("https://sweetrin.github.io/tgd/halloween.png");
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: right;
+	background-position-y: -140px;
 }
 
 #article-info{
