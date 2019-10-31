@@ -1036,7 +1036,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 .favo>.fa-heart:before {
     position: absolute;
     left: -1.1px;
-    top: 1px;
+    top: -1px;
     /* animation: HB 3.2s 3.2s infinite; */
     /* content: ""; */
     /* background-size: contain; */
@@ -1044,6 +1044,8 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     /* height: 37px; */
     display: block;
     /* border: 1px solid #000; */
+    content: "🎃";
+    font-size: 13px;
 }
 
 #right-search-btn>.fa.fa-search {
