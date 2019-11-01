@@ -1199,12 +1199,16 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     }
     #article-content-wrapper #article-content,#article-content-wrapper>.vote-area{
     	background:#2d2d2d;
+    	background: var(--dark-bg1);
     	color:var(--dark-text);
     	border-left-color:#2d2d2d;
+    	border-left-color: var(--dark-bg1);
     	border-right-color:#2d2d2d;
+    	border-right-color: var(--dark-bg1);
     }
     #article-content-wrapper>.header,#article-content-wrapper>.footer{
     	background:#424242;
+    	background: var(--dark-bg1);
     	color:var(--dark-text);
     }
     #article-reply-area{
@@ -1222,6 +1226,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     }
     #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header{
     	background:#424242;
+    	background: var(--dark-bg1);
     }
     #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
 		color:var(--dark-text);
