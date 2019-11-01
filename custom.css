@@ -1134,7 +1134,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 
 
 :root{
-		--dark-bg1:rgb(50,54,57);
+		--dark-bg1:hsla(206, 7%, 15%, 1);
 		--dark-bg2:#121212;
 		--dark-text:#E0E0E0;
 		--text-color:#E0E0E0;
