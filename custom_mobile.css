@@ -32,8 +32,9 @@
     --main-color: hsla(282, 70%, 25%, 1);
     --main2:hsla(282, 54%, 43%, 1);
     --main3:hsla(282, 78%, 28%, 1);
-    --dark1:hsla(0, 0%, 8%, 1);
+    --dark1:#333333;
     --dark2:hsla(0, 0%, 13%, 1);
+    --dark2:#333333;
     --text-color:#d8d8d8;
     --text2:hsla(0, 0%, 45%, 1);
     --recommend-count-color: hsla(327, 68%, 47%, 1);
@@ -917,4 +918,8 @@ div#taboola-below-article-text-links {
 
 #article-list>.article-list-row>.item>a.list-title:visited {
     color: var(--text2) !important;
+}
+
+.frame>div:first-child {
+    background-color: var(--dark1) !important;
 }
