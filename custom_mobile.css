@@ -900,10 +900,6 @@ nav#nav.hide>#nav-upper #userDropdown #notification-badge{
     border-right: 0;
 }
 
-.frame {}
-
-div#main-content {}
-
 #article-neighbor-list {
     background-color: var(--dark2);
 }
