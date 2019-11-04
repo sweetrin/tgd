@@ -393,8 +393,8 @@ footer {
 }
 
 #article-list #article-list-menu>.btn.best {
-    color: var(--main2);
-    border-color: var(--main2);
+    color: var(--main3);
+    border-color: var(--main3);
     border-radius: 100px;
 }
 
@@ -544,7 +544,7 @@ nav#nav {
 	border: 0;
 	margin-left: 2px;
 	border-radius: 100px;
-	color: var(--main2);
+	color: var(--main3);
 	background-color: var(--dark1);
 }
 
@@ -619,7 +619,7 @@ nav#nav {
 }
 
 footer a {
-    color: var(--main2);
+    color: var(--main3);
 }
 
 #article-content-wrapper {
