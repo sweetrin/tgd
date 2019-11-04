@@ -924,3 +924,8 @@ div#taboola-below-article-text-links {
 .frame>div:first-child {
     background-color: var(--dark1) !important;
 }
+
+#article-list>.article-list-row>.item>.list-header.v0>span {
+    background-color: var(--dark1);
+    color: var(--dark1);
+}
