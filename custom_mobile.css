@@ -582,6 +582,7 @@ nav#nav {
 
 #article-list>.article-list-row>.item>a.list-title {
     font-size: 14px;
+    color: var(--text-color);
 }
 
 #viewers-area .fa.fa-user {
@@ -911,4 +912,9 @@ div#taboola-below-article-text-links {
 
 #boardSearchForm {
     background-color: var(--dark1);
+}
+
+
+#article-list>.article-list-row>.item>a.list-title:visited {
+    color: var(--text2) !important;
 }
