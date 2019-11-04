@@ -929,3 +929,8 @@ div#taboola-below-article-text-links {
     background-color: var(--dark1);
     color: var(--dark1);
 }
+
+#article-list>.article-list-row:hover>.item>.list-header.v0>span {
+    background-color: transparent;
+    color: transparent;
+}
