@@ -991,3 +991,7 @@ a.custom-badge-link {
 .btn.square {
     border-color: var(--dark3);
 }
+
+#article-list>.article-list-row.active {
+    background-color: hsla(0, 0%, 16%, 1);
+}
