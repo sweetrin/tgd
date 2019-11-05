@@ -917,7 +917,6 @@ div#taboola-below-article-text-links {
     background-color: var(--dark1);
 }
 
-
 #article-list>.article-list-row>.item>a.list-title:visited {
     color: var(--text2) !important;
 }
@@ -943,5 +942,32 @@ div#taboola-below-article-text-links {
 .frame>div:nth-child(8)>div:first-child {padding-left: 0 !important;padding-right: 0 !important;}
 
 #article-neighbor-list>div>a {
+    color: var(--text-color);
+}
+
+.frame {
+    background-color: var(--dark1);
+}
+
+.form-control {
+    background-color: var(--dark2);
+    border-color: transparent;
+    color: var(--text-color);
+}
+
+.fr-toolbar.fr-ltr.fr-mobile.fr-top.fr-basic.fr-sticky-ios {
+    background-color: var(--dark1);
+}
+
+.fr-wrapper.show-placeholder {
+    background-color: var(--dark1);
+}
+
+.fr-box.fr-basic .fr-element {
+    background-color: var(--dark1);
+    color: var(--text-color);
+}
+
+.fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
     color: var(--text-color);
 }
