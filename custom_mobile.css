@@ -1003,6 +1003,7 @@ a.custom-badge-link {
 .article-list-row.has-category.notice .a-badge {
     margin-left: 12px;
     margin-right: 7px;
+    /* font-size: 17px; */
 }
 
 .article-list-row.has-category.notice .list-writer.logged{
