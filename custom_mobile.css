@@ -941,3 +941,7 @@ div#taboola-below-article-text-links {
 }
 
 .frame>div:nth-child(8)>div:first-child {padding-left: 0 !important;padding-right: 0 !important;}
+
+#article-neighbor-list>div>a {
+    color: var(--text-color);
+}
