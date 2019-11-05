@@ -995,10 +995,6 @@ a.custom-badge-link {
     border-color: var(--dark3);
 }
 
-#article-list>.article-list-row.active {
-    background-color: hsla(0, 0%, 16%, 1);
-}
-
 .article-list-row.has-category.notice .list-header {
     display: none !important;
 }
@@ -1011,4 +1007,8 @@ a.custom-badge-link {
 
 .article-list-row.has-category.notice .list-writer.logged {
     display:none;
+}
+
+#article-list>.article-list-row.active {
+    background-color: hsla(0, 0%, 16%, 1);
 }
