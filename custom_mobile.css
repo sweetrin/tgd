@@ -33,8 +33,8 @@
     --main2:hsl(282, 44%, 45%);
     --main3:hsl(282, 43%, 48%);
     --dark1:#333333;
-    --dark2:hsla(0, 0%, 13%, 1);
     --dark2:#3f3f3f;
+    --dark3:hsla(0, 0%, 28%, 1);
     --text-color:#d8d8d8;
     --text2:hsla(0, 0%, 45%, 1);
     --recommend-count-color: hsla(327, 68%, 47%, 1);
@@ -950,7 +950,7 @@ div#taboola-below-article-text-links {
 }
 
 .form-control {
-    background-color: var(--dark2);
+    background-color: var(--dark3);
     border-color: transparent;
     color: var(--text-color);
 }
@@ -969,5 +969,15 @@ div#taboola-below-article-text-links {
 }
 
 .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
+    color: var(--text-color);
+}
+
+a.custom-badge-link {
+    border-color: transparent;
+}
+
+.btn-default {
+	background-color: var(--dark3);
+    border-color: var(--dark3);
     color: var(--text-color);
 }
