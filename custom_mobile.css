@@ -584,7 +584,7 @@ nav#nav {
 
 #article-list>.article-list-row>.item>a.list-title {
     font-size: 14px;
-    color: var(--text-color);
+    color: var(--text-color) !important;
 }
 
 #viewers-area .fa.fa-user {
