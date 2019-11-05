@@ -42,9 +42,9 @@
 }
 
 @font-face {
-	font-family: 'Binggrae';
-	src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Binggrae.woff2') format('woff2');
-	font-weight: normal; 
+    font-family: 'Binggrae';
+    src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Binggrae.woff2') format('woff2');
+    font-weight: normal; 
     font-style: normal;
     unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;
 }
@@ -52,7 +52,6 @@
 body, html {
     height: auto !important;
     font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
-    color:black;
 }
 
 @keyframes Wriggle {
