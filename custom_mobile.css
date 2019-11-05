@@ -722,7 +722,7 @@ button.btn.square.btn-default.dropdown-toggle {
     z-index: 3;
     /* border-color: #e5e5e5; */
     /* color: #fff; */
-    border-right-color: var(--dark1);
+    /* border-right-color: var(--dark1); */
 }
 
 .input-group .input-group-btn:nth-child(4) .btn.square.btn-default {
@@ -732,7 +732,7 @@ button.btn.square.btn-default.dropdown-toggle {
     /* border-color: #f174ed; */
     /* color: #fff; */
     /* margin-left: 0px; */
-    border-left-color: var(--dark1);
+    /* border-left-color: var(--dark1); */
 }
 
 #boardSearchForm .form-control {
