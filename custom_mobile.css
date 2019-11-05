@@ -995,20 +995,20 @@ a.custom-badge-link {
     border-color: var(--dark3);
 }
 
-.article-list-row.has-category.notice .list-header {
+#article-list>.article-list-row.active {
+    background-color: hsla(0, 0%, 16%, 1);
+}
+
+#article-list>.article-list-row.notice>.item>.list-header {
     display: none !important;
 }
 
-.article-list-row.has-category.notice .a-badge {
+#article-list>.article-list-row.notice>.item>.list-title>.a-badge {
     margin-left: 12px;
     margin-right: 7px;
     /* font-size: 17px; */
 }
 
-.article-list-row.has-category.notice .list-writer.logged {
+#article-list>.article-list-row.notice>.item>.list-title>.list-writer.logged {
     display:none;
-}
-
-#article-list>.article-list-row.active {
-    background-color: hsla(0, 0%, 16%, 1);
 }
