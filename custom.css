@@ -942,6 +942,7 @@ header #header-bar>.row:after {
 	transform: scaleX(1.06);
 	/* transform-origin: left; */
 	transition: 0.08s;
+	color: black;
 }
 
 #main .menu-wrapper>a {
