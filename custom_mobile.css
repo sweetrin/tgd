@@ -855,7 +855,7 @@ header > #header-search-bar #header-search-btn {
 
 #article-list>.article-list-row>.item>a.list-title>.title-value {
     max-width: 198px;
-    max-width: calc(100% - 50px) !important;
+    max-width: calc(100% - 60px) !important;
 }
 
 #article-reply-area>.header {
