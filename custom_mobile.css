@@ -906,6 +906,7 @@ nav#nav.hide>#nav-upper #userDropdown #notification-badge{
 
 #article-neighbor-list {
     background-color: var(--dark2);
+    border-top: 0;
 }
 
 div#taboola-below-article-text-links {
@@ -934,3 +935,9 @@ div#taboola-below-article-text-links {
     background-color: transparent;
     color: transparent;
 }
+
+.frame>div:nth-child(8) {
+    background-color: var(--dark1) !important;
+}
+
+.frame>div:nth-child(8)>div:first-child {padding-left: 0 !important;padding-right: 0 !important;}
