@@ -587,7 +587,7 @@ nav#nav {
 #article-list>.article-list-row>.item>a.list-title {
     font-size: 14px;
     color: var(--text-color) !important;
-    max-width: calc(100vw - 100px);
+    /*max-width: calc(100vw - 100px);*/
     /*overflow: hidden;*/
     /*text-overflow: ellipsis;*/
 }
@@ -855,7 +855,7 @@ header > #header-search-bar #header-search-btn {
 
 #article-list>.article-list-row>.item>a.list-title>.title-value {
     max-width: 198px;
-    max-width: calc(100% - 60px) !important;
+    /*max-width: calc(100% - 60px) !important;*/
 }
 
 #article-reply-area>.header {
@@ -1009,6 +1009,6 @@ a.custom-badge-link {
     /* font-size: 17px; */
 }
 
-.article-list-row.has-category.notice .list-writer.logged{
-	display:none;
+.article-list-row.has-category.notice .list-writer.logged {
+    display:none;
 }
