@@ -587,9 +587,6 @@ nav#nav {
 #article-list>.article-list-row>.item>a.list-title {
     font-size: 14px;
     color: var(--text-color) !important;
-    /*max-width: calc(100vw - 100px);*/
-    /*overflow: hidden;*/
-    /*text-overflow: ellipsis;*/
 }
 
 #viewers-area .fa.fa-user {
@@ -855,7 +852,6 @@ header > #header-search-bar #header-search-btn {
 
 #article-list>.article-list-row>.item>a.list-title>.title-value {
     max-width: 198px;
-    /*max-width: calc(100% - 60px) !important;*/
 }
 
 #article-reply-area>.header {
