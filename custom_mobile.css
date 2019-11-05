@@ -463,7 +463,7 @@ footer {
     background: var(--dark2);
     padding: 0.5em 0.5em 0.5em;
     border-top: 2px solid #f174ed;
-    border-top: 2px solid var(--dark1);
+    border-top: 2px solid var(--main2);
     border-bottom: 0;
 }
 
