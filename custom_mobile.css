@@ -206,7 +206,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 #board-info>h1>a:nth-child(2) {
 	/* visibility: hidden; */
 	/* letter-spacing: -1em; */
-	color: #62b5fd;
+	color: #a262fd;
 }
 
 /*
@@ -854,7 +854,6 @@ header > #header-search-bar #header-search-btn {
     max-width: 198px;
 }
 
-
 #article-reply-area>.header {
     padding-left: 1.7em;
 }
@@ -994,4 +993,18 @@ a.custom-badge-link {
 
 #article-list>.article-list-row.active {
     background-color: hsla(0, 0%, 16%, 1);
+}
+
+#article-list>.article-list-row.notice>.item>.list-header {
+    display: none !important;
+}
+
+#article-list>.article-list-row.notice>.item>.list-title>.a-badge {
+    margin-left: 12px;
+    margin-right: 7px;
+    /* font-size: 17px; */
+}
+
+#article-list>.article-list-row.notice>.item>.list-title>.list-writer.logged {
+    display:none;
 }
