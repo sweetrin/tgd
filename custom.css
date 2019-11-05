@@ -280,7 +280,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background-repeat: no-repeat;
 	background-position-x: 535px;
 	background-position-y: -87px;
-	padding-right: 34em;
+	/* padding-right: 34em; */
 	/* opacity: 0.8; */
 }
 
