@@ -112,12 +112,22 @@ body, html {
 	100%{color: #f17ad5;}
 }
 
+/*
 @keyframes HlBgColor{
 	0%{background-color: #fff3fb;}
 	20%{background-color: #f4edff;}
 	40%{background-color: #f2f9f2;}
 	60%{background-color: #edf0ff;}
 	100%{background-color: #fff3fb;}
+}
+*/
+
+@keyframes HlBgColor{
+	0%{background-color: #5a3f52;}
+	20%{background-color: #5a4f6b;}
+	40%{background-color: #3b5852;}
+	60%{background-color: #474c65;}
+	100%{background-color: #654a5c;}
 }
 
 @keyframes Trembling {
