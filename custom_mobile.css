@@ -655,7 +655,7 @@ footer a {
 }
 
 .fr-wrapper.show-placeholder {
-    /*border-radius:0 0 7px 7px !important;*/
+    /* border-radius:0 0 7px 7px !important; */
 }
 
 i.fa.fa-arrow-left {
@@ -981,7 +981,7 @@ div#taboola-below-article-text-links {
 }
 
 .fr-box.fr-basic .fr-element {
-    background-color: var(--dark3);
+    background-color: var(--dark2);
     color: var(--text-color);
 }
 
@@ -1019,4 +1019,14 @@ a.custom-badge-link {
 
 #article-list>.article-list-row.notice>.item>.list-title>.list-writer.logged {
     display:none;
+}
+
+.fr-toolbar.fr-ltr.fr-desktop.fr-top.fr-basic.fr-sticky-off {
+    background-color: var(--dark2);
+}
+
+fr-element fr-view {}
+
+.fr-element.fr-view {
+    background-color: var(--dark2);
 }
