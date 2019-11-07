@@ -514,6 +514,7 @@ span.a-badge i.fa.fa-star {
 #article-list>.article-list-row.notice {
     background-color: #fafafa;
     background-color: var(--dark2);
+    background-color: var(--cursor-highlight-color);
 }
 
 nav#nav {
