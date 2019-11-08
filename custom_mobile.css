@@ -983,10 +983,6 @@ div#taboola-below-article-text-links {
     color: var(--text-color);
 }
 
-.fr-toolbar.fr-ltr.fr-mobile.fr-top.fr-basic.fr-sticky-ios {
-    background-color: var(--dark1);
-}
-
 .fr-wrapper.show-placeholder {
     background-color: var(--dark1);
 }
