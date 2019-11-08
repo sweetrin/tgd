@@ -1040,3 +1040,7 @@ a.custom-badge-link {
 .fr-separator {
     background-color: var(--text-color);
 }
+
+#article-list>.article-list-row.notice .title-value {
+    text-shadow: 1px 1px 3px black;
+}
