@@ -1049,5 +1049,5 @@ a.custom-badge-link {
 
 span.a-badge i.fa.fa-info-circle {
     color: #108ae2;
-    color: var(--recommend-count-color);
+    /* color: var(--recommend-count-color); */
 }
