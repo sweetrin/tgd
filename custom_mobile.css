@@ -229,6 +229,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 	/* visibility: hidden; */
 	/* letter-spacing: -1em; */
 	color: #a262fd;
+	font-family: none;
+	font-weight: bold;
 }
 
 /*
