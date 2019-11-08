@@ -555,7 +555,7 @@ nav#nav {
 }
 
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
-    background-color: var(--main-color);
+    background-color: var(--main4);
     /* animation: Popping 0.5s; */
     animation: Trembling 0.6s;
     /* border-radius: 20px; */
