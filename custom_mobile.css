@@ -444,9 +444,9 @@ footer {
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    background-color: var(--article-header-color);
+    background-color: var(--dark4);
     /* background-color: #f6ebff; */
-    color: var(--main-color);
+    color: var(--main3);
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
