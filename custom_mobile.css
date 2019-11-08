@@ -107,7 +107,7 @@ body, html {
 @keyframes HlTxtColor{
 	0%{color: #f17ad5;}
 	20%{color:#b080f5;}
-	40%{color:#58bb6a;}
+	40%{/*color:#58bb6a;*/color:#4ebba5}
 	60%{color:#7c91e4;}
 	100%{color: #f17ad5;}
 }
@@ -124,10 +124,10 @@ body, html {
 
 @keyframes HlBgColor{
 	0%{background-color: #5a3f52;}
-	20%{background-color: #5a4f6b;}
-	40%{background-color: #3b5852;}
-	60%{background-color: #474c65;}
-	100%{background-color: #654a5c;}
+	20%{background-color: #4e445d;}
+	40%{background-color: #404645;}
+	60%{background-color: #42455a;}
+	100%{background-color: #5a3f52;}
 }
 
 @keyframes Trembling {
@@ -440,6 +440,14 @@ footer {
     background: var(--main-color);
     border-color: var(--main-color);
     border-radius: 100px;
+}
+
+.fr-toolbar {
+    /* border-top: 5px solid var(--main-color); */
+    /*border-radius:7px 7px 0 0!important;*/
+    /*border-image: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);*/
+    /*border-image-slice: 1;*/
+    
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area
