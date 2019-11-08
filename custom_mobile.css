@@ -442,14 +442,6 @@ footer {
     border-radius: 100px;
 }
 
-.fr-toolbar {
-    /* border-top: 5px solid var(--main-color); */
-    /*border-radius:7px 7px 0 0!important;*/
-    /*border-image: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);*/
-    /*border-image-slice: 1;*/
-    
-}
-
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area
 .reply {
     border: 0;
