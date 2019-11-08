@@ -782,7 +782,7 @@ header > #header-search-bar #header-search-btn {
 }
 
 #article-list-row-30845635 .title-value {
-    color: #2d8bff;
+    color: #2dbbff;
 }
 
 #article-list-row-32506807 .title-value {
@@ -1042,5 +1042,9 @@ a.custom-badge-link {
 }
 
 #article-list>.article-list-row.notice .title-value {
-    text-shadow: 1px 1px 3px #272727;
+    /* text-shadow: 1px 1px 3px #272727; */
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: #108ae2;
 }
