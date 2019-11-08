@@ -1036,3 +1036,7 @@ a.custom-badge-link {
 .fr-element.fr-view {
     background-color: var(--dark2);
 }
+
+.fr-separator {
+    background-color: var(--text-color);
+}
