@@ -32,6 +32,7 @@
     --main-color: hsla(282, 37%, 34%, 1);
     --main2:hsl(282, 44%, 45%);
     --main3:hsl(282, 43%, 48%);
+    --dark4:hsla(0, 0%, 16%, 1);
     --dark1:#333333;
     --dark2:#3f3f3f;
     --dark3:hsla(0, 0%, 28%, 1);
@@ -1002,7 +1003,7 @@ a.custom-badge-link {
 }
 
 #article-list>.article-list-row.active {
-    background-color: hsla(0, 0%, 16%, 1);
+    background-color: var(--dark4);
 }
 
 #article-list>.article-list-row.notice>.item>.list-header {
@@ -1021,6 +1022,7 @@ a.custom-badge-link {
 
 .fr-toolbar {
     background-color: var(--dark2);
+    border-top-color: var(--dark4);
 }
 
 .fr-element.fr-view {
