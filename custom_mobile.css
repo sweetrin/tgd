@@ -311,7 +311,7 @@ header>#header-area>#header-bar-link {
     padding: 7px 11px;
     /* width: 6em; */
     /* text-align: center; */
-    box-shadow: 0px 1px 2px var(--dark4);
+    /* box-shadow: 0px 1px 2px var(--dark4); */
 }
 
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
