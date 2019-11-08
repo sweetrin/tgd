@@ -1021,11 +1021,9 @@ a.custom-badge-link {
     display:none;
 }
 
-.fr-toolbar.fr-ltr.fr-desktop.fr-top.fr-basic.fr-sticky-off {
+.fr-toolbar {
     background-color: var(--dark2);
 }
-
-fr-element fr-view {}
 
 .fr-element.fr-view {
     background-color: var(--dark2);
