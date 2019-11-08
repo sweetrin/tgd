@@ -1033,6 +1033,7 @@ a.custom-badge-link {
 .fr-toolbar {
     background-color: var(--dark2);
     border-top-color: var(--dark4);
+    border-top-color: var(--main-color);
 }
 
 .fr-element.fr-view {
