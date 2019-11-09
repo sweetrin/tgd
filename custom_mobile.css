@@ -231,7 +231,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 	color: #a262fd;
 	font-family: none;
 	font-weight: bold;
-	font-size: 105%;
+	font-size: 110%;
+	vertical-align: inherit;
 }
 
 /*
