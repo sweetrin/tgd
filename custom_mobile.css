@@ -39,6 +39,7 @@
     --bg3:#5599ff; /*#68a3fb*/
     --bg3:#297fff;
 
+    --main5:hsla(282, 29%, 27%, 1);
     --main4:hsla(282, 29%, 31%, 1);
     --main-color: hsla(282, 37%, 34%, 1);
     --main2:hsl(282, 44%, 45%);
@@ -427,8 +428,8 @@ footer {
 }
 
 .btn-primary:hover {
-    background-color: var(--main4);
-    border-color: var(--main4) !important;
+    background-color: var(--main5);
+    border-color: var(--main5) !important;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -437,7 +438,7 @@ footer {
 }
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
-    background-color: var(--main4) !important;
+    background-color: var(--main5) !important;
     /* border-color: var(--main4) !important; */
 }
 
