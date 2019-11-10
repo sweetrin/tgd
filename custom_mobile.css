@@ -211,7 +211,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info>h1 {
     /* padding: 0.25em 0 0 0.3em; */
-    padding: 0.3em 0.5em;
+    padding: 5px 0.5em 3px;
 }
 
 #board-info>h1>#board-info-profile-img {
@@ -220,7 +220,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     height: 50px;
     border: 3px solid hsl(302, 45%, 49%);
     border-radius: 100px;
-    margin-top: -22px;
+    margin-top: -23px;
     transition: 0.1s;
     display: inline-block;
     transform-origin: left bottom;
