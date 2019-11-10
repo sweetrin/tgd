@@ -363,6 +363,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 footer {
     letter-spacing: -0.5px;
     background-color: var(--dark1);
+    border: 0;
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
