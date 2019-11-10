@@ -1057,3 +1057,7 @@ span.a-badge i.fa.fa-info-circle {
 #article-neighbor-list>div:hover {
     background-color: var(--cursor-highlight-color);
 }
+
+.article-list-row .category[style="color:#000000"] {
+	color: hsla(215, 100%, 49%, 1) !important;
+}
