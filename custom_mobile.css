@@ -211,7 +211,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info>h1 {
     /* padding: 0.25em 0 0 0.3em; */
-    padding: 5px 0.5em 3px;
+    padding: 5px 0.5em 4px;
 }
 
 #board-info>h1>#board-info-profile-img {
