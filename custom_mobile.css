@@ -879,7 +879,7 @@ header > #header-search-bar #header-search-btn {
 }
 
 #article-list>.article-list-row>.item>a.list-title>.title-value {
-    max-width: 53.1vw;
+    max-width: 53vw;
 }
 
 #article-reply-area>.header {
