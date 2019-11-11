@@ -1070,3 +1070,8 @@ footer>.container {
     padding-left: 13px;
     padding-right: 13px;
 }
+
+
+#article-list>.article-list-row.notice>.item>a.list-title>.title-value {
+    max-width: 63vw;
+}
