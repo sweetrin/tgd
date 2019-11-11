@@ -361,9 +361,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 }
 
 footer {
-    letter-spacing: -0.5px;
     background-color: var(--dark1);
-    border: 0;
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
@@ -978,10 +976,6 @@ div#taboola-below-article-text-links {
     color: var(--text-color);
 }
 
-.frame {
-    background-color: var(--dark1);
-}
-
 .form-control {
     background-color: var(--dark3);
     border-color: transparent;
@@ -1070,4 +1064,9 @@ span.a-badge i.fa.fa-info-circle {
 
 #board-info>a.board-right-menu:hover {
     background-color: var(--dark1);
+}
+
+footer>.container {
+    padding-left: 13px;
+    padding-right: 13px;
 }
