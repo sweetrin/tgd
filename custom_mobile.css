@@ -362,6 +362,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 footer {
     background-color: var(--dark1);
+    letter-spacing: -0.5px;
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
@@ -1065,12 +1066,6 @@ span.a-badge i.fa.fa-info-circle {
 #board-info>a.board-right-menu:hover {
     background-color: var(--dark1);
 }
-
-footer>.container {
-    padding-left: 13px;
-    padding-right: 13px;
-}
-
 
 #article-list>.article-list-row.notice>.item>a.list-title>.title-value {
     max-width: 63vw;
