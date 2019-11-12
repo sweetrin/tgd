@@ -1072,3 +1072,7 @@ span.a-badge i.fa.fa-info-circle {
 #article-list>.article-list-row.notice>.item>a.list-title>.title-value {
     max-width: 64vw;
 }
+
+.fr-box.fr-basic .fr-wrapper {
+    background-color: transparent;
+}
