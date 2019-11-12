@@ -196,7 +196,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* background-color: #ffeffe; */
     background-color: #fff4fe;
     background-color: var(--dark2);
-    margin-top: 1.2em;
+    margin-top: 1.3em;
     /* margin-bottom: 0.35em; */
     overflow: inherit;
     border-top-right-radius: 12px;
