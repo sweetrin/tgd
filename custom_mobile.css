@@ -538,6 +538,7 @@ span.a-badge i.fa.fa-star {
 nav#nav {
     background: #fff;
     transition: 0.2s;
+    background-color: var(--dark1);
 }
 
 #article-list>.article-list-row:hover {
@@ -600,7 +601,7 @@ nav#nav {
 #article-list>.article-list-row {
     border-bottom: 0 !important;
     padding: 0 !important;
-    background-color: var(--article-list-bg);
+    background-color: transparent;
 }
 
 #article-list>.article-list-row:not(.notice):nth-child(odd){
@@ -700,7 +701,6 @@ i.fa.fa-bars {
 
 #nav i.fa.fa-bars {
     color: var(--main-color);
-    /* color: #c17dff; */
 }
 
 nav#nav>#nav-upper {
@@ -1114,5 +1114,17 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 .dropdown-menu>li>a {
+    color: var(--text-color);
+}
+
+nav#nav > #nav-upper #noteDropdownContainer a, nav#nav > #nav-upper #userDropdownContainer a {
+    color: var(--text-color);
+}
+
+nav#nav>#nav-upper-shortcut>.dropdown>a {
+    color: var(--text-color);
+}
+
+nav#nav > .nav-menu-area a {
     color: var(--text-color);
 }
