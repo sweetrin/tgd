@@ -1081,3 +1081,11 @@ span.a-badge i.fa.fa-info-circle {
     background-color: var(--dark1);
     border-top-color: transparent;
 }
+
+.alertify .alert>*, .alertify .dialog>* {
+    background-color: var(--dark2);
+}
+
+.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button), .alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
+    /* color: #fff; */
+}
