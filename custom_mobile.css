@@ -541,7 +541,7 @@ nav#nav {
 }
 
 #article-list>.article-list-row:hover {
-    background-color: var(--cursor-highlight-color);
+    background-color: var(--main5);
 }
 
 .btn {
