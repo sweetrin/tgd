@@ -45,7 +45,7 @@
     --main2:hsl(282, 44%, 45%);
     --main3:hsl(282, 43%, 48%);
     --dark4:hsla(0, 0%, 16%, 1);
-    --dark1:#333333;
+    --dark1:hsla(0, 0%, 19%, 1);
     --dark2:#3f3f3f;
     --dark3:hsla(0, 0%, 28%, 1);
     --text-color:#d8d8d8;
