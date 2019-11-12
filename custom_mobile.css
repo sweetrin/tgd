@@ -533,7 +533,6 @@ span.a-badge i.fa.fa-star {
     background-color: #fafafa;
     background-color: var(--dark2);
     background-color: var(--cursor-highlight-color);
-    background-color: var(--main5);
 }
 
 nav#nav {
