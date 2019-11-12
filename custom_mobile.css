@@ -1089,3 +1089,30 @@ span.a-badge i.fa.fa-info-circle {
 .alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button), .alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
     /* color: #fff; */
 }
+
+.btn-default:hover {
+    background-color: var(--dark4);
+    color: var(--text-color);
+    border-color: transparent;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+	background-color: var(--dark4);
+    color: var(--text-color);
+    border-color: transparent;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    background-color: var(--dark4);
+    color: var(--text-color);
+    border-color: transparent;
+}
+
+.dropdown-menu {
+    background-color: var(--dark4);
+    color: var(--text-color);
+}
+
+.dropdown-menu>li>a {
+    color: var(--text-color);
+}
