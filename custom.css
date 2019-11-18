@@ -273,7 +273,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info{
-	animation: Popping 0.4s;
+	/* animation: Popping 0.4s; */
 	overflow: inherit;
 	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
 	background-size: 40%;
@@ -477,7 +477,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main .menu-wrapper {
     border: 0;
-    animation: Popping 0.4s;
+    /* animation: Popping 0.4s; */
     border-radius: 7px;
     background: #fff;
 }
