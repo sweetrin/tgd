@@ -241,9 +241,18 @@ footer a {
     color: #932fc3;
 }
 
+@keyframes bgAni {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 #main .menu-wrapper > .header {
-    background: linear-gradient(to right, var(--bg1), var(--bg2),var(--bg3));
+    background: linear-gradient(135deg, var(--bg3),var(--bg1), var(--bg2),var(--bg3),var(--bg1));
     border-radius: 7px 7px 0 0;
+    background-size: 200%;
+    background-position: center;
+    animation: bgAni 10s ease infinite;
 }
 
 #main .menu-wrapper > a > em {
@@ -859,11 +868,14 @@ header #header-bar>.row:after {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, var(--bg1), var(--bg2),var(--bg3),var(--bg1));
+    background: linear-gradient(135deg, var(--bg2),var(--bg1), var(--bg2),var(--bg3),var(--bg1),var(--bg2));
     content: '';
     z-index: -1;
     border-radius: 7px;
     display: block;
+    background-size: 150%;
+    background-position:center;
+    animation: bgAni 10s ease infinite;
 }
 
 .pagination > li > a:active, .pagination > li > span:active {
