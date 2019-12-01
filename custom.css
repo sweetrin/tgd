@@ -869,6 +869,7 @@ header #header-bar>.row:after {
     left: 0;
     right: 0;
     background: linear-gradient(135deg, var(--bg2),var(--bg1), var(--bg2),var(--bg3),var(--bg1),var(--bg2));
+    background: linear-gradient(135deg, var(--bg3),var(--bg2),var(--bg1), var(--bg2),var(--bg3),var(--bg2),var(--bg1));
     content: '';
     z-index: -1;
     border-radius: 7px;
