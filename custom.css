@@ -712,7 +712,8 @@ header #right-search-form > #right-search-btn {
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
     background-color: var(--button-hover-color) !important;
-    /* border-color: var(--button-hover-color) !important; */
+    border-color: var(--button-hover-color) !important;
+    border-color: transparent !important;
 }
 
 .btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
