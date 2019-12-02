@@ -1090,7 +1090,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 }
 
 #article-list #article-list-menu>.btn.write:hover {
-    box-shadow: none;
+    /* box-shadow: none; */
 }
 
 #board-info #score-area {
