@@ -296,6 +296,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 	padding-top:0.8em;
 }
 
+@keyframes rotatePi{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(-360deg);}
+}
+
 #board-info #board-info-profile-img{
 	border-radius:100px;
 	border: 3px solid #e886e1;
@@ -306,6 +311,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	margin-top: -0.3em;
 	margin-left: -0.1em;
 	position: absolute;
+	animation:rotatePi 1.7s infinite;
 }
 
 #board-info h1{
