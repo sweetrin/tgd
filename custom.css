@@ -313,7 +313,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	margin-top: -0.3em;
 	margin-left: -0.1em;
 	position: absolute;
-	animation: rotatePi 6s 3s infinite;
+	animation: rotatePi 6s infinite;
 }
 
 #board-info h1{
