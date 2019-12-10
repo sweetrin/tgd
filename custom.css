@@ -1149,14 +1149,3 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 #article-list>.article-list-row>.item>.list-title>a[href='/32506807']:visited{
 	color:#ff9040 !important;
 }
-
-.menu-wrapper::after {
-	content:'왜 안와요 링피트 해야지';
-	background:url('https://sweetrin.github.io/tgd/strong_rin.png');
-	position:absolute;
-	width:100%;
-	height:100%;
-	background-repeat:no-repeat;
-	background-size:contain;
-	margin-top:1em;
-}
