@@ -859,7 +859,7 @@ header > #header-search-bar #header-search-btn {
 	100%{transform: scale(1);}
 }
 
-#board-info>h1>#board-info-profile-img:active {
+#board-info>h1>#board-info-profile-img:focus {
     animation:zi 4s;
 }
 
