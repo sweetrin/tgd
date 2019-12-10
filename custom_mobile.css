@@ -214,6 +214,12 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     padding: 5px 0.5em 4px;
 }
 
+@keyframes spinning{
+	0%{transform:rotateY(0deg);}
+	50%{transform:rotateY(0deg);}
+	100%{transform:rotateY(1800deg);}
+}
+
 #board-info>h1>#board-info-profile-img {
     width: 50px;
     height: 50px;
@@ -851,12 +857,6 @@ header > #header-search-bar #header-search-btn {
 
 .btn-outline-success:hover .fa.fa-thumbs-up {
 	animation: Wriggle 0.9s;
-}
-
-@keyframes spinning{
-	0%{transform:rotateY(0deg);}
-	50%{transform:rotateY(0deg);}
-	100%{transform:rotateY(1440deg);}
 }
 
 #board-info>h1>#board-info-profile-img:hover {
