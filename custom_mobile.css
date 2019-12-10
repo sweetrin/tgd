@@ -222,7 +222,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     margin-top: -23px;
     transition: 0.1s;
     display: inline-block;
-    transform-origin: left bottom;
+    /* transform-origin: left bottom; */
     background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
     padding-left: 44px;
     background-size:100%;
@@ -852,8 +852,15 @@ header > #header-search-bar #header-search-btn {
 	animation: Wriggle 0.9s;
 }
 
-#board-info>h1>#board-info-profile-img:active {
-    transform:scale(1.5);
+@keyframes spinning{
+	0%{transform:rotateY(0deg);}
+	50%{transform:rotateY(0deg);}
+	100%{transform:rotateY(1440deg);}
+}
+
+#board-info>h1>#board-info-profile-img:hover {
+    /*transform:scale(1.5);*/
+    animation: spinning 8s infinite;
 }
 
 .reply-menu>a:last-child {
