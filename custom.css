@@ -309,7 +309,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
 	padding-left: 60px;
 	background-size:100%;
-	box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.4);
+	box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.3);
 }
 
 #board-info h1{
