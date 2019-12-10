@@ -786,7 +786,7 @@ a.custom-badge-link.active {
 }
 
 #board-info #board-info-profile-img:hover {
-	transform: scale(1.5);
+	transform: scale(1.4);
 	/*background-image:url("https://sweetrin.github.io/tgd/shyrin.png");*/
 	/*padding-left:60px;*/
 	/*background-size:100%;*/
