@@ -852,15 +852,8 @@ header > #header-search-bar #header-search-btn {
 	animation: Wriggle 0.9s;
 }
 
-@keyframes zi{
-	0%{transform: scale(1);}
-	5%{transform: scale(1.5);}
-	95%{transform: scale(1.5);}
-	100%{transform: scale(1);}
-}
-
-#board-info>h1>#board-info-profile-img:focus {
-    animation:zi 4s;
+#board-info>h1>#board-info-profile-img:active {
+    transform:scale(1.5);
 }
 
 .reply-menu>a:last-child {
