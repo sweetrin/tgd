@@ -967,7 +967,7 @@ header #header-bar>.row:after {
 	transform: scaleX(1.06);
 	/* transform-origin: left; */
 	transition: 0.08s;
-	text-shadow: 2px 2px 3px hsla(265, 97%, 93%, 1);
+	text-shadow: 2px 2px 3px hsla(265, 97%, 94%, 1);
 }
 
 #main .menu-wrapper>a {
