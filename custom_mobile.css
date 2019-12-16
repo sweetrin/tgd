@@ -232,7 +232,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
     padding-left: 44px;
     background-size:100%;
-    animation: spinning 8s infinite;
+    /* animation: spinning 8s infinite; */
 }
 
 #board-info>h1>a:nth-child(2) {
