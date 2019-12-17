@@ -51,7 +51,8 @@
     --text-color:#d8d8d8;
     --text2:hsla(0, 0%, 45%, 1);
     --recommend-count-color: hsla(327, 68%, 47%, 1);
-    --cursor-highlight-color:hsla(282, 17%, 23%, 1);
+    --main6:hsla(282, 17%, 23%, 1);
+    --cursor-highlight-color:hsla(282, 17%, 25%, 1);
 }
 
 @font-face {
@@ -540,7 +541,7 @@ span.a-badge i.fa.fa-star {
 #article-list>.article-list-row.notice {
     background-color: #fafafa;
     background-color: var(--dark2);
-    background-color: var(--cursor-highlight-color);
+    background-color: var(--main6);
 }
 
 nav#nav {
@@ -550,7 +551,7 @@ nav#nav {
 }
 
 #article-list>.article-list-row:hover {
-    background-color: var(--main5);
+    /*background-color: var(--main5);*/
     background-color: var(--cursor-highlight-color);
 }
 
