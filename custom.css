@@ -299,15 +299,14 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info #board-info-profile-img{
 	border-radius:100px;
 	border: 3px solid #e886e1;
-	width: 4.7em;
-	height: 4.7em;
+	width: 4.5em;
+	height: 4.5em;
 	transition: 0.1s;
 	z-index: 999;
-	margin-top: -0.5em;
-	margin-left: -0.1em;
+	margin-top: -6px;
 	position: absolute;
 	background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
-	padding-left: 60px;
+	padding-left: 57px;
 	background-size:100%;
 	box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.3);
 }
