@@ -278,16 +278,27 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main #main-content>div.frame{
 	border-radius:7px;
 	border:0;
+	/* background-color: hsla(281, 88%, 80%, 1); */
+	background: url("https://sweetrin.github.io/tgd/christmas-1867048_1920.jpg");
+	background-size:100%;
+	background-position-y: -230px;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 200px 300px}
 }
 
 #board-info{
 	/* animation: Popping 0.4s; */
-	overflow: inherit;
-	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
-	background-size: 40%;
-	background-repeat: no-repeat;
-	background-position-x: 535px;
-	background-position-y: -87px;
+	/*overflow: inherit;*/
+	/*background-image: url("https://sweetrin.github.io/tgd/screen4.png");*/
+	/*background-size: 40%;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position-x: 535px;*/
+	/*background-position-y: -87px;*/
 	/* padding-right: 34em; */
 	/* opacity: 0.8; */
 }
@@ -345,6 +356,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: hsla(281, 88%, 78%, 1);
     background: hsla(281, 88%, 80%, 1);
     border-top:0;
+    background: transparent;
 }
 
 #article-list #article-list-category > a {
@@ -469,6 +481,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: #fff;
     border-radius: 7px;
     /* animation: Popping 0.4s; */
+    background: transparent;
+    z-index: 999;
 }
 
 .badge {
@@ -517,6 +531,7 @@ display: none;
 #article-list>.article-list-row {
     border-right: 0;
     padding: 0 0.4em 0 0.4em;
+    background: #fff;
 }
 
 #article-list>.article-list-row,#main .menu-wrapper>a,.dropdown-menu>li>a{
@@ -1148,4 +1163,18 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 
 #article-list>.article-list-row>.item>.list-title>a[href='/32506807']:visited{
 	color:#ff9040 !important;
+}
+
+#main #main-content>div.frame::before {
+	content: "";
+	/*background:url("https://sweetrin.github.io/tgd/gift-3030279_1920.jpg");*/
+	position:absolute;
+	width:877px;
+	height: 128px;
+	top:0px;
+	background-image:
+        url(https://i.imgur.com/uYjnk8N.png),
+        url(https://i.imgur.com/iAGD6MA.png),
+        url(https://i.imgur.com/hIJDjbg.png);
+	animation: snow 20s linear infinite;
 }
