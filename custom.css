@@ -288,7 +288,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 @keyframes snow {
     0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 200px 300px}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px}
 }
 
 #board-info{
@@ -1174,8 +1174,8 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 	height: 128px;
 	top:0px;
 	background-image:
-        url(https://i.imgur.com/uYjnk8N.png),
+	    url(https://i.imgur.com/hIJDjbg.png),
         url(https://i.imgur.com/iAGD6MA.png),
-        url(https://i.imgur.com/hIJDjbg.png);
-	animation: snow 20s linear infinite;
+        url(https://i.imgur.com/uYjnk8N.png);
+	animation: snow 30s linear infinite;
 }
