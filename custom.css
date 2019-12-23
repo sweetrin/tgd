@@ -886,6 +886,7 @@ input#right-search-input:focus {
 #board-info #board-info-bottom a {
     color: var(--rank-badge-color);
     border-right:none;
+    transform: scale(1);
 }
 
 header #header-bar>.row:after {
