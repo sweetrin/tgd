@@ -181,12 +181,11 @@ body, html {
 
 body {
     color: var(--text-color);
-    background-color: var(--dark1);
-    background-image:
-	    url(https://i.imgur.com/hIJDjbg.png),
+    background: url(https://i.imgur.com/hIJDjbg.png),
         url(https://i.imgur.com/iAGD6MA.png),
         url(https://i.imgur.com/uYjnk8N.png);
-	animation: snow 30s linear infinite;
+    animation: snow 30s linear infinite;
+    background-color: var(--dark1);
 }
 
 header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #main .menu-wrapper>a {
