@@ -702,7 +702,7 @@ header #right-search-form > #right-search-btn {
 	background-repeat: no-repeat;
 	background-size: 45%;
 	background-position-x: 37em;
-	background-position-y: -4em;
+	background-position-y: bottom;
 	padding: 0em;
 	margin: 1em;
 }
