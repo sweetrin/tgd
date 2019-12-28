@@ -1184,12 +1184,15 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 	content: "";
 	/*background:url("https://sweetrin.github.io/tgd/gift-3030279_1920.jpg");*/
 	position:absolute;
-	width:877px;
+	width: 25em;
 	height: 128px;
 	top:0px;
 	background-image:
 	    url(https://i.imgur.com/hIJDjbg.png),
         url(https://i.imgur.com/iAGD6MA.png),
         url(https://i.imgur.com/uYjnk8N.png);
-	animation: snow 30s linear infinite;
+	animation: snow 25s linear infinite;
+	/* background-color: #000; */
+	left: 37em;
+	/* background-size: 100%; */
 }
