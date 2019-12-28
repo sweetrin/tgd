@@ -1191,7 +1191,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 	    url(https://i.imgur.com/hIJDjbg.png),
         url(https://i.imgur.com/iAGD6MA.png),
         url(https://i.imgur.com/uYjnk8N.png);
-	animation: snow 25s linear infinite;
+	animation: snow 30s linear infinite;
 	/* background-color: #000; */
 	left: 37em;
 	/* background-size: 100%; */
