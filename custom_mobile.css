@@ -920,9 +920,8 @@ header > #header-search-bar #header-search-btn {
 }
 
 #header-top-notice {
-    margin-bottom: 0.1em;
-    background-color: var(--dark1);
-    background: transparent;
+    /* margin-bottom: 0.1em; */
+    background: var(--dark1);
 }
 
 nav#nav.hide>#nav-upper #userDropdown #notification-badge{
