@@ -278,13 +278,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main #main-content>div.frame{
 	border-radius:7px;
 	border:0;
-	/* background-color: hsla(281, 88%, 80%, 1); */
-	background: url("https://sweetrin.github.io/tgd/birthday-2496221_1920.png");
-	background-size: 50%;
-	background-position-y: -8em;
-	background-position-x: 33em;
-	background-repeat: no-repeat;
-	background-color: #fff;
 }
 
 @keyframes snow {
@@ -294,14 +287,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info{
 	/* animation: Popping 0.4s; */
-	/*overflow: inherit;*/
-	/*background-image: url("https://sweetrin.github.io/tgd/screen4.png");*/
-	/*background-size: 40%;*/
-	/*background-repeat: no-repeat;*/
-	/*background-position-x: 535px;*/
-	/*background-position-y: -87px;*/
-	/* padding-right: 34em; */
-	/* opacity: 0.8; */
+	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position-x: 535px;
+	background-position-y: -87px;
 }
 
 #article-info{
@@ -479,11 +469,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list {
     padding: 0 0 1.6em 0;
-    background: #fff;
-    border-radius: 7px;
     /* animation: Popping 0.4s; */
-    background: transparent;
-    z-index: 999;
 }
 
 .badge {
@@ -1136,7 +1122,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 footer::after {
     content: "";
-    background-image: url("https://sweetrin.github.io/tgd/birthday-2496221_1920.png");
+    background-image: url("https://sweetrin.github.io/tgd/kom_n_com.png");
     background-repeat:no-repeat;
     width:600px;
     height:385px;
@@ -1178,21 +1164,4 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 
 #article-list>.article-list-row>.item>.list-title>a[href='/32506807']:visited{
 	color:#ff9040 !important;
-}
-
-#main #main-content>div.frame::before {
-	content: "";
-	/*background:url("https://sweetrin.github.io/tgd/gift-3030279_1920.jpg");*/
-	position:absolute;
-	width: 25em;
-	height: 128px;
-	top:0px;
-	background-image:
-	    url(https://i.imgur.com/hIJDjbg.png),
-        url(https://i.imgur.com/iAGD6MA.png),
-        url(https://i.imgur.com/uYjnk8N.png);
-	animation: snow 30s linear infinite;
-	/* background-color: #000; */
-	left: 37em;
-	/* background-size: 100%; */
 }
