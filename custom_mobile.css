@@ -1146,3 +1146,12 @@ nav#nav>#nav-upper-shortcut>.dropdown>a {
 nav#nav > .nav-menu-area a {
     color: var(--text-color);
 }
+
+#article-reply-area #reply-best-area div.reply-content {
+    background: var(--bg2);
+    border-radius: 21px;
+}
+
+div#best-comment-34957507 {
+    background: var(--bg2);
+}
