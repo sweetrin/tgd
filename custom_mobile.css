@@ -210,14 +210,12 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>a.board-right-menu {
-    padding: 10px 8px;
-    border-left: 0;
     color: var(--main3);
 }
 
 #board-info>h1 {
     /* padding: 0.25em 0 0 0.3em; */
-    padding: 5px 0.5em 4px;
+    padding: 8px 0.5em 5px;
 }
 
 @keyframes spinning{
