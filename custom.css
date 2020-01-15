@@ -1143,3 +1143,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 #article-list>.article-list-row>.item>.list-title>a[href='/32506807']:visited{
 	color:#ff9040 !important;
 }
+
+#article-list>.article-list-row>.item>.list-title>small.favo {
+    margin-right: 0.8em;
+}
