@@ -563,7 +563,7 @@ nav#nav {
 #article-list>.article-list-row:hover {
     /*background-color: var(--main5);*/
     background-color: var(--cursor-highlight-color);
-    background-color: hsla(282, 48%, 26%, 0.3);
+    background-color: hsla(282, 39%, 28%, 0.3);
 }
 
 .btn {
