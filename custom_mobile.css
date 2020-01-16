@@ -186,6 +186,7 @@ body {
     /* background-attachment: fixed; */
     /* background-position: center; */
     background-size: cover;
+    background-position-x: -11em;
 }
 
 header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #main .menu-wrapper>a {
