@@ -183,9 +183,9 @@ body {
     color: var(--text-color);
     background-color: var(--dark1);
     background-image: url("https://sweetrin.github.io/tgd/buildings-1245953_1920-gb.jpg");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* background-position: center; */
-    /* background-size: contain; */
+    background-size: cover;
 }
 
 header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #main .menu-wrapper>a {
