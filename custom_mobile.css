@@ -980,6 +980,7 @@ div#taboola-below-article-text-links {
 
 #boardSearchForm {
     background-color: var(--dark1);
+    background-color: transparent;
 }
 
 #article-list>.article-list-row>.item>a.list-title:visited {
