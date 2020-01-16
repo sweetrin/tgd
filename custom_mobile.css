@@ -552,7 +552,7 @@ span.a-badge i.fa.fa-star {
     background-color: #fafafa;
     background-color: var(--dark2);
     background-color: var(--main6);
-    background-color: hsla(282, 17%, 23%, 0.2);
+    background-color: hsla(282, 17%, 23%, 0.3);
 }
 
 nav#nav {
