@@ -496,12 +496,17 @@ footer {
 .btn-outline-success, .btn-outline-success:focus {
     color: var(--main2);
     border-color: var(--main2);
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border-color: var(--main-color);
 }
 
 .btn-outline-success:hover {
     color: #fff;
     background-color: var(--main-color);
     border-color: var(--main-color);
+    background-color: var(--main5);
+    border-color: var(--main5);
 }
 
 #article-info {
