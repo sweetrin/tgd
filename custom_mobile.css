@@ -1109,11 +1109,15 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 .alertify .alert>*, .alertify .dialog>* {
+    background: url('https://sweetrin.github.io/tgd/guns.png') no-repeat top/100%;
     background-color: var(--dark2);
 }
 
 .alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button), .alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
-    /* color: #fff; */
+    color: #fff;
+    /* background-color: hsla(282, 29%, 31%, 0.5); */
+    /* background-color: rgba(51, 51, 51, 0.4); */
+    border-radius: 8px;
 }
 
 .btn-default:hover {
@@ -1162,4 +1166,16 @@ nav#nav > .nav-menu-area a {
 
 div#best-comment-34957507 {
     background: var(--bg2);
+}
+
+.alertify .alert .msg, .alertify .dialog .msg::before {
+    /* content: ""; */
+    /* background: url('https://sweetrin.github.io/tgd/guns.png'); */
+    /* background-size: contain; */
+    /* width: 100vw; */
+    /* height: 70vw; */
+    /* display: block; */
+    /* margin-bottom: 1em; */
+    /* margin: auto; */
+    /* background-repeat: no-repeat; */
 }
