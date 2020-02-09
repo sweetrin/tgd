@@ -494,8 +494,8 @@ footer {
 }
 
 .btn-outline-success, .btn-outline-success:focus {
-    color: var(--main2);
-    border-color: var(--main2);
+    color: var(--main3);
+    border-color: var(--main3);
     /* background-color: var(--main-color); */
     /* color: var(--text-color); */
     /* border-color: var(--main-color); */
