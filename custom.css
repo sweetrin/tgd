@@ -287,11 +287,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info{
 	/* animation: Popping 0.4s; */
-	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
-	background-size: 40%;
+	/* background-image: url("https://sweetrin.github.io/tgd/screen4.png"); */
+	background-image: url("https://sweetrin.github.io/tgd/ss.png");
+	background-size: 26%;
 	background-repeat: no-repeat;
 	background-position-x: 535px;
 	background-position-y: -87px;
+	background-position: 645px -25px;
 }
 
 #article-info{
