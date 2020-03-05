@@ -333,7 +333,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers::before {
-    content: "당 중독자 ";
+    content: "유우우우머 중독자 ";
 }
 
 #board-info #viewers-area #viewers::after {
@@ -1149,3 +1149,5 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 #article-list>.article-list-row>.item>.list-title>small.favo {
     margin-right: 0.8em;
 }
+
+#board-info h1>a:first-child:after {content: "유머방";}
