@@ -278,6 +278,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main #main-content>div.frame{
 	border-radius:7px;
 	border:0;
+	transition: 0.2s;
 }
 
 @keyframes snow {
@@ -494,6 +495,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* animation: Popping 0.4s; */
     border-radius: 7px;
     background: #fff;
+    transition: 0.2s;
 }
 
 #main .menu-wrapper .spacer{
@@ -1151,3 +1153,25 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 }
 
 #board-info h1>a:first-child:after {content: "유머방";}
+
+#main #main-content>div.frame:hover {
+    transform: scale(0.997);
+    box-shadow: none;
+}
+
+#main .menu-wrapper:hover {
+    transform: scale(0.99);
+    box-shadow: none;
+}
+
+header #header-bar {
+    transition: 0.2s;
+}
+
+header #header-bar:hover {
+    transform: scale(0.996);
+}
+
+header #header-bar>.row:hover {
+    box-shadow: none;
+}
