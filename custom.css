@@ -334,11 +334,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers::before {
-    content: "과당 ";
+    content: "유우우우머 중독자 ";
 }
 
 #board-info #viewers-area #viewers::after {
-    content: "%";
+    content:"명"; 
 }
 
 #board-info #viewers-area .fa-user:before {
@@ -1151,6 +1151,8 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 #article-list>.article-list-row>.item>.list-title>small.favo {
     margin-right: 0.8em;
 }
+
+#board-info h1>a:first-child:after {content: "유머방";}
 
 #main #main-content>div.frame:hover {
     transform: scale(0.997);
