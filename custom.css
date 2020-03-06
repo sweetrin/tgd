@@ -269,7 +269,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 .dropdown.open .dropdown-menu {
-    animation: Popping 0.25s;
+    animation: Popping 0.23s;
     font-size: 13px;
     border-radius: 7px;
     -webkit-backdrop-filter: saturate(180%) blur(5px);
@@ -278,7 +278,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main #main-content>div.frame{
 	border-radius:7px;
 	border:0;
-	transition: 0.2s;
+	transition: 0.1s;
 }
 
 @keyframes snow {
@@ -495,7 +495,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* animation: Popping 0.4s; */
     border-radius: 7px;
     background: #fff;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 #main .menu-wrapper .spacer{
@@ -1163,13 +1163,13 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 }
 
 header #header-bar {
-    transition: 0.2s;
+    /* transition: 0.2s; */
 }
 
 header #header-bar:hover {
-    transform: scale(0.996);
+    /* transform: scale(0.996); */
 }
 
 header #header-bar>.row:hover {
-    box-shadow: none;
+    /* box-shadow: none; */
 }
