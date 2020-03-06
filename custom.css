@@ -546,7 +546,7 @@ display: none;
 
 #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
     background-color: var(--cursor-highlight-color);
-    animation:flipping 0.4s linear;
+    /* animation:flipping 0.4s linear; */
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
@@ -1184,4 +1184,8 @@ header #header-bar:hover {
 
 header #header-bar>.row:hover {
     /* box-shadow: none; */
+}
+
+#article-list>.article-list-row>.item:hover {
+    animation: flipping 0.4s linear;
 }
