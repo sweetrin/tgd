@@ -278,7 +278,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main #main-content>div.frame{
 	border-radius:7px;
 	border:0;
-	transition: 0.1s;
+	transition: 0.2s;
 }
 
 @keyframes snow {
@@ -495,7 +495,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* animation: Popping 0.4s; */
     border-radius: 7px;
     background: #fff;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 #main .menu-wrapper .spacer{
