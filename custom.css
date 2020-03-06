@@ -1187,5 +1187,5 @@ header #header-bar>.row:hover {
 }
 
 #article-list>.article-list-row>.item:hover {
-    animation: flipping 0.4s linear;
+    animation: flipping 0.35s linear;
 }
