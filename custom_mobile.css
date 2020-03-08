@@ -217,9 +217,33 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     color: var(--main3);
 }
 
+@keyframes travel {
+    from { left: -10px;}
+    to   { left: 84vw; }
+}
+
+@keyframes bounce {
+    from, to  {
+      top: 0;
+      animation-timing-function: ease-out;
+    }
+    50% {
+      top: 300px;
+      animation-timing-function: ease-in;
+    }
+}
+
 #board-info>h1 {
     /* padding: 0.25em 0 0 0.3em; */
     padding: 8px 0.5em 5px;
+    position:absolute;
+    animation-name: travel;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.7s;
+    min-width: 200px;
+    visibility: hidden;
 }
 
 @keyframes spinning{
@@ -241,6 +265,12 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     padding-left: 44px;
     background-size:100%;
     /* animation: spinning 8s infinite; */
+    position:absolute;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 6.1s;
+    z-index:999;
+    visibility: visible;
 }
 
 #board-info>h1>a:nth-child(2) {
