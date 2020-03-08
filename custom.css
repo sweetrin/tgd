@@ -332,7 +332,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers::before {
-    content: "과당 ";
+    content: "과당 10";
 }
 
 #board-info #viewers-area #viewers::after {
