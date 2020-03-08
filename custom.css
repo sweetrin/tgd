@@ -1063,7 +1063,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 .btn-outline-success:focus .fa.fa-thumbs-up {
 	/*animation: Wriggle 0.9s;*/
-    animation:zoomingin 1.1s ease-out;
+    animation:zoomingin 1s ease-out;
 }
 
 .favo>.fa-heart:before {
