@@ -252,6 +252,21 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 	100%{transform:rotateY(1800deg);}
 }
 
+@keyframes spin {
+  from {
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 #board-info>h1>#board-info-profile-img {
     width: 50px;
     height: 50px;
@@ -266,9 +281,9 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     background-size:100%;
     /* animation: spinning 8s infinite; */
     position:absolute;
-    animation-name: bounce;
-    animation-iteration-count: infinite;
-    animation-duration: 4.7s;
+    animation-name: bounce, spin;
+  animation-iteration-count: infinite;
+  animation-duration: 4.7s;
     z-index:999;
     visibility: visible;
 }
