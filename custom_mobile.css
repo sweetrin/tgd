@@ -268,7 +268,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     position:absolute;
     animation-name: bounce;
     animation-iteration-count: infinite;
-    animation-duration: 6.1s;
+    animation-duration: 4.7s;
     z-index:999;
     visibility: visible;
 }
