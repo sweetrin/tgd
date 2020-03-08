@@ -1061,11 +1061,9 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 	100%{opacity:1;}
 }
 
-.btn-outline-success:focus .fa.fa-thumbs-up::before {
+.btn-outline-success:focus .fa.fa-thumbs-up {
 	/*animation: Wriggle 0.9s;*/
-	content:"\f004";
     animation:zoomingin 1s ease-out;
-    display:block;
 }
 
 .favo>.fa-heart:before {
