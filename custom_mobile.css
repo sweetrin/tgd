@@ -237,13 +237,13 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* padding: 0.25em 0 0 0.3em; */
     padding: 8px 0.5em 5px;
     position:absolute;
-    animation-name: travel;
+    /* animation-name: travel; */
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-duration: 1.7s;
     min-width: 200px;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 @keyframes spinning{
@@ -276,14 +276,14 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     transition: 0.1s;
     display: inline-block;
     /* transform-origin: left bottom; */
-    background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
-    padding-left: 44px;
+    /* background-image:url("https://sweetrin.github.io/tgd/shyrin.png"); */
+    /* padding-left: 44px; */
     background-size:100%;
     /* animation: spinning 8s infinite; */
-    position:absolute;
-    animation-name: bounce, spin;
-  animation-iteration-count: infinite;
-  animation-duration: 4.7s;
+    /* position:absolute; */
+    /* animation-name: bounce, spin; */
+    animation-iteration-count: infinite;
+    animation-duration: 4.7s;
     z-index:999;
     visibility: visible;
 }
