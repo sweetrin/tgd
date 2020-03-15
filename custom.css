@@ -1170,28 +1170,6 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     margin-right: 0.8em;
 }
 
-#main #main-content>div.frame:hover {
-    transform: scale(0.997);
-    box-shadow: none;
-}
-
-#main .menu-wrapper:hover {
-    transform: scale(0.99);
-    box-shadow: none;
-}
-
-header #header-bar {
-    /* transition: 0.2s; */
-}
-
-header #header-bar:hover {
-    /* transform: scale(0.996); */
-}
-
-header #header-bar>.row:hover {
-    /* box-shadow: none; */
-}
-
 #article-list>.article-list-row>.item:hover {
     animation: flipping 0.38s linear;
 }
