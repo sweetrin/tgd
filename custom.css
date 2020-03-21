@@ -1173,3 +1173,15 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 #article-list>.article-list-row>.item:hover {
     animation: flipping 0.38s linear;
 }
+
+#movetotop>img{
+	display:none;
+}
+
+#movetotop {
+	background: url("https://sweetrin.github.io/tgd/little_rin2.png");
+    background-repeat:no-repeat;
+    height: 130px;
+    width: 57px;
+    opacity:1;
+}
