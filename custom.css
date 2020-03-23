@@ -792,11 +792,24 @@ a.custom-badge-link.active {
     border-color: #d8f0de;
 }
 
+@keyframes p{
+	0%{transform:scale(1);}
+	10%{transform:scale(1.6);}
+	20%{transform:scale(1.2);}
+	30%{transform:scale(1.48);}
+	40%{transform:scale(1.32);}
+	50%{transform:scale(1.44);}
+	60%{transform:scale(1.36);}
+	70%{transform:scale(1.4);}
+	100%{transform:scale(1.4);}
+}
+
 #board-info #board-info-profile-img:hover {
 	transform: scale(1.4);
 	/*background-image:url("https://sweetrin.github.io/tgd/shyrin.png");*/
 	/*padding-left:60px;*/
 	/*background-size:100%;*/
+	animation:p 1.2s;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
