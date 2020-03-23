@@ -471,6 +471,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-list {
     padding: 0 0 1.6em 0;
     /* animation: Popping 0.4s; */
+    background: url("https://sweetrin.github.io/tgd/l.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 165px;
 }
 
 .badge {
@@ -520,7 +524,7 @@ display: none;
 #article-list>.article-list-row {
     border-right: 0;
     padding: 0 0.4em 0 0.4em;
-    background: #fff;
+    /* background: #fff; */
 }
 
 #article-list>.article-list-row,#main .menu-wrapper>a,.dropdown-menu>li>a{
