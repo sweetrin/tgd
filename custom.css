@@ -471,10 +471,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-list {
     padding: 0 0 1.6em 0;
     /* animation: Popping 0.4s; */
-    background: url("https://sweetrin.github.io/tgd/l.png");
+    background: url("https://sweetrin.github.io/tgd/l2.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 165px;
+    background-position-y: 162px;
 }
 
 .badge {
