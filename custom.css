@@ -813,7 +813,7 @@ a.custom-badge-link.active {
 	/*background-image:url("https://sweetrin.github.io/tgd/shyrin.png");*/
 	/*padding-left:60px;*/
 	/*background-size:100%;*/
-	animation:p 1.2s;
+	animation: p 1s;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
