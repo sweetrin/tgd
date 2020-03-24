@@ -1188,7 +1188,9 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 }
 
 #article-list.hide-notice {
-    background-image: url("https://sweetrin.github.io/tgd/l2.png");
-    /* background-repeat: no-repeat; */
+    background-image: url("https://sweetrin.github.io/tgd/c2.jpg");
+    background-repeat: no-repeat;
     background-position-y: 160px;
+    background-size: 120%;
+    background-position-x: center;
 }
