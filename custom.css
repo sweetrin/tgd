@@ -528,7 +528,7 @@ display: none;
 }
 
 #article-list>.article-list-row,#main .menu-wrapper>a,.dropdown-menu>li>a{
-	transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
+	/* transition: 0.15s cubic-bezier(0.4, 0, 1, 1); */
 }
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
@@ -1188,5 +1188,5 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 }
 
 #article-list>.article-list-row>.item:hover {
-    animation: flipping 0.38s linear;
+    /* animation: flipping 0.38s linear; */
 }
