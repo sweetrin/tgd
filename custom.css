@@ -1194,3 +1194,8 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     background-size: 120%;
     background-position-x: center;
 }
+
+#article-list.hide-notice>.article-list-row.notice:hover, #article-list.hide-notice>.article-list-row:hover {
+    background-color: rgba(250, 243, 255, 0.5);
+    /* animation:flipping 0.4s linear; */
+}
