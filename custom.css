@@ -616,7 +616,7 @@ header #right-search-form > #right-search-btn {
 #article-list i.fa.fa-heart {
     /* color: #ff6beb; */
     color: #ffa0d1;
-    animation: BoxLight2 3.2s 3.2s infinite;
+    animation: BoxLight2 3s 3s infinite;
     /* animation: BoxLight2 4.7s 4.7s infinite; */
     border-radius: 50%;
     width: 5px;
@@ -1082,7 +1082,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     position: absolute;
     left: -1.1px;
     top: 1px;
-    animation: HB 3.2s 3.2s infinite;
+    animation: HB 3s 3s infinite;
     /* content: ""; */
     /* background-size: contain; */
     /* width: 36px; */
