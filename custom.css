@@ -54,8 +54,8 @@
 @keyframes BoxLight2{
 	0%{box-shadow:0 0 0 0 #ffa0d1;}
 	8%{box-shadow:0 0 0 0 #ffa0d1;}
-	48%{box-shadow: 0 0 10px 17px rgba(255, 160, 209, 0);}
-	100%{box-shadow: 0 0 10px 17px rgba(255, 160, 209, 0);}
+	48%{box-shadow: 0 0 2px 17px rgba(255, 160, 209, 0);}
+	100%{box-shadow: 0 0 2px 17px rgba(255, 160, 209, 0);}
 }
 
 @keyframes HB{
