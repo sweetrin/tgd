@@ -974,6 +974,24 @@ header #header-bar>.row:after {
     border-radius: 5px !important;
 }
 
+.footer>a:nth-child(1){
+	color: var(--bg1);
+	border-color: var(--bg1);
+}
+.footer>a:nth-child(1):hover{
+	color:#fff;
+	background-color:var(--bg1);
+}
+
+.footer>a:nth-child(3) {
+	color: var(--rank-badge-color);
+	border-color: var(--rank-badge-color);
+}
+.footer>a:nth-child(3):hover{
+	color:#fff;
+	background-color:var(--rank-badge-color);
+}
+
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu > a:active, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu > a:active {
     text-shadow: 0 0 7px #9eb4ff;
 }
