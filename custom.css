@@ -731,8 +731,13 @@ header #right-search-form > #right-search-btn {
 }
 
 /* 베스트 댓글 배경색 */
+#article-reply-area #reply-best-area .reply {
+    background: #f0d9fb;
+}
+
 #article-reply-area #reply-best-area div.reply-content {
     background: #f0d9fb;
+    border-radius: 20px;
 }
 
 /* 새로운 댓글 배경색 */
