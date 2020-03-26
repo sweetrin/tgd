@@ -41,8 +41,8 @@
 
     --main5:hsla(282, 29%, 27%, 1);
     --main4:hsla(282, 29%, 31%, 1);
-    --main-color: hsla(282, 37%, 34%, 1);
-    --main2:hsl(282, 44%, 45%);
+    --main-color: hsla(282, 37%, 34%, 1);--main-color:hsl(282, 44%, 45%);
+    --main2:hsl(282, 44%, 45%);--main2:hsla(282, 37%, 34%, 1);
     --main3:hsl(282, 43%, 48%);
     --dark4:hsla(0, 0%, 16%, 1);
     --dark1:hsla(0, 0%, 19%, 1);
@@ -336,8 +336,7 @@ header {
     background-size: 130%;
     padding: 7px 0;
     /* animation: Gradient 6s ease infinite; */
-    background: var(
-    --main-color);
+    background: var(--main-color);
 }
 
 header>#header-area>a>h1 {
