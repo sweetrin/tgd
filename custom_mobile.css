@@ -1,6 +1,6 @@
 :root{
-    --dark1:#363940;
-    --dark2:#303136;
+    --dark2:#363940;
+    --dark1:#303136;
     --dark3:#2a2b2f;
     --dark4:#161719;
     --main1:#9147ff;
@@ -36,7 +36,7 @@ header {
 }
 
 #article-list>.article-list-row.notice {
-    background:var(--dark3);
+    background:var(--dark2);
 }
 
 #article-list>.article-list-row {
@@ -100,5 +100,5 @@ nav#nav {
 }
 
 #article-list>.article-list-row:hover {
-    background: hsla(0, 0%, 100%, 0.1);
+    background: hsla(222, 8%, 28%, 1);
 }
