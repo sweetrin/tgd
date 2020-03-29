@@ -1,6 +1,6 @@
 :root{
-    --dark2:#363940;
-    --dark1:#303136;
+    --dark1:#363940;
+    --dark2:#303136;
     --dark3:#2a2b2f;
     --dark4:#161719;
     --main1:#9147ff;
@@ -100,5 +100,13 @@ nav#nav {
 }
 
 #article-list>.article-list-row:hover {
-    background: hsla(222, 8%, 28%, 1);
+    background: hsla(222, 8%, 26%, 1);
+}
+
+header>#header-area>#header-bar-link {
+    color: var(--main1);
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    color: var(--main1);
 }
