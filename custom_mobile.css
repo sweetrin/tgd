@@ -110,3 +110,7 @@ header>#header-area>#header-bar-link {
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
     color: var(--main1);
 }
+
+#article-list>.article-list-row>.item>.list-header>strong, #article-list>.article-list-row>.item>.list-header>b {
+    color: var(--text);
+}
