@@ -98,3 +98,7 @@ nav#nav {
 #header-top-notice a{
     color:var(--text);
 }
+
+#article-list>.article-list-row:hover {
+    background: hsla(0, 0%, 100%, 0.1);
+}
