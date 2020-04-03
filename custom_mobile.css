@@ -771,7 +771,7 @@ i.fa.fa-bars {
 }
 
 #nav i.fa.fa-bars {
-    color: var(--main1);
+    color: var(--main-color);
 }
 
 nav#nav>#nav-upper {
@@ -1225,4 +1225,9 @@ div#best-comment-34957507 {
     /* margin-bottom: 1em; */
     /* margin: auto; */
     /* background-repeat: no-repeat; */
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background: unset;
+    color: var(--main3);
 }
