@@ -350,7 +350,7 @@ header>#header-area>a>h1 {
 #header-top-notice strong.notice-badge {
     background:var(--main-color);
     border:1px solid var(--main-color);
-    border-radius: 5px;
+    border-radius: 100px;
     padding:3px 7px;
 }
 
