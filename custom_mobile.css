@@ -717,6 +717,7 @@ nav#nav {
     background: var(--main-color);
     background: var(--dark1);
     /* border-top-color: var(--main2); */
+    margin-bottom: 10px;
 }
 
 #article-list #article-list-category::-webkit-scrollbar {
