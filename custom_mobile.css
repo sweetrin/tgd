@@ -385,7 +385,7 @@ header>#header-area>#header-bar-link {
     background: var(--main-color) !important;
     background: var(--dark1) !important;
     color: var(--text-color) !important;
-    transition: 1s;
+    transition: 0.8s;
 }
 
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
@@ -1242,7 +1242,7 @@ div#best-comment-34957507 {
     color: var(--main3);
 }
 
-#article-list #article-list-category>a.active {
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
     border-bottom-color: var(--main-color);
     /* background: var(--main6) !important; */
     color: var(--main-color);
