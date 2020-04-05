@@ -205,7 +205,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     border-bottom: 0;
     /* background-color: #ffeffe; */
     background-color: #fff4fe;
-    background-color: var(--dark2);
+    background-color: var(--dark1);
     margin-top: 1.3em;
     /* margin-bottom: 0.35em; */
     overflow: inherit;
@@ -378,7 +378,6 @@ header>#header-area>#header-bar-link {
     /* width: 6em; */
     /* text-align: center; */
     /* box-shadow: 0px 1px 2px var(--dark4); */
-    transition: 0.2s;
 }
 
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
