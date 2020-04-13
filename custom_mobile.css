@@ -67,6 +67,8 @@
     unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;
 }
 
+@font-face { font-family: 'Katuri'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 body, html {
     height: auto !important;
     font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
@@ -1066,6 +1068,8 @@ div#taboola-below-article-text-links {
 .fr-box.fr-basic .fr-element {
     background-color: var(--dark2);
     color: var(--text-color);
+    font-family: "Katuri";
+    font-size: 110%;
 }
 
 .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
