@@ -1153,6 +1153,7 @@ span.a-badge i.fa.fa-info-circle {
 
 .frame {
     background-color: var(--dark1);
+    border-top-color: var(--dark1);
 }
 
 .alertify .alert>*, .alertify .dialog>* {
