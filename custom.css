@@ -286,6 +286,13 @@ header #header-bar #header-top-notice strong.notice-badge {
     100% {background-position: 0px 1000px, 0px 400px, 0px 300px}
 }
 
+@keyframes mv{
+	0%{background-size:10%;}
+	50%{background-size:30%;}
+	95%{background-size:10%;}
+	100%{background-size:10%;}
+}
+
 #board-info{
 	/* animation: Popping 0.4s; */
 	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
@@ -293,6 +300,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background-repeat: no-repeat;
 	background-position-x: 535px;
 	background-position-y: -87px;
+	background-image: url("https://sweetrin.github.io/tgd/coffin.gif");
+	background-repeat: repeat;
+	background-size: 10%;
+	animation:mv 10s infinite;
 }
 
 #article-info{
@@ -309,6 +320,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	margin-top: -6px;
 	position: absolute;
 	background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
+	background-image: url("https://sweetrin.github.io/tgd/coffin.gif");
 	padding-left: 57px;
 	background-size:100%;
 	box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.3);
