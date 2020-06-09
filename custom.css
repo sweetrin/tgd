@@ -297,7 +297,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 @keyframes scr{
-	0%{background-position-y: -107px;}
+	0%{background-position-y: -97px;}
 	100%{background-position-y: -87px;}
 }
 
