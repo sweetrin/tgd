@@ -293,12 +293,27 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info{
 	/* animation: Popping 0.4s; */
-	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
-	background-size: 40%;
-	background-repeat: no-repeat;
-	background-position-x: 535px;
-	background-position-y: -87px;
 	animation:bi 2s;
+}
+
+@keyframes scr{
+	0%{background-position-y: -107px;}
+	100%{background-position-y: -87px;}
+}
+
+#board-info::after{
+	content:"";
+	position:absolute;
+	height:64px;
+	width:390px;
+	top:0;
+	right:0;
+	background-image: url("https://sweetrin.github.io/tgd/screen4.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position-x: 48px;
+	background-position-y: -87px;
+	animation:scr 2s;
 }
 
 #article-info{
