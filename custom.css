@@ -531,15 +531,15 @@ display: none;
 	transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
 }
 
-@keyframes arts{
-	0%{transform:translateX(50px);opacity:0;}
-	100%{transform:translateX(0px);opacity:1;}
-}
-
 #article-list>.article-list-row {
     border-right: 0;
     padding: 0 0.4em 0 0.4em;
     /* background: #fff; */
+}
+
+@keyframes arts{
+	0%{transform:translateX(40px);opacity:0;}
+	100%{transform:translateX(0px);opacity:1;}
 }
 
 #article-list>.article-list-row:not(.notice){
