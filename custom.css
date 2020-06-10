@@ -553,7 +553,7 @@ display: none;
 }
 
 @keyframes arts{
-	0%{transform:translateX(40px);opacity:0;}
+	0%{transform:translateX(30px);opacity:0;}
 	100%{transform:translateX(0px);opacity:1;}
 }
 
