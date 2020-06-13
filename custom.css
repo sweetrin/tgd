@@ -374,7 +374,7 @@ body{perspective:800px;}
 #article-list #article-list-category {
     padding: 0.2em 0.5em;
     background: hsla(281, 88%, 78%, 1);
-    background: hsla(281, 88%, 80%, 1);
+    background: hsl(281, 100%, 81%);
     border-top:0;
     /* background: transparent; */
     animation: cats 1.5s;
