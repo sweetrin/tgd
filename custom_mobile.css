@@ -74,8 +74,6 @@
 
 @font-face { font-family: 'Katuri'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff'); font-weight: normal; font-style: normal; }
 
-*{font-size:110%;}
-
 body, html {
     height: auto !important;
     font-family: 'BinggraeMelona', "Helvetica Neue", Helvetica,Arial, sans-serif;
@@ -693,7 +691,7 @@ nav#nav {
 }
 
 #article-list>.article-list-row>.item>a.list-title {
-    font-size: 14px;
+    /* font-size: 14px; */
     color: var(--text-color) !important;
 }
 
