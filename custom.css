@@ -294,7 +294,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info{
 	/* animation: Popping 0.4s; */
-	animation:bi 2s;
+	/* animation:bi 2s; */
 }
 
 @keyframes scr{
@@ -314,7 +314,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background-repeat: no-repeat;
 	background-position-x: 48px;
 	background-position-y: -87px;
-	animation:scr 2s;
+	/*animation:scr 2s;*/
 }
 
 #article-info{
@@ -378,7 +378,7 @@ body{perspective:800px;}
     background: hsl(281, 100%, 81%);
     border-top:0;
     /* background: transparent; */
-    animation: cats 1.5s;
+    /* animation: cats 1.5s; */
 }
 
 #article-list #article-list-category > a {
