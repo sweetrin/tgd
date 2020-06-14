@@ -571,7 +571,7 @@ display: none;
 }
 
 #article-list>.article-list-row:not(.notice){
-	animation: arts 2s;
+	/* animation: arts 2s; */
 }
 
 #article-list>.article-list-row,#main .menu-wrapper>a,.dropdown-menu>li>a{
