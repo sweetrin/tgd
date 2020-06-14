@@ -59,6 +59,7 @@
     --cursor-highlight-color:hsla(282, 17%, 23%, 0.7);
 }
 
+/*
 @font-face {
 	font-family: 'Binggrae';
 	src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Binggrae.woff2') format('woff2');
@@ -66,12 +67,16 @@
     font-style: normal;
     unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;
 }
+*/
+
+@font-face { font-family: 'BinggraeMelona'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona.woff') format('woff'); font-weight: normal; font-style: normal; unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;}
+
 
 @font-face { font-family: 'Katuri'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 body, html {
     height: auto !important;
-    font-family: 'Binggrae', "Helvetica Neue", Helvetica,Arial, sans-serif;
+    font-family: 'BinggraeMelona', "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
 @keyframes Wriggle {
