@@ -1246,3 +1246,7 @@ div#best-comment-34957507 {
 #article-list #article-list-category>a:hover {
     background: rgba(255, 255, 255, 0.1);
 }
+
+#article-content {
+    font-size: 15px;
+}
