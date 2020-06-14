@@ -71,8 +71,9 @@
 
 @font-face { font-family: 'BinggraeMelona'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona.woff') format('woff'); font-weight: normal; font-style: normal; unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;}
 
-
+/*
 @font-face { font-family: 'Katuri'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff'); font-weight: normal; font-style: normal; }
+*/
 
 body, html {
     height: auto !important;
@@ -1073,7 +1074,7 @@ div#taboola-below-article-text-links {
 .fr-box.fr-basic .fr-element {
     background-color: var(--dark2);
     color: var(--text-color);
-    font-family: "Katuri";
+    /*font-family: "Katuri";*/
     font-size: 110%;
 }
 
