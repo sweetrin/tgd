@@ -354,11 +354,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers::before {
-    content: "과당 10";
+    content: "놀러온 캔디백성 ";
 }
 
 #board-info #viewers-area #viewers::after {
-    content: "%";
+    content: "명";
 }
 
 #board-info #viewers-area .fa-user:before {
