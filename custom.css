@@ -1255,6 +1255,10 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 	color:#ff9040 !important;
 }
 
+#article-list>.article-list-row>.item>.list-title>a[href='/sweetrin/42352100']:visited{
+	color:#d74cff !important;
+}
+
 #article-list>.article-list-row>.item>.list-title>small.favo {
     margin-right: 0.8em;
 }
