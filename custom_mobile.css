@@ -893,6 +893,10 @@ header > #header-search-bar #header-search-btn {
     color: #ff9040;
 }
 
+#article-list-row-42352100 .title-value {
+    color: #d74cff;
+}
+
 .fa-thumbs-up:before {
     content: "\f004";
 }
