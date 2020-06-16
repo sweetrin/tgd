@@ -31,6 +31,7 @@
     --category-6th-color: hsla(327, 86%, 45%, 1);
     --category-7th-color: hsla(196, 100%, 37%, 1);
     --category-8th-color: hsla(45, 100%, 42%, 1);
+    --category-9th-color: hsla(0, 79%, 58%, 1);
 
     --bg1:#f36dee; /*#f174ed*/
     --bg2:#b666ff; /*#c17dff*/
@@ -470,6 +471,11 @@ footer {
 
 #article-list #article-list-category>a:nth-child(8) {
     background: var(--category-8th-color);
+    color: #fff !important;
+}
+
+#article-list #article-list-category>a:nth-child(9) {
+    background: var(--category-9th-color);
     color: #fff !important;
 }
 
