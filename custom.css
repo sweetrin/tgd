@@ -1267,14 +1267,6 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     /* animation: flipping 0.38s linear; */
 }
 
-#article-list.hide-notice {
-    background-image: url("https://sweetrin.github.io/tgd/c2.jpg");
-    background-repeat: no-repeat;
-    background-position-y: 160px;
-    background-size: 120%;
-    background-position-x: center;
-}
-
 #article-list.hide-notice>.article-list-row.notice:hover, #article-list.hide-notice>.article-list-row:hover {
     background-color: rgba(250, 243, 255, 0.5);
     /* animation:flipping 0.4s linear; */
