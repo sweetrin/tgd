@@ -331,6 +331,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	margin-top: -6px;
 	position: absolute;
 	background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
+	background-image: url("https://sweetrin.github.io/tgd/dodorina.png"),linear-gradient(45deg, var(--bg2), var(--bg1));
 	padding-left: 57px;
 	background-size:100%;
 	box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.3);
