@@ -317,7 +317,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 	/* font-family: none; */
 	font-weight: bold;
 	/* font-size: 110%; */
-	margin-right: 0.4em;
+	margin-right: 0.3em;
 }
 
 /*
@@ -656,7 +656,7 @@ nav#nav {
     color: var(--main3);
     color: #a262fd;
     font-size: 13px;
-    margin-left: 0.4em;
+    margin-left: 0.3em;
 }
 
 .pagination>li>a, .pagination>li>span {
