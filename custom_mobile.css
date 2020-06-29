@@ -317,6 +317,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 	/* font-family: none; */
 	font-weight: bold;
 	/* font-size: 110%; */
+	margin-right: 0.4em;
 }
 
 /*
@@ -331,13 +332,13 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 */
 
 #viewers-area .fa-user:before {
-    background-image: url("https://sweetrin.github.io/tgd/candy_30x30.png");
+    background-image: url("https://sweetrin.github.io/tgd/candy_ppl_36x36.png");
     background-repeat: no-repeat;
     background-size: contain;
     content: "";
     display: block;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 29px;
 }
 
 header {
@@ -653,7 +654,9 @@ nav#nav {
 
 #board-info #viewers-area {
     color: var(--main3);
+    color: #a262fd;
     font-size: 13px;
+    margin-left: 0.4em;
 }
 
 .pagination>li>a, .pagination>li>span {
@@ -705,7 +708,7 @@ nav#nav {
 }
 
 #viewers-area .fa.fa-user {
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .pagination>li:last-child>a, .pagination>li:last-child>span {
