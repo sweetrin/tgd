@@ -632,6 +632,7 @@ display: none;
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
     background-color: #f6ebff;
     color: var(--main-color);
+    border-color: #f6ebff;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
@@ -1275,4 +1276,12 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 #article-info>h2>span.category {
     border-right: 0;
     padding-right: 0.1em;
+}
+
+.pagination>li>a {
+    border-radius: 4px;
+    border-color: #f6ebff;
+    /* border-color: transparent; */
+    border-color: hsla(273, 81%, 93%, 1);
+    /* padding: 5px 11px; */
 }
