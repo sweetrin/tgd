@@ -1285,3 +1285,15 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     border-color: hsla(273, 81%, 93%, 1);
     /* padding: 5px 11px; */
 }
+
+*{
+    cursor: url('https://sweetrin.github.io/tgd/cur_normal.png') 0 0, auto !important;
+}
+
+#right-search-form>#right-search-btn,#board-info #board-info-bottom #addFavoriteBtn,#article-list #article-option-area>#article-option-area-toggle-btn,#article-list>.article-list-row>.item>.list-itle>.list-writer>span,.reply > .reply-header > .reply-writer.logged,.reply-menu,.btn,.fr-toolbar .fr-command.fr-btn,.fr-popup .fr-command.fr-btn,.fr-view img,.pull-left,a{
+    cursor: url('https://sweetrin.github.io/tgd/cur_link.png') 0 0, auto !important;
+}
+
+span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-basic.fr-element,input[type='text']{
+    cursor: url('https://sweetrin.github.io/tgd/cur_text.png') 0 0, auto !important;
+}
