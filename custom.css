@@ -27,9 +27,9 @@
     --category-7th-color: #00b3f5;
     --category-8th-color: #ffc411;
     --category-9th-color: #ff5c5c;
-    --bg1:#f569f0;
-    --bg2:#ba6eff;
-    --bg3:#599cff;
+    --bg1:hsla(302, 97%, 69%, 1);
+    --bg2:hsl(271, 100%, 72%);
+    --bg3:hsl(216, 100%, 67%);
 }
 
 @keyframes popmenu{
@@ -196,7 +196,7 @@ span.a-badge i.fa.fa-star {
 
 body, html {
 	background: linear-gradient(180deg, var(--bg-color-stop1) 0,#8059b3 180%);
-	background: linear-gradient(180deg, #e8d7f6 0,#bba0dd);
+	background: linear-gradient(180deg, hsla(273, 73%, 90%, 1) 0,hsla(267, 57%, 75%, 1));
 }
 
 body {
@@ -323,7 +323,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #board-info-profile-img{
 	border-radius:100px;
-	border: 3px solid #e886e1;
+	border: 3px solid hsla(304, 78%, 72%, 1);
 	width: 4.5em;
 	height: 4.5em;
 	transition: 0.1s;
@@ -923,7 +923,7 @@ input#right-search-input:focus {
 
 #article-list>.article-list-row.notice {
     background-color: var(--cursor-highlight-color);
-    background-color: #f6ebff;
+    background-color: hsl(273, 100%, 96%);
 }
 
 .fr-popup .fr-emoticon:hover {
