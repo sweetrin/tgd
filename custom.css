@@ -365,8 +365,6 @@ header #header-bar #header-top-notice strong.notice-badge {
     content: url('https://sweetrin.github.io/tgd/candy_18x18.png');
 }
 
-body{perspective:800px;}
-
 @keyframes cats{
 	0%{transform:rotate3d(1,0,0,55deg);}
 	100%{transform:rotate3d(1,0,0,0deg);}
