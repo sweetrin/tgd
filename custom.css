@@ -568,9 +568,7 @@ display: none;
 	100%{transform:translateX(0px);opacity:1;}
 }
 
-#article-list>.article-list-row:not(.notice){
-	/* animation: arts 2s; */
-}
+#article-list>.article-list-row:not(.notice){padding-left: 16px;}
 
 #article-list>.article-list-row,#main .menu-wrapper>a,.dropdown-menu>li>a{
 	/* transition: 0.15s cubic-bezier(0.4, 0, 1, 1); */
@@ -601,7 +599,7 @@ display: none;
 }
 
 #article-list>.article-list-row>.item>.list-title {
-    padding: 8px 0;
+    /* padding: 8px 0; */
     font-size: 12.5px;
 }
 
@@ -635,7 +633,8 @@ display: none;
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
     color: #a24acc;
-    font-size: 93%;
+    font-size: 92%;
+    /* font-weight: normal; */
 }
 
 header #right-search-form>input[type=text] {
@@ -1295,3 +1294,34 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-basic.fr-element,input[type='text'],p{
     cursor: url('https://sweetrin.github.io/tgd/cur_text.png') 0 0, auto !important;
 }
+
+#article-list>.article-list-row>.item>.list-title>.list-category {
+    /* width: 75px; */
+    padding: 0px 10px;
+    margin-right: 11px;
+    border-left: 0;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    box-shadow: 1px 1px #e2e2e2;
+    height: 20px;
+}
+
+#article-list>.article-list-row:not(.notice)>.item>.list-header {
+    display: none;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-category>span {
+    /* font-weight: bold; */
+    /* font-size: 11px; */
+    padding: 1px 0;
+}
+
+#article-list>.article-list-row:not(.notice)>.item>.list-title {
+    /* padding: 7px 0; */
+}
+
+span.a-badge i.fa.fa-picture-o {
+    vertical-align: -4px !important;
+}
+
+#board-info h1>a:first-child::after {content: '(실험 중)';}
