@@ -1305,5 +1305,5 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
 }
 
 #board-info #board-info-bottom #addFavoriteBtn:active>.fa.fa-star {
-	animation:fav 1.3s;
+	animation:fav 1.2s;
 }
