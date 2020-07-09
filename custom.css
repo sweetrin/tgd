@@ -506,7 +506,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     flex: auto;
     text-align: left;
     margin-left: 5.1em;
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 #article-list {
