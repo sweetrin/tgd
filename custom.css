@@ -1304,6 +1304,6 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
 	100%{transform:rotate(360deg) scale(1); opacity:1;}
 }
 
-#board-info #board-info-bottom #addFavoriteBtn:active>.fa.fa-star {
+#board-info #board-info-bottom #addFavoriteBtn:focus>.fa {
 	animation:fav 1.2s;
 }
