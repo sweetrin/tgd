@@ -1297,10 +1297,15 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
     cursor: url('https://sweetrin.github.io/tgd/cur_text.png') 0 0, auto !important;
 }
 
+#board-info #board-info-bottom #addFavoriteBtn:hover>.fa{
+	transition:1s;
+	transform:rotate(360deg);
+}
+
 @keyframes fav{
 	0%{transform:rotate(0deg) scale(1); opacity:1;}
-	50%{transform:rotate(0deg) scale(12); opacity:0;}
-	50.1%{transform:rotate(0deg) scale(1); opacity:0;}
+	30%{transform:rotate(0deg) scale(12); opacity:0;}
+	30.1%{transform:rotate(0deg) scale(1); opacity:0;}
 	100%{transform:rotate(360deg) scale(1); opacity:1;}
 }
 
