@@ -295,6 +295,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info{
 	/* animation: Popping 0.4s; */
 	/* animation:bi 2s; */
+	overflow: visible;
 }
 
 @keyframes scr{
@@ -1294,4 +1295,15 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 
 span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-basic.fr-element,input[type='text'],p{
     cursor: url('https://sweetrin.github.io/tgd/cur_text.png') 0 0, auto !important;
+}
+
+@keyframes fav{
+	0%{transform:rotate(0deg) scale(1); opacity:1;}
+	50%{transform:rotate(0deg) scale(15); opacity:0;}
+	50.1%{transform:rotate(0deg) scale(1); opacity:0;}
+	100%{transform:rotate(360deg) scale(1); opacity:1;}
+}
+
+#board-info #board-info-bottom #addFavoriteBtn:active>.fa.fa-star {
+	animation:fav 1.3s;
 }
