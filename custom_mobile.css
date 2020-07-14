@@ -1262,3 +1262,7 @@ div#best-comment-34957507 {
 #article-content {
     font-size: 15px;
 }
+
+#article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
+    font-size: 15px;
+}
