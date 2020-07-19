@@ -1087,7 +1087,6 @@ div#taboola-below-article-text-links {
     background-color: var(--dark2);
     color: var(--text-color);
     /*font-family: "Katuri";*/
-    font-size: 110%;
 }
 
 .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
@@ -1260,9 +1259,9 @@ div#best-comment-34957507 {
 }
 
 #article-content {
-    font-size: 15px;
+    
 }
 
 #article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
-    font-size: 15px;
+    
 }
