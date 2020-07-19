@@ -718,7 +718,6 @@ header #right-search-form > #right-search-btn {
 .btn-outline-success:focus{
 	background-color:var(--main-color);
 	color:#fff;
-	outline: none;
 	box-shadow: 0 0 10px 1.2px #c17dff;
 }
 
@@ -1149,7 +1148,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 .btn-outline-success:focus .fa.fa-thumbs-up {
 	/*animation: Wriggle 0.9s;*/
-    animation:zoomingin 1s ease-out;
+	animation:zoomingin 1s ease-out;
 }
 
 .favo>.fa-heart:before {
@@ -1180,6 +1179,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 .btn-outline-success, .btn-outline-success:focus{
 	border-radius:7px !important;
 	transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
+	outline: none !important;
 }
 
 .alertify .alert .msg, .alertify .dialog .msg::before {content: "";background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/172ec81a-e120-4a41-bd83-c5ef1f69553c-profile_image-300x300.jpg) no-repeat;background: url(https://sweetrin.github.io/tgd/kom2.jpg);/* position: absolute; */width: 300px;height: 300px;background-size: contain;/* left: 440px; *//* top: -300px; */display: block;margin: auto;margin-bottom: 1em;margin-top: 0.8em;/* border-radius: 10px; */}
