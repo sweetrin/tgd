@@ -64,7 +64,7 @@
     --main6:hsla(282, 17%, 23%, 1);
     --main-color: hsl(281deg 100% 66%);
     --main-color:hsl(281deg 100% 60%);
-    --main-color:hsl(281 100% 68% / 1);
+    --main-color:hsl(281 100% 68% / 1);--main-color:hsl(281 100% 65% / 1);
     --main5: hsl(281 88% 58% / 1);
 }
 
@@ -343,7 +343,8 @@ header {
     /* background-size: 130%; */
     padding: 7px 0;
     /* animation: Gradient 6s ease infinite; */
-    background: hsl(281 100% 63% / 1);
+    /* background: hsl(281 100% 63% / 1); */
+    background: var(--main-color);
 }
 
 header>#header-area>a>h1 {
