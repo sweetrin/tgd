@@ -336,8 +336,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     background-size: contain;
     content: "";
     display: block;
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
 }
 
 header {
@@ -722,6 +722,7 @@ nav#nav {
 
 #viewers-area .fa.fa-user {
     vertical-align: top;
+    padding-top: 2px;
 }
 
 .pagination>li:last-child>a, .pagination>li:last-child>span {
