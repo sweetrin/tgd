@@ -8,7 +8,7 @@
     --cursor-highlight-color:#faf3ff;
     --rank-badge-color: #6782e4;
     --button-hover-color: #b441e8;
-    --text-color:#525252;
+    --text-color:#525252;--text-color:hsl(0 0% 23% / 1);
     --visited-color: #b7b7b7;
     --article-header-color: #faf5ff;
     --separation-line-color: #eaeaea;
@@ -1301,4 +1301,8 @@ div#best-comment-34957507 {
 
 #article-list>.article-list-row>.item>a.list-title {
     color: var(--text-color) !important;
+}
+
+.fa.fa-caret-down {
+    /* color: var(--text-color); */
 }
