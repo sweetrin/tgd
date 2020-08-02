@@ -340,14 +340,14 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 header {
-    border-bottom: 3px solid hsl(281 100% 57% / 1);
+    border-bottom: 3px solid hsl(281 100% 54% / 1);
     /* border-bottom: 0; */
     background: linear-gradient(135deg, var(--bg1), var(--bg2),var(--bg3));
     -webkit-backdrop-filter: saturate(180%) blur(5px);
     /* background-size: 130%; */
     padding: 7px 0;
     /* animation: Gradient 6s ease infinite; */
-    background: hsl(281 100% 66% / 1);
+    background: hsl(281 100% 63% / 1);
 }
 
 header>#header-area>a>h1 {
