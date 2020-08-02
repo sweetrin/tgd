@@ -98,7 +98,7 @@
 */
 
 body, html {
-    height: auto !important;
+    /* height: auto !important; */
     font-family: 'BinggraeMelona', "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
@@ -204,7 +204,7 @@ body, html {
 }
 
 body {
-    /* color: var(--text-color); */
+    color: var(--text-color);
     /* background-color: var(--dark1); */
 }
 
@@ -1298,7 +1298,7 @@ div#best-comment-34957507 {
 }
 
 .fa.fa-caret-down {
-    /* color: var(--text-color); */
+    color: var(--text-color);
 }
 
 #article-list {
