@@ -314,9 +314,11 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 	font-weight: bold;
 	/* font-size: 110%; */
 	border: 1px solid var(--cursor-highlight-color);
-	border-radius: 9px;
+	border-color: #fafafa;
+	border-radius: 6px;
 	padding: 1px 6px;
 	background: var(--cursor-highlight-color);
+	background: #fafafa;
 	vertical-align: middle;
 }
 
