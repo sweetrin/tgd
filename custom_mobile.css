@@ -705,7 +705,7 @@ nav#nav {
 
 .article-list-row.notice .list-title,.article-list-row.notice .list-time{
 	/*border-bottom-color:hsl(273 100% 92% / 1) !important;*/
-	border-bottom:0;
+	border-bottom: 0 !important;
 }
 
 #viewers-area .fa.fa-user {
