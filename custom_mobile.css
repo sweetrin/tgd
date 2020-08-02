@@ -316,7 +316,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 	font-weight: bold;
 	/* font-size: 110%; */
 	/* vertical-align: middle; */
-	font-size: 17px;
+	/* font-size: 17px; */
+	margin-right: 1px;
 }
 
 /*
@@ -336,8 +337,8 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     background-size: contain;
     content: "";
     display: block;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
 }
 
 header {
@@ -722,7 +723,7 @@ nav#nav {
 
 #viewers-area .fa.fa-user {
     vertical-align: top;
-    padding-top: 2px;
+    /* padding-top: 1px; */
 }
 
 .pagination>li:last-child>a, .pagination>li:last-child>span {
@@ -1046,6 +1047,7 @@ nav#nav.hide>#nav-upper #userDropdown #notification-badge{
 
 #board-info #score-area {
     /* color: var(--text-color); */
+    margin-right: 1px;
 }
 
 #article-content-wrapper #article-content {
