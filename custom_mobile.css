@@ -154,22 +154,12 @@ body, html {
 	100%{color: #f17ad5;}
 }
 
-/*
 @keyframes HlBgColor{
-	0%{background-color: #fff3fb;}
-	20%{background-color: #f4edff;}
-	40%{background-color: #f2f9f2;}
-	60%{background-color: #edf0ff;}
-	100%{background-color: #fff3fb;}
-}
-*/
-
-@keyframes HlBgColor{
-	0%{background-color: #5a3f52;}
-	20%{background-color: #4e445d;}
-	40%{background-color: #404645;}
-	60%{background-color: #42455a;}
-	100%{background-color: #5a3f52;}
+	0%{background-color: #ffe8f7;}
+	20%{background-color: #efe3ff;}
+	40%{background-color: #e9f3e9;}
+	60%{background-color: #e7ebff;}
+	100%{background-color: #ffe8f7;}
 }
 
 @keyframes Trembling {
