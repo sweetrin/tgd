@@ -703,6 +703,10 @@ nav#nav {
     padding: 9px 0;
 }
 
+.article-list-row.notice .list-title,.article-list-row.notice .list-time{
+	border-bottom-color:hsl(273 100% 92% / 1) !important;
+}
+
 #viewers-area .fa.fa-user {
     vertical-align: top;
 }
@@ -1263,18 +1267,6 @@ div#best-comment-34957507 {
 
 #article-list #article-list-category>a:hover {
     background: rgba(255, 255, 255, 0.1);
-}
-
-#article-content {
-    
-}
-
-#article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
-    
-}
-
-.fr-toolbar.fr-top {
-	
 }
 
 @keyframes rfav{
