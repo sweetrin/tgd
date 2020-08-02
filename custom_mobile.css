@@ -216,11 +216,6 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     color: var(--text-color);
 }
 
-#article-list>.article-list-row>.item>.list-title>a {
-    color: var(--text-color) !important;
-    color: white;
-}
-
 #board-info {
     /* letter-spacing: -0.5px; */
     /* border-top: 4px solid #e886e1; */
