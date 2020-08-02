@@ -1275,8 +1275,9 @@ div#best-comment-34957507 {
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-    background: unset;
-    color: var(--main3);
+    /* background: unset; */
+    /* color: var(--main3); */
+    /* background: var(--cursor-highlight-color); */
 }
 
 #article-list #article-list-category>a:hover {
