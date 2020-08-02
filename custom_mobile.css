@@ -11,7 +11,7 @@
     --text-color:#525252;--text-color:hsl(0deg 0% 29%);
     --visited-color: #b7b7b7;
     --article-header-color: #faf5ff;
-    --separation-line-color: #eaeaea;
+    --separation-line-color: #eaeaea;--separation-line-color: hsl(0 0% 94% / 1);
 
     /*
     --category-2nd-color: #fb2b2b;
@@ -700,11 +700,12 @@ nav#nav {
 #article-list>.article-list-row.has-category.notice>.item>a.list-title {
     /* font-size: 14px; */
     color: var(--text-color) !important;
-    padding: 9px 0;
+    padding: 10px 0;
 }
 
 .article-list-row.notice .list-title,.article-list-row.notice .list-time{
-	border-bottom-color:hsl(273 100% 92% / 1) !important;
+	/*border-bottom-color:hsl(273 100% 92% / 1) !important;*/
+	border-bottom:0;
 }
 
 #viewers-area .fa.fa-user {
