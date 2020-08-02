@@ -632,16 +632,6 @@ nav#nav {
 
 #article-list>.article-list-row:hover {
     /*background-color: var(--main5);*/
-    background-color: var(--cursor-highlight-color);
-    background:#fff;
-}
-
-#article-list>.article-list-row.notice:hover{
-	background:hsl(273, 100%, 96%);
-}
-
-#article-list>.article-list-row:active,#article-list>.article-list-row.notice:active {
-    /*background-color: var(--main5);*/
     background: var(--cursor-highlight-color);
 }
 
@@ -1315,4 +1305,8 @@ div#best-comment-34957507 {
 
 .fa.fa-caret-down {
     /* color: var(--text-color); */
+}
+
+#article-list {
+    background: #fff;
 }
