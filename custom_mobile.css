@@ -24,13 +24,13 @@
     */
     --category-2nd-color: #fb2525;
     --category-2nd-color: #fb2828;
-    --category-3rd-color: #2d2d2d;--category-3rd-color: hsl(215 100% 58% / 1);
-    --category-4th-color: #00b150;
-    --category-5th-color: #884cfb;
-    --category-6th-color: #f547a5;
+    --category-3rd-color: #2d2d2d;--category-3rd-color: hsl(215deg 100% 57%);
+    --category-4th-color: #00bf57;
+    --category-5th-color: #8545ff;
+    --category-6th-color: #ff4cac;
     --category-7th-color: #00b3f5;
     --category-8th-color: #ffc411;
-    --category-9th-color: #ff5c5c;
+    --category-9th-color: #ff5b5b;
     --bg1:#f36dee; /*#f174ed*/
     --bg2:#b666ff; /*#c17dff*/
     --bg2:#b666ff;
