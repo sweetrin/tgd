@@ -8,7 +8,7 @@
     --cursor-highlight-color:#faf3ff;
     --rank-badge-color: #6782e4;
     --button-hover-color: #b441e8;
-    --text-color:#525252;--text-color:hsl(0 0% 29% / 1);
+    --text-color:#525252;--text-color:hsl(0deg 0% 29%);
     --visited-color: #b7b7b7;
     --article-header-color: #faf5ff;
     --separation-line-color: #eaeaea;
@@ -630,7 +630,7 @@ nav#nav {
 }
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
-	border-bottom: 1px solid var(--separation-line-color);
+	/* border-bottom: 1px solid var(--separation-line-color); */
 	/* border-bottom: 0; */
 }
 
