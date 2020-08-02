@@ -1303,3 +1303,7 @@ div#best-comment-34957507 {
 .board-right-menu>.fa.fa-star {
     animation:rfav 3s infinite linear;
 }
+
+#article-list>.article-list-row>.item>a.list-title {
+    color: var(--text-color) !important;
+}
