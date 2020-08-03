@@ -1317,7 +1317,7 @@ div#best-comment-34957507 {
 }
 
 .fr-sticky-on {
-    position: relative;
+    position: relative !important;
 }
 
 .fr-sticky-dummy{
