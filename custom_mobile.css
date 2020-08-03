@@ -713,7 +713,7 @@ nav#nav {
 #article-list>.article-list-row.has-category.notice>.item>a.list-title {
     /* font-size: 14px; */
     color: var(--text-color) !important;
-    padding: 11px 0;
+    /* padding: 11px 0; */
 }
 
 .article-list-row.notice .list-title,.article-list-row.notice .list-time{
