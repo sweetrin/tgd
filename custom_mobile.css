@@ -505,6 +505,7 @@ footer {
 #article-list #article-list-menu>.btn.write {
     border-radius: 100px;
     /* border-color: var(--main-color); */
+    padding: 7px 13px;
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -1327,4 +1328,9 @@ div#best-comment-34957507 {
 .fr-sticky-on{
 	/*position:relative !important;*/
 	/*top:0 !important;*/
+}
+
+
+.btn-sm {
+    padding: 6px 11px;
 }
