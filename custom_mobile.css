@@ -226,7 +226,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* overflow: inherit; */
     /* border-top-right-radius: 12px; */
     /* border-top-left-radius: 12px; */
-    border-top-color: var(--separation-line-color);
+    border-top-color: hsl(0 0% 96% / 1);
 }
 
 #board-info>a.board-right-menu {
@@ -1025,7 +1025,7 @@ header > #header-search-bar #header-search-btn {
 
 #article-reply-area>.header {
     padding-left: 1.7em;
-    border-top: 10px solid var(--separation-line-color);
+    border-top: 10px solid hsl(0 0% 96% / 1);
 }
 
 #article-reply-area {
@@ -1085,7 +1085,7 @@ nav#nav.hide>#nav-upper #userDropdown #notification-badge{
 #article-neighbor-list {
     /* background-color: var(--dark2); */
     border-top: 0;
-    border-top: 10px solid var(--separation-line-color);
+    border-top: 10px solid hsl(0 0% 96% / 1);
 }
 
 div#taboola-below-article-text-links {
