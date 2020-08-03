@@ -497,15 +497,17 @@ footer {
 
 .btn-primary {
     background: linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
-    border: 1px solid !important;
-    border-image: linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
-    border-image-slice: 1 !important;
+    /* border: 1px solid !important; */
+    /* border-image: linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3)); */
+    /* border-image-slice: 1 !important; */
+    border: 0 !important;
+    padding: 7px 12px;
 }
 
 #article-list #article-list-menu>.btn.write {
     border-radius: 100px;
     /* border-color: var(--main-color); */
-    padding: 7px 13px;
+    /* padding: 7px 13px; */
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -1313,18 +1315,6 @@ div#best-comment-34957507 {
     background: #fff;
 }
 
-#article-list #article-list-category>a:active {box-shadow: inset 0 3px 5px rgba(0,0,0,.125);}
-
-.fr-sticky-dummy{
-    /*height:0 !important;*/
-}
-
-.fr-sticky-on{
-	/*position:relative !important;*/
-	/*top:0 !important;*/
-}
-
-
-.btn-sm {
-    padding: 6px 11px;
+#article-list #article-list-category>a:active {
+	box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
 }
