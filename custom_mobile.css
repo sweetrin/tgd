@@ -216,7 +216,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* letter-spacing: -0.5px; */
     /* border-top: 4px solid #e886e1; */
     /* border-bottom: 1px solid #303030; */
-    /* border-top: 0; */
+    border-top: 7px solid;
     border-bottom: 0;
     /* background-color: #ffeffe; */
     /* background-color: #fff4fe; */
