@@ -1315,12 +1315,10 @@ div#best-comment-34957507 {
 }
 
 .fr-sticky-dummy{
-    height:150px !important;
+    height:0 !important;
 }
 
 .fr-sticky-on{
-	/*
 	position:relative !important;
 	top:0 !important;
-	*/
 }
