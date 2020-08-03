@@ -654,7 +654,8 @@ nav#nav {
 }
 
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
-    background-color: var(--main4);
+    /* background-color: var(--main4); */
+    background: hsl(281 100% 81% / 1);
     /* animation: Popping 0.5s; */
     animation: Trembling 0.6s;
     /* border-radius: 20px; */
@@ -713,7 +714,7 @@ nav#nav {
 #article-list>.article-list-row.has-category.notice>.item>a.list-title {
     /* font-size: 14px; */
     color: var(--text-color) !important;
-    /* padding: 11px 0; */
+    padding: 11px 0;
 }
 
 .article-list-row.notice .list-title,.article-list-row.notice .list-time{
