@@ -1314,15 +1314,13 @@ div#best-comment-34957507 {
     /*overflow-y: scroll;*/
 }
 
-.fr-popup.fr-mobile.fr-ltr.emoticons>div {
-    text-align:left !important;
-}
-
 .fr-sticky-dummy{
-    display:none !important;
+    height:150px !important;
 }
 
 .fr-sticky-on{
+	/*
 	position:relative !important;
 	top:0 !important;
+	*/
 }
