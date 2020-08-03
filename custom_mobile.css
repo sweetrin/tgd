@@ -550,10 +550,10 @@ footer {
 }
 
 .fr-toolbar {
-    /* border-top: 5px solid var(--main-color); */
     /*border-radius:7px 7px 0 0!important;*/
-    border-image: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
-    border-image-slice: 1;
+    /* border-image: linear-gradient(to right, #f174ed, #c17dff,#68a3fb); */
+    /* border-image-slice: 1; */
+    border-top-color: var(--main-color);
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area
@@ -1161,12 +1161,6 @@ a.custom-badge-link {
 
 #article-list>.article-list-row.notice>.item>.list-title>.list-writer.logged {
     display:none;
-}
-
-.fr-toolbar {
-    /*background-color: var(--dark2);*/
-    /*border-top-color: var(--dark4);*/
-    /* border-top-color: var(--main-color); */
 }
 
 .fr-element.fr-view {
