@@ -867,14 +867,20 @@ button.btn.square.btn-default.dropdown-toggle {
 }
 
 .input-group .input-group-btn:nth-child(4) .btn.square.btn-default,.input-group .input-group-btn:nth-child(5) .btn.square.btn-default {
-    border-radius: 0px 100px 100px 0px;
-    z-index: 3;
+    /*border-radius: 0px 100px 100px 0px;*/
+    /*z-index: 3;*/
     /* background-color: #e5e5e5; */
     /* border-color: #f174ed; */
     /* color: #fff; */
     /* margin-left: 0px; */
     /* border-left-color: var(--dark1); */
 }
+
+.input-group .input-group-btn:last-child .btn.square.btn-default{
+	border-radius: 0px 100px 100px 0px;
+    z-index: 3;
+}
+
 
 #boardSearchForm .form-control {
     border-color: #e5e5e5;
