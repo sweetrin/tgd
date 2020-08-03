@@ -866,7 +866,7 @@ button.btn.square.btn-default.dropdown-toggle {
     /* border-right-color: var(--dark1); */
 }
 
-.input-group .input-group-btn:nth-child(4) .btn.square.btn-default {
+.input-group .input-group-btn:nth-child(4) .btn.square.btn-default,.input-group .input-group-btn:nth-child(5) .btn.square.btn-default {
     border-radius: 0px 100px 100px 0px;
     z-index: 3;
     /* background-color: #e5e5e5; */
