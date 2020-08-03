@@ -1308,8 +1308,8 @@ div#best-comment-34957507 {
 #article-list #article-list-category>a:active {box-shadow: inset 0 3px 5px rgba(0,0,0,.125);}
 
 .fr-popup.fr-mobile.fr-ltr.emoticons {
-    /*width: 94% !important;*/
-    padding-right:45px;
+    width: 90% !important;
+    /*padding-right:45px;*/
     background:linear-gradient(to right,#fff 85%,var(--cursor-highlight-color) 85% 100%);
 }
 
@@ -1318,7 +1318,7 @@ div#best-comment-34957507 {
 }
 
 .fr-sticky-on.fr-sticky-ios {
-    position:unset !important;
+    position:relative !important;
 }
 
 .fr-sticky-dummy{
