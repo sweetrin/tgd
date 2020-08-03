@@ -1308,10 +1308,10 @@ div#best-comment-34957507 {
 #article-list #article-list-category>a:active {box-shadow: inset 0 3px 5px rgba(0,0,0,.125);}
 
 .fr-sticky-dummy{
-    height:0 !important;
+    /*height:0 !important;*/
 }
 
 .fr-sticky-on{
-	position:relative !important;
-	top:0 !important;
+	/*position:relative !important;*/
+	/*top:0 !important;*/
 }
