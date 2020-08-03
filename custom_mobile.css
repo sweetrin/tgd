@@ -1315,3 +1315,11 @@ div#best-comment-34957507 {
 .fr-popup.fr-desktop.fr-ltr.emoticons>div {
     text-align:left !important;
 }
+
+.fr-sticky-on {
+    position: relative;
+}
+
+.fr-sticky-dummy{
+    display:none !important;
+}
