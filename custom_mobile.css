@@ -216,7 +216,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* letter-spacing: -0.5px; */
     /* border-top: 4px solid #e886e1; */
     /* border-bottom: 1px solid #303030; */
-    border-top: 8px solid;
+    border-top: 10px solid;
     border-bottom: 0;
     /* background-color: #ffeffe; */
     /* background-color: #fff4fe; */
@@ -1025,7 +1025,7 @@ header > #header-search-bar #header-search-btn {
 
 #article-reply-area>.header {
     padding-left: 1.7em;
-    border-top: 8px solid var(--separation-line-color);
+    border-top: 10px solid var(--separation-line-color);
 }
 
 #article-reply-area {
@@ -1085,7 +1085,7 @@ nav#nav.hide>#nav-upper #userDropdown #notification-badge{
 #article-neighbor-list {
     /* background-color: var(--dark2); */
     border-top: 0;
-    border-top: 8px solid var(--separation-line-color);
+    border-top: 10px solid var(--separation-line-color);
 }
 
 div#taboola-below-article-text-links {
