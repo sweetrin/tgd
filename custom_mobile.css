@@ -496,13 +496,15 @@ footer {
 }
 
 .btn-primary {
-    background-color: var(--main-color);
-    border-color: var(--main-color);
+    background: linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
+    border: 1px solid !important;
+    border-image: linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
+    border-image-slice: 1 !important;
 }
 
 #article-list #article-list-menu>.btn.write {
     border-radius: 100px;
-    border-color: var(--main-color);
+    /* border-color: var(--main-color); */
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -512,9 +514,9 @@ footer {
 }
 
 .btn-primary:hover {
-    background-color: var(--main5);
-    border-color: var(
-    --main5) !important;
+    /* background-color: var(--main5); */
+    /* border-color: var(
+    --main5) !important; */
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -523,8 +525,9 @@ footer {
 }
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
-    background-color: var(--main5) !important;
+    /* background-color: var(--main5) !important; */
     /* border-color: var(--main4) !important; */
+    background: linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
 }
 
 .btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
@@ -548,9 +551,8 @@ footer {
 .fr-toolbar {
     /* border-top: 5px solid var(--main-color); */
     /*border-radius:7px 7px 0 0!important;*/
-    /*border-image: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);*/
-    /*border-image-slice: 1;*/
-    
+    border-image: linear-gradient(to right, #f174ed, #c17dff,#68a3fb);
+    border-image-slice: 1;
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area
@@ -586,6 +588,8 @@ footer {
     border-top: 2px solid #f174ed;
     border-top: 2px solid var(--main-color);
     border-bottom: 0;
+    border-image: linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
+    border-image-slice: 1;
 }
 
 #header-top-notice a {
@@ -1159,7 +1163,7 @@ a.custom-badge-link {
 .fr-toolbar {
     /*background-color: var(--dark2);*/
     /*border-top-color: var(--dark4);*/
-    border-top-color: var(--main-color);
+    /* border-top-color: var(--main-color); */
 }
 
 .fr-element.fr-view {
