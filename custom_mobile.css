@@ -1311,6 +1311,7 @@ div#best-comment-34957507 {
     width: 90% !important;
     /*padding-right:45px;*/
     background:linear-gradient(to right,#fff 85%,var(--cursor-highlight-color) 85% 100%);
+    overflow-y: scroll;
 }
 
 .fr-popup.fr-mobile.fr-ltr.emoticons>div {
