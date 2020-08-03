@@ -858,7 +858,7 @@ nav#nav.hide {
 
 button.btn.square.btn-default.dropdown-toggle {
     border-radius: 100px 0px 0px 100px;
-    margin-right: -1px;
+    margin-right: -2px;
     /* background-color: #e5e5e5; */
     z-index: 3;
     /* border-color: #e5e5e5; */
