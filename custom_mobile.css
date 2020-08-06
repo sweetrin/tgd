@@ -341,7 +341,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 header {
-    border-bottom: 2px solid var(--main2);
+    border-bottom: 3px solid var(--main2);
     /* background: linear-gradient(to right, var(--bg1), var(--bg2),var(--bg3)); */
     -webkit-backdrop-filter: saturate(180%) blur(5px);
     background-size: 130%;
@@ -724,6 +724,7 @@ nav#nav {
     border-top: 2px solid var(--main-color);
     background: var(--main-color);
     border-top-color: var(--main2);
+    /* border-top: 0; */
 }
 
 #article-list #article-list-category::-webkit-scrollbar {
