@@ -519,7 +519,7 @@ footer {
 }
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
     /* border-color: var(--main-color); */
 }
 
