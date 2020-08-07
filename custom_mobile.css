@@ -935,7 +935,7 @@ header > #header-search-bar #header-search-btn {
 }
 
 .btn-outline-success:hover .fa.fa-thumbs-up {
-	animation: Wriggle 0.9s;
+	animation: Wriggle 0.8s;
 }
 
 #board-info>h1>#board-info-profile-img:hover {
