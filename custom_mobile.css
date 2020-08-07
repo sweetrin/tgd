@@ -625,7 +625,7 @@ nav#nav {
 #article-list>.article-list-row:hover {
     /*background-color: var(--main5);*/
     background-color: var(--cursor-highlight-color);
-    background: var(--dark2);
+    background: var(--main6);
 }
 
 .btn {
