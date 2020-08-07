@@ -1177,7 +1177,7 @@ span.a-badge i.fa.fa-info-circle {
 
 .alertify .alert>*, .alertify .dialog>* {
     background-color: var(--dark2);
-    border-radius: 9px;
+    border-radius: 8px;
 }
 
 .alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button), .alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
