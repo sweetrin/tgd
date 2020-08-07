@@ -562,8 +562,8 @@ footer {
     color: #fff;
     background-color: var(--main-color);
     border-color: var(--main-color);
-    background-color: var(--line-color);
-    border-color: var(--line-color);
+    /* background-color: var(--line-color); */
+    /* border-color: var(--line-color); */
 }
 
 #article-info {
