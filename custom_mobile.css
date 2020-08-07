@@ -292,24 +292,24 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>h1>#board-info-profile-img {
-    width: 50px;
-    height: 50px;
-    border: 3px solid hsl(302, 45%, 49%);
-    border-radius: 100px;
-    margin-top: -23px;
-    transition: 0.1s;
-    display: inline-block;
+    /* width: 50px; */
+    /* height: 50px; */
+    /* border: 3px solid hsl(302, 45%, 49%); */
+    /* border-radius: 100px; */
+    /* margin-top: -23px; */
+    /* transition: 0.1s; */
+    /* display: inline-block; */
     /* transform-origin: left bottom; */
     /* background-image:url("https://sweetrin.github.io/tgd/shyrin.png"); */
     /* padding-left: 44px; */
-    background-size:100%;
+    /* background-size:100%; */
     /* animation: spinning 8s infinite; */
     /* position:absolute; */
     /* animation-name: bounce, spin; */
-    animation-iteration-count: infinite;
-    animation-duration: 4.7s;
-    z-index:999;
-    visibility: visible;
+    /* animation-iteration-count: infinite; */
+    /* animation-duration: 4.7s; */
+    /* z-index:999; */
+    /* visibility: visible; */
 }
 
 #board-info>h1>a:nth-child(2) {
@@ -490,7 +490,7 @@ footer {
     width: 3.5em;
     text-align: center;
     background: var(--main2);
-    /* background: hsl(282deg 84% 35%); */
+    background: hsl(282deg 84% 35%);
 }
 
 .btn-primary {
