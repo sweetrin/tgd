@@ -509,8 +509,8 @@ footer {
 }
 
 .btn-primary:hover {
-    background-color: var(--main5);
-    border-color: var(--main5) !important;
+    background-color: var(--main-color);
+    /* border-color: var(--main-color); */
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -519,8 +519,8 @@ footer {
 }
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
-    background-color: var(--main5) !important;
-    /* border-color: var(--main4) !important; */
+    background-color: var(--main-color);
+    /* border-color: var(--main-color); */
 }
 
 .btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
