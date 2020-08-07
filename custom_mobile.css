@@ -510,7 +510,7 @@ footer {
 
 .btn-primary:hover {
     background-color: var(--main-color);
-    /* border-color: var(--main-color); */
+    border-color: var(--main-color);
 }
 
 .btn-primary.focus, .btn-primary:focus {
