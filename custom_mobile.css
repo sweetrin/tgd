@@ -573,7 +573,7 @@ footer {
     padding: 0.5em 0.5em 0.5em;
     border-top: 2px solid #f174ed;
     border-top: 2px solid var(--main-color);
-    border-top-color: var(--line-color);
+    /* border-top-color: var(--line-color); */
     border-bottom: 0;
 }
 
