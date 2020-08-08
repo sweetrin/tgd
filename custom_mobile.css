@@ -58,7 +58,7 @@
     --text2:#a7a7a7;
     --recommend-count-color: hsla(327, 68%, 47%, 1);
     --main6:hsl(282 17% 23% / 1);
-    --main6: hsl(282deg 24% 23%);
+    --main6: hsl(282 24% 21% / 1);
     --cursor-highlight-color:hsla(282, 17%, 23%, 0.7);
     --line-color: hsl(282 56% 38% / 1);
 }
