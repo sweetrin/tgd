@@ -39,9 +39,7 @@
     --bg3:#297fff;
     --main5:hsla(282, 29%, 27%, 1);
     --main4:hsla(282, 29%, 31%, 1);
-    --main-color: hsla(282, 37%, 34%, 1);
-    --main-color:hsl(282, 44%, 45%);
-    --main-color: hsl(282 56% 45% / 1);
+    --main-color: hsl(282 56% 44% / 1);
     --main2:hsl(282, 44%, 45%);
     --main2:hsla(282, 37%, 34%, 1);
     --main2:rgb(123 20 167);
