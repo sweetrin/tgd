@@ -560,6 +560,7 @@ footer {
     border-top: 2px solid var(--main-color);
     /* border-top-color: var(--line-color); */
     border-bottom: 0;
+    background: var(--main6);
 }
 
 #header-top-notice a {
@@ -595,8 +596,6 @@ span.a-badge i.fa.fa-star {
 }
 
 #article-list>.article-list-row.notice {
-    background-color: #fafafa;
-    background-color: var(--dark2);
     background-color: var(--main6);
 }
 
