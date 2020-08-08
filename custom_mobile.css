@@ -560,7 +560,7 @@ footer {
     border-top: 2px solid var(--main-color);
     /* border-top-color: var(--line-color); */
     border-bottom: 0;
-    background: var(--main6);
+    /* background: var(--main6); */
 }
 
 #header-top-notice a {
@@ -679,7 +679,7 @@ nav#nav {
     /* border-top: 1px solid #f1f1f1; */
     /* border-top: 1px solid var(--light-color); */
     padding: 0.5em 1.1em;
-    background: transparent;
+    /* background: transparent; */
 }
 
 #article-list>.article-list-row>.item>a.list-title {
