@@ -400,6 +400,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
     padding: 0.4em 0.5em;
     /* border: 2px solid var(--light-color); */
     /* border-radius: 20px 20px 0 0; */
+    background: var(--main6);
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
@@ -679,6 +680,7 @@ nav#nav {
     /* border-top: 1px solid #f1f1f1; */
     /* border-top: 1px solid var(--light-color); */
     padding: 0.5em 1.1em;
+    background: transparent;
 }
 
 #article-list>.article-list-row>.item>a.list-title {
