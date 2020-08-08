@@ -1243,7 +1243,3 @@ div#best-comment-34957507 {
 .alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):focus, .alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):focus {
     border-color: transparent;
 }
-
-.emoticons>div {
-    margin-right: 3em;
-}
