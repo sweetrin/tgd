@@ -1252,18 +1252,6 @@ div#best-comment-34957507 {
     color: var(--main3);
 }
 
-#article-list #article-list-category>a:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-#article-content {
-    
-}
-
-#article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
-    
-}
-
 #article-list #article-list-category>a:active {
     box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
 }
