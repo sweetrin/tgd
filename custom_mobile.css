@@ -59,6 +59,9 @@
     --main6: hsl(282 23% 24% / 1);
     --cursor-highlight-color:hsla(282, 17%, 23%, 0.7);
     --line-color: hsl(282 56% 38% / 1);
+    --new-dark-color:#051433;
+    /* --dark1: hsl(280 6% 21% / 1); */
+    --dark1: hsl(282 6% 21% / 1);
 }
 
 /*
