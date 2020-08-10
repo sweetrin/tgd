@@ -59,9 +59,9 @@
     --main6:hsl(282 23% 24% / 1);
     --cursor-highlight-color:hsla(282, 17%, 23%, 0.7);
     --line-color: hsl(282 56% 38% / 1);
-    --dark1: hsl(282 6% 21% / 1);
+    --dark1: hsl(282 7% 21% / 1);
     --dark2:hsl(282 23% 24% / 1);
-    --dark3:hsl(282 31% 27% / 1);
+    --dark3:hsl(282 32% 28% / 1);
 }
 
 /*
@@ -1098,6 +1098,7 @@ a.custom-badge-link {
 
 #article-list>.article-list-row.active {
     background-color: var(--dark4);
+    background: var(--dark3);
 }
 
 #article-list>.article-list-row.notice>.item>.list-header {
