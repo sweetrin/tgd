@@ -61,6 +61,7 @@
     --line-color: hsl(282 56% 38% / 1);
     --dark1: hsl(282 6% 21% / 1);
     --dark2:hsl(282 23% 24% / 1);
+    --dark3:hsl(282 29% 27% / 1);
 }
 
 /*
@@ -512,6 +513,7 @@ footer {
     background-color: var(--dark4);
     /* background-color: #f6ebff; */
     color: var(--main3);
+    background: (--dark1);
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
