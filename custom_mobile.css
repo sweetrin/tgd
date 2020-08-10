@@ -60,7 +60,6 @@
     --cursor-highlight-color:hsla(282, 17%, 23%, 0.7);
     --line-color: hsl(282 56% 38% / 1);
     --dark1: hsl(282 6% 21% / 1);
-    --dark2:hsl(282 23% 24% / 1);
 }
 
 /*
@@ -562,7 +561,7 @@ footer {
     border-top: 2px solid var(--main-color);
     /* border-top-color: var(--line-color); */
     border-bottom: 0;
-    /* background: var(--main6); */
+    background: var(--main6);
 }
 
 #header-top-notice a {
