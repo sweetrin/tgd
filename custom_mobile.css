@@ -60,6 +60,7 @@
     --cursor-highlight-color:hsla(282, 17%, 23%, 0.7);
     --line-color: hsl(282 56% 38% / 1);
     --dark1: hsl(282 9% 18% / 1);
+    --dark1:#2f2931;
     --dark2:hsl(282 23% 24% / 1);
     --dark3:hsl(282 32% 28% / 1);
 }
@@ -666,6 +667,7 @@ nav#nav {
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
     color: var(--button-hover-color);
+    /* color: var(--text-color); */
 }
 
 #article-list>.article-list-row {
