@@ -1199,6 +1199,7 @@ span.a-badge i.fa.fa-info-circle {
 .dropdown-menu {
     background-color: var(--dark2);
     color: var(--text-color);
+    border-color: var(--dark2);
 }
 
 .dropdown-menu>li>a {
