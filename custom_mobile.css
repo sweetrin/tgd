@@ -666,7 +666,7 @@ nav#nav {
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
     color: var(--button-hover-color);
-    /* color: var(--text-color); */
+    color: var(--text-color);
 }
 
 #article-list>.article-list-row {
