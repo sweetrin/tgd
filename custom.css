@@ -1207,19 +1207,6 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     margin-top: 0.3em;
 }
 
-footer::after {
-    content: "";
-    background-image: url("https://sweetrin.github.io/tgd/kom_n_com.png");
-    background-repeat:no-repeat;
-    width:600px;
-    height:385px;
-    background-size:contain;
-    position: fixed;
-    bottom:0px;
-    left:0px;
-    z-index:-1;
-}
-
 a.btn.square.btn-default.best:not(.enable):hover {
     animation: BoxLight 0.7s;
 }
