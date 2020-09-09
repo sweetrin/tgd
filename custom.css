@@ -1283,7 +1283,3 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-basic.fr-element,input[type='text'],p{
     cursor: url('https://sweetrin.github.io/tgd/cur_text.png') 0 0, auto !important;
 }
-
-#article-content p {
-    border-bottom: 1px solid #f1f1f1;
-}
