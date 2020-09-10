@@ -1287,7 +1287,6 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
 .fr-box.fr-basic.fr-top .fr-wrapper {
     box-shadow: none;
     border: 1px solid #e0e0e0;
-    height: 363px !important;
 }
 
 .fr-toolbar.fr-top {
@@ -1301,4 +1300,8 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
     box-shadow: none;
     border-radius: 0;
     border-color: #e0e0e0;
+}
+
+.fr-box.fr-basic .fr-element{
+	margin-top:-2px;
 }
