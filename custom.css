@@ -1305,8 +1305,3 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
 .fr-box.fr-basic .fr-element{
 	margin-top:-2px;
 }
-
-#article-list>.article-list-row:active{
-	transform: translate(2px,2px);
-	transition:0.01s linear;
-}
