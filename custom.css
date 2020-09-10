@@ -1308,5 +1308,5 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
 
 #article-list>.article-list-row:active{
 	transform: translate(2px,2px);
-	transition:0.05s linear;
+	transition:0.01s linear;
 }
