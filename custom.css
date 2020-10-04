@@ -744,14 +744,14 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
-	border-radius: 20px;
+	border-radius: 11px;
 	margin-bottom: 0.8em;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     border-bottom: 0;
     background: #f8f0ff;
-    border-radius: 18px;
+    border-radius: 10px 10px 0 0;
 }
 
 .btn-primary:hover,.btn.square.btn-primary:hover {
