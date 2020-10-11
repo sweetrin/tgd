@@ -1262,5 +1262,5 @@ div.reply:nth-child(odd) img[alt='sweetr9Poo'],div.reply:nth-child(odd) img[alt=
 	animation:zz 2s infinite;
 }
 div.reply:nth-child(even) img[alt='sweetr9Poo'],div.reply:nth-child(even) img[alt='sweetr9Hair'],div.reply:nth-child(even) img[alt='sweetr9Crying'] {
-	animation:zz 2s 2s infinite;
+	animation:zz 2s 1s infinite;
 }
