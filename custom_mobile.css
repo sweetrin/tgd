@@ -1251,3 +1251,16 @@ div#best-comment-34957507 {
 .alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):focus, .alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):focus {
     border-color: transparent;
 }
+
+@keyframes zz{
+	0%{transform:scale(1);}
+	50%{transform:scale(1.2);}
+	100%{transform:scale(1);}
+}
+
+div.reply:nth-child(odd) img[alt='sweetr9Poo'],div.reply:nth-child(odd) img[alt='sweetr9Hair'],div.reply:nth-child(odd) img[alt='sweetr9Crying'] {
+	animation:zz 2s infinite;
+}
+div.reply:nth-child(even) img[alt='sweetr9Poo'],div.reply:nth-child(even) img[alt='sweetr9Hair'],div.reply:nth-child(even) img[alt='sweetr9Crying'] {
+	animation:zz 2s infinite;
+}
