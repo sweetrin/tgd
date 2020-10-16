@@ -1305,13 +1305,3 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
 .fr-box.fr-basic .fr-element{
 	margin-top:-2px;
 }
-
-@keyframes zz{
-	0%{transform:scale(0.9);}
-	50%{transform:scale(1.2);}
-	100%{transform:scale(0.9);}
-}
-
-.reply-content>p>video {
-	animation:zz 1.6s infinite;
-}
