@@ -330,7 +330,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background-position-x: 48px;
 	background-position-y: -87px;
 	/*animation:scr 2s;*/
-	background-image: url('https://upload.tgd.kr/20200501/d646b684f9e38fc845a40aa260378616.jpg');
+	background-image: url('https://sweetrin.github.io/tgd/komhalla.jpg');
 	/* background-size: 70%; */
 	animation:bup 10s infinite;
 }
