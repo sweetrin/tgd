@@ -308,15 +308,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 	100%{background-position-y: -87px;}
 }
 
-@keyframes bup{
-	0%{background-position-y:-100px;}
-	80%{background-position-y:-7px;}
-	80.01%{background-position-y:-7px;opacity:1;}
-	83%{background-position-y:-7px;opacity:0;}
-	87%{background-position-y:-7px;opacity:1;}
-	100%{background-position-y:-7px;opacity:1;}
-}
-
 #board-info::after{
 	content:"";
 	position:absolute;
@@ -330,9 +321,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background-position-x: 48px;
 	background-position-y: -87px;
 	/*animation:scr 2s;*/
-	background-image: url('https://sweetrin.github.io/tgd/komhalla.jpg');
-	/* background-size: 70%; */
-	animation:bup 10s infinite;
 }
 
 #article-info{
