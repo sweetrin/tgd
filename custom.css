@@ -216,6 +216,17 @@ header .row > div:nth-child(1) > a {
     background: url('https://sweetrin.github.io/tgd/kgd_logo5.png') no-repeat;
 }
 
+header .row > div:nth-child(1) > a::after{
+	content:'';
+	background:url('https://sweetrin.github.io/tgd/xmas_tree.png') no-repeat;
+	width:100px;
+	height: 53px;
+	background-size:contain;
+	display:block;
+	margin-top: -49px;
+	margin-left: 146px;
+}
+
 header .row > div:nth-child(1) > a img{
     opacity: 0;
 }
