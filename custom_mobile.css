@@ -358,6 +358,17 @@ header>#header-area>a>h1 {
     background-size: contain;
 }
 
+header>#header-area>a>h1::after{
+	content:'';
+	background:url('https://sweetrin.github.io/tgd/xmas_tree.png') no-repeat;
+	background-size:contain;
+	display:block;
+	margin-top: -41px;
+	margin-left:92px;
+	height: 39px;
+	width:40px;
+}
+
 #header-top-notice strong.notice-badge {
     background:var(--main-color);
     border:1px solid var(--main-color);
