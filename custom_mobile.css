@@ -568,11 +568,12 @@ footer {
 }
 
 .btn-outline-success, .btn-outline-success:focus {
-    color: var(--main-color);
-    border-color: var(--main-color);
+    color: hsl(282deg 55% 47%);
+    border-color: hsl(282deg 55% 47%);
     /* background-color: var(--main-color); */
     /* color: var(--text-color); */
     /* border-color: var(--main-color); */
+    /* color: var(--main-color); */
 }
 
 .btn-outline-success:hover {
