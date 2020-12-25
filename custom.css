@@ -378,7 +378,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* z-index: 999; */
     margin-top: -6px;
     position: absolute;
-    background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
+    /* background-image:url("https://sweetrin.github.io/tgd/shyrin.png"); */
+    background-image: url('https://sweetrin.github.io/tgd/xmas-rin.png');
     padding-left: 57px;
     background-size:100%;
     box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.3);
