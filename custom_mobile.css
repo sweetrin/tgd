@@ -1287,8 +1287,8 @@ div#best-comment-34957507 {
 }
 
 div.reply:nth-child(odd) img[alt='sweetr9Poo'],div.reply:nth-child(odd) img[alt='sweetr9Hair'],div.reply:nth-child(odd) img[alt='sweetr9Crying'] {
-	animation:zz 2s infinite;
+	/* animation:zz 2s infinite; */
 }
 div.reply:nth-child(even) img[alt='sweetr9Poo'],div.reply:nth-child(even) img[alt='sweetr9Hair'],div.reply:nth-child(even) img[alt='sweetr9Crying'] {
-	animation:zz 2s 1s infinite;
+	/*animation:zz 2s 1s infinite;*/
 }
