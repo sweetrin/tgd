@@ -271,7 +271,7 @@ footer::after{
     height:150px;
     display:block;
     position:fixed;
-    bottom:0px;
+    bottom: 30px;
     left: 170px;
     background-position:center;
 }
