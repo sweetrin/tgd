@@ -225,24 +225,15 @@ header .row > div:nth-child(1) > a {
     background: url('https://sweetrin.github.io/tgd/kgd_logo5.png') no-repeat;
 }
 
-@keyframes blnk{
-    0%{filter:brightness(1.0);}
-    49.99%{filter:brightness(1.0);}
-    50%{filter:brightness(1.3);}
-    99.99%{filter:brightness(1.3);}
-    100%{filter:brightness(1.0);}
-}
-
 header .row > div:nth-child(1) > a::after{
     content:'';
-    background:url('https://sweetrin.github.io/tgd/xmas_tree.png') no-repeat;
+    background: url('https://cdn.pixabay.com/photo/2014/04/03/00/42/party-309155__480.png') no-repeat;
     width:100px;
     height: 53px;
     background-size:contain;
     display:block;
     margin-top: -49px;
     margin-left: 146px;
-    animation:blnk 2s infinite;
 }
 
 header .row > div:nth-child(1) > a img{
@@ -330,22 +321,27 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* animation: Popping 0.4s; */
     /* animation:bi 2s; */
     overflow: visible;
+    background: url('https://cdn.pixabay.com/photo/2016/12/12/21/48/streamers-1902771__480.png') no-repeat;
+    background-size: 15%;
+    background-position-x: 541px;
+    background-position-y: -62px;
 }
 
 .frame::after{
     content:'';
-    background:url('https://sweetrin.github.io/tgd/holly.png');
-    background-size:contain;
-    width: 601px;
-    height: 37px;
+    /* background: url('https://cdn.pixabay.com/photo/2017/01/09/16/05/flag-1966900__480.png') no-repeat; */
+    background-size: 100%;
+    width: 648px;
+    height: 10px;
     display:block;
-    top: -13px;
-    left: 11px;
+    top: -1px;
+    left: 14px;
     position:absolute;
     /* opacity: 0.9; */
-    filter: brightness(1.5);
     /* animation: blnk 2s infinite; */
-    background-position-x: -32px;
+    /* background-position-x: 17px; */
+    background-position-y: -204px;
+    /* background-color: black; */
 }
 
 @keyframes scr{
@@ -366,12 +362,13 @@ header #header-bar #header-top-notice strong.notice-badge {
     background-position-x: 48px;
     background-position-y: -87px;
     /*animation:scr 2s;*/
-    background:url('https://sweetrin.github.io/tgd/winter.png') no-repeat;
-    background-size: 100%;
+    background: url('https://cdn.pixabay.com/photo/2017/07/12/08/47/birthday-2496221__480.png') no-repeat;
+    background-size: 80%;
     height: 78px;
     width: 285px;
     /* background-color:black; */
-    background-position-y: -158px;
+    background-position-y: -14px;
+    background-position-x: 60px;
     border-top-right-radius: 7px;
 }
 
@@ -385,12 +382,11 @@ header #header-bar #header-top-notice strong.notice-badge {
     width: 4.5em;
     height: 4.5em;
     transition: 0.1s;
-    /* z-index: 999; */
+    z-index: 999;
     margin-top: -6px;
     position: absolute;
     /* background-image:url("https://sweetrin.github.io/tgd/shyrin.png"); */
-    background-image: url('https://sweetrin.github.io/tgd/xmas-rin.png');
-    padding-left: 57px;
+    /* padding-left: 57px; */
     background-size:100%;
     box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.3);
 }
@@ -564,7 +560,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     flex: auto;
     text-align: left;
     margin-left: 5.1em;
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 #article-list {
