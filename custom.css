@@ -272,6 +272,7 @@ footer::after{
     display:block;
     position:fixed;
     bottom:0px;
+    left: 170px;
     background-position:center;
 }
 
