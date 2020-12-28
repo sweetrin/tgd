@@ -263,6 +263,18 @@ footer {
     font-size: 13px;
 }
 
+footer::after{
+    content:'';
+    background:url('https://cdn.pixabay.com/photo/2015/10/27/06/59/birthday-1008396__480.png') no-repeat;
+    background-size:contain;
+    width:200px;
+    height:150px;
+    display:block;
+    position:fixed;
+    bottom:0px;
+    background-position:center;
+}
+
 footer a {
     color: #932fc3;
 }
