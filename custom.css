@@ -1092,6 +1092,7 @@ header #header-bar #header-top-notice {
 
 .input-group-btn:nth-child(2)>.btn {
     border-radius: 7px 0 0 7px !important;
+    margin-right: -1px;
 }
 
 .input-group-btn:last-child>.btn {
@@ -1331,4 +1332,8 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
 }
 img[alt='sweetr9Poo'] {
     /* animation:poo 1.2s infinite; */
+}
+
+.input-group-btn:nth-child(2)>.btn:focus {
+    z-index: 99;
 }
