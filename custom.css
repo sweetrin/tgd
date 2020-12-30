@@ -1191,7 +1191,7 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 }
 
 .btn-outline-success, .btn-outline-success:focus{
-    border-radius:7px !important;
+    border-radius: 8px !important;
     transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
     outline: none !important;
 }
