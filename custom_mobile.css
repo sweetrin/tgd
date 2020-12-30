@@ -1292,3 +1292,16 @@ div.reply:nth-child(odd) img[alt='sweetr9Poo'],div.reply:nth-child(odd) img[alt=
 div.reply:nth-child(even) img[alt='sweetr9Poo'],div.reply:nth-child(even) img[alt='sweetr9Hair'],div.reply:nth-child(even) img[alt='sweetr9Crying'] {
 	/*animation:zz 2s 1s infinite;*/
 }
+
+@keyframes poo {
+    0%{transform-origin:bottom;transform:scale(1,1) translateY(0px);}
+    20%{transform-origin:bottom;transform:scale(1.3,0.7) translateY(0px);}
+    40%{transform-origin:center;transform:scale(0.8,1.2) translateY(-10px);}
+    53%{transform-origin:bottom;transform:scale(1,1) translateY(0px);}
+    65%{transform-origin:center;transform:scale(0.9,1.1) translateY(-3px);}
+    76%{transform-origin:bottom;transform:scale(1,1) translateY(0px);}
+    100%{transform-origin:bottom;transform:scale(1,1) translateY(0px);}
+}
+img[alt='sweetr9Poo'] {
+    animation:poo 1.2s infinite;
+}

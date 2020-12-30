@@ -1331,7 +1331,7 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
     100%{transform-origin:bottom;transform:scale(1,1) translateY(0px);}
 }
 img[alt='sweetr9Poo'] {
-    /* animation:poo 1.2s infinite; */
+    animation:poo 1.2s infinite;
 }
 
 .input-group-btn:nth-child(2)>.btn:focus {
