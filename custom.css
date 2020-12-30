@@ -1034,7 +1034,7 @@ header #header-bar>.row:after {
 }
 
 .btn {
-    border-radius: 8px !important;
+    border-radius: 7px !important;
 }
 
 .footer>a:nth-child(1){
@@ -1142,7 +1142,7 @@ header #header-bar #header-top-notice {
 }
 
 header #header-bar #header-menu-right #userDropdown img.profile-img {
-    border-radius: 6px;
+    border-radius: 7px;
 }
 
 .fa-thumbs-up:before {
