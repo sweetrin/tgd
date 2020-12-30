@@ -1142,7 +1142,7 @@ header #header-bar #header-top-notice {
 }
 
 header #header-bar #header-menu-right #userDropdown img.profile-img {
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .fa-thumbs-up:before {
