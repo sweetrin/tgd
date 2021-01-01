@@ -80,7 +80,9 @@
 }
 */
 
+/*
 @font-face { font-family: 'BinggraeMelona'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona.woff') format('woff'); font-weight: normal; font-style: normal; unicode-range: U+0-33DD, U+AC00-D7A3, U+FF01-FFE6;}
+*/
 
 /*
 @font-face { font-family: 'KOMACON'; src: url('//cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
@@ -425,8 +427,7 @@ nav#nav > #nav-upper #userDropdown #notification-badge {
 
 footer {
     background-color: var(--dark1);
-    background: transparent;
-    letter-spacing: -0.5px;
+    /* letter-spacing: -0.5px; */
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
