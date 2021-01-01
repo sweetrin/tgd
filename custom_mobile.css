@@ -1285,3 +1285,7 @@ img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_bad
 .fr-popup.fr-mobile.fr-ltr.emoticons.fr-active{
 	background:var(--dark4);
 }
+
+img#board-info-profile-img {
+    vertical-align: top;
+}
