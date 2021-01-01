@@ -99,10 +99,12 @@
 @font-face { font-family: 'Katuri'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff'); font-weight: normal; font-style: normal; }
 */
 
+/*
 body, html {
     height: auto !important;
     font-family: 'BinggraeMelona', "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
+*/
 
 @keyframes Wriggle {
 	0%{transform:scale(1,1);}
@@ -257,14 +259,14 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 
 #board-info>h1 {
     /* padding: 0.25em 0 0 0.3em; */
-    padding: 8px 0.5em 5px;
+    /* padding: 8px 0.5em 5px; */
     /* position:absolute; */
     /* animation-name: travel; */
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 1.7s;
-    min-width: 200px;
+    /* animation-timing-function: linear; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* animation-duration: 1.7s; */
+    /* min-width: 200px; */
     /* visibility: hidden; */
 }
 
@@ -290,17 +292,17 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 }
 
 #board-info>h1>#board-info-profile-img {
-    width: 27px;
-    height: 27px;
+    /* width: 27px; */
+    /* height: 27px; */
     /* border: 3px solid hsl(302, 45%, 49%); */
     /* border-radius: 100px; */
     /* margin-top: -23px; */
     /* transition: 0.1s; */
     /* display: inline-block; */
     /* transform-origin: left bottom; */
-    background-image: url('https://sweetrin.github.io/tgd/baby_rin.png');
-    padding-left: 27px;
-    background-size:100%;
+    /* background-image: url('https://sweetrin.github.io/tgd/baby_rin.png'); */
+    /* padding-left: 27px; */
+    /* background-size:100%; */
     /* animation: spinning 8s infinite; */
     /* position:absolute; */
     /* animation-name: bounce, spin; */
@@ -308,7 +310,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
     /* animation-duration: 4.7s; */
     /* z-index:999; */
     /* visibility: visible; */
-    vertical-align: bottom;
+    /* vertical-align: text-top; */
 }
 
 #board-info>h1>a:nth-child(2) {
@@ -1272,5 +1274,9 @@ img[alt='sweetr9Poo'] {
     animation:poo 1.2s infinite;
 }
 
-img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_badge-20x20.png') no-repeat;width: 40px;height: 18px;/* background-color: #fff; */background-size: 19px 19px;padding-left: 22px;margin-left: -22px;}
+/*
+img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_badge-20x20.png') no-repeat;width: 40px;height: 18px;background-size: 19px 19px;padding-left: 22px;margin-left: -22px;}
+*/
+/*
 .reply-header img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_badge-20x20.png') no-repeat;width: 40px;height: 18px;/* background-color: #fff; */background-size: 19px 19px;padding-left: 22px;margin-left: -21px;}
+*/
