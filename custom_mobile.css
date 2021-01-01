@@ -1080,11 +1080,11 @@ div#taboola-below-article-text-links {
 }
 
 .fr-wrapper.show-placeholder {
-    background-color: var(--dark1);
+    /* background-color: var(--dark1); */
 }
 
 .fr-box.fr-basic .fr-element {
-    background-color: var(--dark2);
+    /* background-color: var(--dark2); */
     color: var(--text-color);
     /*font-family: "Katuri";*/
 }
@@ -1128,12 +1128,11 @@ a.custom-badge-link {
 
 .fr-toolbar {
     background-color: var(--dark2);
-    border-top-color: var(--dark4);
     border-top-color: var(--main-color);
 }
 
 .fr-element.fr-view {
-    background-color: var(--dark2);
+    /* background-color: var(--dark2); */
 }
 
 .fr-separator {
@@ -1170,7 +1169,8 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 .fr-box.fr-basic .fr-wrapper {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background: var(--dark2);
 }
 
 .frame {
