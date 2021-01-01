@@ -612,6 +612,8 @@ span.a-badge i.fa.fa-star {
 
 #article-list>.article-list-row.notice {
     background-color: var(--main6);
+    height: 40px;
+    margin-bottom: 1px;
 }
 
 nav#nav {
@@ -1284,8 +1286,4 @@ img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_bad
 
 .fr-popup.fr-mobile.fr-ltr.emoticons.fr-active{
 	background:var(--dark4);
-}
-
-img#board-info-profile-img {
-    vertical-align: top;
 }
