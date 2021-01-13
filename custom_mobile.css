@@ -349,13 +349,13 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, #
 header {
     border-bottom: 3px solid var(--line-color);
     /* background: linear-gradient(to right, var(--bg1), var(--bg2),var(--bg3)); */
-    /*-webkit-backdrop-filter: saturate(180%) blur(5px);*/
     background-size: 130%;
     padding: 7px 0;
     /* animation: Gradient 6s ease infinite; */
     background: var(--main-color);
     /* border-bottom: 0; */
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     background: hsl(282 75% 54% / 0.7);
 }
 
