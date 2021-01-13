@@ -356,7 +356,7 @@ header {
     background: var(--main-color);
     /* border-bottom: 0; */
     backdrop-filter: blur(8px);
-    background: hsl(282 62% 50% / 0.8);
+    background: hsl(282 67% 52% / 0.75);
 }
 
 header>#header-area>a>h1 {
