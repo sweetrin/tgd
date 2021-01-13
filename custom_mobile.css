@@ -355,6 +355,8 @@ header {
     /* animation: Gradient 6s ease infinite; */
     background: var(--main-color);
     /* border-bottom: 0; */
+    backdrop-filter: saturate(180%) blur(5px);
+    background: hsl(282 91% 59% / 0.6);
 }
 
 header>#header-area>a>h1 {
