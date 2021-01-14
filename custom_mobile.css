@@ -391,7 +391,8 @@ header>#header-area>a>h1 {
 }
 
 nav#nav>.nav-header {
-    background: var(--main-color);
+    /* background: var(--main-color); */
+    background: hsl(282 76% 54% / 0.7);
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
@@ -621,6 +622,8 @@ nav#nav {
     background: #fff;
     transition: 0.2s;
     background-color: var(--dark1);
+    background-color: hsl(282 9% 20% / 0.7);
+    backdrop-filter: blur(15px);
 }
 
 #article-list>.article-list-row:hover {
