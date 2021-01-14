@@ -391,8 +391,9 @@ header>#header-area>a>h1 {
 }
 
 nav#nav>.nav-header {
-    /* background: var(--main-color); */
+    background: var(--main-color);
     background: hsl(282 76% 54% / 0.7);
+    /* background: hsl(282deg 100% 59% / 30%); */
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
@@ -622,8 +623,9 @@ nav#nav {
     background: #fff;
     transition: 0.2s;
     background-color: var(--dark1);
-    background-color: hsl(282 9% 20% / 0.7);
-    backdrop-filter: blur(15px);
+    background-color: hsl(282 18% 31% / 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
 }
 
 #article-list>.article-list-row:hover {
