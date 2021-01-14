@@ -622,10 +622,10 @@ span.a-badge i.fa.fa-star {
 nav#nav {
     background: #fff;
     transition: 0.2s;
-    background-color: var(--dark1);
-    background-color: hsl(282 18% 31% / 0.4);
+    /* background-color: var(--dark1); */
+    -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter:blur(10px);
+    background-color: hsl(282 18% 31% / 0.4);
 }
 
 #article-list>.article-list-row:hover {
