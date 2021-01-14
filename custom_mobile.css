@@ -620,12 +620,17 @@ span.a-badge i.fa.fa-star {
 }
 
 nav#nav {
-    background: #fff;
-    transition: 0.2s;
+    /* background: #fff; */
+    /* transition: 0.2s; */
     /* background-color: var(--dark1); */
-    -webkit-backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: hsl(282 18% 31% / 0.4);
+    background: hsl(282 18% 31% / 0.4);
+}
+
+.hide {
+    /* display: block !important; */
+    /* width: 0 !important; */
 }
 
 #article-list>.article-list-row:hover {
@@ -821,11 +826,6 @@ nav#nav>#nav-upper {
 
 header.nav-up {
     /* top: 0px; */
-}
-
-nav#nav.hide {
-    display: block !important;
-    width: 0 !important;
 }
 
 #nav-overlay.hide {
@@ -1297,3 +1297,4 @@ img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_bad
 #article-list>.article-list-row.notice .list-title {
     padding: 11px 0 !important;
 }
+
