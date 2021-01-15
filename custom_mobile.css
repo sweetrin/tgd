@@ -357,6 +357,7 @@ header {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     background: hsl(282 76% 54% / 0.7);
+    border-bottom: none;
 }
 
 header>#header-area>a>h1 {
