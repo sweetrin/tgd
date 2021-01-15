@@ -265,8 +265,11 @@ footer a {
 #main .menu-wrapper > .header {
     background: linear-gradient(135deg, var(--bg3),var(--bg2),var(--bg1), var(--bg2),var(--bg3),var(--bg2),var(--bg1));
     border-radius: 7px 7px 0 0;
-    background-size: 300%;
-    animation: bgAni 10s ease infinite;
+    /* background-size: 300%; */
+    /* animation: bgAni 10s ease infinite; */
+    background: linear-gradient(135deg, var(--bg1),var(--bg2), var(--bg3));
+    background: var(--bg2);
+    /* background: var(--main-color); */
 }
 
 #main .menu-wrapper > a > em {
@@ -274,7 +277,22 @@ footer a {
 }
 
 header #header-bar>.row {
-    position: relative;border-top: 5px solid transparent;border-right: 0;border-bottom: 0;border-radius: 6px;background-clip: padding-box;display: flex;/* animation: HlShadow 3s infinite; */height: 43.8px;/* padding-top: 0.4em; */font-size: 13.5px;
+    /* position: relative; */
+    /* border-top: 5px solid transparent; */
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 8px;
+    /* background-clip: padding-box; */
+    /* display: flex; */
+    /* animation: HlShadow 3s infinite; */
+    /* height: 43.8px; */
+    /* padding-top: 0.4em; */
+    font-size: 13.5px;
+    background: linear-gradient(135deg, var(--bg1),var(--bg2),var(--bg3),var(--bg2),var(--bg1), var(--bg2),var(--bg3),var(--bg2),var(--bg1));
+    background-size: 250%;
+    animation: bgAni 10s ease infinite;
+    border-top: none;
+    padding-top: 8px;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -955,23 +973,6 @@ input#right-search-input:focus {
     transform: scale(1);
 }
 
-header #header-bar>.row:after {
-    position: absolute;
-    top: -5px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* background: linear-gradient(135deg, var(--bg2),var(--bg1), var(--bg2),var(--bg3),var(--bg1),var(--bg2)); */
-    background: linear-gradient(135deg, var(--bg1),var(--bg2),var(--bg3),var(--bg2),var(--bg1), var(--bg2),var(--bg3),var(--bg2),var(--bg1));
-    content: '';
-    z-index: -1;
-    border-radius: 7px;
-    display: block;
-    background-size: 250%;
-    /* background-position:center; */
-    animation: bgAni 10s ease infinite;
-}
-
 .pagination > li > a:active, .pagination > li > span:active {
     transform: scale(0.9);
 }
@@ -1332,9 +1333,6 @@ img[alt='sweetr9Poo'] {
     z-index: 99;
 }
 
-/*
-img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_badge-22x22.png') no-repeat;width: 40px;height: 18px;background-size: 18px 18px;padding-left: 22px;margin-left: -22px;}
-*/
-/*
-.reply-header img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_badge-20x20.png') no-repeat;width: 40px;height: 18px;/* background-color: #fff; */background-size: 18px 18px;padding-left: 22px;margin-left: -22px;}*/
-*/
+header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
+    color: white;
+}
