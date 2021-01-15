@@ -293,6 +293,7 @@ header #header-bar>.row {
     animation: bgAni 10s ease infinite;
     border-top: none;
     padding-top: 8px;
+    height: 43px;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
