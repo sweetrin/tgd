@@ -964,6 +964,7 @@ header > #header-search-bar #header-search-btn {
 
 #article-info>.article-profile-img {
     margin-right: 0;
+    border-radius: 50%;
 }
 
 #article-info>h2>#article-info-writer>img {
