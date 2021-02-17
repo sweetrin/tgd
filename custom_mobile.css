@@ -583,8 +583,14 @@ footer {
     /* background: var(--main6); */
 }
 
+@keyframes topdown{
+	0%{top:-22px;}
+	100%{top:0px;}
+}
 #header-top-notice a {
     color: var(--text-color);
+    position:relative;
+    animation:topdown 0.4s;
 }
 
 #article-list i.fa.fa-heart {
