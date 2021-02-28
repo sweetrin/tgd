@@ -19,7 +19,6 @@
     --visited-color: #b7b7b7;
     --article-header-color: #faf5ff;
     --separation-line-color: #eaeaea;
-
     /*
     --category-2nd-color: #fb2b2b;
     --category-3rd-color: #579dff;
@@ -59,7 +58,7 @@
     --text-color:#d8d8d8;
     --text-color:#eee;
     --text2:hsla(0, 0%, 45%, 1);
-    --text2:#a7a7a7;
+    --text2:#a7a7a7; --text2:hsl(0 0% 72% / 1);
     --recommend-count-color: hsla(327, 68%, 47%, 1);
     --main6:hsl(282 17% 23% / 1);
     --main6:hsl(282 23% 24% / 1);
@@ -375,6 +374,7 @@ header>#header-area>a>h1 {
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: var(--recommend-count-color);
     padding: 2px 6px;
+    font-weight: normal;
 }
 
 #article-reply-area > .header h5 {
