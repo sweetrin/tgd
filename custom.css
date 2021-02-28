@@ -1337,3 +1337,5 @@ img[alt='sweetr9Poo'] {
 header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
     color: white;
 }
+
+#board-info #board-info-bottom::after {content: '';background: url('https://sweetrin.github.io/tgd/rinsta.png') no-repeat;width: 70px;height: 50px;position: absolute;background-size: contain;/* display: block; */margin-left: 0.5em;margin-top: -1px;}
