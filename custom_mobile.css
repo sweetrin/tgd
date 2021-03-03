@@ -1306,3 +1306,12 @@ img[alt='Broadcaster'] {background: url('https://sweetrin.github.io/tgd/lgbt_bad
     padding: 11px 0 !important;
 }
 
+
+
+span.a-badge i.fa.fa-commenting-o {
+    color: hsl(0deg 0% 73%);
+}
+
+span.a-badge i.fa.fa-picture-o {
+    color: hsl(144deg 41% 48%);
+}
