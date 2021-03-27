@@ -710,7 +710,7 @@ header #right-search-form > #right-search-btn {
 
 #article-info .article-profile-img {
     border-radius:100px;
-    transition: .2s;
+    transition: .16s;
 }
 
 #article-content-wrapper>.header {
