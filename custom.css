@@ -1343,3 +1343,13 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
     transform: scale(1.7);
     border-radius: 10px;
 }
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {
+    border-radius: 100px;
+    transition: .16s;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer-image:hover, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image:hover{
+    transform: scale(1.7);
+    border-radius: 10px;
+}
