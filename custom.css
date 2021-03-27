@@ -710,6 +710,7 @@ header #right-search-form > #right-search-btn {
 
 #article-info .article-profile-img {
     border-radius:100px;
+    transition: .2s;
 }
 
 #article-content-wrapper>.header {
@@ -1336,4 +1337,9 @@ img[alt='sweetr9Poo'] {
 
 header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
     color: white;
+}
+
+#article-info .article-profile-img:hover {
+    transform: scale(1.7);
+    border-radius: 10px;
 }
