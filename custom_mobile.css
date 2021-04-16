@@ -986,6 +986,7 @@ header > #header-search-bar #header-search-btn {
 
 #article-list>.article-list-row>.item>a.list-title>.title-value {
     max-width: 53vw;
+    font-size: 14px;
 }
 
 #article-reply-area>.header {
