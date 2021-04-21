@@ -1343,7 +1343,7 @@ span#viewers,#article-list #boardSearchForm .form-control,.fr-view,.fr-box.fr-ba
 
 img[alt='sweetr9Poo'] {
     /* animation:poo 1.2s infinite; */
-    animation: poo .25s infinite;
+    animation: poo .04s infinite;
 }
 
 .input-group-btn:nth-child(2)>.btn:focus {
