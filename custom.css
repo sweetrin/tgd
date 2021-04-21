@@ -357,9 +357,13 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin-top: -6px;
     position: absolute;
     background-image:url("https://sweetrin.github.io/tgd/shyrin.png");
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bsodwindows10.png/1200px-Bsodwindows10.png');
     padding-left: 57px;
     background-size:100%;
     box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.3);
+    background-repeat: no-repeat;
+    background-size: 670%;
+    background-position: -21px -25px;
 }
 
 #board-info h1{
