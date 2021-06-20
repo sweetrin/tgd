@@ -641,7 +641,7 @@ display: none;
 }
 
 #article-list > .article-list-row > .item > .list-header > span {
-    background-color: var(--recommend-count-color);
+    background-color: #ff68bb;
     padding: 1px 5px 1px 5px;
     font-weight: normal;
     color:#ffffff;
@@ -1359,7 +1359,7 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
 }
 
 img[alt='Broadcaster'] {
-    background: url('https://sweetrin.github.io/tgd/broadcaster5.png');
+    background: url('https://sweetrin.github.io/tgd/broadcaster6.png');
     padding-left: 18px;
     width: 18px;
     height: 18px;
