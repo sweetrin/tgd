@@ -1366,7 +1366,7 @@ img[alt='Broadcaster'] {
     border-radius: 3px;
 }
 
-.list-writer img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac42bd4/1']:first-child {
+img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac42bd4/1']:first-child {
     background: url('https://static-cdn.jtvnw.net/badges/v1/8d780922-97e8-4c80-be4e-ce549b130300/1');
     padding-left: 18px;
     width: 18px;
