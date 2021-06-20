@@ -418,7 +418,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list #article-list-category > a:nth-child(1) {
     background: var(--main-color);
-    border-color: var(--main-color);
+    border-color: #bd49f3;
     /* box-shadow: 1px 1px 2px rgba(189, 69, 243, 0.7); */
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 2px 3px 0px rgba(189, 69, 243, 0.3);
@@ -1356,4 +1356,12 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer-image:hover, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image:hover{
     transform: scale(1.7);
     border-radius: 10px;
+}
+
+img[alt='Broadcaster'] {
+    background: url('https://sweetrin.github.io/tgd/broadcaster5.png');
+    padding-left: 18px;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
 }
