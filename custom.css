@@ -361,8 +361,8 @@ header #header-bar #header-top-notice strong.notice-badge {
     background-size:100%;
     box-shadow: 1px 2px 10px 0px rgba(78, 78, 78, 0.3);
     background-image:url("https://sweetrin.github.io/tgd/IMG_0173.JPG");
-    background-size:100%;
-    background-position-x:right;
+    background-size:110%;
+    background-position-x:-3px;
     background-position-y:top;
 }
 
