@@ -256,6 +256,15 @@ img[alt="SSSsss"], #article-content-wrapper #article-content img[alt="SSSsss"], 
 }
 
 
+span[data-param1="dance2"] img {
+    background-image: url("https://sweetrin.github.io/tgd/emoticons/dance2.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    padding-left: 30px;
+}
+
+
 /*
 span[data-param1="sweetr9Rin"] img {
     background-image: url("https://sweetrin.github.io/tgd/xmas-sweetr9Rin.png");
