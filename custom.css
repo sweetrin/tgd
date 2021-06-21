@@ -782,7 +782,9 @@ header #right-search-form > #right-search-btn {
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
     border-radius: 11px;
-    margin-bottom: 1em;
+    margin-bottom: 1.8em;
+    /* background: #f8f0ff; */
+    border-color: #f8f0ff;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -836,6 +838,7 @@ header #right-search-form > #right-search-btn {
 
 /* 마지막 댓글과 '새 댓글' 버튼 간격 */
 div#reply-real-area {
+    margin-top: 0.8em;
     margin-bottom: 0.5em;
 }
 
@@ -1409,4 +1412,10 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     opacity: 0.85;
     background-size: 127%;
     background-position: center;
+}
+
+img.reply-writer-image.img-circle.loaded {position: absolute;left: -2.7em;}
+
+.reply.d-0 {
+    margin-left: 2.7em;
 }
