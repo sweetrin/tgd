@@ -792,7 +792,6 @@ header #right-search-form > #right-search-btn {
     border-bottom: 0;
     background: #f8f0ff;
     border-radius: 10px 10px 0 0;
-    /* padding-top: 3px; */
 }
 
 .btn-primary:hover,.btn.square.btn-primary:hover {
@@ -1460,4 +1459,8 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 
 #article-reply-area #reply-real-area .reply>.rereply-btn, #article-reply-area #reply-best-area .reply>.rereply-btn {
     left: -4.6em;
+}
+
+#article-reply-area #reply-best-area .reply>.reply-header {
+    background: #f0d9fb;
 }
