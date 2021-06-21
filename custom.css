@@ -846,7 +846,7 @@ div#reply-real-area {
 
 /* 대댓글 들여쓰기 */
 #article-reply-area #reply-real-area .reply.d-1, #article-reply-area #reply-best-area .reply.d-1 {
-    margin-left: 2.3em;
+    /* margin-left: 2.3em; */
 }
 
 #article-reply-area #reply-real-area .reply.d-2, #article-reply-area #reply-best-area .reply.d-2 {
@@ -1362,8 +1362,6 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {
     border-radius: 100px;
     transition: .16s;
-    position: absolute;
-    left: -2.9em;
     top: 0px;
 }
 
@@ -1419,11 +1417,47 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     background-position: center;
 }
 
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 .reply.d-0 {
     margin-left: 2.9em;
 }
 
-#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
-    padding-top: 3px;
-    padding-bottom: 3px;
+.reply.d-0>.reply-header>img {
+    position: absolute;
+    left: -2.9em;
+}
+
+#article-reply-area #reply-real-area .reply.d-1, #article-reply-area #reply-best-area .reply.d-1 {
+    margin-left: 5.7em;
+}
+
+.reply.d-1>.reply-header>img {
+    position: absolute;
+    left: -2.9em;
+}
+
+#article-reply-area #reply-real-area .reply.d-2, #article-reply-area #reply-best-area .reply.d-2 {
+    margin-left: 2.9em;
+}
+
+.reply.d-2>.reply-header>img {
+    position: absolute;
+    left: -2.9em;
+}
+
+#article-reply-area #reply-real-area .reply.d-3, #article-reply-area #reply-best-area .reply.d-3 {
+    margin-left: 2.9em;
+}
+
+.reply.d-3>.reply-header>img {
+    position: absolute;
+    left: -2.9em;
+}
+
+#article-reply-area #reply-real-area .reply>.rereply-btn, #article-reply-area #reply-best-area .reply>.rereply-btn {
+    left: -4.6em;
 }
