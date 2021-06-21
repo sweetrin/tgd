@@ -413,13 +413,19 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-top:0;
     /* background: transparent; */
     /* animation: cats 1.5s; */
+    text-align-last: center;
+    /* padding-right: 5em; */
+    /* transition: 0.5s; */
 }
 
 #article-list #article-list-category > a {
-    margin: 10px 7px;
-    padding: 6px 15px;
+    margin: 9px 13px;
+    /* padding: 6px 15px; */
     border-radius: 100px;
     color: #fff !important;
+    transition: 0.25s ease-in-out;
+    padding: 8px 10px;
+    width: 35px;
 }
 
 #article-list #article-list-category > a:nth-child(1) {
@@ -428,6 +434,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     /* box-shadow: 1px 1px 2px rgba(189, 69, 243, 0.7); */
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 2px 3px 0px rgba(189, 69, 243, 0.3);
+    color: var(--main-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(2) {
@@ -436,6 +443,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     box-shadow: 1px 1px 2px rgba(251, 37, 37, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 2px 3px 0px rgba(251, 37, 37, 0.3);
+    color: var(--category-2nd-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(3) {
@@ -444,6 +452,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     box-shadow: 1px 1px 2px rgba(45, 45, 45, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 2px 3px 0px rgba(45, 45, 45, 0.3);
+    color: var(--category-3rd-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(4) {
@@ -452,6 +461,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     box-shadow: 1px 1px 2px rgba(0, 177, 80, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 2px 3px 0px rgba(0, 177, 79, 0.3);
+    color: var(--category-4th-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(5) {
@@ -460,6 +470,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     box-shadow: 1px 1px 2px rgba(136, 76, 251, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 2px 3px 0px rgba(136, 76, 251, 0.3);
+    color: var(--category-5th-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(6) {
@@ -468,6 +479,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     box-shadow: 1px 1px 2px rgba(245, 71, 165, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 2px 3px 0px rgba(245, 71, 165, 0.3);
+    color: var(--category-6th-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(7) {
@@ -476,6 +488,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     box-shadow: 1px 1px 2px rgba(0, 179, 245, 0.7);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 2px 3px 0px rgba(0, 179, 245, 0.3);
+    color: var(--category-7th-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(8) {
@@ -483,6 +496,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--category-8th-color);
     /* box-shadow: 1px 1px 2px rgba(255, 192, 0, 0.7); */
     box-shadow: 2px 2px 3px 0px rgba(255, 196, 17, 0.3);
+    color: var(--category-8th-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(9) {
@@ -490,6 +504,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-color: var(--category-9th-color);
     /* box-shadow: 1px 1px 2px rgba(255, 192, 0, 0.7); */
     box-shadow: 2px 2px 3px 0px rgba(255, 92, 92, 0.3);
+    color: var(--category-9th-color) !important;
 }
 
 #article-list #article-list-category > a:nth-child(1):hover {
@@ -1192,9 +1207,16 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 #board-info #board-info-bottom #addFavoriteBtn i {color: #ffd122;}
 
+@keyframes stretch{
+    0%{width:4.6%;}
+    100%{width:7%;}
+}
+
 #article-list #article-list-category > a:hover {
-    animation: popmenu .22s;
+    /*animation: popmenu .22s;*/
     box-shadow: none;
+    width: 90px;
+    padding: 8px 0;
 }
 
 .btn-outline-success, .btn-outline-success:focus{
