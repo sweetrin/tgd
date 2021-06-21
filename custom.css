@@ -1384,7 +1384,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     visibility: hidden;
 }
 
-.article-list-row:hover .list-header {background: url('https://sweetrin.github.io/tgd/ic6.png') no-repeat;background-size: contain;animation:poo 0.4s;}
+.article-list-row:hover .list-header {background: url('https://sweetrin.github.io/tgd/ic6.png') no-repeat;background-size: contain;animation:poo 0.4s;filter: brightness(1.1) saturate(1.1);}
 
 .article-list-row:hover .list-header.v0 {background: none;}
 
