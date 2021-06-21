@@ -781,8 +781,9 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
+    margin-top: 0.7em;
     border-radius: 11px;
-    margin-bottom: 1.8em;
+    margin-bottom: 1.7em;
     /* background: #f8f0ff; */
     border-color: #f8f0ff;
 }
@@ -791,6 +792,7 @@ header #right-search-form > #right-search-btn {
     border-bottom: 0;
     background: #f8f0ff;
     border-radius: 10px 10px 0 0;
+    /* padding-top: 3px; */
 }
 
 .btn-primary:hover,.btn.square.btn-primary:hover {
@@ -838,8 +840,8 @@ header #right-search-form > #right-search-btn {
 
 /* 마지막 댓글과 '새 댓글' 버튼 간격 */
 div#reply-real-area {
-    margin-top: 0.8em;
-    margin-bottom: 0.5em;
+    /* margin-top: 0.8em; */
+    /* margin-bottom: 0.5em; */
 }
 
 /* 대댓글 들여쓰기 */
@@ -1360,6 +1362,9 @@ header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a {
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {
     border-radius: 100px;
     transition: .16s;
+    position: absolute;
+    left: -2.9em;
+    top: 0px;
 }
 
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer-image:hover, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image:hover{
@@ -1414,8 +1419,11 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     background-position: center;
 }
 
-img.reply-writer-image.img-circle.loaded {position: absolute;left: -2.7em;}
-
 .reply.d-0 {
-    margin-left: 2.7em;
+    margin-left: 2.9em;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
