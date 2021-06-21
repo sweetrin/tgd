@@ -1397,3 +1397,16 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 .article-list-row:hover .list-header.v4 {background: url('https://sweetrin.github.io/tgd/ic4.png') no-repeat;background-size: contain;}
 
 .article-list-row:hover .list-header.v5 {background: url('https://sweetrin.github.io/tgd/ic5.png') no-repeat;background-size: contain;}
+
+#movetotop img {
+    visibility: hidden;
+}
+
+#movetotop {
+    background: url('https://sweetrin.github.io/tgd/cupcake.png') no-repeat;
+    width: 390px;
+    height: 515px;
+    opacity: 0.85;
+    background-size: 127%;
+    background-position: center;
+}
