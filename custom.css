@@ -792,6 +792,8 @@ header #right-search-form > #right-search-btn {
     border-bottom: 0;
     background: #f8f0ff;
     border-radius: 10px 10px 0 0;
+    padding-left: 0.9em;
+    padding-top: 0.4em;
 }
 
 .btn-primary:hover,.btn.square.btn-primary:hover {
@@ -1440,7 +1442,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 }
 
 #article-reply-area #reply-real-area .reply.d-2, #article-reply-area #reply-best-area .reply.d-2 {
-    margin-left: 2.9em;
+    margin-left: 8.5em;
 }
 
 .reply.d-2>.reply-header>img {
@@ -1449,10 +1451,19 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 }
 
 #article-reply-area #reply-real-area .reply.d-3, #article-reply-area #reply-best-area .reply.d-3 {
-    margin-left: 2.9em;
+    margin-left: 11.3em;
 }
 
 .reply.d-3>.reply-header>img {
+    position: absolute;
+    left: -2.9em;
+}
+
+#article-reply-area #reply-real-area .reply.d-4, #article-reply-area #reply-best-area .reply.d-4 {
+    margin-left: 14.1em;
+}
+
+.reply.d-4>.reply-header>img {
     position: absolute;
     left: -2.9em;
 }
@@ -1463,4 +1474,10 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 
 #article-reply-area #reply-best-area .reply>.reply-header {
     background: #f0d9fb;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
+    padding-top: 0.2em;
+    padding-bottom: 0.8em;
+    padding-left: 0.9em;
 }
