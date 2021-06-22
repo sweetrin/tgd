@@ -788,7 +788,6 @@ header #right-search-form > #right-search-btn {
     margin-bottom: 1.7em;
     background: #f8f0ff;
     border-color: #f8f0ff;
-    animation: Wriggle 0.6s;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
