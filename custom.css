@@ -1490,3 +1490,9 @@ div#reply-real-area .reply::after {
     border-bottom: 10px solid transparent;
     border-right:10px solid #f8f0ff;
 }
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
+    padding-top: 4px;
+    margin-left: 0.2em;
+    padding-right: 0.3em;
+}
