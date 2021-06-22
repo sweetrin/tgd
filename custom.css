@@ -1475,18 +1475,3 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     padding-bottom: 0.8em;
     padding-left: 0.9em;
 }
-
-#article-reply-area #reply-real-area::before, #article-reply-area #reply-best-area::before {
-    content: '';
-    background: url('https://sweetrin.github.io/tgd/sulking_rin.jpg') no-repeat;
-    width: 804px;
-    height: 27px;
-    position: absolute;
-    margin-left: 46px;
-    margin-top: 10px;
-    /* border-radius: 13px; */
-    /* background-position-x: center; */
-    background-size: 18%;
-    background-position-y: -4.5em;
-    filter: brightness(1.2);
-}
