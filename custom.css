@@ -1480,7 +1480,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     padding-left: 0.9em;
 }
 
-div#reply-real-area .reply::after {
+#reply-real-area .reply::after, #reply-best-area .reply::after {
     content: '';
     position: absolute;
     top: 5px;
@@ -1489,7 +1489,14 @@ div#reply-real-area .reply::after {
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
+}
+
+#reply-real-area .reply::after {
     border-right:10px solid #f8f0ff;
+}
+
+#reply-best-area .reply::after {
+    border-right:10px solid #f0d9fb;
 }
 
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
