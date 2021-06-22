@@ -1476,9 +1476,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 }
 
 #article-reply-area #reply-real-area .reply>.reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
-    padding-top: 0.2em;
-    padding-bottom: 0.8em;
-    padding-left: 0.9em;
+    padding: 0.2em 0.9em 0.8em;
 }
 
 #reply-real-area .reply::after, #reply-best-area .reply::after {
