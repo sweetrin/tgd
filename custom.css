@@ -788,6 +788,7 @@ header #right-search-form > #right-search-btn {
     margin-bottom: 1.7em;
     background: #f8f0ff;
     border-color: #f8f0ff;
+    animation: Trembling2 0.9s;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
@@ -1488,4 +1489,4 @@ div#reply-real-area .reply::after {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right:10px solid #f8f0ff;
-    }
+}
