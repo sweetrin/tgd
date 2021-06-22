@@ -591,6 +591,8 @@ display: none;
 
 #article-list>.article-list-row>.item>.list-header.v0>span{
     transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
+    background-color: transparent !important;
+    color: transparent !important;
 }
 
 #article-list>.article-list-row {
@@ -1387,17 +1389,17 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 
 .article-list-row:not(.notice):hover .list-header {background: url('https://sweetrin.github.io/tgd/ic6.png') no-repeat;background-size: contain;animation:poo 0.4s;filter: brightness(1.1) saturate(1.1);}
 
-.article-list-row:not(.notice):hover .list-header.v0 {background: none;}
+/*.article-list-row:not(.notice):hover .list-header.v0 {background: none;animation:none;}*/
 
-.article-list-row:not(.notice):hover .list-header.v1 {background: url('https://sweetrin.github.io/tgd/ic1.png') no-repeat;background-size: contain;}
+.article-list-row:not(.notice):hover .list-header.v0 {background: url('https://sweetrin.github.io/tgd/ic1.png') no-repeat;background-size: contain;}
 
-.article-list-row:not(.notice):hover .list-header.v2 {background: url('https://sweetrin.github.io/tgd/ic2.png') no-repeat;background-size: contain;}
+.article-list-row:not(.notice):hover .list-header.v1 {background: url('https://sweetrin.github.io/tgd/ic2.png') no-repeat;background-size: contain;}
 
 .article-list-row:not(.notice):hover .list-header.v3 {background: url('https://sweetrin.github.io/tgd/ic3.png') no-repeat;background-size: contain;}
 
-.article-list-row:not(.notice):hover .list-header.v4 {background: url('https://sweetrin.github.io/tgd/ic4.png') no-repeat;background-size: contain;}
+.article-list-row:not(.notice):hover .list-header.v2 {background: url('https://sweetrin.github.io/tgd/ic4.png') no-repeat;background-size: contain;}
 
-.article-list-row:not(.notice):hover .list-header.v5 {background: url('https://sweetrin.github.io/tgd/ic5.png') no-repeat;background-size: contain;}
+.article-list-row:not(.notice):hover .list-header.v4 {background: url('https://sweetrin.github.io/tgd/ic5.png') no-repeat;background-size: contain;}
 
 #movetotop img {
     visibility: hidden;
