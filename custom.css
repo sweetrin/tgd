@@ -211,6 +211,7 @@ span.a-badge i.fa.fa-star {
 body, html {
     background: linear-gradient(180deg, var(--bg-color-stop1) 0,#8059b3 180%);
     background: linear-gradient(180deg, hsla(273, 73%, 90%, 1) 0,hsla(267, 57%, 75%, 1));
+    background: linear-gradient(180deg, hsl(273deg 80% 89%),hsl(267deg 66% 77%));
 }
 
 body {
