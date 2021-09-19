@@ -356,7 +356,7 @@ header {
     /* border-bottom: 0; */
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    background: hsl(282 76% 54% / 0.7);
+    background: hsl(282 76% 54% / 0.8);
     border-bottom: none;
 }
 
@@ -834,7 +834,7 @@ nav#nav>#nav-upper {
 }
 
 header.nav-up {
-    /* top: 0px; */
+    top: 0px;
 }
 
 #nav-overlay.hide {
