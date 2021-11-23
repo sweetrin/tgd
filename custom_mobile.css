@@ -370,6 +370,7 @@ header>#header-area>a>h1 {
     background-color: var(--recommend-count-color);
     padding: 2px 6px;
     font-weight: normal;
+    background-color: var(--main-color);
 }
 
 #article-reply-area > .header h5 {
