@@ -577,7 +577,7 @@ footer {
     border-top: 2px solid var(--main-color);
     /* border-top-color: var(--line-color); */
     border-bottom: 0;
-    /* background: var(--main6); */
+    background: hsl(278deg 39% 25%);
 }
 
 @keyframes topdown{
@@ -641,7 +641,8 @@ nav#nav {
 #article-list>.article-list-row:hover {
     /*background-color: var(--main5);*/
     background-color: var(--cursor-highlight-color);
-    background: var(--main6);
+    /* background: var(--main6); */
+    background: hsl(278deg 39% 25%);
 }
 
 .btn {
@@ -1126,6 +1127,8 @@ a.custom-badge-link {
 #article-list>.article-list-row.active {
     background-color: var(--dark4);
     background: var(--dark3);
+    background: hsl(278deg 49% 30%);
+    background: hsl(278deg 51% 20%);
 }
 
 #article-list>.article-list-row.notice>.item>.list-header {
