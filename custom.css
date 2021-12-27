@@ -419,7 +419,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #article-list #article-list-category > a:nth-child(1) {
-    background: var(--main-color);
+    background: var(--main-color) !important;
     border-color: #bd49f3;
     /* box-shadow: 1px 1px 2px rgba(189, 69, 243, 0.7); */
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
@@ -489,7 +489,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #article-list #article-list-category > a:nth-child(1):hover {
-    background: #fff;
+    background: #fff !important;
     color: var(--main-color) !important;
 }
 
