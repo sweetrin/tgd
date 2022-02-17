@@ -1,26 +1,44 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
-#board-info {
+#board-info,
+html.darkmode.mb #board-info {
     border-radius: 15px 15px 0 0;
-    border-color: #fff;
-}
-
-.frame {
-    margin: 1.1em;
-}
-
-.pagination-area:last-child {
-    border-radius: 0 0 15px 15px;
-}
-
-#article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-time {
     border-color: transparent;
 }
 
-#article-list>.article-list-row.notice>.item>a.list-title {
+.frame,
+html.darkmode .frame {
+    border-radius: 15px;
+    margin: 1.1em;
+    border-color:transparent !important;
+}
+
+.pagination-area:last-child,
+html.darkmode.mb .pagination-area:last-child {
+    border-radius: 0 0 15px 15px;
+}
+
+#article-list>.article-list-row>.item>.list-header,
+html.darkmode.mb #article-list>.article-list-row>.item>.list-header,
+#article-list>.article-list-row>.item>.list-time,
+html.darkmode.mb #article-list>.article-list-row>.item>.list-time {
+    border-color: transparent;
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title,
+html.darkmode.mb #article-list>.article-list-row.notice>.item>a.list-title
+{
     border-color: transparent;
 }
 
 footer {
     background:#f3f2f0;
+}
+
+html.darkmode.mb #article-list>.article-list-row {
+    border-color:transparent;
+}
+
+html.darkmode #board-info h1 {
+    border-color:transparent;
 }
