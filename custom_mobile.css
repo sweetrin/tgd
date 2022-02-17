@@ -1,1 +1,26 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
+
+#board-info {
+    border-radius: 15px 15px 0 0;
+    border-color: #fff;
+}
+
+.frame {
+    margin: 1.1em;
+}
+
+.pagination-area:last-child {
+    border-radius: 0 0 15px 15px;
+}
+
+#article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-time {
+    border-color: transparent;
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title {
+    border-color: transparent;
+}
+
+footer {
+    background:#f3f2f0;
+}
