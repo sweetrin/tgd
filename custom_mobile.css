@@ -3,12 +3,18 @@
 :root {
     --back1: #2b3253;
     --back2: #2b3a68;
+    --separ: #202020;
+}
+
+html, body {
+    color:#fff;
+    background: var(--back1);
 }
 
 #board-info {
     background: var(--back1);
-    border-bottom-color: #202020;
-    border-top-color: #202020;
+    border-bottom-color: var(--separ);
+    border-top-color: var(--separ);
 }
 
 #board-info>h1>a {
@@ -24,7 +30,7 @@
 }
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
-    border-bottom-color: #202020;
+    border-bottom-color: var(--separ);
 }
 
 #article-list>.article-list-row>.item>a.list-title {
@@ -55,10 +61,6 @@
     background: transparent;
 }
 
-html, body {
-    background: var(--back1);
-}
-
 #header-top-notice {
     background: var(--back1);
 }
@@ -74,3 +76,50 @@ header {
 /* body>*:nth-child(2) {
     background:transparent !important;
 } */
+
+#article-info {
+    background: var(--back1);
+    border-bottom-color: var(--separ);
+}
+
+#article-content-wrapper {
+    /* background: var(--back1); */
+}
+
+#article-reply-area {
+    background: var(--back1);
+}
+
+#article-content-wrapper #article-content p {
+    color: #fff !important;
+    background: var(--back1) !important;
+}
+
+#article-content-wrapper>.header {
+    background: var(--back2);
+}
+
+#article-content-wrapper #article-content {
+    background: var(--back1);
+    border-left: 0;
+    border-right: 0;
+}
+
+#article-content-wrapper>.vote-area {
+    background: var(--back1);
+    border-left: 0;
+    border-right: 0;
+}
+
+#article-content-wrapper>.footer {
+    background: var(--back1);
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    background: var(--back2);
+    border-bottom-color: var(--separ);
+}
+
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    border-color: var(--separ);
+}
