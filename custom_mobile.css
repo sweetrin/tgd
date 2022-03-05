@@ -118,7 +118,7 @@ header {
 
 #article-reply-area #reply-real-area .reply>.reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     background: var(--back2);
-    border-bottom-color: var(--separ);
+    border-bottom-color: transparent;
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
