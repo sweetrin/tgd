@@ -66,3 +66,11 @@ html, body {
 #header-top-notice a {
     color: #fff;
 }
+
+header {
+    background:var(--back1);
+}
+
+/* body>*:nth-child(2) {
+    background:transparent !important;
+} */
