@@ -123,3 +123,13 @@ header {
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
     border-color: var(--separ);
 }
+
+header>#header-area>#header-search-link {
+    color: #fff;
+}
+
+header>#header-area>#header-bar-link {
+    color: #fff;
+}
+
+header>#header-area>a>h1 {background: url('https://sweetrin.github.io/tgd/kgd_logo_white.png') no-repeat;background-size: 100%;}
