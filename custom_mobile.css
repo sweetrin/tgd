@@ -9,7 +9,6 @@
 
 html, body {
     color:#fff;
-    background: var(--back1);
 }
 
 #board-info {
@@ -28,6 +27,7 @@ html, body {
 
 #article-list>.article-list-row {
     background: var(--back1);
+    -webkit-tap-highlight-color: var(--back3);
 }
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
@@ -56,10 +56,6 @@ html, body {
 
 #article-list #article-list-category a {
     background: var(--back1);
-}
-
-#article-list>.article-list-row:hover {
-    background: var(--back1) !important;
 }
 
 #header-top-notice {
@@ -136,9 +132,13 @@ header>#header-area>#header-bar-link {
 header>#header-area>a>h1 {background: url('https://sweetrin.github.io/tgd/kgd_logo_white.png') no-repeat;background-size: 100%;}
 
 #article-list>.article-list-row:active {
-    background: var(--back3) !important;
+    /* background: var(--back3); */
 }
 
 #article-list>.article-list-row.notice:hover{
     background:var(--back2);
+}
+
+#article-list>.article-list-row:hover {
+    background: var(--back1);
 }
