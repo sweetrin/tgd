@@ -59,7 +59,7 @@ html, body {
 }
 
 #article-list>.article-list-row:hover {
-    background: var(--back1);
+    background: var(--back1) !important;
 }
 
 #header-top-notice {
