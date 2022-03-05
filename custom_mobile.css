@@ -1,7 +1,7 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 :root {
-    --back1: #272d49;
+    --back1: #292f4d;
     --back2: #2d3a5f;
     --back3: #1f274c;
     --separ: #202020;
@@ -23,7 +23,7 @@ html, body {
 }
 
 #article-list>.article-list-row.notice {
-    background: var(--back2) !important;
+    background: var(--back2);
 }
 
 #article-list>.article-list-row {
@@ -59,7 +59,7 @@ html, body {
 }
 
 #article-list>.article-list-row:hover {
-    background: transparent;
+    background: var(--back1);
 }
 
 #header-top-notice {
@@ -137,4 +137,8 @@ header>#header-area>a>h1 {background: url('https://sweetrin.github.io/tgd/kgd_lo
 
 #article-list>.article-list-row:active {
     background: var(--back3) !important;
+}
+
+#article-list>.article-list-row.notice:hover{
+    background:var(--back2);
 }
