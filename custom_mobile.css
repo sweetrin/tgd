@@ -56,11 +56,11 @@
 }
 
 html, body {
-    background: #2b3253;
+    background: var(--back1);
 }
 
 #header-top-notice {
-    background: #2b3253;
+    background: var(--back1);
 }
 
 #header-top-notice a {
