@@ -27,7 +27,7 @@ html, body {
 
 #article-list>.article-list-row {
     background: var(--back1);
-    -webkit-tap-highlight-color: var(--back3);
+    -webkit-tap-highlight-color: rgb(31 39 76 / 50%);
 }
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
