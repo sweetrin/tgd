@@ -13,7 +13,7 @@ html, body {
 
 #board-info {
     background: var(--back1);
-    border-bottom-color: #00051d;
+    border-bottom-color: #181c33;
     border-top-color: var(--back1);
 }
 
@@ -32,7 +32,8 @@ html, body {
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
     border-top: 1px solid #475070;
-    border-bottom-color: #00051d;
+    /* border-bottom-color: #00051d; */
+    border-bottom-color:#181c33;
 }
 
 #article-list>.article-list-row>.item>a.list-title {
@@ -89,7 +90,7 @@ header {
 
 #article-reply-area {
     background: var(--back1);
-    border-bottom: 1px solid #00051d;
+    border-bottom: 1px solid #181c33;
 }
 
 #article-content-wrapper #article-content p {
@@ -181,7 +182,7 @@ footer {
 
 #article-list #article-list-category {
     border-top: 1px solid #475070;
-    border-bottom: 1px solid #00051d;
+    border-bottom: 1px solid #181c33;
 }
 
 .category[style='color:#000000'] {
