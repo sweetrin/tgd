@@ -172,7 +172,7 @@ footer {
 }
 
 #article-list #article-list-category>a.active, #article-list #article-list-category>a:hover {
-    background: #f2f4ff;
+    /* background: #f2f4ff; */
 }
 
 #article-list {
