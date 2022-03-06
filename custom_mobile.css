@@ -220,7 +220,7 @@ footer {
 }
 
 .fr-toolbar {
-    background: var(--back1);
+    background: var(--back2);
 }
 
 .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
@@ -235,18 +235,16 @@ footer {
     color:#fff;
 }
 
-.fr-box.fr-basic.fr-top .fr-wrapper {
-    box-shadow:none;
-    border:2px solid var(--seplite);
-    border-radius:0 0 5px 5px;
-    border-top:1px solid var(--seplite);
-}
-
 .fr-toolbar.fr-top {
     box-shadow:none;
-    border:2px solid var(--seplite);
-    border-radius:5px 5px 0 0;
+    border:1px solid var(--separ);
     border-bottom:0;
+}
+
+.fr-box.fr-basic.fr-top .fr-wrapper {
+    box-shadow:none;
+    border:1px solid var(--separ);
+    border-top-width:0;
 }
 
 .fr-separator {
