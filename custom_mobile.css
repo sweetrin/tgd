@@ -275,3 +275,27 @@ a.custom-badge-link {
 #article-list-menu>.btn.write:hover {
     border-color: #204d74;
 }
+
+.btn.square {
+    border-color: var(--btn);
+}
+
+.input-group-btn:nth-child(3)>.btn {
+    border-radius: 3px 0 0 3px;
+}
+
+#boardSearchForm {
+    background: var(--back1);
+}
+
+.input-group-btn:nth-child(5)>.btn {
+    border-radius: 0 3px 3px 0;
+}
+
+.pagination>li>a, .pagination>li>span {
+    border-color: #fff;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    border-color: #eee;
+}
