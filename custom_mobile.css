@@ -263,3 +263,11 @@ footer {
 #article-list-menu>.btn.best {
     border-radius: 3px;
 }
+
+.frame {
+    background: var(--back1);
+}
+
+a.custom-badge-link {
+    border-color: var(--back1);
+}
