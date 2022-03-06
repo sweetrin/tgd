@@ -280,7 +280,7 @@ a.custom-badge-link {
     border-color: var(--btn);
 }
 
-.input-group-btn:nth-child(3)>.btn {
+.input-group-btn:nth-child(2)>.btn {
     border-radius: 3px 0 0 3px;
 }
 
@@ -288,14 +288,20 @@ a.custom-badge-link {
     background: var(--back1);
 }
 
-.input-group-btn:nth-child(5)>.btn {
+.input-group-btn:nth-child(4)>.btn {
     border-radius: 0 3px 3px 0;
 }
 
 .pagination>li>a, .pagination>li>span {
     border-color: #fff;
+    color: var(--btn);
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
     border-color: #eee;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: var(--btn);
+    border-color: var(--btn);
 }
