@@ -201,3 +201,7 @@ footer {
 #article-neighbor-list>div {
     -webkit-tap-highlight-color: rgb(0 3 26 / 20%);
 }
+
+#article-comment a {
+    color: #fff;
+}
