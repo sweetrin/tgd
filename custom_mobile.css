@@ -244,10 +244,14 @@ footer {
 .fr-toolbar.fr-top {
     box-shadow:none;
     border:1px solid var(--seplite);
-    border-radisu:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
     border-bottom:0;
 }
 
 .fr-separator {
     background:var(--seplite);
+}
+
+#article-list>.article-list-row.active {
+    background-color:#374278;
 }
