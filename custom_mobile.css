@@ -182,3 +182,7 @@ footer {
     border-top: 1px solid #475070;
     border-bottom: 1px solid #00051d;
 }
+
+.category {
+    color: #919191 !important;
+}
