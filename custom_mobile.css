@@ -237,13 +237,14 @@ footer {
 
 .fr-box.fr-basic.fr-top .fr-wrapper {
     box-shadow:none;
-    border:1px solid var(--seplite);
+    border:2px solid var(--seplite);
     border-radius:0 0 5px 5px;
+    border-top:1px solid var(--seplite);
 }
 
 .fr-toolbar.fr-top {
     box-shadow:none;
-    border:1px solid var(--seplite);
+    border:2px solid var(--seplite);
     border-radius:5px 5px 0 0;
     border-bottom:0;
 }
