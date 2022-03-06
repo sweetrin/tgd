@@ -31,9 +31,8 @@ html, body {
 }
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
-    border-bottom-color: #565656;
-    border-top: 1px solid #454c6a;
-    border-bottom-color: #0d1228;
+    border-top: 1px solid #475070;
+    border-bottom-color: #00051d;
 }
 
 #article-list>.article-list-row>.item>a.list-title {
