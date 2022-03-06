@@ -28,7 +28,6 @@ html, body {
 #article-list>.article-list-row.notice {
     background: var(--back2);
 }
-
 #article-list>.article-list-row {
     background: var(--back1);
     -webkit-tap-highlight-color: rgb(0 3 26 / 20%);
@@ -218,4 +217,37 @@ footer {
     color: #fff;
     background-color: var(--btn);
     border-color: var(--btn);
+}
+
+.fr-toolbar {
+    background: var(--back1);
+}
+
+.fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
+    color:#fff;
+}
+
+.fr-box.fr-basic .fr-wrapper {
+    background:var(--back1);
+}
+
+.fr-box.fr-basic .fr-element {
+    color:#fff;
+}
+
+.fr-box.fr-basic.fr-top .fr-wrapper {
+    box-shadow:none;
+    border:1px solid var(--seplite);
+    border-radius:0 0 5px 5px;
+}
+
+.fr-toolbar.fr-top {
+    box-shadow:none;
+    border:1px solid var(--seplite);
+    border-radisu:5px 5px 0 0;
+    border-bottom:0;
+}
+
+.fr-separator {
+    background:var(--seplite);
 }
