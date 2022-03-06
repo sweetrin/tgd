@@ -254,3 +254,12 @@ footer {
 #article-list>.article-list-row.active {
     background-color:#374278;
 }
+
+#article-list-menu>.btn.write {
+    border-color: #2e6da4;
+    border-radius: 3px;
+}
+
+#article-list-menu>.btn.best {
+    border-radius: 3px;
+}
