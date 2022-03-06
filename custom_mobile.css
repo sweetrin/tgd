@@ -5,6 +5,7 @@
     --back2: #2d3a5f;
     --back3: #1f274c;
     --separ: #252525;
+    --btn:#43519a;
 }
 
 html, body {
@@ -209,4 +210,10 @@ footer {
 
 #board-info #viewers-area, #board-info #score-area {
     color: #7d89c7;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: var(--btn);
+    border-color: var(--btn);
 }
