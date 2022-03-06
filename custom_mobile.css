@@ -19,6 +19,7 @@ html, body {
 
 #board-info>h1>a {
     color: #fff;
+    -webkit-tap-highlight-color: rgb(0 3 26 / 20%);
 }
 
 #article-list>.article-list-row.notice {
@@ -204,4 +205,8 @@ footer {
 
 #article-comment a {
     color: #fff;
+}
+
+#board-info #viewers-area, #board-info #score-area {
+    color: #7d89c7;
 }
