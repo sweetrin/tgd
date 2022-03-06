@@ -192,3 +192,11 @@ footer {
     /* color: #b9b9b9 !important; */
     color:#bcbcbc !important;
 }
+
+#article-neighbor-list>div:hover {
+    background: var(--back1);
+}
+
+#article-neighbor-list>div {
+    -webkit-tap-highlight-color: rgb(0 3 26 / 20%);
+}
