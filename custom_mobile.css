@@ -187,7 +187,7 @@ footer {
     color: #bcbcbc !important;
 }
 
-#article-list #article-list-category>a[style='color:#000000'] {
+.nav-link[style='color:#000000'] {
     /* color: #b9b9b9 !important; */
     color:#bcbcbc !important;
 }
