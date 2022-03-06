@@ -271,3 +271,7 @@ footer {
 a.custom-badge-link {
     border-color: var(--back1);
 }
+
+#article-list-menu>.btn.write:hover {
+    border-color: #204d74;
+}
