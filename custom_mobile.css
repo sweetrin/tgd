@@ -280,7 +280,7 @@ a.custom-badge-link {
     border-color: var(--btn);
 }
 
-.input-group-btn:nth-child(2)>.btn {
+.btn.square.btn-default.dropdown-toggle {
     border-radius: 3px 0 0 3px;
 }
 
@@ -288,7 +288,7 @@ a.custom-badge-link {
     background: var(--back1);
 }
 
-.input-group-btn:nth-child(4)>.btn {
+.btn.square.btn-default[type='submit'] {
     border-radius: 0 3px 3px 0;
 }
 
