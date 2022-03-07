@@ -305,3 +305,8 @@ a.custom-badge-link {
     background-color: var(--btn);
     border-color: var(--btn);
 }
+
+.input-group>input.form-control {
+    border-color: #fff;
+    box-shadow: none;
+}
