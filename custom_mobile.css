@@ -307,6 +307,6 @@ a.custom-badge-link {
 }
 
 .input-group>input.form-control {
-    border-color: #fff;
-    box-shadow: none;
+    /* border-color: #fff; */
+    /* box-shadow: none; */
 }
