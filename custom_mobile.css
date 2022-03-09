@@ -295,6 +295,9 @@ a.custom-badge-link {
 .pagination>li>a, .pagination>li>span {
     border-color: #fff;
     color: var(--btn);
+    background-color: var(--btn);
+    color: #fff;
+    border-color: var(--btn);
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
@@ -304,6 +307,9 @@ a.custom-badge-link {
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     background-color: var(--btn);
     border-color: var(--btn);
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
 }
 
 .input-group>input.form-control {
