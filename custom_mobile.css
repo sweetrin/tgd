@@ -336,3 +336,16 @@ a.custom-badge-link {
 .form-control {
     color: #fff;
 }
+
+nav#nav.hide {
+    left: -300px;
+    display: block !important;
+}
+
+nav#nav {
+    transition: 0.2s;
+}
+
+nav#nav>#nav-upper>#header-close-bar-link {
+    color: #6441a5;
+}
