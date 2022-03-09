@@ -310,3 +310,11 @@ a.custom-badge-link {
     /* border-color: #fff; */
     /* box-shadow: none; */
 }
+
+.alertify .alert>*, .alertify .dialog>* {
+    background: var(--back2);
+}
+
+.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button), .alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
+    color: #8d9add;
+}
