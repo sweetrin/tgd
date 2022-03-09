@@ -280,16 +280,22 @@ a.custom-badge-link {
     border-color: var(--btn);
 }
 
-.btn.square.btn-default.dropdown-toggle {
+.btn.square.btn-default.dropdown-toggle:not(:hover) {
     border-radius: 3px 0 0 3px;
+    background-color: var(--back2);
+    border-color: var(--back2);
+    border-right-color: var(--back1);
 }
 
 #boardSearchForm {
     background: var(--back1);
 }
 
-.btn.square.btn-default[type='submit'] {
+.btn.square.btn-default[type='submit']:not(:hover) {
     border-radius: 0 3px 3px 0;
+    background-color: var(--back2);
+    border-color: var(--back2);
+    border-left-color: var(--back1);
 }
 
 .pagination>li>a, .pagination>li>span {
