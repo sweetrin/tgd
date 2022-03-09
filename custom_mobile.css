@@ -343,7 +343,7 @@ nav#nav.hide {
 }
 
 nav#nav {
-    transition: 0.2s;
+    transition: 0.15s;
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
