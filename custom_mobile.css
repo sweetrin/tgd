@@ -281,7 +281,7 @@ a.custom-badge-link {
 }
 
 .btn.square.btn-default.dropdown-toggle:not(:hover) {
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px 0 0 4px;
     background-color: var(--back2);
     border-color: var(--back2);
     /* border-right-color: var(--back1); */
@@ -292,7 +292,7 @@ a.custom-badge-link {
 }
 
 .btn.square.btn-default[type='submit']:not(:hover) {
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 4px 4px 0;
     background-color: var(--back2);
     border-color: var(--back2);
     /* border-left-color: var(--back1); */
@@ -321,11 +321,8 @@ a.custom-badge-link {
 }
 
 .input-group>input.form-control {
-    /* border-color: #fff; */
-    /* box-shadow: none; */
     background-color: var(--back2);
     border-color: var(--back2);
-    /* box-shadow: none; */
 }
 
 .alertify .alert>*, .alertify .dialog>* {
@@ -334,4 +331,8 @@ a.custom-badge-link {
 
 .alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button), .alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
     color: #8d9add;
+}
+
+.form-control {
+    color: #fff;
 }
