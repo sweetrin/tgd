@@ -284,7 +284,7 @@ a.custom-badge-link {
     border-radius: 3px 0 0 3px;
     background-color: var(--back2);
     border-color: var(--back2);
-    border-right-color: var(--back1);
+    /* border-right-color: var(--back1); */
 }
 
 #boardSearchForm {
@@ -295,7 +295,7 @@ a.custom-badge-link {
     border-radius: 0 3px 3px 0;
     background-color: var(--back2);
     border-color: var(--back2);
-    border-left-color: var(--back1);
+    /* border-left-color: var(--back1); */
 }
 
 .pagination>li>a, .pagination>li>span {
