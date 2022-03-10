@@ -333,7 +333,7 @@ a.custom-badge-link {
     color: #8d9add;
 }
 
-.form-control {
+.input-group>.form-control {
     color: #fff;
 }
 
