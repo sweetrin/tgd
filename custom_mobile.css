@@ -12,6 +12,7 @@
 
 html, body {
     color:#fff;
+    background: var(--back1);
 }
 
 #board-info {
@@ -265,7 +266,7 @@ footer {
 }
 
 .frame {
-    background: var(--back1);
+    /* background: var(--back1); */
 }
 
 a.custom-badge-link {
@@ -355,4 +356,10 @@ nav#nav>#nav-upper>#header-close-bar-link {
     background-color: #5cb85c;
 }
 
-.input-group-btn>.btn:active, .input-group-btn>.btn:focus, .input-group-btn>.btn:hover {}
+.btn.square.btn-default.dropdown-toggle:hover {
+    border-radius: 4px 0 0 4px;
+}
+
+.btn.square.btn-default[type='submit']:hover {
+    border-radius: 0 4px 4px 0;
+}
