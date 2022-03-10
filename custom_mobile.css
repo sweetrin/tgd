@@ -349,3 +349,8 @@ nav#nav {
 nav#nav>#nav-upper>#header-close-bar-link {
     color: #6441a5;
 }
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    background-color: #5cb85c;
+}
