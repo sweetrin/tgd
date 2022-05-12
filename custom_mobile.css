@@ -375,3 +375,5 @@ nav#nav>#nav-upper>#header-close-bar-link {
 #main-content {background: var(--back1);}
 
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {color: #7d89c7;}
+
+#article-list #article-list-category {background: var(--back1);}
