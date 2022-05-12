@@ -3,7 +3,7 @@
 :root {
     --back1: #292f4d;
     --back2: #2d3a5f;
-    --back2: hsl(224 37% 24% / 1);
+    --back2: hsl(224 41% 25% / 1);
     --back3: #1f274c;
     --separ: #252525;
     --sepdark:#16192e;
@@ -379,6 +379,6 @@ nav#nav>#nav-upper>#header-close-bar-link {
 
 #article-list #article-list-category {background: var(--back1);}
 
-#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {color: var(--btn);}
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {/* color: var(--btn); */}
 
-#article-reply-area>.header h5 {color: var(--btn);}
+#article-reply-area>.header h5 {/* color: var(--btn); */}
