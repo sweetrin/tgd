@@ -344,7 +344,7 @@ nav#nav.hide {
 }
 
 nav#nav {
-    transition: 0.15s;
+    transition: 0.2s;
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
@@ -363,3 +363,7 @@ nav#nav>#nav-upper>#header-close-bar-link {
 .btn.square.btn-default[type='submit']:hover {
     border-radius: 0 4px 4px 0;
 }
+
+#article-list>.article-list-row>.item>a.list-title>small.favo {color: #ff66c4;color: #e062ff;}
+
+#article-list>.article-list-row>.item>.list-header>span {background-color: #5350a9;/* background-color: var(--btn); */}
