@@ -366,7 +366,7 @@ nav#nav>#nav-upper>#header-close-bar-link {
 
 #article-list>.article-list-row>.item>a.list-title>small.favo {color: #ff66c4;color: #e062ff;}
 
-#article-list>.article-list-row>.item>.list-header>span {background-color: #5350a9;background-color: var(--btn);/* background-color: var(--back2); *//* padding: 2px 5px; */}
+#article-list>.article-list-row>.item>.list-header>span {background-color: #5350a9;background-color: var(--btn);/* background-color: var(--back2); *//* padding: 2px 5px; */background-color: var(--back1);}
 
 #header-top-notice strong.notice-badge {background:var(--back2);}
 
