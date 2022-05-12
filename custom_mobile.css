@@ -3,7 +3,7 @@
 :root {
     --back1: #292f4d;
     --back2: #2d3a5f;
-    --back2: hsl(224 41% 25% / 1);
+    --back2: hsl(224 43% 24% / 1);
     --back3: #1f274c;
     --separ: #252525;
     --sepdark:#16192e;
@@ -365,7 +365,7 @@ nav#nav>#nav-upper>#header-close-bar-link {
     border-radius: 0 4px 4px 0;
 }
 
-#article-list>.article-list-row>.item>a.list-title>small.favo {color: #ff66c4;color: #dc4fff;}
+#article-list>.article-list-row>.item>a.list-title>small.favo {color: #ff66c4;color: #e062ff;}
 
 #article-list>.article-list-row>.item>.list-header>span {background-color: #5350a9;background-color: var(--btn);/* background-color: var(--back2); *//* padding: 2px 5px; */background-color: var(--back1);}
 
