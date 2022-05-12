@@ -39,7 +39,7 @@ html, body {
     border-top: 1px solid #475070;
     /* border-bottom-color: #00051d; */
     border-bottom-color:#16192e;
-color: #bcbcbc;}
+/* color: #bcbcbc; */}
 
 #article-list>.article-list-row>.item>a.list-title {
     color: #fff !important;
