@@ -378,3 +378,7 @@ nav#nav>#nav-upper>#header-close-bar-link {
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {color: #7d89c7;}
 
 #article-list #article-list-category {background: var(--back1);}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {color: var(--btn);}
+
+#article-reply-area>.header h5 {color: var(--btn);}
