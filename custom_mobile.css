@@ -385,3 +385,9 @@ nav#nav>#nav-upper>#header-close-bar-link {
 #article-reply-area>.header h5 {/* color: var(--btn); */}
 
 #article-list>.article-list-row>.item>a.list-title>.title-value {max-width: 56vw;}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {display: none;/* visibility: hidden; *//* height: 0; */}
+
+#article-list>.article-list-row.notice>.item {}
+
+#article-list>.article-list-row.notice>.item>a.list-title {padding: 11px 0;}
