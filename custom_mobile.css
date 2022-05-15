@@ -9,7 +9,8 @@
     --separ: #252525; --separ: hsl(212 15% 19% / 1);
     --sepdark:#16192e; --sepdark:#303841;
     --seplite:#475070; --seplite:#303841;
-    --btn:#404fa0; /* #4050a2 */
+    --btn:#404fa0; /* #4050a2 */ --btn:hsl(212 15% 31% / 1);
+    --text2:hsl(212 20% 56% / 1);
 }
 
 html, body {
@@ -375,7 +376,7 @@ nav#nav>#nav-upper>#header-close-bar-link {
 
 #header-top-notice strong.notice-badge {background:var(--back3);}
 
-#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {color: var(--btn);}
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {color: var(--text2);}
 
 #main-content {background: var(--back1);}
 
