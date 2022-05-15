@@ -1,10 +1,10 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 :root {
-    --back1: #292f4d; --back1:#303841;
+    --back1: #292f4d; --back1:#2e4053;
     --back2: #2d3a5f;
     --back2: hsl(224 41% 25% / 1);
-    --back2: hsl(224 41% 26% / 1); --back2:#303841;
+    --back2: hsl(224 41% 26% / 1); --back2:#2d4053;
     --back3: #1f274c; --back3:#303841;
     --separ: #252525; --separ: #59616a;
     --sepdark:#16192e; --sepdark:#303841;
