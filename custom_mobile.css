@@ -391,3 +391,5 @@ nav#nav>#nav-upper>#header-close-bar-link {
 #article-list>.article-list-row.notice>.item {}
 
 #article-list>.article-list-row.notice>.item>a.list-title {padding: 11px 0;}
+
+header>#header-search-bar #header-search-input {color: #000;}
