@@ -6,7 +6,7 @@
     --back2: hsl(224 41% 25% / 1);
     --back2: hsl(224 41% 26% / 1); --back2:hsl(212 15% 20% / 1);
     --back3: #1f274c; --back3:#303841;
-    --separ: #252525; --separ: hsl(212 15% 19% / 1);
+    --separ: #252525; --separ: hsl(212 15% 19% / 1); --separ:hsl(212 15% 20% / 1);
     --sepdark:#16192e; --sepdark:#303841;
     --seplite:#475070; --seplite:#303841;
     --btn:#404fa0; /* #4050a2 */ --btn:hsl(212 15% 31% / 1);
