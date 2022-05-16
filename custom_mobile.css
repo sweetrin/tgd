@@ -152,7 +152,7 @@ header>#header-area>a>h1 {background: url('https://sweetrin.github.io/tgd/kgd_lo
 }
 
 #article-list>.article-list-row.notice:hover{
-    background:var(--back2);
+    background: var(--back1);
 }
 
 #article-list>.article-list-row:hover {
