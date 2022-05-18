@@ -100,7 +100,7 @@ header {
 
 #article-reply-area {
     background: var(--back1);
-    border-bottom: 1px solid #16192e;
+    /* border-bottom: 1px solid #16192e; */
 }
 
 #article-content-wrapper #article-content p {
@@ -161,9 +161,9 @@ header>#header-area>a>h1 {background: url('https://sweetrin.github.io/tgd/kgd_lo
 
 
 #article-neighbor-list {
-    border-top-color: #475070;
+    border-top-color: var(--separ);
     background: var(--back1);
-    margin-top: 0px;
+    /* margin-top: 0px; */
 }
 
 #article-neighbor-list>div>a {
