@@ -1,15 +1,13 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
 
 :root {
-    --back1: #292f4d; --back1:#303841;
-    --back2: #2d3a5f;
-    --back2: hsl(224 41% 25% / 1);
-    --back2: hsl(224 41% 26% / 1); --back2:hsl(212 15% 20% / 1); --back2:hsl(212 15% 19% / 1);
+    --back1:#303841;
+    --back2:hsl(212 15% 19% / 1);
     --back3: #1f274c; --back3:#303841;
-    --separ: #252525; --separ: hsl(212 15% 19% / 1);
-    --sepdark:#16192e; --sepdark:#303841;
-    --seplite:#475070; --seplite:#303841;
-    --btn:#404fa0; /* #4050a2 */ --btn:hsl(212 15% 31% / 1);
+    --separ: hsl(212 15% 19% / 1);
+    --sepdark:#303841;
+    --seplite:#303841;
+    --btn:hsl(212 15% 31% / 1);
     --text2:hsl(212 20% 56% / 1);
 }
 
@@ -39,9 +37,7 @@ border-bottom-color: var(--back2);}
 
 #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
     border-top: 1px solid #475070;
-    /* border-bottom-color: #00051d; */
     border-bottom-color:#16192e;
-    /* color: #bcbcbc; */
     border-bottom:0;
     border-top:0;
 }
@@ -84,14 +80,9 @@ header {
     border-bottom-color: var(--back3);
 }
 
-/* body>*:nth-child(2) {
-    background:transparent !important;
-} */
-
 #article-info {
     background: var(--back1);
     border-bottom-color: var(--separ);
-    /* border-top: 1px solid #475070; */
 }
 
 #article-content-wrapper {
@@ -100,7 +91,6 @@ header {
 
 #article-reply-area {
     background: var(--back1);
-    /* border-bottom: 1px solid #16192e; */
 }
 
 #article-content-wrapper #article-content p {
@@ -145,10 +135,9 @@ header>#header-area>#header-bar-link {
     color: #fff;
 }
 
-header>#header-area>a>h1 {background: url('https://sweetrin.github.io/tgd/kgd_logo_white.png') no-repeat;background-size: 100%;}
-
-#article-list>.article-list-row:active {
-    /* background: var(--back3); */
+header>#header-area>a>h1 {
+    background: url('https://sweetrin.github.io/tgd/kgd_logo_white.png') no-repeat;
+    background-size: 100%;
 }
 
 #article-list>.article-list-row.notice:hover{
@@ -163,7 +152,6 @@ header>#header-area>a>h1 {background: url('https://sweetrin.github.io/tgd/kgd_lo
 #article-neighbor-list {
     border-top-color: var(--separ);
     background: var(--back1);
-    /* margin-top: 0px; */
 }
 
 #article-neighbor-list>div>a {
@@ -182,25 +170,11 @@ footer {
     background: var(--back1);
 }
 
-#article-list #article-list-category>a.active, #article-list #article-list-category>a:hover {
-    /* background: #f2f4ff; */
-}
-
-#article-list {
-    /* border-top: 1px solid #475070; */
-}
-
-#article-list #article-list-category {
-    /* border-top: 1px solid #475070; */
-    /* border-bottom: 1px solid #16192e; */
-/* border-bottom-color: var(--separ); */}
-
 .category[style='color:#000000'] {
     color: #bcbcbc !important;
 }
 
 .nav-link[style='color:#000000'] {
-    /* color: #b9b9b9 !important; */
     color:#bcbcbc !important;
 }
 
@@ -291,7 +265,6 @@ a.custom-badge-link {
     border-radius: 4px 0 0 4px;
     background-color: var(--back2);
     border-color: var(--back2);
-    /* border-right-color: var(--back1); */
 }
 
 #boardSearchForm {
@@ -302,7 +275,6 @@ a.custom-badge-link {
     border-radius: 0 4px 4px 0;
     background-color: var(--back2);
     border-color: var(--back2);
-    /* border-left-color: var(--back1); */
 }
 
 .pagination>li>a, .pagination>li>span {
@@ -322,9 +294,6 @@ a.custom-badge-link {
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     background-color: var(--btn);
     border-color: var(--btn);
-    /* background-color: #fff; */
-    /* color: #000; */
-    /* border-color: #fff; */
 }
 
 .input-group>input.form-control {
@@ -370,30 +339,47 @@ nav#nav>#nav-upper>#header-close-bar-link {
     border-radius: 0 4px 4px 0;
 }
 
-#article-list>.article-list-row>.item>a.list-title>small.favo {color: #ff66c4;color: #e062ff;}
+#article-list>.article-list-row>.item>a.list-title>small.favo {
+    color: #ff66c4;color: #e062ff;
+}
 
-#article-list>.article-list-row>.item>.list-header>span {background-color: #5350a9;background-color: var(--btn);/* background-color: var(--back2); *//* padding: 2px 5px; */background-color: var(--back1);}
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #5350a9;background-color: var(--btn);
+    background-color: var(--back1);
+}
 
-#header-top-notice strong.notice-badge {background:var(--back3);}
+#header-top-notice strong.notice-badge {
+    background:var(--back3);
+}
 
-#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {color: var(--text2);}
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: var(--text2);
+}
 
-#main-content {background: var(--back1);}
+#main-content {
+    background: var(--back1);
+}
 
-#article-list>.article-list-row>.item>a.list-title>small.comment-count {color: #7d89c7;}
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    color: #7d89c7;
+}
 
-#article-list #article-list-category {background: var(--back1);}
+#article-list #article-list-category {
+    background: var(--back1);
+}
 
-#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {/* color: var(--btn); */}
+#article-list>.article-list-row>.item>a.list-title>.title-value {
+    max-width: 56vw;
+}
 
-#article-reply-area>.header h5 {/* color: var(--btn); */}
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {
+    display: none;
+}
 
-#article-list>.article-list-row>.item>a.list-title>.title-value {max-width: 56vw;}
+#article-list>.article-list-row.notice>.item>a.list-title {
+    padding: 11px 0;
+}
 
-#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {display: none;/* visibility: hidden; *//* height: 0; */}
-
-#article-list>.article-list-row.notice>.item {}
-
-#article-list>.article-list-row.notice>.item>a.list-title {padding: 11px 0;}
-
-header>#header-search-bar #header-search-input {color: #000;}
+header>#header-search-bar #header-search-input {
+    color: #000;
+}
