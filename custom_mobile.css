@@ -3,7 +3,7 @@
 :root {
     --back1:#303841;
     --back2:hsl(212 15% 19% / 1);
-    --back3: #1f274c; --back3:#303841;
+    --back3:#303841;
     --separ: hsl(212 15% 19% / 1);
     --sepdark:#303841;
     --seplite:#303841;
@@ -76,7 +76,8 @@ border-bottom-color: var(--back2);}
 }
 
 header {
-    background:var(--back1);
+    background:
+    var(--back1);
     border-bottom-color: var(--back3);
 }
 
