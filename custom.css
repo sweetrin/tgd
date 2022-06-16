@@ -1509,26 +1509,3 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 #article-reply-area #reply-real-area .reply>.reply-header span.middot, #article-reply-area #reply-best-area .reply>.reply-header span.middot {
     /* margin: 0 4px; */
 }
-
-#article-list>.article-list-row>.item>.list-title>.list-category>span {
-    /* padding: 0px 10px; */
-    border-radius: 10px;
-    width: 51px;
-    padding-top: 1px;
-}
-
-#article-list>.article-list-row>.item>.list-title>.list-category>span[style='color:#000000'] {
-    border: 1px solid rgb(0 0 0 / .2);
-}
-
-#article-list>.article-list-row>.item>.list-title>.list-category>span[style='color:#ff0000'] {
-    border: 1px solid rgb(255 0 0 / .2);
-}
-
-#article-list>.article-list-row>.item>.list-title>.list-category>span[style='color:#00b050'] {
-    border: 1px solid rgb(0 176 80 / 0.2);
-}
-
-#article-list>.article-list-row>.item>.list-title>.list-category>span[style='color:#00b0f0'] {
-    border: 1px solid rgb(0 176 240 / 0.2);
-}
