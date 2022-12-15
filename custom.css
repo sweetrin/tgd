@@ -1256,7 +1256,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 */
 
 #article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/30845635']:visited{
-    color:#0010ff !important;
+    color: #5661ff !important;
 }
 
 #article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/60722376'] {
@@ -1264,7 +1264,7 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 }
 
 #article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/60722376']:visited{
-    color:hsl(305 91% 61% / 1) !important;
+    color: hsl(305deg 100% 68%) !important;
 }
 
 #article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/31435323']:visited{
@@ -1527,16 +1527,22 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 }
 
 .article-list-row.notice:nth-child(5) .fa-info-circle:before {
-    content:"\f133";
+    content: "\f274";
     vertical-align: inherit;
+    background: linear-gradient(135deg, #0a6cff,#aa4fff,#ff00f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 110%;
 }
 
 .article-list-row.notice:nth-child(6) .fa-info-circle:before {
     content:"\f086";
     vertical-align: inherit;
+    color: hsl(305 91% 61% / 1);
 }
 
 .article-list-row.notice:nth-child(7) .fa-info-circle:before {
     content:"\f06b";
     vertical-align: inherit;
+    color: #3c49ff;
 }
