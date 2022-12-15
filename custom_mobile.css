@@ -396,3 +396,15 @@ nav#nav>#nav-upper>#header-close-bar-link {
 header>#header-search-bar #header-search-input {
     color: #000;
 }
+
+a.list-title[href="/s/sweetrin/67660698"] .fa-info-circle:before {
+    content:"\f274";
+}
+
+a.list-title[href="/s/sweetrin/60722376"] .fa-info-circle:before {
+    content:"\f086";
+}
+
+a.list-title[href="/s/sweetrin/30845635"] .fa-info-circle:before {
+    content:"\f219";
+}
