@@ -1259,6 +1259,10 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
     color:#0010ff !important;
 }
 
+#article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/60722376'] {
+    color:hsl(305 91% 61% / 1) !important;
+}
+
 #article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/60722376']:visited{
     color:hsl(305 91% 61% / 1) !important;
 }
