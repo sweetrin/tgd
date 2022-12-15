@@ -1525,3 +1525,18 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     background-size: 200%;
     animation: litTxt 1s linear infinite;
 }
+
+.article-list-row.notice:nth-child(5) .fa-info-circle:before {
+    content:"\f133";
+    vertical-align: inherit;
+}
+
+.article-list-row.notice:nth-child(6) .fa-info-circle:before {
+    content:"\f086";
+    vertical-align: inherit;
+}
+
+.article-list-row.notice:nth-child(7) .fa-info-circle:before {
+    content:"\f06b";
+    vertical-align: inherit;
+}
