@@ -1255,12 +1255,16 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 }
 */
 
+#article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/30845635'] {
+    color: #8654ff !important;
+}
+
 #article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/30845635']:visited{
-    color: #5661ff !important;
+    color: #8654ff !important;
 }
 
 #article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/60722376'] {
-    color:hsl(305 91% 61% / 1) !important;
+    color:hsl(305deg 100% 68%) !important;
 }
 
 #article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/60722376']:visited{
@@ -1544,5 +1548,5 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 .article-list-row.notice:nth-child(7) .fa-info-circle:before {
     content:"\f06b";
     vertical-align: inherit;
-    color: #3c49ff;
+    color: #7d47ff;
 }
