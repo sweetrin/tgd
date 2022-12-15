@@ -1509,3 +1509,15 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 #article-reply-area #reply-real-area .reply>.reply-header span.middot, #article-reply-area #reply-best-area .reply>.reply-header span.middot {
     /* margin: 0 4px; */
 }
+
+@keyframes litTxt {
+    to { background-position: 200% 0; }
+}
+
+#article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/67660698'] {
+    background: linear-gradient(135deg, #448fff,#bb72ff,#ff67fa, #bb72ff, #448fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: litTxt 1s linear infinite;
+}
