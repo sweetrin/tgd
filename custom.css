@@ -1552,28 +1552,28 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     color: #7d47ff;
 }
 
-.article-list-row.notice {display: inline-block !important;width: 275px !important;height: 3em;border-radius: 10px;margin: 10px 0px 5px 8px;}
+.article-list-row.notice:not(:nth-child(4)) {display: inline-block !important;width: 275px !important;height: 3em;border-radius: 10px;margin: 10px 0px 5px 8px;}
 
-.article-list-row.notice .list-header {
+.article-list-row.notice:not(:nth-child(4)) .list-header {
     display: none !important;
 }
 
-.article-list-row.notice .list-writer.logged {
+.article-list-row.notice:not(:nth-child(4)) .list-writer.logged {
     display: none;
 }
 
-.article-list-row.notice .list-time {
+.article-list-row.notice:not(:nth-child(4)) .list-time {
     display: none !important;
 }
 
-.article-list-row.notice .item {
+.article-list-row.notice:not(:nth-child(4)) .item {
     display: inline-block !important;
     height: 100%;
 }
 
-.article-list-row.notice .list-title {padding-top: 12px !important;}
+.article-list-row.notice:not(:nth-child(4)) .list-title {padding-top: 12px !important;}
 
-.article-list-row.notice .a-badge {
+.article-list-row.notice:not(:nth-child(4)) .a-badge {
     transform:scale(2.4) translateY(-1px);
     transform-origin:right;
 }
@@ -1581,7 +1581,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     transform:scale(2.1) translateY(-1.2px);
 }
 
-.article-list-row.notice a {
+.article-list-row.notice:not(:nth-child(4)) a {
     font-size: 13px;
 }
 
