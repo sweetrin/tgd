@@ -39,7 +39,7 @@ border-bottom-color: var(--back2);}
     color: #fff;
     -webkit-tap-highlight-color: rgb(0 3 26 / 20%);
     font-family: 'Cafe24 Dongdong';
-    font-size: 18px;
+    font-size: 19px;
 }
 
 #article-list>.article-list-row.notice {
