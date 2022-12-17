@@ -1630,3 +1630,5 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     vertical-align: 0px !important;
     text-shadow: 1px 1px hsl(0deg 0% 0% / 20%);
 }
+
+.article-list-row.notice:not(.featured) .comment-count {color: hsl(0deg 0% 87%) !important;}
