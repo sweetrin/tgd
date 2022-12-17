@@ -1552,49 +1552,49 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     color: #7d47ff;
 }
 
-.article-list-row.notice:not(:nth-child(4)) {display: inline-block !important;width: 275px !important;height: 3em;border-radius: 10px;margin: 13px 0px 6px 8px;}
+.article-list-row.notice:not(.featured) {display: inline-block !important;width: 275px !important;height: 3em;border-radius: 10px;margin: 13px 0px 6px 8px;}
 
-.article-list-row.notice:not(:nth-child(4)) .list-header {
+.article-list-row.notice:not(.featured) .list-header {
     display: none !important;
 }
 
-.article-list-row.notice:not(:nth-child(4)) .list-writer.logged {
+.article-list-row.notice:not(.featured) .list-writer.logged {
     display: none;
 }
 
-.article-list-row.notice:not(:nth-child(4)) .list-time {
+.article-list-row.notice:not(.featured) .list-time {
     display: none !important;
 }
 
-.article-list-row.notice:not(:nth-child(4)) .item {
+.article-list-row.notice:not(.featured) .item {
     display: inline-block !important;
     height: 100%;
 }
 
-.article-list-row.notice:not(:nth-child(4)) .list-title {padding-top: 12px !important;}
+.article-list-row.notice:not(.featured) .list-title {padding-top: 12px !important;}
 
-.article-list-row.notice:not(:nth-child(4)) .a-badge {
+.article-list-row.notice:not(.featured) .a-badge {
     transform-origin:right;
 }
-.article-list-row.notice:nth-child(5) .a-badge {
+#article-list-row-67660698 .a-badge {
     transform:scale(2.1) translateY(-1.2px);
 }
-.article-list-row.notice:nth-child(6) .a-badge {
+#article-list-row-60722376 .a-badge {
     transform:scale(2.4) translateY(-1.4px);
 }
-.article-list-row.notice:nth-child(7) .a-badge {
+#article-list-row-30845635 .a-badge {
     transform:scale(2.4) translateY(-1px);
 }
 
-.article-list-row.notice:not(:nth-child(4)) a {
+.article-list-row.notice:not(.featured) a {
     font-size: 13px;
 }
 
-.article-list-row.notice:nth-child(5) {
+#article-list-row-67660698 {
     margin-left: 13px;
 }
 
-.article-list-row.notice:not(:nth-child(4)) .list-title:hover .a-badge{
+.article-list-row.notice:not(.featured) .list-title:hover .a-badge{
     transform:rotate(-14deg) scale(2.4) translateY(-2.8px);
 }
 
