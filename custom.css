@@ -1552,7 +1552,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     color: #7d47ff;
 }
 
-.article-list-row.notice:not(:nth-child(4)) {display: inline-block !important;width: 275px !important;height: 3em;border-radius: 10px;margin: 10px 0px 5px 8px;}
+.article-list-row.notice:not(:nth-child(4)) {display: inline-block !important;width: 275px !important;height: 3em;border-radius: 10px;margin: 13px 0px 6px 8px;}
 
 .article-list-row.notice:not(:nth-child(4)) .list-header {
     display: none !important;
@@ -1596,4 +1596,8 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 
 .article-list-row.notice:not(:nth-child(4)) .list-title:hover .a-badge{
     transform:rotate(-14deg) scale(2.4) translateY(-2.8px);
+}
+
+#article-list>.article-list-row.notice:not(.featured) {
+    background-color: var(--cursor-highlight-color);
 }
