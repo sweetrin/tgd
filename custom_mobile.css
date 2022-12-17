@@ -1,15 +1,16 @@
 @import url("https://sweetrin.github.io/tgd/emoticons.css");
+@import url("https://sweetrin.github.io/tgd/fonts.css");
 
 @font-face {
-    font-family: 'Mabi';
-    src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Mabinogi_Classic_TTF.ttf') format('truetype');
-    font-weight: normal; 
-    font-style: normal;
+/*     font-family: 'Mabi'; */
+/*     src: url('https://cdn.jsdelivr.net/gh/sweetrin/tgd/Mabinogi_Classic_TTF.ttf') format('truetype'); */
+/*     font-weight: normal;  */
+/*     font-style: normal; */
 }
 
 body, html {
-    font-family: 'Mabi', "Helvetica Neue", Helvetica,Arial, sans-serif;
-    height: auto !important;
+/*     font-family: 'Mabi', "Helvetica Neue", Helvetica,Arial, sans-serif; */
+/*     height: auto !important; */
 }
 
 :root {
