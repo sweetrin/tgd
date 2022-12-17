@@ -39,7 +39,7 @@ border-bottom-color: var(--back2);}
     color: #fff;
     -webkit-tap-highlight-color: rgb(0 3 26 / 20%);
     font-family: 'Cafe24 Dongdong';
-    font-size: 19px;
+    font-size: 20px;
 }
 
 #article-list>.article-list-row.notice {
@@ -411,4 +411,8 @@ a.list-title[href="/s/sweetrin/60722376"] .fa-info-circle:before {
 
 a.list-title[href="/s/sweetrin/30845635"] .fa-info-circle:before {
     content:"\f219";
+}
+
+#article-info>h2 {
+    font-size: 14px;
 }
