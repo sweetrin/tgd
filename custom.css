@@ -1593,3 +1593,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 .article-list-row.notice:nth-child(5) {
     margin-left: 13px;
 }
+
+.article-list-row.notice:not(:nth-child(4)) .list-title:hover .a-badge{
+    transform:rotate(-14deg) scale(2.4) translateY(-2.8px);
+}
