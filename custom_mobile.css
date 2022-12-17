@@ -59,6 +59,7 @@ border-bottom-color: var(--back2);}
 
 #article-list>.article-list-row>.item>a.list-title {
     color: #fff !important;
+    font-size: 14px;
 }
 
 #article-list>.article-list-row>.item>a.list-title:visited {
