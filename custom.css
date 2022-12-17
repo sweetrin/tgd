@@ -1256,19 +1256,19 @@ header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame{
 }
 */
 
-#article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/30845635'] {
+#article-list #article-list-row-30845635 .list-title a {
     color: #8654ff !important;
 }
 
-#article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/30845635']:visited{
+#article-list #article-list-row-30845635 .list-title a:visited{
     color: #8654ff !important;
 }
 
-#article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/60722376'] {
+#article-list #article-list-row-60722376 .list-title a {
     color:hsl(305deg 100% 68%) !important;
 }
 
-#article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/60722376']:visited{
+#article-list #article-list-row-60722376 .list-title a:visited{
     color: hsl(305deg 100% 68%) !important;
 }
 
@@ -1523,7 +1523,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     to { background-position: 200% 0; }
 }
 
-#article-list>.article-list-row>.item>.list-title>a[href='/s/sweetrin/67660698'] {
+#article-list-row-67660698 .list-title a {
     background: linear-gradient(135deg, #448fff,#bb72ff,#ff67fa, #bb72ff, #448fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1531,7 +1531,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     animation: litTxt 1s linear infinite;
 }
 
-.article-list-row.notice:nth-child(5) .fa-info-circle:before {
+#article-list-row-67660698 .fa-info-circle:before {
     content: "\f274";
     vertical-align: inherit;
     background: linear-gradient(135deg, #0a6cff,#aa4fff,#ff00f7);
@@ -1540,13 +1540,13 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     /* font-size: 110%; */
 }
 
-.article-list-row.notice:nth-child(6) .fa-info-circle:before {
+#article-list-row-60722376 .fa-info-circle:before {
     content:"\f086";
     vertical-align: inherit;
     color: hsl(305 91% 61% / 1);
 }
 
-.article-list-row.notice:nth-child(7) .fa-info-circle:before {
+#article-list-row-30845635 .fa-info-circle:before {
     content:"\f06b";
     vertical-align: inherit;
     color: #7d47ff;
