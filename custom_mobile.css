@@ -416,3 +416,5 @@ a.list-title[href="/s/sweetrin/30845635"] .fa-info-circle:before {
 #article-info>h2 {
     font-size: 14px;
 }
+
+#article-list>.article-list-row>.item>.list-header.v0>span {background-color: transparent;color: transparent;}
