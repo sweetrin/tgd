@@ -1598,6 +1598,7 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
     font-size: 13px;
     font-family: 'Cafe24 Dongdong';
     font-size: 17px;
+    transform: scaleY(1.05);
 }
 
 #article-list-row-67660698 {
