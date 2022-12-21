@@ -608,7 +608,6 @@ display: none;
 
 #article-list>.article-list-row:not(.notice){
     /* animation: arts 2s; */
-    background: #fff;
 }
 
 #article-list>.article-list-row,#main .menu-wrapper>a,.dropdown-menu>li>a{
@@ -634,7 +633,6 @@ display: none;
     background-color: var(--cursor-highlight-color);
     /* animation:flipping 0.4s linear; */
     /* background-color: transparent; */
-    background: rgb(255 255 255 / 20%);
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
@@ -1655,23 +1653,4 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 #article-list>.article-list-row:not(.notice)>.item:hover>.list-title>a::after {
 /*     opacity: 1; */
 /*     transform: translate3d(0, 0, 0); */
-}
-
-.frame{
-    position:relative;
-}
-.frame::before{
-    content:"";
-    background:url("https://sweetrin.github.io/tgd/rin_with_trees.jfif") no-repeat;
-    position:absolute;
-    background-size: 132%;
-    background-position: center;
-    left:0;
-    right:0;
-    bottom: 129px;
-    height: 918px;
-}
-
-#article-list .article-list-row:not(.notice):hover .list-title a {
-    color: #fff !important;
 }
