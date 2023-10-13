@@ -1658,3 +1658,9 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 /*     opacity: 1; */
 /*     transform: translate3d(0, 0, 0); */
 }
+
+#article-list #article-list-category > a:nth-child(10) {
+    background: #347eff;
+    border-color: #347eff;
+    box-shadow: 2px 2px 3px 0px rgb(52 126 255 / 30%);
+}
