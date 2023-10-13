@@ -1201,11 +1201,6 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 #board-info #board-info-bottom #addFavoriteBtn i {color: #ffd122;}
 
-#article-list #article-list-category > a:hover {
-    animation: popmenu .22s;
-    box-shadow: none;
-}
-
 .btn-outline-success, .btn-outline-success:focus{
     border-radius: 8px !important;
     transition: 0.15s cubic-bezier(0.4, 0, 1, 1);
@@ -1667,4 +1662,14 @@ img[src='https://static-cdn.jtvnw.net/badges/v1/e9492c64-969d-4a24-80e7-59fd4ac4
 
 #board-list-area>.board-list-area-item>span {
     color: white;
+}
+
+#article-list #article-list-category > a:nth-child(10):hover {
+    background: #fff;
+    color: #347eff !important;
+}
+
+#article-list #article-list-category > a:hover {
+    animation: popmenu .22s;
+    box-shadow: none;
 }
